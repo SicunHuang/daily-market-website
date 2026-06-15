@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/intralink_sicun/.claude -name \"*.md\" -path \"*daily*\" -o -name \"*.json\" -path \"*daily*\" 2>/dev/null | head -20; echo \"---\"; find /Users/intralink_sicun/.claude -name \"*.md\" -path \"*output*\" -o -name \"*.json\" -path \"*output*\" 2>/dev/null | head -20)"
+    ]
+  }
+}
