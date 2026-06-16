@@ -1,139 +1,139 @@
 {
-  "date": "2026-06-15",
+  "date": "2026-06-16",
   "topStories": [
     {
-      "headline": "Trump Says Iran Deal To Be Signed June 14 Despite Doubts Cast By Tehran",
-      "source": "Al Jazeera",
-      "summary": "Trump announced a formal US-Iran ceasefire deal on June 14, including reopening the Strait of Hormuz and a 60-day MOU framework, sending futures higher on renewed risk appetite.",
-      "marketImpact": "Broad equity indices ↑; crude oil ↓ ~2% to ~$85/bbl as Hormuz reopening eases supply fears; defense names ↓",
-      "tickers": ["XOM", "CVX", "COP", "LMT", "RTX"],
-      "url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening"
-    },
-    {
-      "headline": "SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut",
+      "headline": "US and Iran Sign MOU to Reopen Strait of Hormuz; Wall Street Surges",
       "source": "CNBC",
-      "summary": "SpaceX raised $75B at $135/share in the largest IPO in history; shares closed at $161 on day one and climbed to ~$167 in extended trading on Friday June 13, valuing the company at ~$2.2 trillion.",
-      "marketImpact": "SPCX ↑ 19% day-one; space/satellite supply chain names ↑; broader Nasdaq lifted by sentiment",
-      "tickers": ["SPCX", "RKLB", "ASTS", "BA"],
-      "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html"
+      "summary": "The US and Iran finalised a memorandum of understanding on June 14 to end 3.5 months of conflict and reopen the Strait of Hormuz, ending the largest energy supply disruption in history.",
+      "marketImpact": "S&P 500 ↑ 1.65%, Dow ↑ 0.92% to 51,671, Nasdaq ↑ 3.07%; Brent crude ↓ ~4% to ~$83–84/bbl; Boeing ↑ 4.66%, Nvidia ↑ 3.40%, Amazon ↑ 3.12%",
+      "tickers": ["BA", "NVDA", "AMZN", "XOM", "CVX"],
+      "url": "https://www.cnbc.com/2026/06/15/us-iran-deal-hormuz-markets.html"
     },
     {
-      "headline": "Roku Inc. Surges 20% Amid Acquisition Talks",
+      "headline": "FOMC Meeting Day 1 of 2 — No Cut Expected, Hawkish Bias Shift On the Table",
+      "source": "IndexBox",
+      "summary": "The Fed begins its two-day June meeting with a 99.6% market-implied probability of no rate change; a shift in forward bias from easing to neutral or tightening is the key watch for Wednesday's statement.",
+      "marketImpact": "Rate-sensitive sectors ↓ potential; USD ↑ on hawkish shift; any surprise tightening bias → equities ↓",
+      "tickers": [],
+      "url": "https://www.indexbox.io/blog/fed-meeting-preview-june-1617-fomc-decision-and-potential-bias-shift/"
+    },
+    {
+      "headline": "Bank of Japan Set for Historic Rate Hike to 1% — Without Governor Ueda",
       "source": "Bloomberg",
-      "summary": "Bloomberg reported Roku is in preliminary sale discussions with at least one major US media company, sending shares to a four-year high on Friday June 13.",
-      "marketImpact": "ROKU ↑ ~20%; streaming/media M&A names ↑ on consolidation hopes",
-      "tickers": ["ROKU", "NFLX", "DIS", "WBD"],
-      "url": "https://www.gurufocus.com/news/8915610/roku-inc-roku-surges-20-amid-acquisition-talks"
+      "summary": "The BOJ is expected to raise its benchmark rate 25bps to 1% — its highest since 1995 — at a meeting being held without Governor Ueda, who is hospitalised for a hepatic cyst infection.",
+      "marketImpact": "JPY ↑ vs USD; Japanese financials ↑; Nikkei under potential pressure; yen carry trades ↓",
+      "tickers": [],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/boj-set-to-hike-rates-to-highest-since-1995-despite-ueda-absence"
     },
     {
-      "headline": "Alphabet plans to raise $80 billion from stock sales to fund AI build-out",
-      "source": "CNBC",
-      "summary": "Alphabet priced an $84.75B equity raise — the largest ever — including a $10B Berkshire Hathaway block, to fund massive AI compute infrastructure; GOOGL fell ~4% on dilution fears.",
-      "marketImpact": "GOOGL ↓ on dilution; AI infrastructure names ↑ on capex signal; BRK.B sentiment ↑",
-      "tickers": ["GOOGL", "GOOG", "NVDA", "AMD"],
-      "url": "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html"
+      "headline": "May CPI at 4.2% YoY as Iran War Energy Shock Bites — Energy Costs Up 23.5%",
+      "source": "BLS",
+      "summary": "The May Consumer Price Index rose 0.5% MoM and 4.2% YoY, driven by a 23.5% spike in energy costs linked to the Strait of Hormuz closure.",
+      "marketImpact": "Keeps Fed firmly on hold or hawkish; bond yields elevated; energy-sensitive consumer names ↓ on margin pressure",
+      "tickers": [],
+      "url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
     },
     {
-      "headline": "Huawei unveils new scaling law and tech that narrows gap with TSMC, Samsung",
-      "source": "South China Morning Post",
-      "summary": "Huawei introduced its Tau Scaling Law and LogicFolding 3D chip architecture, claiming a path to 1.4nm-equivalent chips by 2031 — analysts call it a potential 'DeepSeek moment' for China's chip sector.",
-      "marketImpact": "China EDA/chip design names ↑; ASML sentiment mixed as Huawei aims to bypass EUV lithography",
-      "tickers": ["ASML", "TSM"],
-      "url": "https://www.scmp.com/tech/article/3354710/huawei-unveils-new-scaling-law-and-tech-can-develop-14-nm-equivalent-chips-2031"
+      "headline": "Nikkei Tops 69,000 for First Time; KOSPI Surges 5.2% on Iran Peace Deal",
+      "source": "TradingKey",
+      "summary": "Asian markets surged Monday as the US-Iran MOU removed a major oil-shock risk for import-dependent economies — Nikkei 225 hit 69,289 while South Korea's KOSPI reached 8,697.",
+      "marketImpact": "SK Hynix ↑ 4%+, Samsung ↑, SoftBank ↑, Kioxia ↑; KRW and JPY strengthening; semiconductor supply chain watch",
+      "tickers": [],
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261966958-nikkei-kospi-samsung-skhynix-dram-tradingkey"
     },
     {
-      "headline": "Goldman Sachs Sees NVIDIA at $285: Firing on All Cylinders",
-      "source": "CryptoNews",
-      "summary": "Goldman Sachs reiterated Buy with a $285 price target on Nvidia, citing datacenter dominance, AI PC ambitions, and growing agentic-AI adoption as catalysts.",
-      "marketImpact": "NVDA ↑; broader semiconductor sector ↑",
-      "tickers": ["NVDA", "AMD", "AVGO", "MRVL"],
-      "url": "https://cryptonews.net/news/analytics/32958196/"
+      "headline": "China Economy Slows Sharply — Industrial Output at Near 3-Year Low",
+      "source": "USCC",
+      "summary": "China industrial production grew just 4.1% last month, its weakest in almost three years, while fixed-asset investment unexpectedly shrank 1.6% and manufacturing capacity utilisation fell to 73.9%.",
+      "marketImpact": "Materials ↓; China-linked miners watch; stimulus expectations rising but structural reform constraints limit scope",
+      "tickers": [],
+      "url": "https://www.uscc.gov/trade-bulletins/china-bulletin-june-9-2026"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "SpaceX",
-      "ticker": "SPCX",
-      "exchange": "NASDAQ",
-      "reason": "Largest IPO in history; closed +19% on debut day, extended to ~$167 on Friday; space-economy bellwether",
+      "name": "Boeing",
+      "ticker": "BA",
+      "exchange": "NYSE",
+      "reason": "Surged 4.66% Monday on Iran deal; reopening of Hormuz air corridors and geopolitical de-escalation are direct earnings tailwinds.",
       "direction": "↑"
-    },
-    {
-      "name": "Roku Inc.",
-      "ticker": "ROKU",
-      "exchange": "NASDAQ",
-      "reason": "Bloomberg reports preliminary sale talks with a major US media company; shares surged 20% to 4-year high",
-      "direction": "↑"
-    },
-    {
-      "name": "Alphabet Inc.",
-      "ticker": "GOOGL",
-      "exchange": "NASDAQ",
-      "reason": "Record $84.75B equity raise for AI buildout causing dilution pressure; down ~4% on the week",
-      "direction": "↓"
     },
     {
       "name": "NVIDIA Corp.",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Goldman Sachs $285 PT reiteration; beneficiary of Alphabet's massive AI capex signal",
+      "reason": "Up 3.40% as tech sentiment rebounds; Fed meeting outcome is the key near-term risk. AI infrastructure demand narrative still intact.",
       "direction": "↑"
     },
     {
-      "name": "Exxon Mobil Corp.",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "reason": "Up 3.12%; cloud AI buildout spending and broader risk-on sentiment driving recovery after recent volatility.",
+      "direction": "↑"
+    },
+    {
+      "name": "Exxon Mobil",
       "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "US-Iran deal reopens Strait of Hormuz; crude fell ~2% to ~$85 — negative for oil majors",
+      "reason": "Brent crude fell ~4% on Hormuz MOU — direct revenue headwind for oil majors; watch closely as deal implementation progresses.",
       "direction": "↓"
     },
     {
       "name": "Jabil Inc.",
       "ticker": "JBL",
       "exchange": "NYSE",
-      "reason": "Serenity's latest call — argues market underprices Jabil's 1.6T transceiver business; floats ~40% rerating potential",
+      "reason": "Serenity's recent call on its 1.6T transceiver business; AI photonics chokepoint thesis gaining traction in retail circles.",
+      "direction": "↑"
+    },
+    {
+      "name": "X-Fab Silicon Foundries",
+      "ticker": "XFAB",
+      "exchange": "Euronext",
+      "reason": "Serenity re-affirmed his CPO/photonics thesis over the weekend; originally surged 70–77% on his May 27 post; watching for continuation.",
       "direction": "↑"
     }
   ],
   "serenity": {
     "latestPicks": [
       {
-        "ticker": "JBL",
-        "company": "Jabil Inc.",
-        "thesis": "Markets haven't priced Jabil's 1.6T LRO pluggable-transceiver business which took over Intel's pluggable lines; ~40% rerating plausible by H1 2027"
+        "ticker": "XFAB",
+        "company": "X-Fab Silicon Foundries",
+        "thesis": "Positioned as 'the next TSEM' at ~$1.4B market cap; competing for H2 2027 CPO scale-up inflection point; Serenity posted new weekend shower thoughts re-affirming the thesis."
       },
       {
-        "ticker": "XFAB",
-        "company": "X-Fab Silicon Foundries SE",
-        "thesis": "Photonics + power semis play at $1.28B MC; EU CHIPS Act 2 catalyst; 800 VDC power semi exposure to NVDA push"
+        "ticker": "JBL",
+        "company": "Jabil Inc.",
+        "thesis": "Market has not priced Jabil's 1.6T LRO pluggable-transceiver business; ~40% rerating potential by H1 2027 as hyperscalers expand CPO deployments."
       },
       {
         "ticker": "SIVEF",
         "company": "Sivers Semiconductors AB",
-        "thesis": "CW laser supplier for Jabil, Ayar, POET, Marvell — the chokepoint light source for CPO/Silicon Photonics. Called it 'the next $LITE'"
+        "thesis": "CW laser supplier for Jabil, Ayar, POET, and Marvell — framed as the chokepoint light source for CPO/Silicon Photonics; called 'the next $LITE'."
       }
     ],
     "priorPickMoves": [
       {
         "ticker": "XFAB",
-        "move": "Surged 70%+ after Serenity's May 27 post"
+        "move": "Jumped 70–77% in a single session on May 27 after Serenity's original post (confirmed by Bloomberg)."
       },
       {
         "ticker": "SIVEF",
-        "move": "Up 165% in one week following Jabil partnership thesis validation"
+        "move": "Up 165% in one week following Jabil partnership thesis and Serenity coverage."
       }
     ],
-    "sentiment": "Aggressively bullish on AI/semi supply-chain chokepoints, especially photonics and CPO. 2026 YTD return claimed at +4,502%. 25 publicly shared picks have gained 100-1,000%.",
+    "sentiment": "Highly positive and viral — 500K+ followers on X, featured by Lookonchain, Futunn, and Odaily. Self-reported 2026 YTD return of +4,502% (leveraged, unaudited). Some scepticism about unaudited figures, but retail enthusiasm remains very high.",
     "noActivity": false
   },
   "bondYields": {
-    "us10y": 4.49,
+    "us10y": 4.48,
     "us30y": 4.97,
-    "asOf": "2026-06-13"
+    "asOf": "2026-06-16"
   },
   "quickHits": [
-    "Crude oil fell ~2% to near $85/bbl on US-Iran deal hopes reopening the Strait of Hormuz — biggest weekly drop in months",
-    "Taylor Morrison Home (TMHC) popped 22% after Berkshire Hathaway agreed to acquire the homebuilder for $6.8B in cash",
-    "Peking University unveiled a 3D chip design EDA tool to power Huawei's LogicFolding architecture, boosting Chinese domestic EDA stocks",
-    "US equity markets posted a positive week: Dow closed ~51,200 on Friday; S&P 500 near record highs on SpaceX euphoria and Iran peace hopes"
+    "Nvidia raised its quarterly dividend significantly, signalling long-term AI revenue confidence (CNBC)",
+    "Goldman Sachs reset oil price forecast to $85/bbl average for 2026 — above pre-war levels even with Hormuz deal (AOL)",
+    "Philadelphia Fed Manufacturing Index due this week — a key inflation signal given 4.2% CPI print (Kiplinger)",
+    "China-Japan rare earth tensions escalating as Beijing tightens export controls amid US tariff pressure (Lowy Institute)"
   ]
 }
