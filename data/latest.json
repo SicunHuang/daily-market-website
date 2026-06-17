@@ -1,96 +1,89 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "topStories": [
     {
-      "headline": "US and Iran Sign MOU to Reopen Strait of Hormuz; Wall Street Surges",
-      "source": "CNBC",
-      "summary": "The US and Iran finalised a memorandum of understanding on June 14 to end 3.5 months of conflict and reopen the Strait of Hormuz, ending the largest energy supply disruption in history.",
-      "marketImpact": "S&P 500 ↑ 1.65%, Dow ↑ 0.92% to 51,671, Nasdaq ↑ 3.07%; Brent crude ↓ ~4% to ~$83–84/bbl; Boeing ↑ 4.66%, Nvidia ↑ 3.40%, Amazon ↑ 3.12%",
-      "tickers": ["BA", "NVDA", "AMZN", "XOM", "CVX"],
-      "url": "https://www.cnbc.com/2026/06/15/us-iran-deal-hormuz-markets.html"
+      "headline": "FOMC Decision Day: Warsh Press Conference at 2PM ET — Tone Shift Is the Real Story",
+      "source": "Kiplinger",
+      "summary": "Kevin Warsh chairs his first FOMC decision today; a rate hold at 3.50–3.75% is near-certain (97%+ market-implied), but markets are focused on whether Warsh signals a shift from easing bias to neutral or tighter language.",
+      "marketImpact": "USD and bond yields will react sharply to tone; equities ↓ risk on hawkish pivot; SPX 7,511 and NDX 26,376 both vulnerable entering the session",
+      "tickers": ["SPY", "QQQ", "TLT"],
+      "url": "https://www.kiplinger.com/news/live/fed-meeting-updates-and-commentary-june-2026"
     },
     {
-      "headline": "FOMC Meeting Day 1 of 2 — No Cut Expected, Hawkish Bias Shift On the Table",
-      "source": "IndexBox",
-      "summary": "The Fed begins its two-day June meeting with a 99.6% market-implied probability of no rate change; a shift in forward bias from easing to neutral or tightening is the key watch for Wednesday's statement.",
-      "marketImpact": "Rate-sensitive sectors ↓ potential; USD ↑ on hawkish shift; any surprise tightening bias → equities ↓",
-      "tickers": [],
-      "url": "https://www.indexbox.io/blog/fed-meeting-preview-june-1617-fomc-decision-and-potential-bias-shift/"
-    },
-    {
-      "headline": "Bank of Japan Set for Historic Rate Hike to 1% — Without Governor Ueda",
+      "headline": "Bank of Japan Hiked to 1% — Highest Rate Since 1995 — Signals More to Come",
       "source": "Bloomberg",
-      "summary": "The BOJ is expected to raise its benchmark rate 25bps to 1% — its highest since 1995 — at a meeting being held without Governor Ueda, who is hospitalised for a hepatic cyst infection.",
-      "marketImpact": "JPY ↑ vs USD; Japanese financials ↑; Nikkei under potential pressure; yen carry trades ↓",
+      "summary": "The BOJ raised its benchmark rate 25bps to 1.0% on June 16 in a 7-1 decision without hospitalised Governor Ueda, marking the highest rate since 1995, and signalled further hikes on the table.",
+      "marketImpact": "JPY strengthened to 160.22 vs USD ↑; JGB 10Y rose to 2.615% ↑; Japanese financials ↑; yen carry trades ↓; Nikkei futures under pressure",
       "tickers": [],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/boj-set-to-hike-rates-to-highest-since-1995-despite-ueda-absence"
+      "url": "https://www.bloomberg.com/news/articles/2026-06-16/boj-hikes-rate-to-31-year-high-at-meeting-with-governor-absent"
     },
     {
-      "headline": "May CPI at 4.2% YoY as Iran War Energy Shock Bites — Energy Costs Up 23.5%",
-      "source": "BLS",
-      "summary": "The May Consumer Price Index rose 0.5% MoM and 4.2% YoY, driven by a 23.5% spike in energy costs linked to the Strait of Hormuz closure.",
-      "marketImpact": "Keeps Fed firmly on hold or hawkish; bond yields elevated; energy-sensitive consumer names ↓ on margin pressure",
-      "tickers": [],
-      "url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+      "headline": "SpaceX (SPCX) Surges 50%+ Post-IPO, Overtakes Amazon as World's 5th Largest Company",
+      "source": "Bloomberg",
+      "summary": "SpaceX shares hit ~$201 in three sessions since the record $75B IPO at $135 on June 12, pushing market cap to ~$2.65T and dethroning Amazon from 5th largest globally.",
+      "marketImpact": "SPCX ↑ (momentum vs. profit-taking risk on triple witching day); AMZN sentiment watch; broad mega-cap index re-weighting underway",
+      "tickers": ["SPCX", "AMZN"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-spcx-stock-set-for-more-than-50-jump-in-just-three-sessions"
     },
     {
-      "headline": "Nikkei Tops 69,000 for First Time; KOSPI Surges 5.2% on Iran Peace Deal",
-      "source": "TradingKey",
-      "summary": "Asian markets surged Monday as the US-Iran MOU removed a major oil-shock risk for import-dependent economies — Nikkei 225 hit 69,289 while South Korea's KOSPI reached 8,697.",
-      "marketImpact": "SK Hynix ↑ 4%+, Samsung ↑, SoftBank ↑, Kioxia ↑; KRW and JPY strengthening; semiconductor supply chain watch",
-      "tickers": [],
-      "url": "https://www.tradingkey.com/analysis/stocks/more/261966958-nikkei-kospi-samsung-skhynix-dram-tradingkey"
+      "headline": "Chipmakers Lead Nasdaq Down 1.15% — AMD -7%, Micron -6%, Broadcom -4%, Nvidia -2%",
+      "source": "CNBC",
+      "summary": "Tech/semiconductor stocks rotated sharply lower Monday; Nasdaq Composite dropped 1.15% to 26,376 and S&P fell 0.57% to 7,511, while the Dow hit a record 51,999 on cyclical rotation.",
+      "marketImpact": "SOX ↓; semi stocks face further pressure on Fed day and triple witching; Dow cyclicals ↑",
+      "tickers": ["AMD", "MU", "AVGO", "NVDA", "SOXX"],
+      "url": "https://www.cnbc.com/2026/06/15/stock-market-today-live-updates.html"
     },
     {
-      "headline": "China Economy Slows Sharply — Industrial Output at Near 3-Year Low",
-      "source": "USCC",
-      "summary": "China industrial production grew just 4.1% last month, its weakest in almost three years, while fixed-asset investment unexpectedly shrank 1.6% and manufacturing capacity utilisation fell to 73.9%.",
-      "marketImpact": "Materials ↓; China-linked miners watch; stimulus expectations rising but structural reform constraints limit scope",
-      "tickers": [],
-      "url": "https://www.uscc.gov/trade-bulletins/china-bulletin-june-9-2026"
+      "headline": "US-Iran Peace Deal Formal Signing Set for June 19 — Brent Slides to ~$79/bbl",
+      "source": "NPR",
+      "summary": "The preliminary US-Iran deal announced June 15 to end hostilities and reopen the Strait of Hormuz continues to weigh on oil; formal signing in Switzerland is June 19.",
+      "marketImpact": "Brent crude ↓ ~$79/bbl (down ~5%+ since deal announcement); energy majors ↓; airlines and consumer discretionary ↑",
+      "tickers": ["XOM", "CVX", "USO", "UAL"],
+      "url": "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates"
+    },
+    {
+      "headline": "BofA Market-Top Checklist at 70%; Rate Cuts Fully Priced Out for 2026 as CPI Hits 4.2%",
+      "source": "Yahoo Finance",
+      "summary": "Bank of America's pre-peak indicator triggered 70% of historical warning signals as May CPI printed 4.2% YoY and consumer sentiment collapsed; CME FedWatch shows zero probability of a 2026 rate cut.",
+      "marketImpact": "Macro risk premium rising ↑; defensive sectors watch; growth/tech ↓ on rate-for-longer fears; credit spreads to watch",
+      "tickers": ["SPY", "XLV", "XLU", "HYG"],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/70-stock-market-warning-signals-143409069.html"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Boeing",
-      "ticker": "BA",
-      "exchange": "NYSE",
-      "reason": "Surged 4.66% Monday on Iran deal; reopening of Hormuz air corridors and geopolitical de-escalation are direct earnings tailwinds.",
+      "name": "Space Exploration Technologies",
+      "ticker": "SPCX",
+      "exchange": "NASDAQ",
+      "reason": "Post-IPO surge ~50% above $135 issue price in 3 sessions at ~$2.65T market cap; triple witching today adds intraday volatility — watch for momentum vs. profit-taking.",
       "direction": "↑"
     },
     {
-      "name": "NVIDIA Corp.",
+      "name": "Nvidia",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Up 3.40% as tech sentiment rebounds; Fed meeting outcome is the key near-term risk. AI infrastructure demand narrative still intact.",
-      "direction": "↑"
+      "reason": "Dropped 2%+ in the chip rotation on June 16; Fed day and triple witching add near-term pressure even as long-run AI demand thesis remains intact.",
+      "direction": "↓"
     },
     {
-      "name": "Amazon",
-      "ticker": "AMZN",
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
       "exchange": "NASDAQ",
-      "reason": "Up 3.12%; cloud AI buildout spending and broader risk-on sentiment driving recovery after recent volatility.",
-      "direction": "↑"
+      "reason": "Led the chip selloff at -7% on June 16; watch for reversal vs. continued downside on quarterly derivatives expiry and Fed decision volatility.",
+      "direction": "↓"
     },
     {
       "name": "Exxon Mobil",
       "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "Brent crude fell ~4% on Hormuz MOU — direct revenue headwind for oil majors; watch closely as deal implementation progresses.",
+      "reason": "Brent sliding to ~$79/bbl as US-Iran Hormuz deal gets priced in; direct revenue headwind with formal signing June 19 still ahead.",
       "direction": "↓"
     },
     {
       "name": "Jabil Inc.",
       "ticker": "JBL",
       "exchange": "NYSE",
-      "reason": "Serenity's recent call on its 1.6T transceiver business; AI photonics chokepoint thesis gaining traction in retail circles.",
-      "direction": "↑"
-    },
-    {
-      "name": "X-Fab Silicon Foundries",
-      "ticker": "XFAB",
-      "exchange": "Euronext",
-      "reason": "Serenity re-affirmed his CPO/photonics thesis over the weekend; originally surged 70–77% on his May 27 post; watching for continuation.",
+      "reason": "Serenity's ongoing CPO/1.6T transceiver thesis gaining retail traction; AI photonics bottleneck play to watch as chip sector rotation creates relative value.",
       "direction": "↑"
     }
   ],
@@ -99,17 +92,22 @@
       {
         "ticker": "XFAB",
         "company": "X-Fab Silicon Foundries",
-        "thesis": "Positioned as 'the next TSEM' at ~$1.4B market cap; competing for H2 2027 CPO scale-up inflection point; Serenity posted new weekend shower thoughts re-affirming the thesis."
+        "thesis": "Positioned as 'the next TSEM' at ~$1.4B market cap; competing for H2 2027 CPO scale-up inflection; thesis recently re-affirmed by Serenity."
       },
       {
         "ticker": "JBL",
         "company": "Jabil Inc.",
-        "thesis": "Market has not priced Jabil's 1.6T LRO pluggable-transceiver business; ~40% rerating potential by H1 2027 as hyperscalers expand CPO deployments."
+        "thesis": "Market not pricing Jabil's 1.6T LRO pluggable-transceiver business; ~40% rerating potential by H1 2027 as hyperscaler CPO deployments scale."
       },
       {
         "ticker": "SIVEF",
         "company": "Sivers Semiconductors AB",
         "thesis": "CW laser supplier for Jabil, Ayar, POET, and Marvell — framed as the chokepoint light source for CPO/Silicon Photonics; called 'the next $LITE'."
+      },
+      {
+        "ticker": "TSEM",
+        "company": "Tower Semiconductor",
+        "thesis": "CPO/silicon photonics foundry chokepoint; consistently called one of the 'safest' long-term compounders in photonics supply chain."
       }
     ],
     "priorPickMoves": [
@@ -119,21 +117,21 @@
       },
       {
         "ticker": "SIVEF",
-        "move": "Up 165% in one week following Jabil partnership thesis and Serenity coverage."
+        "move": "Up 165% in one week following the Jabil partnership thesis and Serenity coverage."
       }
     ],
-    "sentiment": "Highly positive and viral — 500K+ followers on X, featured by Lookonchain, Futunn, and Odaily. Self-reported 2026 YTD return of +4,502% (leveraged, unaudited). Some scepticism about unaudited figures, but retail enthusiasm remains very high.",
+    "sentiment": "Highly positive and viral — 500K+ followers on X, featured by Lookonchain, Futunn, and Odaily. Self-reported 2026 YTD return of +4,502% (unaudited). Some analyst scepticism around unverified figures; retail enthusiasm remains very high.",
     "noActivity": false
   },
   "bondYields": {
-    "us10y": 4.48,
+    "us10y": 4.43,
     "us30y": 4.97,
     "asOf": "2026-06-16"
   },
   "quickHits": [
-    "Nvidia raised its quarterly dividend significantly, signalling long-term AI revenue confidence (CNBC)",
-    "Goldman Sachs reset oil price forecast to $85/bbl average for 2026 — above pre-war levels even with Hormuz deal (AOL)",
-    "Philadelphia Fed Manufacturing Index due this week — a key inflation signal given 4.2% CPI print (Kiplinger)",
-    "China-Japan rare earth tensions escalating as Beijing tightens export controls amid US tariff pressure (Lowy Institute)"
+    "Triple witching today (June 17): Quarterly expiration of stock options, index futures, and single-stock futures — expect elevated intraday volatility and heavy volume (CBOE)",
+    "China's Commerce Ministry signals desire to cap US tariffs at Kuala Lumpur summit agreed levels; US-China Board of Trade public comment period now open (Bloomberg)",
+    "USTR proposed 10–12.5% new tariffs on 60 economies over forced labor practices, including China, EU, and Japan (CNBC)",
+    "Gold holding near $4,333/oz — risk-off from chip selloff partially offsets Iran deal optimism (Fortune)"
   ]
 }
