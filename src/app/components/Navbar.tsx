@@ -43,7 +43,7 @@ export function Navbar({ date }: { date: string }) {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 bg-nav-bg/80 backdrop-blur-xl border-b border-card-border">
+    <nav className="sticky top-0 z-50 bg-nav-bg/40 backdrop-blur-2xl backdrop-saturate-150 border-b border-card-border/50 shadow-lg shadow-background/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center gap-4">

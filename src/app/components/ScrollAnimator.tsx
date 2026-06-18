@@ -1,36 +1,50 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 export function ScrollAnimator({ children }: { children: ReactNode }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(el);
-        }
-      },
-      { rootMargin: "0px 0px -60px 0px", threshold: 0.01 }
-    );
+    function update() {
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      const vh = window.innerHeight;
 
-    observer.observe(el);
-    return () => observer.disconnect();
+      const fadeZone = vh * 0.25;
+
+      let opacity = 1;
+      let translateY = 0;
+
+      if (rect.top > vh - fadeZone) {
+        const progress = Math.min((rect.top - (vh - fadeZone)) / fadeZone, 1);
+        opacity = 1 - progress;
+        translateY = progress * 24;
+      } else if (rect.bottom < fadeZone) {
+        const progress = Math.min((fadeZone - rect.bottom) / fadeZone, 1);
+        opacity = 1 - progress;
+        translateY = -progress * 24;
+      }
+
+      el.style.opacity = String(Math.max(0, Math.min(1, opacity)));
+      el.style.transform = `translateY(${translateY}px)`;
+    }
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
   }, []);
 
   return (
-    <div
-      ref={ref}
-      className={`transition-all duration-700 ease-out ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-      }`}
-    >
+    <div ref={ref} className="will-change-[opacity,transform] transition-none">
       {children}
     </div>
   );

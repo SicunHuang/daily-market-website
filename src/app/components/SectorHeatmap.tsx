@@ -27,7 +27,7 @@ export function SectorHeatmap() {
       isOpenEnabled: false,
       hasSymbolTooltip: true,
       width: "100%",
-      height: 400,
+      height: 800,
     });
 
     containerRef.current.appendChild(script);
@@ -48,7 +48,7 @@ export function SectorHeatmap() {
       <div
         ref={containerRef}
         className="rounded-xl border border-card-border overflow-hidden"
-        style={{ height: 400 }}
+        style={{ height: 800 }}
       />
     </section>
   );
