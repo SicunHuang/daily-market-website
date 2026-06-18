@@ -1,5 +1,12 @@
 {
   "date": "2026-06-18",
+  "marketMood": "Risk-off: Fed hawkishness and Iran oil deal create cross-currents — equities sell off while energy faces supply headwinds.",
+  "upcomingEvents": [
+    { "date": "2026-06-19", "event": "US-Iran Peace Deal Signing (Bürgenstock, Switzerland)", "significance": "high" },
+    { "date": "2026-06-19", "event": "US Initial Jobless Claims", "significance": "medium" },
+    { "date": "2026-06-20", "event": "US Existing Home Sales (May)", "significance": "medium" },
+    { "date": "2026-06-20", "event": "Bank of England Rate Decision", "significance": "high" }
+  ],
   "topStories": [
     {
       "headline": "Fed Signals Possible 2026 Rate Hike — Markets Sell Off Sharply on Warsh's Hawkish Dot Plot",
@@ -122,6 +129,24 @@
     "us10y": 4.44,
     "us30y": 4.94,
     "asOf": "2026-06-17"
+  },
+  "tickerDescriptions": {
+    "SPY": "S&P 500 ETF tracking the 500 largest US companies",
+    "QQQ": "Nasdaq-100 ETF tracking the 100 largest non-financial Nasdaq-listed companies",
+    "DIA": "Dow Jones Industrial Average ETF tracking 30 blue-chip US stocks",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, a proxy for long-duration US government bonds",
+    "IEF": "iShares 7-10 Year Treasury Bond ETF tracking intermediate-term US Treasuries",
+    "CVX": "Chevron Corporation, integrated oil and gas major",
+    "USO": "United States Oil Fund, an ETF tracking WTI crude oil futures",
+    "UAL": "United Airlines Holdings, major US airline carrier",
+    "DAL": "Delta Air Lines, major US airline carrier",
+    "MSTR": "Strategy (formerly MicroStrategy), business intelligence firm and largest corporate Bitcoin holder",
+    "COIN": "Coinbase Global, largest US-based cryptocurrency exchange",
+    "XRT": "SPDR S&P Retail ETF tracking US retail companies",
+    "XLY": "Consumer Discretionary Select Sector SPDR Fund",
+    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies",
+    "KWEB": "KraneShares CSI China Internet ETF tracking Chinese internet companies",
+    "XOM": "Exxon Mobil Corporation, largest publicly traded oil and gas company"
   },
   "quickHits": [
     "Amazon AI chief admits company lagged OpenAI and Anthropic but says catch-up is achievable — signals potential AWS AI spend acceleration (CNBC)",

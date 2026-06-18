@@ -13,6 +13,19 @@ interface MarketHeadlinesProps {
   stories: Story[];
 }
 
+function ColoredMarketImpact({ text }: { text: string }) {
+  const parts = text.split(/(↑|↓)/g);
+  return (
+    <p className="text-sm font-medium text-accent-yellow">
+      {parts.map((part, i) => {
+        if (part === "↑") return <span key={i} className="text-accent-green font-bold">↑</span>;
+        if (part === "↓") return <span key={i} className="text-accent-red font-bold">↓</span>;
+        return <span key={i}>{part}</span>;
+      })}
+    </p>
+  );
+}
+
 export function MarketHeadlines({ stories }: MarketHeadlinesProps) {
   const scrollToTicker = (ticker: string) => {
     const el = document.getElementById(`stock-${ticker}`);
@@ -32,7 +45,7 @@ export function MarketHeadlines({ stories }: MarketHeadlinesProps) {
         {stories.map((story, i) => (
           <article
             key={i}
-            className="rounded-xl border border-card-border bg-card-bg p-5 space-y-3 hover:border-accent-blue/50 transition-colors"
+            className="rounded-xl border border-card-border bg-card-bg p-5 space-y-3 hover:border-accent-blue/50 transition-colors focus-within:ring-2 focus-within:ring-accent-blue"
           >
             <div className="flex items-start justify-between gap-2">
               <h3 className="font-semibold leading-snug">
@@ -41,7 +54,7 @@ export function MarketHeadlines({ stories }: MarketHeadlinesProps) {
                     href={story.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-accent-blue transition-colors"
+                    className="hover:text-accent-blue transition-colors focus-visible:outline-none focus-visible:text-accent-blue"
                   >
                     {story.headline}
                     <span className="text-accent-blue ml-1 text-xs">↗</span>
@@ -67,9 +80,9 @@ export function MarketHeadlines({ stories }: MarketHeadlinesProps) {
                 </>
               )}
             </p>
-            <p className="text-sm text-foreground/80">{story.summary}</p>
+            <p className="text-sm text-foreground/80 leading-relaxed">{story.summary}</p>
             <div className="pt-2 border-t border-card-border">
-              <p className="text-sm font-medium text-accent-yellow">{story.marketImpact}</p>
+              <ColoredMarketImpact text={story.marketImpact} />
             </div>
             {story.tickers.length > 0 && (
               <div className="flex flex-wrap gap-1.5 pt-1">
@@ -77,7 +90,7 @@ export function MarketHeadlines({ stories }: MarketHeadlinesProps) {
                   <button
                     key={ticker}
                     onClick={() => scrollToTicker(ticker)}
-                    className="px-2 py-0.5 text-xs font-mono rounded bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 transition-colors cursor-pointer"
+                    className="px-2 py-0.5 text-xs font-mono rounded bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue"
                   >
                     ${ticker}
                   </button>

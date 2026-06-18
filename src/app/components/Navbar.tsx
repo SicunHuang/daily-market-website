@@ -14,7 +14,13 @@ export function Navbar({ date }: { date: string }) {
   const [activeSection, setActiveSection] = useState("headlines");
 
   useEffect(() => {
+    const saved = localStorage.getItem("theme") as "dark" | "light" | null;
+    if (saved) setTheme(saved);
+  }, []);
+
+  useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   useEffect(() => {
@@ -55,6 +61,7 @@ export function Navbar({ date }: { date: string }) {
           </div>
 
           <div className="flex items-center gap-1">
+            {/* Desktop nav */}
             <div className="hidden sm:flex items-center gap-1 mr-4">
               {NAV_ITEMS.map(({ id, label }) => (
                 <a
@@ -64,7 +71,7 @@ export function Navbar({ date }: { date: string }) {
                     e.preventDefault();
                     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className={`px-3 py-1.5 rounded-md text-sm transition-colors ${
+                  className={`px-3 py-1.5 rounded-md text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue ${
                     activeSection === id
                       ? "bg-accent-blue/15 text-accent-blue"
                       : "text-muted hover:text-foreground hover:bg-card-border/30"
@@ -75,9 +82,30 @@ export function Navbar({ date }: { date: string }) {
               ))}
             </div>
 
+            {/* Mobile nav */}
+            <div className="flex sm:hidden items-center gap-0.5 mr-2 overflow-x-auto scrollbar-none">
+              {NAV_ITEMS.map(({ id, label }) => (
+                <a
+                  key={id}
+                  href={`#${id}`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className={`px-2.5 py-1 rounded-full text-xs whitespace-nowrap transition-colors ${
+                    activeSection === id
+                      ? "bg-accent-blue/15 text-accent-blue"
+                      : "text-muted"
+                  }`}
+                >
+                  {label}
+                </a>
+              ))}
+            </div>
+
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-2 rounded-md text-muted hover:text-foreground hover:bg-card-border/30 transition-colors cursor-pointer"
+              className="p-2 rounded-md text-muted hover:text-foreground hover:bg-card-border/30 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue"
               aria-label="Toggle theme"
             >
               {theme === "dark" ? "☀️" : "🌙"}
