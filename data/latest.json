@@ -1,123 +1,111 @@
 {
-  "date": "2026-06-22",
-  "marketMood": "Higher-for-longer shock fades as markets reopen Monday; Marvell's S&P 500 debut highlights AI infrastructure momentum even as Fed rate-hike signals, US-Iran peace fragility, and oil volatility keep bulls cautious.",
+  "date": "2026-06-23",
+  "marketMood": "Risk-off after Alphabet's AI talent exodus rattles megacap tech; Iran peace roadmap pushes oil below $80 while hawkish Fed repricing keeps rate-sensitive equities under pressure.",
   "upcomingEvents": [
-    { "date": "2026-06-23", "event": "Carnival (CCL) and FedEx (FDX) earnings", "significance": "medium" },
-    { "date": "2026-06-24", "event": "Fed bank stress test results; Micron (MU), Paychex (PAYX), Jefferies (JEF) earnings; May new home sales", "significance": "high" },
-    { "date": "2026-06-25", "event": "May PCE prices, Q1 GDP final estimate, May durable goods orders; Darden (DRI) earnings", "significance": "high" },
+    { "date": "2026-06-23", "event": "FedEx (FDX) and Carnival (CCL) earnings after market", "significance": "medium" },
+    { "date": "2026-06-24", "event": "Fed bank stress test results; Micron (MU) and Paychex (PAYX) earnings; May new home sales", "significance": "high" },
+    { "date": "2026-06-25", "event": "May PCE prices (Fed's preferred inflation gauge), Q1 GDP final estimate, May durable goods; Darden (DRI) earnings", "significance": "high" },
     { "date": "2026-06-30", "event": "Pentagon defense contracting ban on Alibaba, Baidu, BYD and 185 other Chinese military-designated firms takes effect", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Fed Holds Under Chair Warsh, Signals Possible Rate Hike in 2026 — Markets Try to Recover",
+      "headline": "Alphabet Drops 6.7% as Second Senior AI Researcher Departs for a Rival",
+      "source": "Bloomberg",
+      "summary": "Google DeepMind VP John Jumper announced he is leaving for Anthropic, following Noam Shazeer's departure to OpenAI; a California court also denied a retrial in a YouTube youth-addiction lawsuit, widening legal exposure.",
+      "marketImpact": "GOOGL ↓ 6.7%; Nasdaq ↓ 1.32%; megacap tech broadly ↓; S&P 500 ↓ 0.37% — stock now down ~11% from May 18 all-time high",
+      "tickers": ["GOOGL"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-22/alphabet-shares-drop-after-second-ai-star-departs-for-a-rival"
+    },
+    {
+      "headline": "Fed's Hawkish Dot Plot Now Prices a 2026 Rate Hike; PCE Inflation Revised to 3.6%",
       "source": "CNBC",
-      "summary": "Kevin Warsh's first FOMC meeting kept rates at 3.5–3.75% but 9 of 18 policymakers now project at least one hike by year-end, reversing earlier expectations of multiple cuts.",
-      "marketImpact": "S&P 500 ↓1.21%, Dow ↓507 pts, Nasdaq ↓1.34% on Friday; 2Y Treasury yield ↑ 16bps to 4.21%; DXY hit 1-year high ~100.7. Futures bounce +0.46% Monday but higher-for-longer overhang pressures rate-sensitive growth stocks ↓",
+      "summary": "The June 17 FOMC held rates at 3.50–3.75% but nine of eighteen officials now project at least one hike by year-end, and the 2026 PCE inflation median was revised sharply higher from 2.7% to 3.6%.",
+      "marketImpact": "Rate-sensitive equities ↓; 2Y Treasury ↑ 16bps; May PCE release June 25 is the week's critical data point; market pricing potential hike increasingly ↑",
       "tickers": ["SPY", "QQQ", "TLT"],
       "url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
     },
     {
-      "headline": "Marvell Technology Joins S&P 500 Today, Up 265% in 2026",
+      "headline": "US and Iran Agree 60-Day Peace Roadmap; Oil Slides as Hormuz Reopening Looms",
       "source": "CNBC",
-      "summary": "MRVL officially enters the S&P 500 in the quarterly rebalance, replacing Pool Corp and Campbell's, after Nvidia CEO Jensen Huang called it a potential next trillion-dollar company.",
-      "marketImpact": "MRVL ↑ on index inclusion passive buying; stock up ~265% YTD. Broader semiconductor ETF SOXX rallied ~6% last week on AI infrastructure momentum ↑",
-      "tickers": ["MRVL", "SOXX"],
-      "url": "https://www.cnbc.com/2026/06/08/marvell-sp500-index-addition.html"
+      "summary": "A ceasefire MoU sets a 60-day window for final deal talks on Iran's nuclear program and Strait of Hormuz reopening; the US Treasury separately authorised Iranian oil production and sales for 60 days.",
+      "marketImpact": "Brent crude ↓ to ~$78/bbl; WTI ↓ to ~$74/bbl; energy equities ↓; shipping and tanker stocks ↑ watch on Hormuz reopening",
+      "tickers": ["XOM", "XLE", "USO"],
+      "url": "https://www.cnbc.com/2026/06/19/oil-prices-wti-brent-crude-us-iran-deal-strait-hormuz-shipping-recovery.html"
     },
     {
-      "headline": "US-Iran Nuclear Talks in Switzerland Abruptly Canceled",
-      "source": "CNBC",
-      "summary": "VP JD Vance canceled his Switzerland trip as Iran reportedly demanded a halt to Israeli operations in Lebanon before technical post-MOU talks could begin.",
-      "marketImpact": "Oil ↑ briefly on ceasefire fragility; WTI ~$77/barrel but geopolitical risk premium returns to watch. Energy sector on edge as Strait of Hormuz traffic recovery could stall — watch XLE ↑",
-      "tickers": ["XLE", "USO", "XOM"],
-      "url": "https://www.cnbc.com/2026/06/19/us-iran-talks-switzerland-canceled-interim-deal-markets.html"
+      "headline": "China Property Investment Falls 16.2% in Jan–May; Retail Sales Turn Negative",
+      "source": "Reuters",
+      "summary": "Real estate development investment contracted 16.2% YoY in the first five months of 2026, worsening from -13.7% in Jan-Apr, while retail sales fell 0.6% YoY in May — the first contraction since December 2022.",
+      "marketImpact": "FXI ↓; China property developers ↓; domestic deflation risk deepening; limited near-term global contagion but a structural drag on commodity demand",
+      "tickers": ["FXI", "BABA"],
+      "url": "https://www.reuters.com/"
     },
     {
-      "headline": "Israel-Hezbollah Ceasefire Renewed After June Flare-Up; Oil Tumbles ~10% for the Week",
-      "source": "PBS NewsHour",
-      "summary": "A renewed ceasefire was brokered after Israel escalated southern Lebanon operations; the Strait of Hormuz has partially reopened with over 12.5M barrels shipped Wednesday.",
-      "marketImpact": "WTI oil ↓ ~10% for the week from $89–93 spike back to ~$77; gold ↓ to $4,150/oz (3rd weekly decline) as stronger dollar weighs. Goldman Sachs cut year-end gold target to $4,900 from $5,400 ↓",
-      "tickers": ["XLE", "GLD", "USO"],
-      "url": "https://www.pbs.org/newshour/world/israel-and-hezbollah-renew-ceasefire-after-u-s-and-iran-call-off-talks-over-fighting-in-lebanon"
+      "headline": "Bank of England Holds at 3.75% in Split 7–2 Vote; Hawkish Dissenters Wanted Immediate Hike",
+      "source": "Bank of England",
+      "summary": "The MPC kept rates at 3.75% on June 17, with Megan Greene and Huw Pill dissenting to raise to 4.00%; UK inflation at 2.8% remains above target as energy prices stay elevated post-conflict.",
+      "marketImpact": "GBP ↓ watch; UK gilt yields elevated; July 30 BoE decision increasingly live for a hike — 25bp move now possible",
+      "tickers": [],
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
     },
     {
-      "headline": "Amazon Signs Multibillion-Dollar AI Fiber Optic Deal with Corning",
-      "source": "CNBC",
-      "summary": "Amazon will source optical fiber, cable, and connectivity from Corning for its US data-center expansion, creating 1,000 advanced manufacturing jobs in North Carolina — the latest in Corning's run of AI mega-deals.",
-      "marketImpact": "GLW ↑4% on announcement; AMZN reinforces domestic AI supply chain strategy. Optical fiber flagged as a critical and undersupplied chokepoint in AI infrastructure ↑",
-      "tickers": ["AMZN", "GLW"],
-      "url": "https://www.cnbc.com/2026/06/08/amazon-taps-corning-for-op.html"
-    },
-    {
-      "headline": "Pentagon Labels Alibaba, Baidu, BYD as Chinese Military Companies",
-      "source": "CNBC",
-      "summary": "The DoD designated 188 Chinese companies including Alibaba, Baidu, and BYD on its expanded military-company list; a defense contracting ban kicks in June 30 with a broader third-party procurement ban following in June 2027.",
-      "marketImpact": "BABA, BIDU ↓ on designation; US-China tech tensions escalate. China's MOFCOM warned of 'resolute and forceful retaliation.' Watch for retaliatory measures on US firms with China exposure ↓",
-      "tickers": ["BABA", "BIDU", "FXI"],
-      "url": "https://www.cnbc.com/2026/06/09/alibaba-baidu-byd-named-on-pentagons-china-military-list-.html"
+      "headline": "US Retail Sales Beat at +0.9% in May, Nearly Double the 0.5% Forecast",
+      "source": "US Census Bureau",
+      "summary": "Advance retail sales rose 0.9% month-over-month in May, led by gasoline stations (+3.4%) and broad core gains; core retail ex-autos was up 0.7% vs. a 0.2% forecast.",
+      "marketImpact": "Consumer spending resilient ↑; but hot data reinforces Fed hawkishness and diminishes rate-cut hopes — a mixed signal for equities overall",
+      "tickers": ["XRT"],
+      "url": "https://www.census.gov/retail/sales.html"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Marvell Technology",
-      "ticker": "MRVL",
+      "name": "Alphabet",
+      "ticker": "GOOGL",
       "exchange": "NASDAQ",
-      "reason": "S&P 500 inclusion effective today triggers forced passive buying; Jensen Huang's 'next trillion-dollar company' endorsement and 265% YTD gain in focus.",
-      "direction": "↑"
-    },
-    {
-      "name": "Corning Inc.",
-      "ticker": "GLW",
-      "exchange": "NYSE",
-      "reason": "AI fiber infrastructure beneficiary with Amazon, Nvidia, and Meta supply deals in hand; optical fiber supply-demand imbalance persists as data-center buildout accelerates.",
-      "direction": "↑"
+      "reason": "Second top-tier AI researcher departure in one week (John Jumper to Anthropic) compounds legal setbacks and $84.75B dilutive equity overhang; extended four-week losing streak.",
+      "direction": "↓"
     },
     {
       "name": "FedEx",
       "ticker": "FDX",
       "exchange": "NYSE",
-      "reason": "Reports earnings Tuesday June 23; market watching for macro freight demand signal and cost-discipline progress amid rate-hike uncertainty.",
+      "reason": "Reports fiscal Q4 earnings after market close today — the key macro freight demand barometer and cost-discipline read amid higher-for-longer rate pressure.",
       "direction": "↑"
     },
     {
-      "name": "Micron Technology",
-      "ticker": "MU",
-      "exchange": "NASDAQ",
-      "reason": "Reports earnings Wednesday June 24 — key read on HBM and AI memory demand versus supply normalization in the semiconductor cycle.",
-      "direction": "↑"
-    },
-    {
-      "name": "Alibaba Group",
-      "ticker": "BABA",
+      "name": "Exxon Mobil",
+      "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "Pentagon military-company designation with defense contracting ban effective June 30; broader US-China tech friction headwinds compound existing regulatory pressures.",
+      "reason": "Brent crude sliding toward $78 on Iran ceasefire roadmap and US Treasury authorising Iranian oil sales; margin compression watch for integrated majors.",
       "direction": "↓"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "reason": "Semiconductor sector outperformed Monday even as megacap tech sold off; Alphabet's $84.75B AI capex raise is ultimately bullish for GPU demand despite near-term sentiment drag.",
+      "direction": "↑"
     }
   ],
   "serenity": {
     "latestPicks": [
       {
-        "ticker": "SIVSF",
-        "company": "Sivers Semiconductors",
-        "thesis": "Laser-source chokepoint in silicon photonics/CPO at ~$290M cap; won qualification orders from leading transceiver vendor — described as 'early $AAOI stage' ahead of volume ramp"
-      },
-      {
-        "ticker": "3363.HK",
-        "company": "Foci Fiber Inc.",
-        "thesis": "CPO-adjacent name rotated into after trimming Lumentum/Coherent profits; positioned for co-packaged optics adoption ramp in AI data centers"
+        "ticker": "XFAB",
+        "company": "X-Fab Silicon Foundries SE (Euronext Paris: XFAB FP)",
+        "thesis": "Sole high-volume SiC foundry in the US with silicon photonics/CPO capacity; dual CHIPS Act funded (EU $128M + US $50M); trading below replacement P/B — Serenity's thesis: 'next TSEM' positioned for the H2 2027 co-packaged optics volume ramp"
       }
     ],
     "priorPickMoves": [
       {
-        "ticker": "LITE",
-        "move": "Serenity signaled profit-taking on Lumentum in early June after prior gains; rotated proceeds into CPO names SIVSF and Foci"
+        "ticker": "XFAB",
+        "move": "Rallied sharply after Serenity's May 27 post; Bloomberg covered the retail-driven surge; market cap expanded from ~$1.28B to ~$1.7B"
       },
       {
-        "ticker": "COHR",
-        "move": "Coherent similarly trimmed as part of the same early-June CPO rotation — both LITE and COHR had been major 2026 beneficiaries of the photonics thesis"
+        "ticker": "SIVSF",
+        "move": "Sivers Semiconductors (prior laser-source chokepoint pick) remains in portfolio context; no major move flagged in past 24h"
       }
     ],
-    "sentiment": "Strong retail following (127k+ on X); self-reported +3,612% YTD as of June 11 (unaudited, leveraged, volatile). Growing mainstream press coverage. No specific posts from June 19–22 confirmed via web search — check X feed directly: https://x.com/aleabitoreddit",
+    "sentiment": "Community now 500K+ followers on X; dedicated tracker sites (semiconstocks.com), Substack profiles, and Chinese financial media (EastMoney, TechFlow) actively covering his thesis. Persistent pushback on self-reported +3,612% YTD being unaudited and leveraged. Bloomberg XFAB coverage adds mainstream visibility — raises crowding risk on future picks.",
     "noActivity": false
   },
   "bondYields": {
@@ -126,29 +114,23 @@
     "asOf": "2026-06-18"
   },
   "tickerDescriptions": {
+    "GOOGL": "Alphabet Inc. Class C shares, parent company of Google, YouTube, and Google DeepMind AI research lab",
     "SPY": "SPDR S&P 500 ETF tracking the 500 largest US publicly traded companies",
     "QQQ": "Invesco QQQ ETF tracking the Nasdaq-100 index of the largest non-financial Nasdaq-listed companies",
     "TLT": "iShares 20+ Year Treasury Bond ETF, a proxy for long-duration US government bond prices",
-    "MRVL": "Marvell Technology Inc., fabless semiconductor company specializing in AI data center chips, custom ASICs, and silicon photonics — joining S&P 500 June 22",
-    "SOXX": "iShares Semiconductor ETF tracking the Philadelphia Stock Exchange Semiconductor Sector Index",
-    "XLE": "Energy Select Sector SPDR ETF tracking US energy companies including oil majors and E&P firms",
-    "USO": "United States Oil Fund ETF tracking WTI crude oil futures",
     "XOM": "Exxon Mobil Corporation, the largest US integrated oil and gas major",
-    "GLD": "SPDR Gold Shares ETF tracking the price of physical gold bullion",
-    "AMZN": "Amazon.com Inc., e-commerce and cloud computing giant via AWS, expanding heavily into AI data center infrastructure",
-    "GLW": "Corning Incorporated, specialty glass and optical fiber manufacturer at the center of AI data center infrastructure deals with Amazon, Nvidia, and Meta",
-    "BABA": "Alibaba Group Holding Ltd., Chinese e-commerce and cloud computing conglomerate listed as NYSE ADR",
-    "BIDU": "Baidu Inc., Chinese internet search and AI company listed as NASDAQ ADR",
+    "XLE": "Energy Select Sector SPDR ETF tracking US energy companies including oil majors and E&P firms",
+    "USO": "United States Oil Fund ETF tracking front-month WTI crude oil futures",
     "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies listed in Hong Kong",
-    "FDX": "FedEx Corporation, global logistics and freight delivery company reporting Q4 earnings June 23",
-    "MU": "Micron Technology Inc., leading US manufacturer of DRAM and NAND memory chips including high-bandwidth memory (HBM) for AI workloads",
-    "LITE": "Lumentum Holdings Inc., optical and photonic products manufacturer serving datacom and telecom markets",
-    "COHR": "Coherent Corp., manufacturer of optical fiber components and laser technology for AI data center interconnects"
+    "BABA": "Alibaba Group Holding Ltd., Chinese e-commerce and cloud computing conglomerate listed as NYSE ADR",
+    "XRT": "SPDR S&P Retail ETF tracking the S&P Retail Select Industry Index of US retail stocks",
+    "FDX": "FedEx Corporation, global logistics and freight delivery company reporting fiscal Q4 2026 earnings today",
+    "NVDA": "NVIDIA Corporation, leading designer of AI graphics processing units and data center accelerators"
   },
   "quickHits": [
-    "Japan May exports rose 17.0% YoY, beating the 16.2% estimate — tech components, autos, and nonferrous metals led (Nikkei Asia)",
-    "Goldman Sachs cuts year-end gold price target to $4,900/oz from $5,400 following hawkish Fed repricing and stronger dollar (Bloomberg)",
-    "Flex Ltd also joins the S&P 500 today alongside Marvell in the quarterly rebalance, replacing Campbell's (S&P Dow Jones Indices)",
-    "Cerebras Systems (CRBS) up 3% as multiple Wall Street firms initiate coverage on the AI chip startup (CNBC)"
+    "Russell 2000 closes at 3,000 for the first time in history on June 22 — small-cap milestone contrasts with megacap tech selloff, signaling broad market participation (TheStreet)",
+    "ZEW Economic Sentiment turns positive for the first time since the start of the Middle East conflict — European risk appetite improving (Bloomberg)",
+    "Alphabet's $84.75B equity raise — the largest corporate stock offering in history — now overhangs the stock as AI capex concerns mount (CNBC)",
+    "Pentagon defense contracting ban on Alibaba, Baidu, BYD and 185 Chinese military-designated companies takes effect June 30 (CNBC)"
   ]
 }
