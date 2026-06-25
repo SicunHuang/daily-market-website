@@ -1,62 +1,69 @@
 {
-  "date": "2026-06-24",
-  "marketMood": "Risk-off: AI semiconductor sell-off deepens on BofA rate hike bets and Broadcom overhang, while Micron earnings tonight and Fed stress tests at 4 PM EDT are the day's two binary catalysts.",
+  "date": "2026-06-25",
+  "marketMood": "Cautious recovery: Micron's blowout earnings lift semis after Tuesday's $1.3T AI-capex-fear selloff, but PCE data and lingering KOSPI fragility keep risk appetite in check.",
   "upcomingEvents": [
-    { "date": "2026-06-24", "event": "Fed 2026 Bank Stress Test Results (4 PM EDT)", "significance": "high" },
-    { "date": "2026-06-24", "event": "Micron Q3 FY2026 Earnings After Close", "significance": "high" },
-    { "date": "2026-06-24", "event": "US May New Home Sales Data", "significance": "medium" },
-    { "date": "2026-06-25", "event": "US May PCE Inflation Data + Q1 GDP Final Estimate", "significance": "high" },
+    { "date": "2026-06-25", "event": "US May PCE Inflation + Q1 GDP Final Estimate (BEA, 8:30 a.m. ET)", "significance": "high" },
+    { "date": "2026-06-25", "event": "Darden Restaurants Q4 FY2026 Earnings (DRI, pre-market)", "significance": "medium" },
+    { "date": "2026-06-26", "event": "Bitcoin options expiry (~$10.6B open interest)", "significance": "medium" },
+    { "date": "2026-06-27", "event": "US-Iran 60-day peace roadmap progress checkpoint", "significance": "high" },
     { "date": "2026-07-29", "event": "FOMC July Rate Decision", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "$1.3 Trillion Wiped from Global Chip Stocks in AI Sell-Off",
-      "source": "CNBC",
-      "summary": "A hawkish BofA rate hike note and collapse in South Korean memory stocks — SK Hynix and Samsung each -12%+ — triggered a two-day global semiconductor rout, dragging Micron -13%, Marvell -8%, SanDisk -11%, and the Nasdaq -2.21%.",
-      "marketImpact": "Semis/tech ↓ globally; Kospi -10% (worst day since 2020); defensives outperform — real estate ↑ 1.38%, energy ↑ 1.24%; flight to Treasuries presses US 10Y to 4.48%",
-      "tickers": ["MU", "AVGO", "NVDA", "AMD", "MRVL", "SNDK"],
-      "url": "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html"
+      "headline": "Micron Smashes Q3 Estimates: $41.5B Revenue, EPS of $25.11 vs $20.20 Expected",
+      "source": "SEC Filing / TechTimes",
+      "summary": "Micron reported fiscal Q3 2026 revenue of $41.46B (vs $23.86B prior quarter) and non-GAAP EPS of $25.11 — a 24% beat vs street consensus — confirming AI HBM memory demand is structural and supply is still sold out.",
+      "marketImpact": "MU ↑ strongly after hours; HBM/DRAM memory suppliers broadly ↑; NVDA, AMD watch for AI memory read-through; AVGO faces more scrutiny on its lighter AI guidance",
+      "tickers": ["MU", "NVDA", "AVGO", "AMD", "MRVL"],
+      "url": "https://www.techtimes.com/articles/318825/20260622/micron-earnings-2026-record-margins-confirm-ai-memory-tax-your-next-pc.htm"
     },
     {
-      "headline": "SpaceX Prices $25B Inaugural Bond Sale Days After Record IPO, Stock Sinks 16%",
-      "source": "Bloomberg",
-      "summary": "Days after its record IPO, SpaceX (SPCX) launched a 5-tranche investment-grade bond deal to refinance its $20B bridge loan; the fundraising scale raised investor concerns about capital intensity despite a disclosed $100B+ cash pile.",
-      "marketImpact": "SPCX ↓ 16.4% — steepest single-day decline since IPO; broader space/tech IPO sentiment watch; bond markets absorbing large new supply",
+      "headline": "Nasdaq Recovers as Semis Bounce After Tuesday's Broadcom-Triggered $1.3T Wipeout",
+      "source": "TechTimes / BBN Times",
+      "summary": "Tuesday's Nasdaq -2.2% and Philadelphia Semiconductor Index -8% rout — sparked by Broadcom's Q3 AI chip guidance miss ($16B vs $17.2B expected) and fears about hyperscaler AI capex sustainability — partially recovered Wednesday, with the S&P 500 down just 0.10%.",
+      "marketImpact": "Semis broadly ↑ on Wednesday recovery; AVGO ↓ watch; sector re-rating underway on AI capex sustainability fears",
+      "tickers": ["AVGO", "NVDA", "AMD", "INTC", "SOXX", "MU"],
+      "url": "https://www.bbntimes.com/technology/nasdaq-composite-tumbles-as-global-semiconductor-rout-and-ai-spending-fears-hammer-tech-stocks"
+    },
+    {
+      "headline": "PCE Inflation and Q1 GDP Final Estimate Drop at 8:30 a.m. ET Today",
+      "source": "BEA / Investing.com",
+      "summary": "The BEA releases May PCE price index (core ~3.3% expected) and final Q1 2026 GDP estimate today; the Fed held rates at 3.50%–3.75% in June and raised its year-end PCE forecast to 3.6%, with BofA flagging a September hike as credible.",
+      "marketImpact": "Bonds watch — hotter PCE pushes 10Y yield ↑; softer print supports risk assets ↑; USD ↑ or ↓ on surprise; rate-sensitive sectors (real estate, utilities) most exposed",
+      "tickers": ["TLT", "SPY", "QQQ", "UUP"],
+      "url": "https://www.investing.com/analysis/upcoming-market-dates-pce-inflation-and-q1-gdp-determining-the-feds-next-move-200679249"
+    },
+    {
+      "headline": "Oil Hits Pre-War Lows at $73.74 as US-Iran MoU Holds, but Trump Threatens Fresh Strikes",
+      "source": "Al Jazeera / CNBC",
+      "summary": "Brent crude settled at $73.74/bbl — its lowest since before US-Israel airstrikes on Iran in late February — as a 60-day US-Iran peace roadmap brokered by Qatar and Pakistan takes effect, with Iranian crude sales now licensed in USD, though Trump's public threats maintain uncertainty.",
+      "marketImpact": "Oil majors ↓ on lower prices; airlines, industrials ↑ on fuel cost relief; USO ↓; Middle East geopolitical risk watch",
+      "tickers": ["USO", "XOM", "CVX", "HAL", "DAL", "UAL"],
+      "url": "https://www.aljazeera.com/economy/2026/6/18/oil-prices-fall-stocks-rally-as-us-iran-sign-framework-to-end-war"
+    },
+    {
+      "headline": "SpaceX (SPCX) Tumbles 16% from Post-IPO Highs, Former Nasdaq Chief Warns Not Trading on Fundamentals",
+      "source": "Yahoo Finance / TradingKey",
+      "summary": "SpaceX, which IPO'd at $135 on June 12 and hit $225, has fallen 16.4% since Monday as broader tech selling and rising rate concerns hammer the newly listed high-multiple stock; SpaceX also confirmed a new bond issuance and a Colossus 2 data centre deal with AI startup Reflection AI.",
+      "marketImpact": "SPCX ↓ watch; new bond issuance adds leverage concern; sentiment gauge for AI-adjacent IPOs broadly",
       "tickers": ["SPCX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/spacex-kicks-off-debut-us-dollar-investment-grade-bond-offering"
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-tumbles-164-shaving-off-most-ipo-gains-since-debut-141725657.html"
     },
     {
-      "headline": "US-Iran 'Roadmap' Agreed; Washington Grants 60-Day Iran Oil Sales License",
-      "source": "NPR",
-      "summary": "JD Vance confirmed a US-Iran roadmap toward a final deal on June 21, following the June 17 Islamabad MoU ceasefire framework; the US simultaneously issued a 60-day license for Iran to sell oil internationally, with 30M+ barrels shipped last week.",
-      "marketImpact": "WTI crude ↓ to ~$73.4/barrel (multi-month low); energy sector watch; geopolitical risk premium easing; Strait of Hormuz traffic recovering",
-      "tickers": ["XOM", "XLE", "USO"]
-      ,
-      "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance"
+      "headline": "South Korea's KOSPI Triggers Circuit Breaker with 8% Intraday Crash; Samsung and SK Hynix Bloodbath",
+      "source": "Yahoo Finance / TradingKey",
+      "summary": "KOSPI crashed 8%+ on Tuesday, triggering a circuit breaker at Korea Exchange, after three simultaneous hits: MSCI again excluded South Korea from Developed Markets, regulators flagged leveraged single-stock ETFs on Samsung/Hynix, and AI stock forced liquidations amplified the selloff. KOSPI recovered ~4% on Wednesday.",
+      "marketImpact": "EWY ↓; Samsung ↓; SK Hynix ↓; KOSPI stabilising but fragile; $2.5B foreign capital fled in the session",
+      "tickers": ["EWY", "AVGO", "SOXX"],
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-falls-8-triggers-circuit-061212686.html"
     },
     {
-      "headline": "Micron Reports Q3 FY2026 After Close Tonight — HBM4 and 2027 Capacity in Focus",
-      "source": "Alphastreet",
-      "summary": "Street expects $19.72 EPS on $34.52B revenue — a 942% YoY EPS surge — with gross margins near 81% and full HBM supply sold out; HBM4 capacity guidance and 2027 customer commitments are the key read-through for the AI memory cycle.",
-      "marketImpact": "MU ↑↓ binary event after close; proxy read-through for NVDA, AMD, and entire AI memory complex; context: MU already -13% on Monday ahead of print",
-      "tickers": ["MU"],
-      "url": "https://news.alphastreet.com/micron-technology-q3-2026-earnings-preview-june-24-street-expects-19-72-eps/"
-    },
-    {
-      "headline": "Fed Rate Hike Probability Surges to 68% for September After BofA Note",
-      "source": "FXStreet",
-      "summary": "After the June 17 FOMC lifted core PCE projections to 3.3% and held rates at 3.50–3.75%, BofA published a note flagging a September hike as increasingly credible, amplifying the chip sell-off and pushing DXY to ~101.4.",
-      "marketImpact": "Growth stocks ↓; USD ↑ (DXY ~101.4, 13-month high); USD/JPY hit 161.58 — yen near weakest since 1986; rate-sensitive sectors under pressure across the board",
-      "tickers": ["SPY", "QQQ", "TLT"],
-      "url": "https://www.fxstreet.com/analysis/will-pce-inflation-data-fuel-bets-of-early-fed-rate-hike-202606230851"
-    },
-    {
-      "headline": "Fed Releases 2026 Annual Bank Stress Test Results for 32 Major Lenders at 4 PM EDT",
-      "source": "Federal Reserve",
-      "summary": "The Fed releases results for 32 large US banks tested against a severe scenario including 10% unemployment, 30% home price decline, and 39% CRE drop; results will not affect capital requirements until 2027 as the Fed reviews its stress-testing models.",
-      "marketImpact": "Major bank stocks ↑ on clean bill of health; buyback authorization signals key post-4 PM catalyst; JPM, BAC, C, WFC, GS, MS all in focus",
-      "tickers": ["JPM", "BAC", "C", "WFC", "GS", "MS"],
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260609a.htm"
+      "headline": "Darden Restaurants Q4 FY2026 Results This Morning — 22% EPS Growth Expected",
+      "source": "AlphaStreet / Yahoo Finance",
+      "summary": "Darden reports Q4 FY2026 results today with consensus at $3.64 EPS on $3.73B revenue — implying ~22% YoY EPS growth — driven by strong same-store sales at Olive Garden and LongHorn Steakhouse despite ongoing beef commodity inflation.",
+      "marketImpact": "DRI ↑ watch on beat; restaurant sector (CMG, CAKE) read-through; options pricing ~5.5% post-earnings swing",
+      "tickers": ["DRI", "CMG"],
+      "url": "https://news.alphastreet.com/darden-restaurants-q4-2026-earnings-preview-june-25-street-expects-3-64-eps/"
     }
   ],
   "companiesToWatch": [
@@ -64,107 +71,96 @@
       "name": "Micron Technology",
       "ticker": "MU",
       "exchange": "NASDAQ",
-      "reason": "Q3 FY2026 earnings after close; $19.72 EPS consensus after Monday's 13% single-day drop — binary event for the entire AI memory complex tonight",
-      "direction": "↑↓"
+      "reason": "Blowout Q3 beat ($25.11 EPS vs $20.20 est.) and $41.5B revenue confirms AI HBM memory demand is structural; guidance and call tone key for sector direction.",
+      "direction": "↑"
+    },
+    {
+      "name": "Darden Restaurants",
+      "ticker": "DRI",
+      "exchange": "NYSE",
+      "reason": "Q4 FY2026 results released this morning; 22% EPS growth expected; options pricing 5.5% post-earnings swing.",
+      "direction": "↑"
     },
     {
       "name": "SpaceX",
       "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Fell 16.4% on its inaugural $25B bond offering; watch for continued de-risking or dip-buying given strong Starlink and launch fundamentals",
-      "direction": "↓"
-    },
-    {
-      "name": "JPMorgan Chase",
-      "ticker": "JPM",
-      "exchange": "NYSE",
-      "reason": "Among 32 banks facing stress test results at 4 PM EDT; a clean result could unlock buyback authorizations and lift sector sentiment",
-      "direction": "↑"
-    },
-    {
-      "name": "Nvidia",
-      "ticker": "NVDA",
-      "exchange": "NASDAQ",
-      "reason": "No fundamental catalyst for Monday's decline — caught in the semiconductor rout; Micron guidance tonight is the key read-through for AI demand",
+      "reason": "Post-IPO volatility extreme; down 16% from $225 peak as rate fears and tech risk-off weigh on high-multiple new issue; bond issuance adds leverage concern.",
       "direction": "↓"
     },
     {
       "name": "Broadcom",
       "ticker": "AVGO",
       "exchange": "NASDAQ",
-      "reason": "Original catalyst of the sell-off cycle after Q2 AI revenue guidance disappointed on June 4; market uses AVGO as the lens for AI capex sustainability",
+      "reason": "Catalyst of Tuesday's $1.3T sector wipeout via light Q3 AI chip guidance; sector re-rating underway pending stabilisation signals.",
       "direction": "↓"
+    },
+    {
+      "name": "iShares MSCI South Korea ETF",
+      "ticker": "EWY",
+      "exchange": "NYSE",
+      "reason": "KOSPI circuit-breaker fallout and MSCI Developed Markets exclusion confirmed; foreign outflows continuing; recovery fragile.",
+      "direction": "↓"
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "ticker": "CMG",
+      "exchange": "NYSE",
+      "reason": "Read-through from Darden's Q4 consumer spending data; restaurant sector broadly in focus on same-store sales trends.",
+      "direction": "↑"
     }
   ],
   "serenity": {
-    "latestPicks": [
+    "latestPicks": [],
+    "priorPickMoves": [
       {
-        "ticker": "XFAB",
-        "company": "X-Fab Silicon Foundries SE (Euronext Paris: XFAB FP)",
-        "thesis": "Sole high-volume SiC foundry with silicon photonics/CPO capacity; dual CHIPS Act funded — Serenity's May 27 pick described as 'next TSEM' positioned for the 2027 co-packaged optics volume ramp"
+        "ticker": "MU",
+        "move": "Micron's $25.11 EPS blowout beat aligns with Serenity's HBM/NAND memory chokepoint thesis; MU had hit a record $1,051 before Tuesday's selloff dragged it -13%, but the earnings beat provides a fundamental foundation"
       },
       {
-        "ticker": "LITE",
-        "company": "Lumentum Holdings",
-        "thesis": "EML (electro-absorption modulated laser) chokepoint — single-supplier to hyperscaler AI photonics buildout; part of core supply-chain map"
+        "ticker": "XFAB",
+        "move": "Under pressure in the broader semiconductor selloff despite being upstream of the AI photonics build-out; Serenity's original May 27 call now tested by macro headwinds"
       },
       {
         "ticker": "AXTI",
-        "company": "AXT Inc.",
-        "thesis": "InP (indium phosphide) substrate manufacturer; thesis validated when IntelliEPI CEO confirmed InP shortage in Q1 2026, a year after Serenity's call"
-      },
-      {
-        "ticker": "TSEM",
-        "company": "Tower Semiconductor",
-        "thesis": "Silicon photonics foundry chokepoint — one of few fabs with SiPh capacity for CPO-era transceivers"
+        "move": "InP substrate thesis intact — Micron's beat on HBM memory supports continued AI infrastructure build-out demand"
       }
     ],
-    "priorPickMoves": [
-      {
-        "ticker": "XFAB",
-        "move": "Rallied sharply after Serenity's May 27 post; Bloomberg covered the retail-driven surge with market cap expanding from ~$1.28B to ~$1.7B; now under pressure in the broader semi sell-off"
-      },
-      {
-        "ticker": "MU",
-        "move": "Down 13% Monday in the broad AI semiconductor sell-off — upstream in Serenity's supply-chain map; earnings tonight are the catalyst to watch"
-      }
-    ],
-    "sentiment": "Track record widely praised — self-reported +4,502% YTD as of June 2026 (per Lookonchain). Current semiconductor sell-off generating community debate on whether AI capex has peaked. Persistent pushback on returns being unaudited and leveraged. Chinese financial media coverage (EastMoney, TechFlow) remains elevated. No new posts found in past 1–3 days — check X directly: https://x.com/aleabitoreddit",
+    "sentiment": "No specific new posts from June 24–25 found via web search. Self-reported YTD returns of +3,612% to +4,502% (unaudited, per Lookonchain) have attracted significant community attention. Current semi selloff generating debate on whether AI capex has peaked — Micron's blowout counters the bear case. Pushback on unaudited and leveraged returns persists. Check directly: https://x.com/aleabitoreddit or https://semiconstocks.com",
     "noActivity": false
   },
   "bondYields": {
-    "us10y": 4.48,
-    "us30y": 4.94,
-    "asOf": "2026-06-23"
+    "us10y": 4.49,
+    "us30y": 4.84,
+    "asOf": "2026-06-24"
   },
   "tickerDescriptions": {
-    "MU": "Micron Technology, memory chip and HBM (high-bandwidth memory) manufacturer central to AI infrastructure",
-    "AVGO": "Broadcom Inc., diversified semiconductor and infrastructure software company with a major AI custom ASIC business",
-    "NVDA": "Nvidia Corporation, the dominant designer of AI GPUs and accelerators",
-    "AMD": "Advanced Micro Devices, maker of CPUs and AI accelerators competing with Nvidia in the data center",
+    "MU": "Micron Technology, leading US DRAM and HBM (high-bandwidth memory) manufacturer central to AI GPU infrastructure",
+    "NVDA": "Nvidia Corporation, dominant designer of AI GPUs and data centre accelerators",
+    "AVGO": "Broadcom Inc., diversified semiconductor and software company with a major custom AI ASIC business for hyperscalers",
+    "AMD": "Advanced Micro Devices, designer of CPUs and AI accelerators competing with Nvidia in data centres",
     "MRVL": "Marvell Technology Group, networking and custom AI ASIC semiconductor company",
-    "SNDK": "SanDisk, NAND flash memory manufacturer spun out from Western Digital",
-    "SPCX": "SpaceX, private aerospace, Starlink satellite internet, and launch services company that recently completed its record IPO",
-    "SPY": "SPDR S&P 500 ETF tracking the 500 largest US publicly traded companies",
-    "QQQ": "Invesco QQQ ETF tracking the Nasdaq-100 index of the largest non-financial Nasdaq-listed companies",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, a proxy for long-duration US government bond prices",
-    "JPM": "JPMorgan Chase, the largest US bank by assets",
-    "BAC": "Bank of America, major US commercial and investment bank",
-    "C": "Citigroup, global US bank with significant international operations",
-    "WFC": "Wells Fargo, major US retail and commercial bank",
-    "GS": "Goldman Sachs, premier US investment bank and financial services firm",
-    "MS": "Morgan Stanley, major US investment bank and wealth management firm",
+    "INTC": "Intel Corporation, US semiconductor manufacturer of CPUs and foundry services",
+    "SOXX": "iShares Semiconductor ETF tracking the ICE Semiconductor Index of US-listed chip companies",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, tracks long-duration US government bonds",
+    "SPY": "SPDR S&P 500 ETF Trust, tracks the S&P 500 index of 500 large US companies",
+    "QQQ": "Invesco QQQ Trust, tracks the Nasdaq-100 index of the 100 largest non-financial Nasdaq companies",
+    "UUP": "Invesco DB US Dollar Index Bullish Fund, tracks the US dollar against a basket of major currencies",
+    "USO": "United States Oil Fund, tracks the price of West Texas Intermediate crude oil futures",
     "XOM": "Exxon Mobil Corporation, the largest US integrated oil and gas major",
-    "XLE": "Energy Select Sector SPDR ETF tracking US energy companies including oil majors and E&P firms",
-    "USO": "United States Oil Fund ETF tracking front-month WTI crude oil futures",
-    "LITE": "Lumentum Holdings, maker of EML lasers and photonic components for datacom and AI infrastructure",
-    "AXTI": "AXT Inc., producer of compound semiconductor substrates including InP used in AI photonics",
-    "TSEM": "Tower Semiconductor, a specialty analog semiconductor foundry with silicon photonics capabilities"
+    "CVX": "Chevron Corporation, major US integrated oil and gas company",
+    "HAL": "Halliburton Company, leading oilfield services and equipment provider",
+    "DAL": "Delta Air Lines, one of the largest US commercial airline operators",
+    "UAL": "United Airlines Holdings, major US commercial airline operator",
+    "SPCX": "SpaceX, Elon Musk's rocket launch and Starlink satellite internet company, recently IPO'd in June 2026",
+    "EWY": "iShares MSCI South Korea ETF, tracks South Korean equities including Samsung and SK Hynix",
+    "DRI": "Darden Restaurants, operator of Olive Garden, LongHorn Steakhouse, and other casual dining brands",
+    "CMG": "Chipotle Mexican Grill, fast-casual Mexican restaurant chain with strong same-store sales growth"
   },
   "quickHits": [
-    "Paychex (PAYX) and Jefferies Financial (JEF) also report earnings today — proxy reads on US labor markets and financial sector health (Reuters)",
-    "US May new home sales data due today — real-time gauge of rate sensitivity in housing with 30-year mortgage rates elevated (Bloomberg)",
-    "USD/JPY hit 161.58, near weakest yen since 1986 — Japan Finance Minister in contact with US Treasury's Bessent; BoJ intervention risk elevated (Reuters)",
-    "BofA note flagged sticky core PCE (3.3% vs 2% target) as key driver of rate hike bets — Friday's May PCE print is the week's most-watched data point (FXStreet)"
+    "PCE inflation + Q1 GDP final estimate drop at 8:30 a.m. ET today — the Fed's preferred inflation gauge; market-moving risk event this morning (BEA)",
+    "PBoC weakens yuan midpoint fix to 6.8195 for third consecutive session — signals managed depreciation or easing bias amid record semiconductor import demand (Reuters)",
+    "Bitcoin near $62,729 with Fear & Greed at 24 (Extreme Fear) as spot ETFs record sixth consecutive week of outflows totalling $5.94B; investors reportedly rotating into Anthropic and OpenAI IPOs (CoinStats)",
+    "Q1 2026 US GDP advance was +2.0%, below expectations; today's final revision may adjust lower — consumer spending component in focus (BEA)"
   ]
 }
