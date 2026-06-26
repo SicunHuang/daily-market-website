@@ -1,69 +1,61 @@
 {
-  "date": "2026-06-25",
-  "marketMood": "Cautious recovery: Micron's blowout earnings lift semis after Tuesday's $1.3T AI-capex-fear selloff, but PCE data and lingering KOSPI fragility keep risk appetite in check.",
+  "date": "2026-06-26",
+  "marketMood": "Memory crisis splits tech — Micron soars on record AI demand while Apple tumbles 6% on forced Mac/iPad price hikes — as Iran diplomacy caps oil near $78 and Venezuela earthquake adds geopolitical risk.",
   "upcomingEvents": [
-    { "date": "2026-06-25", "event": "US May PCE Inflation + Q1 GDP Final Estimate (BEA, 8:30 a.m. ET)", "significance": "high" },
-    { "date": "2026-06-25", "event": "Darden Restaurants Q4 FY2026 Earnings (DRI, pre-market)", "significance": "medium" },
     { "date": "2026-06-26", "event": "Bitcoin options expiry (~$10.6B open interest)", "significance": "medium" },
     { "date": "2026-06-27", "event": "US-Iran 60-day peace roadmap progress checkpoint", "significance": "high" },
+    { "date": "2026-06-30", "event": "Quarter-end portfolio rebalancing — potential amplified equity flows", "significance": "medium" },
+    { "date": "2026-07-04", "event": "US Independence Day — markets closed", "significance": "low" },
     { "date": "2026-07-29", "event": "FOMC July Rate Decision", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Micron Smashes Q3 Estimates: $41.5B Revenue, EPS of $25.11 vs $20.20 Expected",
-      "source": "SEC Filing / TechTimes",
-      "summary": "Micron reported fiscal Q3 2026 revenue of $41.46B (vs $23.86B prior quarter) and non-GAAP EPS of $25.11 — a 24% beat vs street consensus — confirming AI HBM memory demand is structural and supply is still sold out.",
-      "marketImpact": "MU ↑ strongly after hours; HBM/DRAM memory suppliers broadly ↑; NVDA, AMD watch for AI memory read-through; AVGO faces more scrutiny on its lighter AI guidance",
-      "tickers": ["MU", "NVDA", "AVGO", "AMD", "MRVL"],
-      "url": "https://www.techtimes.com/articles/318825/20260622/micron-earnings-2026-record-margins-confirm-ai-memory-tax-your-next-pc.htm"
+      "headline": "Micron Blowout Earnings Expose 'RAMageddon': Apple Hikes Mac and iPad Prices 10-25%",
+      "source": "Reuters / TechCrunch",
+      "summary": "Micron's Q3 FY2026 revenue quadrupled to $41.46B with 84.6% gross margins and guided Q4 at ~$50B (15% above consensus), warning tight AI memory supply persists beyond 2027 — forcing Apple to immediately raise Mac and iPad prices by $100-$300 globally.",
+      "marketImpact": "MU ↑ ~16%; AAPL ↓ ~6% wiping $275B in market cap; QCOM ↑ ~4% on memory halo effect; iPhone pricing signal watched as next potential catalyst",
+      "tickers": ["MU", "AAPL", "QCOM"],
+      "url": "https://techcrunch.com/2026/06/25/apple-raises-mac-and-ipad-prices-spares-iphone-for-now/"
     },
     {
-      "headline": "Nasdaq Recovers as Semis Bounce After Tuesday's Broadcom-Triggered $1.3T Wipeout",
-      "source": "TechTimes / BBN Times",
-      "summary": "Tuesday's Nasdaq -2.2% and Philadelphia Semiconductor Index -8% rout — sparked by Broadcom's Q3 AI chip guidance miss ($16B vs $17.2B expected) and fears about hyperscaler AI capex sustainability — partially recovered Wednesday, with the S&P 500 down just 0.10%.",
-      "marketImpact": "Semis broadly ↑ on Wednesday recovery; AVGO ↓ watch; sector re-rating underway on AI capex sustainability fears",
-      "tickers": ["AVGO", "NVDA", "AMD", "INTC", "SOXX", "MU"],
-      "url": "https://www.bbntimes.com/technology/nasdaq-composite-tumbles-as-global-semiconductor-rout-and-ai-spending-fears-hammer-tech-stocks"
+      "headline": "Asia Tech Retreats as Micron Euphoria Fades; Kospi Slumps 3%+ at Open",
+      "source": "Bloomberg",
+      "summary": "Asian equities fell 1.7% Friday morning as chipmakers gave back post-Micron gains; South Korea's Kospi dropped 3%+ on fresh SK Hynix and Samsung selling — compounding the Kospi's 10% crash on June 23, its steepest single-day drop in recent memory.",
+      "marketImpact": "Kospi ↓ 3%+; Nikkei choppy; Hang Seng mixed; Nasdaq 100 futures ↓ 0.6%; S&P 500 futures ↓ 0.2%; Korean chipmakers ↓",
+      "tickers": ["MU", "SSNLF", "EWY", "SOXX"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap"
     },
     {
-      "headline": "PCE Inflation and Q1 GDP Final Estimate Drop at 8:30 a.m. ET Today",
-      "source": "BEA / Investing.com",
-      "summary": "The BEA releases May PCE price index (core ~3.3% expected) and final Q1 2026 GDP estimate today; the Fed held rates at 3.50%–3.75% in June and raised its year-end PCE forecast to 3.6%, with BofA flagging a September hike as credible.",
-      "marketImpact": "Bonds watch — hotter PCE pushes 10Y yield ↑; softer print supports risk assets ↑; USD ↑ or ↓ on surprise; rate-sensitive sectors (real estate, utilities) most exposed",
-      "tickers": ["TLT", "SPY", "QQQ", "UUP"],
-      "url": "https://www.investing.com/analysis/upcoming-market-dates-pce-inflation-and-q1-gdp-determining-the-feds-next-move-200679249"
+      "headline": "Venezuela Twin Earthquakes Kill At Least 188; USGS Flags 44% Chance Toll Exceeds 10,000",
+      "source": "Al Jazeera / NBC News",
+      "summary": "Back-to-back earthquakes struck northern Venezuela on June 24 — the second a M7.5 near Caracas — collapsing buildings across the capital and port of La Guaira; 188 confirmed dead, 1,520+ injured, 157 missing; US surging military assets for relief.",
+      "marketImpact": "Humanitarian and geopolitical watch; limited crude output impact near-term but Venezuela's fragile oil infrastructure on alert; energy prices steady",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared"
     },
     {
-      "headline": "Oil Hits Pre-War Lows at $73.74 as US-Iran MoU Holds, but Trump Threatens Fresh Strikes",
-      "source": "Al Jazeera / CNBC",
-      "summary": "Brent crude settled at $73.74/bbl — its lowest since before US-Israel airstrikes on Iran in late February — as a 60-day US-Iran peace roadmap brokered by Qatar and Pakistan takes effect, with Iranian crude sales now licensed in USD, though Trump's public threats maintain uncertainty.",
-      "marketImpact": "Oil majors ↓ on lower prices; airlines, industrials ↑ on fuel cost relief; USO ↓; Middle East geopolitical risk watch",
-      "tickers": ["USO", "XOM", "CVX", "HAL", "DAL", "UAL"],
-      "url": "https://www.aljazeera.com/economy/2026/6/18/oil-prices-fall-stocks-rally-as-us-iran-sign-framework-to-end-war"
+      "headline": "Rubio Wraps Gulf Tour as US-Iran Islamabad Memorandum Holds; Hormuz Traffic Slowly Recovering",
+      "source": "Al Jazeera",
+      "summary": "Secretary Rubio concluded a Gulf diplomatic visit reassuring allies the US-Iran ceasefire framework will secure energy security; the 60-day negotiation window (signed June 17) is running, with core uranium enrichment and sanctions relief issues still unresolved.",
+      "marketImpact": "Brent near $78/barrel (down from $115+ pre-deal peak); energy stocks ↓ on supply normalization; geopolitical risk premium compressed but not eliminated",
+      "tickers": ["XLE", "XOM", "CVX", "USO"],
+      "url": "https://www.aljazeera.com/news/2026/6/25/rubio-tells-gulf-allies-that-iran-deal-will-ensure-their-security"
     },
     {
-      "headline": "SpaceX (SPCX) Tumbles 16% from Post-IPO Highs, Former Nasdaq Chief Warns Not Trading on Fundamentals",
-      "source": "Yahoo Finance / TradingKey",
-      "summary": "SpaceX, which IPO'd at $135 on June 12 and hit $225, has fallen 16.4% since Monday as broader tech selling and rising rate concerns hammer the newly listed high-multiple stock; SpaceX also confirmed a new bond issuance and a Colossus 2 data centre deal with AI startup Reflection AI.",
-      "marketImpact": "SPCX ↓ watch; new bond issuance adds leverage concern; sentiment gauge for AI-adjacent IPOs broadly",
+      "headline": "SpaceX Post-IPO Wipeout: SPCX Down 32% From Peak, Erasing $600B in Market Cap",
+      "source": "CNBC",
+      "summary": "SpaceX (SPCX) soared to $225.64 on June 16 before a sharp reversal to ~$153 — down 32% from its high — erasing over $600B in value as the crowded post-IPO trade unwinds two weeks after the historic $135 IPO debut.",
+      "marketImpact": "SPCX ↓ ongoing; IPO market sentiment dampened; Elon Musk net worth down sharply from briefly achieved $1T+ peak; high-multiple AI-adjacent names watch",
       "tickers": ["SPCX"],
-      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-tumbles-164-shaving-off-most-ipo-gains-since-debut-141725657.html"
+      "url": "https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html"
     },
     {
-      "headline": "South Korea's KOSPI Triggers Circuit Breaker with 8% Intraday Crash; Samsung and SK Hynix Bloodbath",
-      "source": "Yahoo Finance / TradingKey",
-      "summary": "KOSPI crashed 8%+ on Tuesday, triggering a circuit breaker at Korea Exchange, after three simultaneous hits: MSCI again excluded South Korea from Developed Markets, regulators flagged leveraged single-stock ETFs on Samsung/Hynix, and AI stock forced liquidations amplified the selloff. KOSPI recovered ~4% on Wednesday.",
-      "marketImpact": "EWY ↓; Samsung ↓; SK Hynix ↓; KOSPI stabilising but fragile; $2.5B foreign capital fled in the session",
-      "tickers": ["EWY", "AVGO", "SOXX"],
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-falls-8-triggers-circuit-061212686.html"
-    },
-    {
-      "headline": "Darden Restaurants Q4 FY2026 Results This Morning — 22% EPS Growth Expected",
-      "source": "AlphaStreet / Yahoo Finance",
-      "summary": "Darden reports Q4 FY2026 results today with consensus at $3.64 EPS on $3.73B revenue — implying ~22% YoY EPS growth — driven by strong same-store sales at Olive Garden and LongHorn Steakhouse despite ongoing beef commodity inflation.",
-      "marketImpact": "DRI ↑ watch on beat; restaurant sector (CMG, CAKE) read-through; options pricing ~5.5% post-earnings swing",
-      "tickers": ["DRI", "CMG"],
-      "url": "https://news.alphastreet.com/darden-restaurants-q4-2026-earnings-preview-june-25-street-expects-3-64-eps/"
+      "headline": "FedEx Freight Targets AI Data Centers and Healthcare After June 1 Spin-Off",
+      "source": "Bloomberg",
+      "summary": "Newly independent FedEx Freight revealed its post-separation growth strategy on June 25, naming AI data center infrastructure (~$2B market), healthcare (~$6B TAM), and grocery (~$1B) as priority verticals after completing its spin-off from FedEx Corp.",
+      "marketImpact": "FDX freed of freight drag — potential re-rating; FDXF as standalone logistics-to-AI-infrastructure play; logistics and specialized delivery names in focus",
+      "tickers": ["FDX"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/fedex-freight-targets-gains-in-data-centers-health-after-spin"
     }
   ],
   "companiesToWatch": [
@@ -71,96 +63,103 @@
       "name": "Micron Technology",
       "ticker": "MU",
       "exchange": "NASDAQ",
-      "reason": "Blowout Q3 beat ($25.11 EPS vs $20.20 est.) and $41.5B revenue confirms AI HBM memory demand is structural; guidance and call tone key for sector direction.",
+      "reason": "Blowout Q3 FY2026 earnings: revenue $41.46B (4x YoY), 84.6% gross margins, Q4 guidance 15% above consensus; structural AI memory supply deficit expected through 2027+",
       "direction": "↑"
     },
     {
-      "name": "Darden Restaurants",
-      "ticker": "DRI",
-      "exchange": "NYSE",
-      "reason": "Q4 FY2026 results released this morning; 22% EPS growth expected; options pricing 5.5% post-earnings swing.",
-      "direction": "↑"
+      "name": "Apple",
+      "ticker": "AAPL",
+      "exchange": "NASDAQ",
+      "reason": "Mac and iPad price hikes of $100-$300 due to memory cost crisis sent stock down 6.1% Thursday, wiping $275B in market cap; iPhone pricing signal is the next key watch",
+      "direction": "↓"
     },
     {
-      "name": "SpaceX",
+      "name": "Space Exploration Technologies (SpaceX)",
       "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Post-IPO volatility extreme; down 16% from $225 peak as rate fears and tech risk-off weigh on high-multiple new issue; bond issuance adds leverage concern.",
+      "reason": "Post-IPO correction deepening — down 32% from June 16 peak of $225, erasing $600B+ in market cap; hovering near June 23 lows near $147",
       "direction": "↓"
     },
     {
-      "name": "Broadcom",
-      "ticker": "AVGO",
+      "name": "Qualcomm",
+      "ticker": "QCOM",
       "exchange": "NASDAQ",
-      "reason": "Catalyst of Tuesday's $1.3T sector wipeout via light Q3 AI chip guidance; sector re-rating underway pending stabilisation signals.",
-      "direction": "↓"
-    },
-    {
-      "name": "iShares MSCI South Korea ETF",
-      "ticker": "EWY",
-      "exchange": "NYSE",
-      "reason": "KOSPI circuit-breaker fallout and MSCI Developed Markets exclusion confirmed; foreign outflows continuing; recovery fragile.",
-      "direction": "↓"
-    },
-    {
-      "name": "Chipotle Mexican Grill",
-      "ticker": "CMG",
-      "exchange": "NYSE",
-      "reason": "Read-through from Darden's Q4 consumer spending data; restaurant sector broadly in focus on same-store sales trends.",
+      "reason": "Up ~4% on Micron halo effect; on-device AI chip exposure and mobile memory demand seen as beneficiary of tight DRAM supply dynamics",
       "direction": "↑"
+    },
+    {
+      "name": "Exxon Mobil",
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "reason": "Iran deal supply normalization continues to pressure energy sector; Venezuela earthquake adds humanitarian headline risk but limited crude output impact near-term",
+      "direction": "↓"
     }
   ],
   "serenity": {
-    "latestPicks": [],
-    "priorPickMoves": [
+    "latestPicks": [
       {
-        "ticker": "MU",
-        "move": "Micron's $25.11 EPS blowout beat aligns with Serenity's HBM/NAND memory chokepoint thesis; MU had hit a record $1,051 before Tuesday's selloff dragged it -13%, but the earnings beat provides a fundamental foundation"
+        "ticker": "NBIS",
+        "company": "Nebius Group",
+        "thesis": "S-tier neocloud pick; PT $400/1Y from entry ~$92; 'purest AI infrastructure asymmetric opportunity' with $7-9B forward ARR and full-stack GPU platform advantage over peers"
+      },
+      {
+        "ticker": "SIVE",
+        "company": "Sivers Semiconductors",
+        "thesis": "Top CPO/silicon photonics pick — upstream CW DFB laser supplier for Amazon Trainium and Microsoft Maia clusters; bull case $10B+ market cap from ~$190M; 'most compelling CPO exposure stock'"
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab USA",
+        "thesis": "Highest conviction 5-year long; PT $500/5Y from entry ~$43; overvalued near-term but deeply undervalued on long-term launch market potential"
       },
       {
         "ticker": "XFAB",
-        "move": "Under pressure in the broader semiconductor selloff despite being upstream of the AI photonics build-out; Serenity's original May 27 call now tested by macro headwinds"
+        "company": "X-Fab Silicon Foundries",
+        "thesis": "Only high-capacity SiC foundry with both EU and US CHIPS Act backing; valuation 'severely misaligned' with assets; NVIDIA and Nokia evaluating its pre-production silicon photonics line"
       },
       {
-        "ticker": "AXTI",
-        "move": "InP substrate thesis intact — Micron's beat on HBM memory supports continued AI infrastructure build-out demand"
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "thesis": "PT $250/6M from ~$143; AI data center connectivity semiconductors; part of core portfolio rebalance post-market reset"
       }
     ],
-    "sentiment": "No specific new posts from June 24–25 found via web search. Self-reported YTD returns of +3,612% to +4,502% (unaudited, per Lookonchain) have attracted significant community attention. Current semi selloff generating debate on whether AI capex has peaked — Micron's blowout counters the bear case. Pushback on unaudited and leveraged returns persists. Check directly: https://x.com/aleabitoreddit or https://semiconstocks.com",
-    "noActivity": false
+    "priorPickMoves": [
+      {
+        "ticker": "XFAB",
+        "move": "Surged 70%+ in a single day in late May after Serenity's public entry post; continued volatile trading since, with ongoing retail attention"
+      },
+      {
+        "ticker": "SIVE",
+        "move": "Up 50%+ from Serenity's original entry; volatile but held as a multi-year photonics supercycle play near $190M market cap"
+      }
+    ],
+    "sentiment": "Overwhelmingly bullish community — Serenity surpassed Elon Musk as #1 most subscribed account on X in early June 2026, with 400K+ followers; self-reported 2026 YTD return of 4,502% (unaudited, leveraged, volatile) fuels cult-like retail following; some pushback from Seeking Alpha and analysts flagging NBIS funding gap risk, concentration in illiquid micro-caps, and unverifiable return claims.",
+    "noActivity": false,
+    "originalPost": "The Neocloud Sector Tierlist. Post Q3 earnings + Market Sector Drop:\n[S] Tier: $NBIS\n[A] Tier: $CIFR, $WULF, $IREN\n[B] Tier: $GLXY, $CORZ\n[C] Tier: $APLD, $CLSK\n[D] Tier: $WLAC, $DGDX, $WYFI\n[F] Tier: $CRWV*, $SLNH\n[U] Tier: $GRRR, $MARA, $DGDX, $CLSK, $BITF, $HIVE, $RIOT\n\n---\n\nBased on the equity ranking table: Here's a deeper analysis of each stock, alongside how I reposition my portfolio to capitalize on the market reset:\n· $NBIS at $92, PT $400 / 1Y\n· $RKLB at $43, PT $500 / 5Y\n· $CRCL at $72, PT $150 / 8M\n· $ALAB at $143.4, PT $250 / 6M\n· $SNAP...\n\n---\n\nWhat... just happened today? Looks like a market bottom when users from Reddit lose 6 figures in life savings then go into debt. One of the most crazy and unexpected market reversals I've witnessed.\n\n---\n\n$SIVE is the most compelling CPO exposure stock to me. Despite the volatility. You probably won't find something like this again until the next architectural shift in photonics years later. Out of the core laser suppliers, they're all tens of billions? $AAOI = $15B Furukawa..."
   },
   "bondYields": {
-    "us10y": 4.49,
+    "us10y": 4.38,
     "us30y": 4.84,
-    "asOf": "2026-06-24"
+    "asOf": "2026-06-25"
   },
   "tickerDescriptions": {
-    "MU": "Micron Technology, leading US DRAM and HBM (high-bandwidth memory) manufacturer central to AI GPU infrastructure",
-    "NVDA": "Nvidia Corporation, dominant designer of AI GPUs and data centre accelerators",
-    "AVGO": "Broadcom Inc., diversified semiconductor and software company with a major custom AI ASIC business for hyperscalers",
-    "AMD": "Advanced Micro Devices, designer of CPUs and AI accelerators competing with Nvidia in data centres",
-    "MRVL": "Marvell Technology Group, networking and custom AI ASIC semiconductor company",
-    "INTC": "Intel Corporation, US semiconductor manufacturer of CPUs and foundry services",
+    "MU": "Micron Technology Inc., leading US manufacturer of DRAM, HBM, and NAND flash memory chips for AI data centers, PCs, and mobile devices",
+    "AAPL": "Apple Inc., consumer electronics giant making iPhone, Mac, iPad, and services; largest US company by market cap",
+    "QCOM": "Qualcomm Inc., semiconductor company specializing in mobile chips, 5G modems, and on-device AI processors",
+    "SSNLF": "Samsung Electronics Co., South Korean conglomerate and the world's largest memory chip and smartphone manufacturer",
+    "EWY": "iShares MSCI South Korea ETF, tracks South Korean equities including Samsung Electronics and SK Hynix",
     "SOXX": "iShares Semiconductor ETF tracking the ICE Semiconductor Index of US-listed chip companies",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracks long-duration US government bonds",
-    "SPY": "SPDR S&P 500 ETF Trust, tracks the S&P 500 index of 500 large US companies",
-    "QQQ": "Invesco QQQ Trust, tracks the Nasdaq-100 index of the 100 largest non-financial Nasdaq companies",
-    "UUP": "Invesco DB US Dollar Index Bullish Fund, tracks the US dollar against a basket of major currencies",
+    "XOM": "Exxon Mobil Corp., the largest US integrated oil and gas company with global upstream and downstream operations",
+    "CVX": "Chevron Corp., major US integrated oil and gas company with significant international upstream and LNG assets",
     "USO": "United States Oil Fund, tracks the price of West Texas Intermediate crude oil futures",
-    "XOM": "Exxon Mobil Corporation, the largest US integrated oil and gas major",
-    "CVX": "Chevron Corporation, major US integrated oil and gas company",
-    "HAL": "Halliburton Company, leading oilfield services and equipment provider",
-    "DAL": "Delta Air Lines, one of the largest US commercial airline operators",
-    "UAL": "United Airlines Holdings, major US commercial airline operator",
-    "SPCX": "SpaceX, Elon Musk's rocket launch and Starlink satellite internet company, recently IPO'd in June 2026",
-    "EWY": "iShares MSCI South Korea ETF, tracks South Korean equities including Samsung and SK Hynix",
-    "DRI": "Darden Restaurants, operator of Olive Garden, LongHorn Steakhouse, and other casual dining brands",
-    "CMG": "Chipotle Mexican Grill, fast-casual Mexican restaurant chain with strong same-store sales growth"
+    "XLE": "Energy Select Sector SPDR Fund, ETF tracking the S&P 500 energy sector including major oil companies and refiners",
+    "SPCX": "Space Exploration Technologies Corp. (SpaceX), Elon Musk's rocket and satellite company; IPO'd on Nasdaq June 12, 2026 at $135/share",
+    "FDX": "FedEx Corp., global express delivery and logistics conglomerate; completed spin-off of its freight division in June 2026"
   },
   "quickHits": [
-    "PCE inflation + Q1 GDP final estimate drop at 8:30 a.m. ET today — the Fed's preferred inflation gauge; market-moving risk event this morning (BEA)",
-    "PBoC weakens yuan midpoint fix to 6.8195 for third consecutive session — signals managed depreciation or easing bias amid record semiconductor import demand (Reuters)",
-    "Bitcoin near $62,729 with Fear & Greed at 24 (Extreme Fear) as spot ETFs record sixth consecutive week of outflows totalling $5.94B; investors reportedly rotating into Anthropic and OpenAI IPOs (CoinStats)",
-    "Q1 2026 US GDP advance was +2.0%, below expectations; today's final revision may adjust lower — consumer spending component in focus (BEA)"
+    "FCC waiting on interagency review of Paramount–Warner Bros. Discovery merger before issuing a ruling (Bloomberg)",
+    "Amazon Prime Day 2026 enters Day 3 with 327+ deals tracked across Apple, Yeti, and Lego categories (NBC News)",
+    "Supreme Court handed Trump two major immigration enforcement victories in rulings this week (Reuters)",
+    "US military assets being 'surged' to Venezuela for earthquake disaster relief as USGS estimates 44% chance death toll exceeds 10,000 (ABC News / CNBC)"
   ]
 }
