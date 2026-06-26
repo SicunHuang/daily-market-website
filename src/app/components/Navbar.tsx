@@ -6,7 +6,6 @@ const NAV_ITEMS = [
   { id: "headlines", label: "Headlines" },
   { id: "macro", label: "Markets" },
   { id: "stocks", label: "Stocks" },
-  { id: "serenity", label: "Serenity" },
 ];
 
 export function Navbar({ date }: { date: string }) {

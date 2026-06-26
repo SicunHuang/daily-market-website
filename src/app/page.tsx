@@ -4,7 +4,6 @@ import { MarketHeadlines } from "./components/MarketHeadlines";
 import { MacroIndexes } from "./components/MacroIndexes";
 import { SectorHeatmap } from "./components/SectorHeatmap";
 import { StockCharts } from "./components/StockCharts";
-import { SerenityUpdate } from "./components/SerenityUpdate";
 import { UpcomingEvents } from "./components/UpcomingEvents";
 import { BackToTop } from "./components/BackToTop";
 import { ScrollAnimator } from "./components/ScrollAnimator";
@@ -35,12 +34,6 @@ interface BriefingData {
     reason: string;
     direction: string;
   }[];
-  serenity: {
-    latestPicks: { ticker: string; company: string; thesis: string }[];
-    priorPickMoves: { ticker: string; move: string }[];
-    sentiment: string;
-    noActivity: boolean;
-  };
   bondYields?: {
     us10y: number;
     us30y: number;
@@ -80,10 +73,6 @@ export default function Home() {
 
         <ScrollAnimator>
           <StockCharts companies={data.companiesToWatch} stories={data.topStories} tickerDescriptions={data.tickerDescriptions} />
-        </ScrollAnimator>
-
-        <ScrollAnimator>
-          <SerenityUpdate data={data.serenity} />
         </ScrollAnimator>
 
         {data.upcomingEvents && data.upcomingEvents.length > 0 && (
