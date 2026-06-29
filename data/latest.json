@@ -1,165 +1,125 @@
 {
-  "date": "2026-06-26",
-  "marketMood": "Memory crisis splits tech — Micron soars on record AI demand while Apple tumbles 6% on forced Mac/iPad price hikes — as Iran diplomacy caps oil near $78 and Venezuela earthquake adds geopolitical risk.",
+  "date": "2026-06-29",
+  "marketMood": "Mixed sentiment: oil spikes on Hormuz tanker strike before US-Iran Doha talks ease nerves, while PCE inflation at a 3-year high cements zero Fed rate cuts for 2026 and stagflation fears dominate.",
   "upcomingEvents": [
-    { "date": "2026-06-26", "event": "Bitcoin options expiry (~$10.6B open interest)", "significance": "medium" },
-    { "date": "2026-06-27", "event": "US-Iran 60-day peace roadmap progress checkpoint", "significance": "high" },
-    { "date": "2026-06-30", "event": "Quarter-end portfolio rebalancing — potential amplified equity flows", "significance": "medium" },
-    { "date": "2026-07-04", "event": "US Independence Day — markets closed", "significance": "low" },
-    { "date": "2026-07-29", "event": "FOMC July Rate Decision", "significance": "high" }
+    { "date": "2026-06-30", "event": "Nike (NKE) Q4 FY2026 Earnings After Close", "significance": "high" },
+    { "date": "2026-06-30", "event": "US Consumer Confidence (June) & JOLTS Job Openings (May)", "significance": "medium" },
+    { "date": "2026-07-01", "event": "ADP Employment Change (June) & ISM Manufacturing PMI (June)", "significance": "medium" },
+    { "date": "2026-07-02", "event": "June Nonfarm Payrolls Report (moved up from July 4 holiday)", "significance": "high" },
+    { "date": "2026-07-03", "event": "US Markets Closed — Independence Day (observed)", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Micron Blowout Earnings Expose 'RAMageddon': Apple Hikes Mac and iPad Prices 10-25%",
-      "source": "Reuters / TechCrunch",
-      "summary": "Micron's Q3 FY2026 revenue quadrupled to $41.46B with 84.6% gross margins and guided Q4 at ~$50B (15% above consensus), warning tight AI memory supply persists beyond 2027 — forcing Apple to immediately raise Mac and iPad prices by $100-$300 globally.",
-      "marketImpact": "MU ↑ ~16%; AAPL ↓ ~6% wiping $275B in market cap; QCOM ↑ ~4% on memory halo effect; iPhone pricing signal watched as next potential catalyst",
-      "tickers": ["MU", "AAPL", "QCOM"],
-      "url": "https://techcrunch.com/2026/06/25/apple-raises-mac-and-ipad-prices-spares-iphone-for-now/"
-    },
-    {
-      "headline": "Asia Tech Retreats as Micron Euphoria Fades; Kospi Slumps 3%+ at Open",
+      "headline": "Hormuz Tanker Strike Jolts Oil; US and Iran Agree to Doha Talks Tuesday",
       "source": "Bloomberg",
-      "summary": "Asian equities fell 1.7% Friday morning as chipmakers gave back post-Micron gains; South Korea's Kospi dropped 3%+ on fresh SK Hynix and Samsung selling — compounding the Kospi's 10% crash on June 23, its steepest single-day drop in recent memory.",
-      "marketImpact": "Kospi ↓ 3%+; Nikkei choppy; Hang Seng mixed; Nasdaq 100 futures ↓ 0.6%; S&P 500 futures ↓ 0.2%; Korean chipmakers ↓",
-      "tickers": ["MU", "SSNLF", "EWY", "SOXX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap"
+      "summary": "A supertanker carrying Qatari crude was struck by an unidentified projectile in the Strait of Hormuz over the weekend — the second merchant ship attack this week — pushing Brent up as much as 1.9% to $73.39/barrel before the US and Iran agreed to meet in Doha on Tuesday to extend their ceasefire framework.",
+      "marketImpact": "Crude ↑ initial spike to $73.39 then partially retraced to ~$72; XOM, CVX ↑ watch; energy shipping risk premium elevated; broader risk-on if Doha talks progress ↑",
+      "tickers": ["XOM", "CVX"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/latest-oil-market-news-and-analysis-for-june-29"
     },
     {
-      "headline": "Venezuela Twin Earthquakes Kill At Least 188; USGS Flags 44% Chance Toll Exceeds 10,000",
-      "source": "Al Jazeera / NBC News",
-      "summary": "Back-to-back earthquakes struck northern Venezuela on June 24 — the second a M7.5 near Caracas — collapsing buildings across the capital and port of La Guaira; 188 confirmed dead, 1,520+ injured, 157 missing; US surging military assets for relief.",
-      "marketImpact": "Humanitarian and geopolitical watch; limited crude output impact near-term but Venezuela's fragile oil infrastructure on alert; energy prices steady",
-      "tickers": ["XOM", "CVX", "USO"],
-      "url": "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared"
-    },
-    {
-      "headline": "Rubio Wraps Gulf Tour as US-Iran Islamabad Memorandum Holds; Hormuz Traffic Slowly Recovering",
-      "source": "Al Jazeera",
-      "summary": "Secretary Rubio concluded a Gulf diplomatic visit reassuring allies the US-Iran ceasefire framework will secure energy security; the 60-day negotiation window (signed June 17) is running, with core uranium enrichment and sanctions relief issues still unresolved.",
-      "marketImpact": "Brent near $78/barrel (down from $115+ pre-deal peak); energy stocks ↓ on supply normalization; geopolitical risk premium compressed but not eliminated",
-      "tickers": ["XLE", "XOM", "CVX", "USO"],
-      "url": "https://www.aljazeera.com/news/2026/6/25/rubio-tells-gulf-allies-that-iran-deal-will-ensure-their-security"
-    },
-    {
-      "headline": "SpaceX Post-IPO Wipeout: SPCX Down 32% From Peak, Erasing $600B in Market Cap",
+      "headline": "PCE Inflation Hits 3-Year High, Crushing Remaining Fed Rate-Cut Hopes",
       "source": "CNBC",
-      "summary": "SpaceX (SPCX) soared to $225.64 on June 16 before a sharp reversal to ~$153 — down 32% from its high — erasing over $600B in value as the crowded post-IPO trade unwinds two weeks after the historic $135 IPO debut.",
-      "marketImpact": "SPCX ↓ ongoing; IPO market sentiment dampened; Elon Musk net worth down sharply from briefly achieved $1T+ peak; high-multiple AI-adjacent names watch",
-      "tickers": ["SPCX"],
-      "url": "https://www.cnbc.com/2026/06/15/spacex-stock-record-ipo-debut.html"
+      "summary": "May PCE rose 4.1% annually — the highest since April 2023 — while core PCE came in at 3.4%, above estimates, as Iran-war-driven energy costs push the Fed's preferred inflation gauge to its worst reading in years; the June FOMC held rates at 3.50–3.75% with nine officials now favouring a hike by year-end.",
+      "marketImpact": "SPY ↓, QQQ ↓; TLT ↓ (yields ↑); markets price 79.8% probability of zero cuts in 2026; stagflation narrative entrenched across Wall Street",
+      "tickers": ["SPY", "QQQ", "TLT"],
+      "url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
     },
     {
-      "headline": "FedEx Freight Targets AI Data Centers and Healthcare After June 1 Spin-Off",
+      "headline": "Alphabet Joins the Dow, Replacing Verizon After 22 Years",
+      "source": "Yahoo Finance",
+      "summary": "Alphabet (GOOG) replaces Verizon (VZ) in the Dow Jones Industrial Average effective before today's open, marking a historic shift from legacy telecom to AI, cloud computing, and digital advertising in the price-weighted index.",
+      "marketImpact": "GOOG ↑ (passive index inflows); VZ ↓ (passive selling pressure); Dow composition now significantly more tech- and AI-exposed",
+      "tickers": ["GOOG", "VZ"],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-replacing-verizon-dow-jones-155600662.html"
+    },
+    {
+      "headline": "Apple and Microsoft Hike Device Prices as AI Memory Costs Quadruple",
+      "source": "CBS News",
+      "summary": "Apple raised MacBook and iPad prices by up to $300 and Microsoft will raise Xbox console prices by up to $150 from August 1, as AI data-center demand drives HBM memory costs to record highs and hyperscalers lock up semiconductor capacity through long-term supply deals.",
+      "marketImpact": "AAPL ↓ (consumer demand risk); MSFT ↓ watch; AI cost inflation hitting consumer hardware broadly; SK Hynix and Samsung ↑ as memory-price beneficiaries",
+      "tickers": ["AAPL", "MSFT"],
+      "url": "https://www.cbsnews.com/news/apple-price-hikes-macbook-ipad-2026/"
+    },
+    {
+      "headline": "South Korea's Kospi Whipsaws in Historic Semiconductor Volatility",
       "source": "Bloomberg",
-      "summary": "Newly independent FedEx Freight revealed its post-separation growth strategy on June 25, naming AI data center infrastructure (~$2B market), healthcare (~$6B TAM), and grocery (~$1B) as priority verticals after completing its spin-off from FedEx Corp.",
-      "marketImpact": "FDX freed of freight drag — potential re-rating; FDXF as standalone logistics-to-AI-infrastructure play; logistics and specialized delivery names in focus",
-      "tickers": ["FDX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/fedex-freight-targets-gains-in-data-centers-health-after-spin"
+      "summary": "The Kospi crashed 10% this week as AI demand fears hit Samsung and SK Hynix — each down 12%+ at their lows — before rebounding 3%+ to 8,471 on Friday, with South Korea's VKOSPI volatility index hitting its highest level since the 2008 financial crisis.",
+      "marketImpact": "SOXX and global semiconductor ETFs volatile; NVDA and AMD watch on AI demand sentiment read-through; Samsung ↑ 8% and SK Hynix ↑ 2.7% on Friday recovery; July volatility expected to persist",
+      "tickers": ["NVDA", "AMD", "SOXX"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff"
+    },
+    {
+      "headline": "JPMorgan Raises S&P 500 Target to 7,800 but Flags AI Flash-Crash Risk",
+      "source": "Bloomberg",
+      "summary": "JPMorgan lifted its year-end S&P 500 target to 7,800 from 7,200 on unprecedented AI-driven earnings upgrades (2026 EPS estimate: $350, +29% YoY) and easing geopolitical risk, but simultaneously warned AI speculation is 'so extreme' the market faces 'high probability of a flash crash.'",
+      "marketImpact": "SPY ↑ sentiment; AI secondary names watch (two-sided risk flagged); JPM expects Fed on hold through 2026 then pivoting to hikes in 2027",
+      "tickers": ["SPY", "JPM"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/jpmorgan-jpm-lifts-s-p-500-target-to-7-800-as-blue-sky-scenario-approaches"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Micron Technology",
-      "ticker": "MU",
+      "name": "Alphabet",
+      "ticker": "GOOG",
       "exchange": "NASDAQ",
-      "reason": "Blowout Q3 FY2026 earnings: revenue $41.46B (4x YoY), 84.6% gross margins, Q4 guidance 15% above consensus; structural AI memory supply deficit expected through 2027+",
+      "reason": "Joins the Dow Jones Industrial Average today, triggering passive index fund inflows and broadening the Dow's AI, cloud, and digital advertising exposure.",
       "direction": "↑"
     },
     {
       "name": "Apple",
       "ticker": "AAPL",
       "exchange": "NASDAQ",
-      "reason": "Mac and iPad price hikes of $100-$300 due to memory cost crisis sent stock down 6.1% Thursday, wiping $275B in market cap; iPhone pricing signal is the next key watch",
+      "reason": "MacBook and iPad price hikes of up to $300 announced; market watching for consumer demand impact and analyst target revisions amid sticky inflation.",
       "direction": "↓"
     },
     {
-      "name": "Space Exploration Technologies (SpaceX)",
-      "ticker": "SPCX",
+      "name": "Microsoft",
+      "ticker": "MSFT",
       "exchange": "NASDAQ",
-      "reason": "Post-IPO correction deepening — down 32% from June 16 peak of $225, erasing $600B+ in market cap; hovering near June 23 lows near $147",
+      "reason": "Xbox console prices rising up to $150 from August 1 due to AI-driven HBM memory costs; AI capex pressure and hardware margin squeeze in focus.",
       "direction": "↓"
     },
     {
-      "name": "Qualcomm",
-      "ticker": "QCOM",
-      "exchange": "NASDAQ",
-      "reason": "Up ~4% on Micron halo effect; on-device AI chip exposure and mobile memory demand seen as beneficiary of tight DRAM supply dynamics",
-      "direction": "↑"
-    },
-    {
-      "name": "Exxon Mobil",
-      "ticker": "XOM",
+      "name": "Nike",
+      "ticker": "NKE",
       "exchange": "NYSE",
-      "reason": "Iran deal supply normalization continues to pressure energy sector; Venezuela earthquake adds humanitarian headline risk but limited crude output impact near-term",
+      "reason": "Reports Q4 FY2026 earnings after Tuesday's close; Wall Street expects EPS of $0.13 (-7.1% YoY) on $10.85B revenue (-2.2% YoY) with DTC channel and China inventory clearance in focus.",
+      "direction": "↓"
+    },
+    {
+      "name": "Verizon",
+      "ticker": "VZ",
+      "exchange": "NYSE",
+      "reason": "Removed from the Dow Jones Industrial Average before today's open after 22 years; passive index fund selling pressure expected at the open.",
       "direction": "↓"
     }
   ],
-  "serenity": {
-    "latestPicks": [
-      {
-        "ticker": "NBIS",
-        "company": "Nebius Group",
-        "thesis": "S-tier neocloud pick; PT $400/1Y from entry ~$92; 'purest AI infrastructure asymmetric opportunity' with $7-9B forward ARR and full-stack GPU platform advantage over peers"
-      },
-      {
-        "ticker": "SIVE",
-        "company": "Sivers Semiconductors",
-        "thesis": "Top CPO/silicon photonics pick — upstream CW DFB laser supplier for Amazon Trainium and Microsoft Maia clusters; bull case $10B+ market cap from ~$190M; 'most compelling CPO exposure stock'"
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab USA",
-        "thesis": "Highest conviction 5-year long; PT $500/5Y from entry ~$43; overvalued near-term but deeply undervalued on long-term launch market potential"
-      },
-      {
-        "ticker": "XFAB",
-        "company": "X-Fab Silicon Foundries",
-        "thesis": "Only high-capacity SiC foundry with both EU and US CHIPS Act backing; valuation 'severely misaligned' with assets; NVIDIA and Nokia evaluating its pre-production silicon photonics line"
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "thesis": "PT $250/6M from ~$143; AI data center connectivity semiconductors; part of core portfolio rebalance post-market reset"
-      }
-    ],
-    "priorPickMoves": [
-      {
-        "ticker": "XFAB",
-        "move": "Surged 70%+ in a single day in late May after Serenity's public entry post; continued volatile trading since, with ongoing retail attention"
-      },
-      {
-        "ticker": "SIVE",
-        "move": "Up 50%+ from Serenity's original entry; volatile but held as a multi-year photonics supercycle play near $190M market cap"
-      }
-    ],
-    "sentiment": "Overwhelmingly bullish community — Serenity surpassed Elon Musk as #1 most subscribed account on X in early June 2026, with 400K+ followers; self-reported 2026 YTD return of 4,502% (unaudited, leveraged, volatile) fuels cult-like retail following; some pushback from Seeking Alpha and analysts flagging NBIS funding gap risk, concentration in illiquid micro-caps, and unverifiable return claims.",
-    "noActivity": false,
-    "originalPost": "The Neocloud Sector Tierlist. Post Q3 earnings + Market Sector Drop:\n[S] Tier: $NBIS\n[A] Tier: $CIFR, $WULF, $IREN\n[B] Tier: $GLXY, $CORZ\n[C] Tier: $APLD, $CLSK\n[D] Tier: $WLAC, $DGDX, $WYFI\n[F] Tier: $CRWV*, $SLNH\n[U] Tier: $GRRR, $MARA, $DGDX, $CLSK, $BITF, $HIVE, $RIOT\n\n---\n\nBased on the equity ranking table: Here's a deeper analysis of each stock, alongside how I reposition my portfolio to capitalize on the market reset:\n· $NBIS at $92, PT $400 / 1Y\n· $RKLB at $43, PT $500 / 5Y\n· $CRCL at $72, PT $150 / 8M\n· $ALAB at $143.4, PT $250 / 6M\n· $SNAP...\n\n---\n\nWhat... just happened today? Looks like a market bottom when users from Reddit lose 6 figures in life savings then go into debt. One of the most crazy and unexpected market reversals I've witnessed.\n\n---\n\n$SIVE is the most compelling CPO exposure stock to me. Despite the volatility. You probably won't find something like this again until the next architectural shift in photonics years later. Out of the core laser suppliers, they're all tens of billions? $AAOI = $15B Furukawa..."
-  },
   "bondYields": {
-    "us10y": 4.38,
-    "us30y": 4.84,
-    "asOf": "2026-06-25"
+    "us10y": 4.37,
+    "us30y": 4.87,
+    "asOf": "2026-06-26"
   },
   "tickerDescriptions": {
-    "MU": "Micron Technology Inc., leading US manufacturer of DRAM, HBM, and NAND flash memory chips for AI data centers, PCs, and mobile devices",
-    "AAPL": "Apple Inc., consumer electronics giant making iPhone, Mac, iPad, and services; largest US company by market cap",
-    "QCOM": "Qualcomm Inc., semiconductor company specializing in mobile chips, 5G modems, and on-device AI processors",
-    "SSNLF": "Samsung Electronics Co., South Korean conglomerate and the world's largest memory chip and smartphone manufacturer",
-    "EWY": "iShares MSCI South Korea ETF, tracks South Korean equities including Samsung Electronics and SK Hynix",
-    "SOXX": "iShares Semiconductor ETF tracking the ICE Semiconductor Index of US-listed chip companies",
-    "XOM": "Exxon Mobil Corp., the largest US integrated oil and gas company with global upstream and downstream operations",
-    "CVX": "Chevron Corp., major US integrated oil and gas company with significant international upstream and LNG assets",
-    "USO": "United States Oil Fund, tracks the price of West Texas Intermediate crude oil futures",
-    "XLE": "Energy Select Sector SPDR Fund, ETF tracking the S&P 500 energy sector including major oil companies and refiners",
-    "SPCX": "Space Exploration Technologies Corp. (SpaceX), Elon Musk's rocket and satellite company; IPO'd on Nasdaq June 12, 2026 at $135/share",
-    "FDX": "FedEx Corp., global express delivery and logistics conglomerate; completed spin-off of its freight division in June 2026"
+    "XOM": "Exxon Mobil Corp., one of the world's largest publicly traded integrated oil and gas companies",
+    "CVX": "Chevron Corp., a major integrated energy company with global oil, gas, and refining operations",
+    "SPY": "SPDR S&P 500 ETF Trust, tracking the performance of the 500 largest US-listed companies",
+    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 index of the largest non-financial Nasdaq-listed companies",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, providing exposure to long-duration US government bonds",
+    "GOOG": "Alphabet Inc. (Class C shares), parent company of Google spanning search, cloud, AI, and autonomous vehicles",
+    "VZ": "Verizon Communications Inc., a leading US telecommunications company providing wireless and broadband services",
+    "AAPL": "Apple Inc., maker of iPhone, Mac, iPad, and services including the App Store and Apple Music",
+    "MSFT": "Microsoft Corp., a global technology leader in cloud computing (Azure), productivity software, and gaming (Xbox)",
+    "NVDA": "NVIDIA Corp., the dominant designer of AI accelerator GPUs used in data centers, gaming, and autonomous vehicles",
+    "AMD": "Advanced Micro Devices Inc., designer of CPUs and GPUs competing with Intel and NVIDIA in data centers and PCs",
+    "SOXX": "iShares Semiconductor ETF, tracking the performance of US-listed semiconductor equipment and chip companies",
+    "JPM": "JPMorgan Chase & Co., the largest US bank by assets, offering investment banking, retail banking, and asset management",
+    "NKE": "Nike Inc., the world's largest athletic footwear and apparel brand with major direct-to-consumer and wholesale channels"
   },
   "quickHits": [
-    "FCC waiting on interagency review of Paramount–Warner Bros. Discovery merger before issuing a ruling (Bloomberg)",
-    "Amazon Prime Day 2026 enters Day 3 with 327+ deals tracked across Apple, Yeti, and Lego categories (NBC News)",
-    "Supreme Court handed Trump two major immigration enforcement victories in rulings this week (Reuters)",
-    "US military assets being 'surged' to Venezuela for earthquake disaster relief as USGS estimates 44% chance death toll exceeds 10,000 (ABC News / CNBC)"
+    "June nonfarm payrolls report moved to Thursday, July 2 due to Independence Day on July 4; US markets close Friday July 3 (CNBC)",
+    "Constellation Brands (STZ) reports Q1 earnings alongside Nike on Tuesday June 30; beer business performance in focus amid consumer spending caution (Kiplinger)",
+    "South Korea's financial regulator blasted brokerages for profiting from leveraged Samsung and SK Hynix ETF volatility as retail investors absorbed heavy losses (KED Global)",
+    "PCE-driven stagflation fears now dominate Wall Street: high inflation + resilient consumer spending + zero rate cuts = sustained higher-for-longer risk premium (Federal Reserve/CNBC)"
   ]
 }
