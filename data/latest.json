@@ -1,125 +1,119 @@
 {
-  "date": "2026-06-29",
-  "marketMood": "Mixed sentiment: oil spikes on Hormuz tanker strike before US-Iran Doha talks ease nerves, while PCE inflation at a 3-year high cements zero Fed rate cuts for 2026 and stagflation fears dominate.",
+  "date": "2026-06-30",
+  "marketMood": "Risk-on: Dow crosses 52,000 milestone as Alphabet joins the index and the Supreme Court upholds Fed independence, while China's PMI beat and falling oil prices support global growth sentiment.",
   "upcomingEvents": [
-    { "date": "2026-06-30", "event": "Nike (NKE) Q4 FY2026 Earnings After Close", "significance": "high" },
-    { "date": "2026-06-30", "event": "US Consumer Confidence (June) & JOLTS Job Openings (May)", "significance": "medium" },
-    { "date": "2026-07-01", "event": "ADP Employment Change (June) & ISM Manufacturing PMI (June)", "significance": "medium" },
+    { "date": "2026-07-01", "event": "ADP Employment Change (June) & ISM Manufacturing PMI (June)", "significance": "high" },
     { "date": "2026-07-02", "event": "June Nonfarm Payrolls Report (moved up from July 4 holiday)", "significance": "high" },
-    { "date": "2026-07-03", "event": "US Markets Closed — Independence Day (observed)", "significance": "medium" }
+    { "date": "2026-07-03", "event": "US Markets Closed — Independence Day (observed)", "significance": "medium" },
+    { "date": "2026-07-07", "event": "SpaceX (SPCX) Officially Joins Nasdaq-100", "significance": "medium" },
+    { "date": "2026-07-15", "event": "China Q2 GDP, Retail Sales & Industrial Production Data", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Hormuz Tanker Strike Jolts Oil; US and Iran Agree to Doha Talks Tuesday",
+      "headline": "Supreme Court Blocks Trump from Firing Fed Governor Lisa Cook",
       "source": "Bloomberg",
-      "summary": "A supertanker carrying Qatari crude was struck by an unidentified projectile in the Strait of Hormuz over the weekend — the second merchant ship attack this week — pushing Brent up as much as 1.9% to $73.39/barrel before the US and Iran agreed to meet in Doha on Tuesday to extend their ceasefire framework.",
-      "marketImpact": "Crude ↑ initial spike to $73.39 then partially retraced to ~$72; XOM, CVX ↑ watch; energy shipping risk premium elevated; broader risk-on if Doha talks progress ↑",
-      "tickers": ["XOM", "CVX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/latest-oil-market-news-and-analysis-for-june-29"
+      "summary": "The Supreme Court ruled 5-4 that Fed Governor Lisa Cook — whom Trump attempted to remove in August 2025 on disputed mortgage fraud allegations — can remain at the Federal Reserve, while a separate ruling expanded the president's power to fire top officials at other federal agencies.",
+      "marketImpact": "Bonds ↑ as Fed independence and policy-path predictability are preserved; USD watch as executive pressure on rate-setting is curtailed",
+      "tickers": ["TLT", "SPY"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/supreme-court-lets-fed-s-lisa-cook-stay-in-job-for-now"
     },
     {
-      "headline": "PCE Inflation Hits 3-Year High, Crushing Remaining Fed Rate-Cut Hopes",
+      "headline": "Alphabet Makes Dow Debut, Lifting Index Past 52,000 for First Time",
       "source": "CNBC",
-      "summary": "May PCE rose 4.1% annually — the highest since April 2023 — while core PCE came in at 3.4%, above estimates, as Iran-war-driven energy costs push the Fed's preferred inflation gauge to its worst reading in years; the June FOMC held rates at 3.50–3.75% with nine officials now favouring a hike by year-end.",
-      "marketImpact": "SPY ↓, QQQ ↓; TLT ↓ (yields ↑); markets price 79.8% probability of zero cuts in 2026; stagflation narrative entrenched across Wall Street",
-      "tickers": ["SPY", "QQQ", "TLT"],
-      "url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html"
+      "summary": "Alphabet (GOOGL) replaced Verizon in the Dow Jones Industrial Average and climbed nearly 5% on its first trading day as a Dow member, helping the index close at 52,182.74 while the S&P 500 gained 1.18% and the Nasdaq surged 2.07%.",
+      "marketImpact": "GOOGL ↑ on index inclusion demand; Dow index funds rebalancing ↑; broader tech sector lifted; Verizon (VZ) ↓ on index removal",
+      "tickers": ["GOOGL", "DIA", "VZ"],
+      "url": "https://www.cnbc.com/2026/06/29/alphabet-googl-stock-dow-average.html"
     },
     {
-      "headline": "Alphabet Joins the Dow, Replacing Verizon After 22 Years",
-      "source": "Yahoo Finance",
-      "summary": "Alphabet (GOOG) replaces Verizon (VZ) in the Dow Jones Industrial Average effective before today's open, marking a historic shift from legacy telecom to AI, cloud computing, and digital advertising in the price-weighted index.",
-      "marketImpact": "GOOG ↑ (passive index inflows); VZ ↓ (passive selling pressure); Dow composition now significantly more tech- and AI-exposed",
-      "tickers": ["GOOG", "VZ"],
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-replacing-verizon-dow-jones-155600662.html"
-    },
-    {
-      "headline": "Apple and Microsoft Hike Device Prices as AI Memory Costs Quadruple",
-      "source": "CBS News",
-      "summary": "Apple raised MacBook and iPad prices by up to $300 and Microsoft will raise Xbox console prices by up to $150 from August 1, as AI data-center demand drives HBM memory costs to record highs and hyperscalers lock up semiconductor capacity through long-term supply deals.",
-      "marketImpact": "AAPL ↓ (consumer demand risk); MSFT ↓ watch; AI cost inflation hitting consumer hardware broadly; SK Hynix and Samsung ↑ as memory-price beneficiaries",
-      "tickers": ["AAPL", "MSFT"],
-      "url": "https://www.cbsnews.com/news/apple-price-hikes-macbook-ipad-2026/"
-    },
-    {
-      "headline": "South Korea's Kospi Whipsaws in Historic Semiconductor Volatility",
+      "headline": "Comcast to Spin Off NBCUniversal and Sky Into Standalone Public Company",
       "source": "Bloomberg",
-      "summary": "The Kospi crashed 10% this week as AI demand fears hit Samsung and SK Hynix — each down 12%+ at their lows — before rebounding 3%+ to 8,471 on Friday, with South Korea's VKOSPI volatility index hitting its highest level since the 2008 financial crisis.",
-      "marketImpact": "SOXX and global semiconductor ETFs volatile; NVDA and AMD watch on AI demand sentiment read-through; Samsung ↑ 8% and SK Hynix ↑ 2.7% on Friday recovery; July volatility expected to persist",
-      "tickers": ["NVDA", "AMD", "SOXX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff"
+      "summary": "Comcast announced it will separate its media portfolio — including NBCUniversal and Sky — into an independent publicly traded entity, with Comcast co-CEO Mike Cavanagh leading the new media company and CFO Michael Angelakis running the telecom business.",
+      "marketImpact": "CMCSA ↑ ~4–6%; CHTR ↑ on sector-wide relief; media M&A sentiment improving",
+      "tickers": ["CMCSA", "CHTR"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/comcast-s-nbc-spin-off-raises-questions-about-businesses-future"
     },
     {
-      "headline": "JPMorgan Raises S&P 500 Target to 7,800 but Flags AI Flash-Crash Risk",
+      "headline": "SpaceX Fast-Tracked into Nasdaq-100, Set to Join July 7",
+      "source": "CNBC",
+      "summary": "Weeks after its blockbuster June 12 IPO, SpaceX has been approved for fast-track entry into the Nasdaq-100, with index-tracking funds set to begin buying after July 6's close and the company officially joining before markets open July 7.",
+      "marketImpact": "SPCX ↑ on pending passive fund inflows; QQQ constituents rebalanced; mechanical buying pressure expected before July 7",
+      "tickers": ["SPCX", "QQQ"],
+      "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100-on-hold-on-hold-on-hold.html"
+    },
+    {
+      "headline": "China June PMI Beats Forecasts as Tech Export Demand Surges",
+      "source": "CNBC",
+      "summary": "China's official manufacturing PMI rose to 50.3 in June — above the 50.1 estimate — driven by a sharp pickup in high-tech exports, with US-bound shipments growing 35.4% year-over-year in May and freight rates between Asia and the US hitting a near two-year high.",
+      "marketImpact": "FXI ↑; global semiconductor and tech supply chain ↑; shipping stocks ↑; watch US-China tariff negotiations as importers front-run potential tariff increases",
+      "tickers": ["FXI", "KWEB"],
+      "url": "https://www.cnbc.com/2026/06/30/china-factory-activity-june-tech-export-demand-pmi-nbs.html"
+    },
+    {
+      "headline": "Ukraine Drone Strikes Ignite Russian Refineries; Putin Acknowledges Fuel Shortages",
       "source": "Bloomberg",
-      "summary": "JPMorgan lifted its year-end S&P 500 target to 7,800 from 7,200 on unprecedented AI-driven earnings upgrades (2026 EPS estimate: $350, +29% YoY) and easing geopolitical risk, but simultaneously warned AI speculation is 'so extreme' the market faces 'high probability of a flash crash.'",
-      "marketImpact": "SPY ↑ sentiment; AI secondary names watch (two-sided risk flagged); JPM expects Fed on hold through 2026 then pivoting to hikes in 2027",
-      "tickers": ["SPY", "JPM"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-24/jpmorgan-jpm-lifts-s-p-500-target-to-7-800-as-blue-sky-scenario-approaches"
+      "summary": "Ukraine struck refineries in Krasnodar and Yaroslavl overnight, extending a campaign that has triggered fuel rationing across two-thirds of Russia's regions; Putin publicly acknowledged the country faces a \"difficult period\" in a state TV interview, his most candid admission yet.",
+      "marketImpact": "Russian oil output risk elevated; Brent crude watch ↑; XOM and CVX could see modest tailwinds from supply uncertainty; USO watch",
+      "tickers": ["USO", "XOM", "CVX"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/ukraine-targets-russian-refineries-in-fresh-drone-strikes"
     }
   ],
   "companiesToWatch": [
     {
       "name": "Alphabet",
-      "ticker": "GOOG",
+      "ticker": "GOOGL",
       "exchange": "NASDAQ",
-      "reason": "Joins the Dow Jones Industrial Average today, triggering passive index fund inflows and broadening the Dow's AI, cloud, and digital advertising exposure.",
+      "reason": "Trading its second session as a Dow component after a strong 4–5% debut; investors will watch whether index-inclusion momentum can offset AI competitive headwinds that have weighed on the stock for six of the past seven weeks.",
       "direction": "↑"
     },
     {
-      "name": "Apple",
-      "ticker": "AAPL",
+      "name": "Comcast",
+      "ticker": "CMCSA",
       "exchange": "NASDAQ",
-      "reason": "MacBook and iPad price hikes of up to $300 announced; market watching for consumer demand impact and analyst target revisions amid sticky inflation.",
-      "direction": "↓"
+      "reason": "Post-spinoff announcement of NBCUniversal/Sky, shares are in focus as investors parse the separation timeline and valuation of the remaining telecom business.",
+      "direction": "↑"
     },
     {
-      "name": "Microsoft",
-      "ticker": "MSFT",
+      "name": "SpaceX",
+      "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Xbox console prices rising up to $150 from August 1 due to AI-driven HBM memory costs; AI capex pressure and hardware margin squeeze in focus.",
-      "direction": "↓"
+      "reason": "Nasdaq-100 inclusion buying window opens after July 6 close; passive fund inflows expected to drive shares higher before official entry on July 7.",
+      "direction": "↑"
     },
     {
-      "name": "Nike",
-      "ticker": "NKE",
+      "name": "Owens Corning",
+      "ticker": "OC",
       "exchange": "NYSE",
-      "reason": "Reports Q4 FY2026 earnings after Tuesday's close; Wall Street expects EPS of $0.13 (-7.1% YoY) on $10.85B revenue (-2.2% YoY) with DTC channel and China inventory clearance in focus.",
-      "direction": "↓"
-    },
-    {
-      "name": "Verizon",
-      "ticker": "VZ",
-      "exchange": "NYSE",
-      "reason": "Removed from the Dow Jones Industrial Average before today's open after 22 years; passive index fund selling pressure expected at the open.",
-      "direction": "↓"
+      "reason": "Shares surged 14%+ Monday after Carlisle Companies made an unsolicited takeover bid in the largest building-materials M&A story of the year; deal premium expectations will drive today's action.",
+      "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.37,
+    "us10y": 4.38,
     "us30y": 4.87,
-    "asOf": "2026-06-26"
+    "asOf": "2026-06-29"
   },
   "tickerDescriptions": {
-    "XOM": "Exxon Mobil Corp., one of the world's largest publicly traded integrated oil and gas companies",
-    "CVX": "Chevron Corp., a major integrated energy company with global oil, gas, and refining operations",
-    "SPY": "SPDR S&P 500 ETF Trust, tracking the performance of the 500 largest US-listed companies",
-    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 index of the largest non-financial Nasdaq-listed companies",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, providing exposure to long-duration US government bonds",
-    "GOOG": "Alphabet Inc. (Class C shares), parent company of Google spanning search, cloud, AI, and autonomous vehicles",
-    "VZ": "Verizon Communications Inc., a leading US telecommunications company providing wireless and broadband services",
-    "AAPL": "Apple Inc., maker of iPhone, Mac, iPad, and services including the App Store and Apple Music",
-    "MSFT": "Microsoft Corp., a global technology leader in cloud computing (Azure), productivity software, and gaming (Xbox)",
-    "NVDA": "NVIDIA Corp., the dominant designer of AI accelerator GPUs used in data centers, gaming, and autonomous vehicles",
-    "AMD": "Advanced Micro Devices Inc., designer of CPUs and GPUs competing with Intel and NVIDIA in data centers and PCs",
-    "SOXX": "iShares Semiconductor ETF, tracking the performance of US-listed semiconductor equipment and chip companies",
-    "JPM": "JPMorgan Chase & Co., the largest US bank by assets, offering investment banking, retail banking, and asset management",
-    "NKE": "Nike Inc., the world's largest athletic footwear and apparel brand with major direct-to-consumer and wholesale channels"
+    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
+    "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US-listed companies",
+    "GOOGL": "Alphabet Inc. (Class A), parent company of Google, YouTube, and Google Cloud",
+    "DIA": "SPDR Dow Jones Industrial Average ETF, tracking the 30 stocks in the Dow",
+    "VZ": "Verizon Communications Inc., major US wireless and broadband carrier",
+    "CMCSA": "Comcast Corporation, US cable, internet, and media conglomerate",
+    "CHTR": "Charter Communications Inc., US broadband and cable television provider",
+    "SPCX": "SpaceX Inc., commercial aerospace, satellite communications, and launch services company",
+    "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq-100 index of largest non-financial Nasdaq companies",
+    "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese companies listed in Hong Kong",
+    "KWEB": "KraneShares CSI China Internet ETF, tracking Chinese internet and e-commerce companies",
+    "USO": "United States Oil Fund, ETF tracking front-month WTI crude oil futures",
+    "XOM": "ExxonMobil Corporation, largest US integrated oil and gas company",
+    "CVX": "Chevron Corporation, major US integrated energy company",
+    "OC": "Owens Corning, building and industrial materials manufacturer specialising in insulation and roofing"
   },
   "quickHits": [
-    "June nonfarm payrolls report moved to Thursday, July 2 due to Independence Day on July 4; US markets close Friday July 3 (CNBC)",
-    "Constellation Brands (STZ) reports Q1 earnings alongside Nike on Tuesday June 30; beer business performance in focus amid consumer spending caution (Kiplinger)",
-    "South Korea's financial regulator blasted brokerages for profiting from leveraged Samsung and SK Hynix ETF volatility as retail investors absorbed heavy losses (KED Global)",
-    "PCE-driven stagflation fears now dominate Wall Street: high inflation + resilient consumer spending + zero rate cuts = sustained higher-for-longer risk premium (Federal Reserve/CNBC)"
+    "Tesla surges more than 7% in Monday's session amid a broad tech relief rally following the Fed independence ruling (CNBC)",
+    "Securitize to list on NYSE Thursday as the first pure-play real-world asset tokenization company in US public markets; tokenized on-chain assets have tripled to $31B+ over the past year (CNBC)",
+    "Pakistan air strikes kill 36 Afghan civilians and injure 160 in cross-border attacks, heightening South Asia regional tensions (SCMP)",
+    "Holiday-shortened week: US nonfarm payrolls moved to Thursday July 2 ahead of Independence Day; bond market closes Friday July 3 (CNBC)"
   ]
 }
