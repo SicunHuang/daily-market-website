@@ -1,119 +1,140 @@
 {
-  "date": "2026-06-30",
-  "marketMood": "Risk-on: Dow crosses 52,000 milestone as Alphabet joins the index and the Supreme Court upholds Fed independence, while China's PMI beat and falling oil prices support global growth sentiment.",
+  "date": "2026-07-01",
+  "marketMood": "Risk-on: US markets close out their strongest first half since 2021 as a chip-AI rally adds $2T in Q2 market cap; Japan Tankan hits a 6-year high and Asia indices follow overnight, though a fragile US-Iran ceasefire, a looming July 24 tariff deadline, and tomorrow's nonfarm payrolls keep traders cautious.",
   "upcomingEvents": [
-    { "date": "2026-07-01", "event": "ADP Employment Change (June) & ISM Manufacturing PMI (June)", "significance": "high" },
-    { "date": "2026-07-02", "event": "June Nonfarm Payrolls Report (moved up from July 4 holiday)", "significance": "high" },
+    { "date": "2026-07-02", "event": "US June Nonfarm Payrolls (moved up from July 4 holiday)", "significance": "high" },
     { "date": "2026-07-03", "event": "US Markets Closed — Independence Day (observed)", "significance": "medium" },
     { "date": "2026-07-07", "event": "SpaceX (SPCX) Officially Joins Nasdaq-100", "significance": "medium" },
-    { "date": "2026-07-15", "event": "China Q2 GDP, Retail Sales & Industrial Production Data", "significance": "high" }
+    { "date": "2026-07-15", "event": "China Q2 GDP, Retail Sales & Industrial Production", "significance": "high" },
+    { "date": "2026-07-24", "event": "Section 122 Tariff Authority Expires — Congress Must Act", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Supreme Court Blocks Trump from Firing Fed Governor Lisa Cook",
-      "source": "Bloomberg",
-      "summary": "The Supreme Court ruled 5-4 that Fed Governor Lisa Cook — whom Trump attempted to remove in August 2025 on disputed mortgage fraud allegations — can remain at the Federal Reserve, while a separate ruling expanded the president's power to fire top officials at other federal agencies.",
-      "marketImpact": "Bonds ↑ as Fed independence and policy-path predictability are preserved; USD watch as executive pressure on rate-setting is curtailed",
-      "tickers": ["TLT", "SPY"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/supreme-court-lets-fed-s-lisa-cook-stay-in-job-for-now"
-    },
-    {
-      "headline": "Alphabet Makes Dow Debut, Lifting Index Past 52,000 for First Time",
+      "headline": "US Markets Cap Strongest First Half Since 2021; Chip Rally Adds $2T in Q2",
       "source": "CNBC",
-      "summary": "Alphabet (GOOGL) replaced Verizon in the Dow Jones Industrial Average and climbed nearly 5% on its first trading day as a Dow member, helping the index close at 52,182.74 while the S&P 500 gained 1.18% and the Nasdaq surged 2.07%.",
-      "marketImpact": "GOOGL ↑ on index inclusion demand; Dow index funds rebalancing ↑; broader tech sector lifted; Verizon (VZ) ↓ on index removal",
-      "tickers": ["GOOGL", "DIA", "VZ"],
-      "url": "https://www.cnbc.com/2026/06/29/alphabet-googl-stock-dow-average.html"
+      "summary": "All three major US indices closed higher June 30 to seal H1 gains — S&P 500 +9.6%, Nasdaq +12.8%, Dow +8.9% — paced by a chip and AI rally that added $2 trillion in combined market cap to Micron, Intel, and AMD in Q2 alone, with the Russell 2000 surging 22% for its best H1 since 1991.",
+      "marketImpact": "Equities ↑ broadly; MU, INTC, AMD ↑; Asia markets follow with Nikkei +1.79% and Kospi +1.52% on July 1",
+      "tickers": ["SPY", "QQQ", "MU", "INTC", "AMD", "IWM"],
+      "url": "https://www.cnbc.com/2026/06/30/stock-market-today-live-updates.html"
     },
     {
-      "headline": "Comcast to Spin Off NBCUniversal and Sky Into Standalone Public Company",
+      "headline": "Japan Tankan Hits 6-Year High on AI Demand; Yen Near 40-Year Low",
+      "source": "Nikkei Asia",
+      "summary": "Japan's Q2 Tankan large manufacturer index jumped to 22 from 17 (vs 16 expected) — its highest reading since 2020 — and the non-manufacturing index hit a multi-decade high of 37, while the yen slid further to ~161.79 per dollar despite the Bank of Japan raising rates to 1% in June.",
+      "marketImpact": "Nikkei ↑ 1.79% on July 1; export stocks ↑ on weak yen; BOJ FX intervention risk elevated; EWJ ↑; USD/JPY ↑ watch",
+      "tickers": ["EWJ", "DXJ", "FXY"],
+      "url": "https://asia.nikkei.com/Economy/Bank-of-Japan/Japan-business-mood-rises-for-the-first-time-in-2-quarters-BOJ-Tankan"
+    },
+    {
+      "headline": "Supreme Court Strikes Down Trump's Birthright Citizenship Order in 5-4 Ruling",
       "source": "Bloomberg",
-      "summary": "Comcast announced it will separate its media portfolio — including NBCUniversal and Sky — into an independent publicly traded entity, with Comcast co-CEO Mike Cavanagh leading the new media company and CFO Michael Angelakis running the telecom business.",
-      "marketImpact": "CMCSA ↑ ~4–6%; CHTR ↑ on sector-wide relief; media M&A sentiment improving",
-      "tickers": ["CMCSA", "CHTR"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/comcast-s-nbc-spin-off-raises-questions-about-businesses-future"
+      "summary": "Chief Justice Roberts and Justice Barrett joined the three liberal justices to block Trump's executive order restricting birthright citizenship, handing his immigration agenda a major defeat; Trump called the ruling 'too bad for our Country' and urged Congress to act.",
+      "marketImpact": "Limited direct market impact; DJT ↓ on political setback; construction and hospitality labour supply risk watch",
+      "tickers": ["DJT"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/supreme-court-strikes-down-trump-s-birthright-citizenship-curbs"
     },
     {
-      "headline": "SpaceX Fast-Tracked into Nasdaq-100, Set to Join July 7",
-      "source": "CNBC",
-      "summary": "Weeks after its blockbuster June 12 IPO, SpaceX has been approved for fast-track entry into the Nasdaq-100, with index-tracking funds set to begin buying after July 6's close and the company officially joining before markets open July 7.",
-      "marketImpact": "SPCX ↑ on pending passive fund inflows; QQQ constituents rebalanced; mechanical buying pressure expected before July 7",
-      "tickers": ["SPCX", "QQQ"],
-      "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100-on-hold-on-hold-on-hold.html"
-    },
-    {
-      "headline": "China June PMI Beats Forecasts as Tech Export Demand Surges",
-      "source": "CNBC",
-      "summary": "China's official manufacturing PMI rose to 50.3 in June — above the 50.1 estimate — driven by a sharp pickup in high-tech exports, with US-bound shipments growing 35.4% year-over-year in May and freight rates between Asia and the US hitting a near two-year high.",
-      "marketImpact": "FXI ↑; global semiconductor and tech supply chain ↑; shipping stocks ↑; watch US-China tariff negotiations as importers front-run potential tariff increases",
-      "tickers": ["FXI", "KWEB"],
-      "url": "https://www.cnbc.com/2026/06/30/china-factory-activity-june-tech-export-demand-pmi-nbs.html"
-    },
-    {
-      "headline": "Ukraine Drone Strikes Ignite Russian Refineries; Putin Acknowledges Fuel Shortages",
+      "headline": "Trump 2025 Financial Disclosures Reveal More Than $1.4 Billion in Crypto Earnings",
       "source": "Bloomberg",
-      "summary": "Ukraine struck refineries in Krasnodar and Yaroslavl overnight, extending a campaign that has triggered fuel rationing across two-thirds of Russia's regions; Putin publicly acknowledged the country faces a \"difficult period\" in a state TV interview, his most candid admission yet.",
-      "marketImpact": "Russian oil output risk elevated; Brent crude watch ↑; XOM and CVX could see modest tailwinds from supply uncertainty; USO watch",
-      "tickers": ["USO", "XOM", "CVX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/ukraine-targets-russian-refineries-in-fresh-drone-strikes"
+      "summary": "Trump's annual OGE filing shows $635M from TRUMP meme coin sales, $500M+ from World Liberty Financial, and $80M+ in media settlements, intensifying conflict-of-interest scrutiny as his policies directly benefit his own digital asset holdings.",
+      "marketImpact": "Crypto broadly ↑ (COIN, MSTR, BTC); DJT mixed — Trump Media posted a $405M crypto-related loss, partly offsetting the headline crypto gains",
+      "tickers": ["DJT", "COIN", "MSTR"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/trump-reports-at-least-1-2-billion-in-crypto-earnings-for-2025"
+    },
+    {
+      "headline": "US-Iran Ceasefire Fragile; Both Sides Agree to Halt Attacks and Resume Talks",
+      "source": "CNBC",
+      "summary": "After the US struck Iranian missile storage and drone sites on June 26 over ceasefire violations in the Strait of Hormuz, both parties agreed to halt hostilities and renew negotiations, though shipping companies remain wary of Hormuz transit due to elevated war-risk insurance and lingering sea mines.",
+      "marketImpact": "Oil ↑ watch on supply risk; Brent ~$72 (well below $188 wartime peak); XOM, CVX ↑; shipping stocks ↓ risk on elevated war-risk insurance; gold ↑ as safe haven",
+      "tickers": ["XOM", "CVX", "XLE", "USO"],
+      "url": "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html"
+    },
+    {
+      "headline": "Section 122 Tariff Authority Expires July 24 — Congress Must Act or Trade Policy Lapses",
+      "source": "Bloomberg",
+      "summary": "Trump's 10% global tariffs imposed under Section 122 of the Trade Act of 1974 hit their 150-day statutory maximum on July 24, requiring congressional approval to extend and creating significant policy uncertainty as businesses rush shipments and importers reassess supply chains.",
+      "marketImpact": "Importers and retailers (WMT, TGT, AMZN) ↓ watch on re-escalation risk; trade-sensitive industrials (XLI) ↓ risk; USD uncertain on policy vacuum",
+      "tickers": ["WMT", "TGT", "AMZN", "XLI"],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-11/trump-can-enforce-section-122-tariffs-until-appeals-court-rules"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Alphabet",
-      "ticker": "GOOGL",
+      "name": "Micron Technology",
+      "ticker": "MU",
       "exchange": "NASDAQ",
-      "reason": "Trading its second session as a Dow component after a strong 4–5% debut; investors will watch whether index-inclusion momentum can offset AI competitive headwinds that have weighed on the stock for six of the past seven weeks.",
+      "reason": "Led the chip/AI rally that defined Q2 2026, adding $2T in combined market cap with INTC and AMD; AI memory demand and pricing cycle support continued momentum into H2.",
       "direction": "↑"
     },
     {
-      "name": "Comcast",
-      "ticker": "CMCSA",
+      "name": "Coinbase Global",
+      "ticker": "COIN",
       "exchange": "NASDAQ",
-      "reason": "Post-spinoff announcement of NBCUniversal/Sky, shares are in focus as investors parse the separation timeline and valuation of the remaining telecom business.",
+      "reason": "Trump's $1.4B crypto disclosure validates the crypto-friendly policy environment; potential Clarity Act passage adds a regulatory tailwind for the largest US exchange.",
       "direction": "↑"
+    },
+    {
+      "name": "ExxonMobil",
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "reason": "Strait of Hormuz ceasefire fragility keeps oil supply risk in focus; Brent at $72 carries asymmetric upside if Iran talks collapse again.",
+      "direction": "↑"
+    },
+    {
+      "name": "Trump Media & Technology",
+      "ticker": "DJT",
+      "exchange": "NASDAQ",
+      "reason": "Trump's $1.4B+ crypto income disclosure draws intensified conflict-of-interest scrutiny while Trump Media itself posted a $405M crypto-related loss; Supreme Court immigration setback adds political headwind.",
+      "direction": "↓"
     },
     {
       "name": "SpaceX",
       "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Nasdaq-100 inclusion buying window opens after July 6 close; passive fund inflows expected to drive shares higher before official entry on July 7.",
+      "reason": "Passive fund buying window for Nasdaq-100 inclusion opens after July 6's close; mechanical inflows expected as index trackers rebalance before the July 7 official entry.",
       "direction": "↑"
     },
     {
-      "name": "Owens Corning",
-      "ticker": "OC",
-      "exchange": "NYSE",
-      "reason": "Shares surged 14%+ Monday after Carlisle Companies made an unsolicited takeover bid in the largest building-materials M&A story of the year; deal premium expectations will drive today's action.",
-      "direction": "↑"
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "exchange": "NASDAQ",
+      "reason": "A primary target of Trump's 100% digital services tax tariff threat aimed at Europe; in only its third session as a Dow component, trade escalation risk complicates the AI-driven rerating.",
+      "direction": "↓"
     }
   ],
   "bondYields": {
-    "us10y": 4.38,
-    "us30y": 4.87,
-    "asOf": "2026-06-29"
+    "us10y": 4.44,
+    "us30y": 4.92,
+    "asOf": "2026-06-30"
   },
   "tickerDescriptions": {
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
     "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US-listed companies",
-    "GOOGL": "Alphabet Inc. (Class A), parent company of Google, YouTube, and Google Cloud",
-    "DIA": "SPDR Dow Jones Industrial Average ETF, tracking the 30 stocks in the Dow",
-    "VZ": "Verizon Communications Inc., major US wireless and broadband carrier",
-    "CMCSA": "Comcast Corporation, US cable, internet, and media conglomerate",
-    "CHTR": "Charter Communications Inc., US broadband and cable television provider",
-    "SPCX": "SpaceX Inc., commercial aerospace, satellite communications, and launch services company",
     "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq-100 index of largest non-financial Nasdaq companies",
-    "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese companies listed in Hong Kong",
-    "KWEB": "KraneShares CSI China Internet ETF, tracking Chinese internet and e-commerce companies",
-    "USO": "United States Oil Fund, ETF tracking front-month WTI crude oil futures",
-    "XOM": "ExxonMobil Corporation, largest US integrated oil and gas company",
-    "CVX": "Chevron Corporation, major US integrated energy company",
-    "OC": "Owens Corning, building and industrial materials manufacturer specialising in insulation and roofing"
+    "MU": "Micron Technology Inc., leading US manufacturer of DRAM and NAND memory and storage chips",
+    "INTC": "Intel Corporation, semiconductor company and global chip manufacturer",
+    "AMD": "Advanced Micro Devices Inc., designer of CPUs, GPUs, and AI accelerator chips",
+    "IWM": "iShares Russell 2000 ETF, tracking the 2,000 smallest stocks in the Russell 3000 index",
+    "EWJ": "iShares MSCI Japan ETF, tracking a broad index of Japanese equities",
+    "DXJ": "WisdomTree Japan Hedged Equity Fund, currency-hedged ETF tracking Japanese dividend-paying stocks",
+    "FXY": "Invesco CurrencyShares Japanese Yen Trust, ETF tracking the USD/JPY exchange rate",
+    "DJT": "Trump Media & Technology Group Corp., owner of the Truth Social social media platform",
+    "COIN": "Coinbase Global Inc., the largest publicly traded US cryptocurrency exchange",
+    "MSTR": "Strategy Inc. (formerly MicroStrategy), enterprise software company and major Bitcoin holding company",
+    "XOM": "ExxonMobil Corporation, the largest US integrated oil and gas company",
+    "CVX": "Chevron Corporation, major US integrated energy company with global upstream and downstream operations",
+    "XLE": "Energy Select Sector SPDR ETF, tracking the energy sector stocks within the S&P 500",
+    "USO": "United States Oil Fund, ETF tracking front-month WTI crude oil futures contracts",
+    "WMT": "Walmart Inc., the world's largest retailer by revenue, with significant import exposure",
+    "TGT": "Target Corporation, US mass-market retailer with broad consumer goods and apparel offerings",
+    "AMZN": "Amazon.com Inc., e-commerce and cloud computing giant with significant import-driven retail business",
+    "XLI": "Industrial Select Sector SPDR ETF, tracking industrial sector stocks within the S&P 500",
+    "GOOGL": "Alphabet Inc. (Class A), parent company of Google, YouTube, and Google Cloud; new Dow component",
+    "SPCX": "SpaceX Inc., commercial aerospace, satellite communications (Starlink), and launch services company"
   },
   "quickHits": [
-    "Tesla surges more than 7% in Monday's session amid a broad tech relief rally following the Fed independence ruling (CNBC)",
-    "Securitize to list on NYSE Thursday as the first pure-play real-world asset tokenization company in US public markets; tokenized on-chain assets have tripled to $31B+ over the past year (CNBC)",
-    "Pakistan air strikes kill 36 Afghan civilians and injure 160 in cross-border attacks, heightening South Asia regional tensions (SCMP)",
-    "Holiday-shortened week: US nonfarm payrolls moved to Thursday July 2 ahead of Independence Day; bond market closes Friday July 3 (CNBC)"
+    "ADP Employment Change and ISM Manufacturing PMI for June release today (July 1); data will set the tone ahead of tomorrow's nonfarm payrolls report, moved up to July 2 ahead of the Independence Day holiday (CNBC)",
+    "Trump threatens 100% tariffs on any country imposing digital services taxes on US tech firms, singling out EU nations and the UK — legal authority uncertain after prior Supreme Court tariff rulings (Bloomberg)",
+    "China vows to seek further tariff cuts with the US while decrying 'malicious' trade actions; businesses are rushing exports ahead of the July 24 Section 122 deadline (SCMP)",
+    "Guo Wengui, self-exiled Chinese billionaire, sentenced to 30 years in US prison for a billion-dollar fraud scheme; Beijing highlights his fugitive and Interpol red-notice status (SCMP)"
   ]
 }
