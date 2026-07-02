@@ -3,6 +3,7 @@ import { MarketMood } from "./components/MarketMood";
 import { MarketHeadlines } from "./components/MarketHeadlines";
 import { MacroIndexes } from "./components/MacroIndexes";
 import { SectorHeatmap } from "./components/SectorHeatmap";
+import { HKSectorHeatmap } from "./components/HKSectorHeatmap";
 import { StockCharts } from "./components/StockCharts";
 import { UpcomingEvents } from "./components/UpcomingEvents";
 import { BackToTop } from "./components/BackToTop";
@@ -26,6 +27,7 @@ interface BriefingData {
     marketImpact: string;
     tickers: string[];
     url?: string;
+    region?: "US" | "China" | "Hong Kong" | "Japan" | "Asia" | "Global";
   }[];
   companiesToWatch: {
     name: string;
@@ -69,6 +71,10 @@ export default function Home() {
 
         <ScrollAnimator>
           <SectorHeatmap />
+        </ScrollAnimator>
+
+        <ScrollAnimator>
+          <HKSectorHeatmap />
         </ScrollAnimator>
 
         <ScrollAnimator>

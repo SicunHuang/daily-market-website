@@ -7,11 +7,21 @@ interface Story {
   marketImpact: string;
   tickers: string[];
   url?: string;
+  region?: "US" | "China" | "Hong Kong" | "Japan" | "Asia" | "Global";
 }
 
 interface MarketHeadlinesProps {
   stories: Story[];
 }
+
+const REGION_COLORS: Record<string, string> = {
+  US: "bg-blue-500/15 text-blue-400",
+  China: "bg-red-500/15 text-red-400",
+  "Hong Kong": "bg-pink-500/15 text-pink-400",
+  Japan: "bg-purple-500/15 text-purple-400",
+  Asia: "bg-orange-500/15 text-orange-400",
+  Global: "bg-gray-500/15 text-gray-400",
+};
 
 function ColoredMarketImpact({ text }: { text: string }) {
   const parts = text.split(/(↑|↓)/g);
@@ -64,22 +74,29 @@ export function MarketHeadlines({ stories }: MarketHeadlinesProps) {
                 )}
               </h3>
             </div>
-            <p className="text-xs text-muted font-mono">
-              {story.source}
-              {story.url && (
-                <>
-                  {" · "}
-                  <a
-                    href={story.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent-blue hover:underline"
-                  >
-                    Read full article ↗
-                  </a>
-                </>
+            <div className="flex items-center gap-2">
+              <p className="text-xs text-muted font-mono">
+                {story.source}
+                {story.url && (
+                  <>
+                    {" · "}
+                    <a
+                      href={story.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-accent-blue hover:underline"
+                    >
+                      Read full article ↗
+                    </a>
+                  </>
+                )}
+              </p>
+              {story.region && (
+                <span className={`px-1.5 py-0.5 text-[10px] font-semibold rounded ${REGION_COLORS[story.region] ?? REGION_COLORS.Global}`}>
+                  {story.region}
+                </span>
               )}
-            </p>
+            </div>
             <p className="text-sm text-foreground/80 leading-relaxed">{story.summary}</p>
             <div className="pt-2 border-t border-card-border">
               <ColoredMarketImpact text={story.marketImpact} />
