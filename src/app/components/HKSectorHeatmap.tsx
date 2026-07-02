@@ -14,7 +14,7 @@ export function HKSectorHeatmap() {
     script.type = "text/javascript";
     script.async = true;
     script.innerHTML = JSON.stringify({
-      dataSource: "HSTECH",
+      dataSource: "HSI",
       blockSize: "market_cap_basic",
       blockColor: "change",
       grouping: "sector",
@@ -45,7 +45,7 @@ export function HKSectorHeatmap() {
       <h2 className="text-2xl font-bold flex items-center gap-2">
         <span className="text-accent-red">●</span> Hong Kong Sector Heatmap
       </h2>
-      <p className="text-xs text-muted">Hang Seng Tech Index by market cap, colored by daily change. Powered by TradingView.</p>
+      <p className="text-xs text-muted">Hang Seng Index by market cap, colored by daily change. Powered by TradingView.</p>
       <div
         ref={containerRef}
         className="rounded-xl border border-card-border overflow-hidden"
