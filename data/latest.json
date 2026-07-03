@@ -1,143 +1,154 @@
 {
-  "date": "2026-07-02",
-  "marketMood": "Mixed risk tone: Meta's cloud pivot drives a rare tech bright spot but chip profit-taking dominates as Q3 begins; June jobs data and a non-committal Fed keep the rate-hike debate alive.",
+  "date": "2026-07-03",
+  "marketMood": "Asia leads a quiet July 4 session: a big June jobs miss (+57K), AI-chip profit-taking, and Fed-independence jitters set a cautious but broadly bullish tone heading into H2 2026.",
   "upcomingEvents": [
-    { "date": "2026-07-03", "event": "US Markets Closed — Independence Day (observed)", "significance": "medium" },
-    { "date": "2026-07-07", "event": "SpaceX (SPCX) Joins Nasdaq-100", "significance": "medium" },
-    { "date": "2026-07-10", "event": "SK Hynix Nasdaq ADR Listing (SKHY) — ~$29B offering", "significance": "high" },
-    { "date": "2026-07-24", "event": "Section 122 Tariff Authority Expires — Congress Must Act", "significance": "high" },
-    { "date": "2026-07-29", "event": "FOMC Rate Decision (July 28–29 meeting)", "significance": "high" }
+    { "date": "2026-07-07", "event": "SpaceX (SPCX) joins Nasdaq-100 — QQQ rebalancing", "significance": "medium" },
+    { "date": "2026-07-10", "event": "SK Hynix Nasdaq ADR listing (SKHY) — record ~$29B offering", "significance": "high" },
+    { "date": "2026-07-15", "event": "China Q2 GDP + June retail sales & industrial production", "significance": "high" },
+    { "date": "2026-07-24", "event": "US Section 122 tariffs (10%) expiration deadline — Congress must act", "significance": "high" },
+    { "date": "2026-07-29", "event": "FOMC rate decision (July 28–29 meeting)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Meta Surges 10%+ on Plan to Launch AI Cloud Business Selling Surplus Compute",
-      "source": "Bloomberg / Yahoo Finance",
-      "summary": "Bloomberg reported Meta Platforms is creating 'Meta Compute,' an internal cloud business selling excess AI computing capacity to enterprises, setting up direct competition with AWS, Azure, and Google Cloud.",
-      "marketImpact": "META ↑ ~10–11%, adding ~$179B market cap; cloud competition bearish for AMZN, MSFT, GOOGL; AI infrastructure narrative ↑",
-      "tickers": ["META", "AMZN", "MSFT", "GOOGL"],
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stock-surges-8-131241794.html"
+      "headline": "June Payrolls Miss Badly at +57K; Unemployment Holds at 4.2%",
+      "source": "BLS",
+      "summary": "The US economy added just 57,000 nonfarm jobs in June — well below the ~115K consensus — while April and May were revised down a combined 74,000; unemployment held at 4.2% and labour force participation dipped to 61.5%.",
+      "marketImpact": "S&P 500 closed flat on the data; ↓ rate-hike probability (now ~11% for July); ↑ TLT on lower-for-longer bets; leisure/hospitality shed 61K amid World Cup effects",
+      "tickers": ["SPY", "QQQ", "TLT"],
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "region": "US"
     },
     {
-      "headline": "Chip Stocks Tumble on Profit-Taking After Historic Q2 AI Rally; Antitrust Suit Adds Pressure",
-      "source": "247 Wall St. / CNBC",
-      "summary": "Micron fell 8%, SanDisk dropped 10%, and the iShares Semiconductor ETF slid 4.7% as investors locked in gains at the Q3 open; a class-action antitrust lawsuit filed June 25 against Micron, Samsung, and SK Hynix for alleged DRAM price-fixing compounded the selloff.",
-      "marketImpact": "MU ↓ 8%, SNDK ↓ 10%, WDC ↓ 7%, AMD ↓, INTC ↓; SOXX ↓ 4.7%; memory sector under near-term pressure",
-      "tickers": ["MU", "AMD", "INTC", "SOXX", "WDC"],
-      "url": "https://247wallst.com/investing/2026/07/01/micron-drops-8-sandisk-slumps-10-western-digital-falls-7-as-memory-stocks-pull-back-with-the-nasdaq/"
-    },
-    {
-      "headline": "June Nonfarm Payrolls Released Today at 8:30am ET; ADP Showed Soft 98K Private Hires",
-      "source": "CNBC / BLS",
-      "summary": "The BLS June employment situation report is the key macro event of the holiday-shortened week; yesterday's ADP private payrolls came in at 98K — below the 110K forecast — and the consensus for today's NFP is ~115K with unemployment expected steady at 4.3%.",
-      "marketImpact": "Watch: US equities ↓ risk if strong (rate hike fears); Treasury yields ↑ on beat; USD ↑ on strong print; SPY, QQQ, TLT sensitive",
-      "tickers": ["SPY", "QQQ", "TLT", "UUP"],
-      "url": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html"
-    },
-    {
-      "headline": "Fed Chair Warsh Says Inflation 'Too High,' Declines to Hint at July Rate Move at ECB Forum",
-      "source": "CNBC / Euronews",
-      "summary": "In his first major international address as Fed Chair, Kevin Warsh appeared at the ECB Forum in Sintra, Portugal alongside ECB's Lagarde and BoE's Bailey, stated prices remain 'too high,' and gave no forward guidance on whether the FOMC will hike at its July 28–29 meeting.",
-      "marketImpact": "July rate hike probability ~11%; USD ↑ bias; GLD ↓ pressure; TLT ↓ watch; rate-sensitive equities cautious",
-      "tickers": ["TLT", "GLD", "UUP", "SPY"],
-      "url": "https://www.cnbc.com/2026/07/01/kevin-warsh-ecb-forum-live-updates.html"
-    },
-    {
-      "headline": "SK Hynix Plans Record $29B Nasdaq ADR Listing Under Ticker SKHY on July 10",
+      "headline": "Trump Renews Push to Reshape Federal Reserve After Supreme Court Blocks Lisa Cook Firing",
       "source": "CNBC",
-      "summary": "SK Hynix, the world's second-largest memory chipmaker with ~60% of the HBM AI chip market, is targeting a July 10 Nasdaq ADR listing at up to $29.4B — which would surpass Alibaba's 2014 IPO as the largest ADR offering in history.",
-      "marketImpact": "MU ↓ on investor rotation risk; HBM market ↑ competitive visibility; AI memory capex narrative ↑; Nasdaq liquidity dynamics to watch",
-      "tickers": ["MU", "NVDA", "QCOM", "SOXX"],
-      "url": "https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html"
+      "summary": "Following last Sunday's 5–4 Supreme Court ruling that blocked President Trump from firing Fed Governor Lisa Cook while her case proceeds, the administration is renewing pressure on the Fed's independence and personnel.",
+      "marketImpact": "↓ GLD, TLT — elevated Fed-independence risk premium; markets pricing in potential for a more politicised rate path; watch USD volatility",
+      "tickers": ["GLD", "TLT"],
+      "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html",
+      "region": "US"
     },
     {
-      "headline": "Oil Stabilises Near $74 as US-Iran Doha Peace Talks Continue; Weekend Hormuz Clashes Unsettle Markets",
-      "source": "Al Jazeera",
-      "summary": "Brent crude steadied near $73–74/barrel after crashing 30% in Q2 — its worst quarter since 2020 — as a 60-day US-Iran interim agreement keeps the Strait of Hormuz partially open, though weekend clashes damaged two vessels and have renewed uncertainty around the Doha talks.",
-      "marketImpact": "Energy sector ↑ watch; Brent spike risk if talks collapse; oil-inflation pass-through could complicate Fed July decision",
-      "tickers": ["XLE", "OXY", "CVX", "USO"],
-      "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening"
+      "headline": "Wall Street Enters H2 2026 with Bull Conviction; JPMorgan Lifts S&P 500 Year-End Target to 7,800",
+      "source": "Bloomberg",
+      "summary": "Despite mixed macro data and Middle East headwinds, major banks remain bullish on equities: JPMorgan raised its S&P 500 year-end target from 7,200 to 7,800, citing a 'Blue Sky' AI earnings scenario and resilient consumer spending.",
+      "marketImpact": "↑ SPY — institutional consensus skews bullish; S&P 500 near 7,573; Bank of America flags rising correction risk heading into Q3 as a near-term counterpoint",
+      "tickers": ["SPY"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/wall-street-bets-rallying-markets-will-absorb-every-market-blow",
+      "region": "US"
     },
     {
-      "headline": "China June Manufacturing PMI Rises to 50.3 — Third Consecutive Month of Expansion",
-      "source": "NBS / Investing Live",
-      "summary": "China's official NBS Manufacturing PMI edged up to 50.3 in June from 50.0, beating estimates of 50.1; new orders returned to expansion territory (51.2 vs 49.9 in May), driven by strong AI-linked high-tech exports even as domestic demand remains subdued.",
-      "marketImpact": "China tech ↑ on AI export strength; domestic consumption recovery tentative; FXI, BABA cautiously positive",
-      "tickers": ["FXI", "BABA", "JD", "PDD"],
-      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-01-july-2026-china-manufacturing-pmi-coming-up-again-20260630/"
+      "headline": "Nikkei 225 Falls 2% to ~69,000 as AI Chip Stocks Extend Selloff; Financials and Toyota Buck Trend",
+      "source": "Nikkei Asia",
+      "summary": "Japan's benchmark index fell 2%, led by steep losses in AI-linked chip stocks: Kioxia (−11.4%), Advantest (−6.7%), Tokyo Electron (−6.2%), Taiyo Yuden (−4.3%); financial stocks MUFG (+1.9%) and Mizuho (+2.4%) and Toyota (+3.6%) outperformed on sector rotation.",
+      "marketImpact": "↓ Japan semis: 8035.T, 6857.T; ↑ Japan financials (8306.T) and autos (7203.T); sector rotation from AI-growth into value accelerating",
+      "tickers": ["8035.T", "6857.T", "7203.T", "8306.T"],
+      "url": "https://asia.nikkei.com/business/markets",
+      "region": "Japan"
+    },
+    {
+      "headline": "Hong Kong Ends H1 as One of World's Worst Performers (−11%); Mainland CSI 300 Up 7.6% on AI Chip Surge",
+      "source": "South China Morning Post",
+      "summary": "The Hang Seng Index fell 0.6% to 22,881 today and closed H1 2026 down 11% overall (HSTECH −19%), while mainland China's CSI 300 rose 7.6% driven by domestic AI chip enthusiasm; Cambricon Technologies surpassed a 1 trillion yuan market cap after a 76% YTD gain.",
+      "marketImpact": "↓ HK equities (0700.HK, 9988.HK) — capital flows favouring A-shares over Hong Kong; ↑ mainland China AI/chip names; FXI lagging CSI 300",
+      "tickers": ["0700.HK", "9988.HK", "FXI"],
+      "url": "https://www.indexbox.io/blog/hong-kong-stocks-end-first-half-of-2026-as-one-of-worlds-worst-performers/",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "Chinese Exporters Rush Shipments Ahead of July 24 US Tariff Expiry; H1 Exports Up ~15% YoY",
+      "source": "CNBC",
+      "summary": "With US Section 122 tariffs (10%) expiring July 24, Chinese exporters are accelerating shipments to the US, contributing to a roughly 15% year-on-year export surge in the first half of 2026; June trade and Q2 GDP data follow in mid-July.",
+      "marketImpact": "watch — short-term positive for China export-oriented names; FXI cautiously supported; key risk is tariff reinstatement post-July 24",
+      "tickers": ["FXI"],
+      "url": "https://www.cnbc.com/2026/06/29/china-economy-june-trade-exports-manufacturing-tariffs-iran-war-consumption-ai-technology-.html",
+      "region": "China"
+    },
+    {
+      "headline": "Global AI/Tech Profit-Taking Deepens; Nvidia Off ~4%, AMD and Qualcomm Down 9%+ at Worst",
+      "source": "NBC News",
+      "summary": "A global de-risking trade in AI infrastructure stocks continued this week, with Nvidia tumbling ~4%, AMD and Qualcomm losing over 9% at session lows, and South Korea's Kospi dropping 10% at the peak — driven by doubts over the pace and payoff of AI capital expenditure.",
+      "marketImpact": "↓ NVDA, AMD, QCOM, AVGO — valuation reset underway as investors demand proof over promises; South Korean tech (Samsung, SK Hynix both −12%+) hardest hit in Asia",
+      "tickers": ["NVDA", "AMD", "QCOM", "AVGO"],
+      "url": "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331",
+      "region": "Global"
+    },
+    {
+      "headline": "US-Iran Peace Deal MOU Nearing Finalisation; Oil Subdued Near Multi-Month Lows",
+      "source": "Al Jazeera / NBC News",
+      "summary": "A US-Iran memorandum of understanding is close to formal signing, with President Trump confirming the Strait of Hormuz will reopen and the US naval blockade lifted once completed; oil has stabilised near multi-month lows with the deal largely priced in.",
+      "marketImpact": "↓ Oil largely already discounted; ↑ Asia oil importers benefit from lower energy costs; ↓ XLE, CVX on lower near-term earnings; Goldman Sachs year-end Brent target at $80",
+      "tickers": ["XLE", "CVX", "USO"],
+      "url": "https://www.nbcnews.com/business/markets/oil-prices-iran-deal-hormuz-doubts-rcna350087",
+      "region": "Global"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Meta Platforms",
-      "ticker": "META",
-      "exchange": "NASDAQ",
-      "reason": "Reported plan to launch Meta Compute cloud business selling excess AI capacity to enterprises, directly challenging AWS and Azure and answering investor concerns about massive AI capex.",
+      "name": "Toyota Motor",
+      "ticker": "7203.T",
+      "exchange": "TSE",
+      "reason": "Outperforming in a weak Nikkei session (+3.6%) on sector rotation away from semis into autos and financials; lower energy costs from Iran deal also benefit the manufacturer.",
       "direction": "↑"
-    },
-    {
-      "name": "Micron Technology",
-      "ticker": "MU",
-      "exchange": "NASDAQ",
-      "reason": "Down ~8% on Q3 profit-taking after tripling in Q2; DRAM antitrust class-action lawsuit and SK Hynix Nasdaq listing both add near-term headwinds.",
-      "direction": "↓"
     },
     {
       "name": "NVIDIA",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Bellwether for AI capex cycle; chip sector rotation and broader semiconductor selloff could pressure NVDA near-term even as long-run AI demand outlook stays strong.",
+      "reason": "AI infrastructure profit-taking continues; down ~4% as markets question the pace of data-centre spending — watched globally as the bellwether for the AI capex cycle.",
       "direction": "↓"
     },
     {
-      "name": "Amazon",
-      "ticker": "AMZN",
-      "exchange": "NASDAQ",
-      "reason": "AWS now faces a direct challenger with Meta's cloud push into enterprise compute; investors reassessing cloud competitive dynamics and market share.",
+      "name": "Tokyo Electron",
+      "ticker": "8035.T",
+      "exchange": "TSE",
+      "reason": "Among Japan's hardest-hit semis today (−6.2%); the leading barometer of AI equipment demand sentiment in Asia.",
       "direction": "↓"
     },
     {
       "name": "Chevron",
       "ticker": "CVX",
       "exchange": "NYSE",
-      "reason": "Oil stabilising near $74 after a brutal Q2; Strait of Hormuz peace process and Doha talks are the key swing factor for energy sector earnings in Q3.",
-      "direction": "↑"
+      "reason": "US-Iran peace deal normalises Persian Gulf oil flows; near-term earnings headwind as Brent edges toward $70–74 range; Q3 guidance will be key.",
+      "direction": "↓"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS",
+      "exchange": "KRX",
+      "reason": "South Korean memory giant under pressure in the AI chip selloff; Kospi shed 10% at the height of recent tech weakness; Nasdaq ADR listing (SKHY) on July 10 adds near-term overhang.",
+      "direction": "↓"
     }
   ],
   "bondYields": {
     "us10y": 4.49,
-    "us30y": 4.97,
-    "asOf": "2026-07-01"
+    "us30y": 4.99,
+    "asOf": "2026-07-02"
   },
   "tickerDescriptions": {
-    "META": "Meta Platforms Inc., social media and AI infrastructure company operating Facebook, Instagram, and WhatsApp",
-    "AMZN": "Amazon.com Inc., e-commerce giant and operator of AWS, the world's largest cloud computing platform",
-    "MSFT": "Microsoft Corporation, enterprise software and cloud computing company behind Azure and Office 365",
-    "GOOGL": "Alphabet Inc., parent of Google, YouTube, and Google Cloud Platform",
-    "MU": "Micron Technology Inc., US memory and storage semiconductor manufacturer specialising in DRAM, NAND, and HBM",
-    "AMD": "Advanced Micro Devices Inc., semiconductor company making CPUs, GPUs, and AI data centre accelerators",
-    "INTC": "Intel Corporation, processor and semiconductor manufacturer undergoing major restructuring and fab expansion",
-    "SOXX": "iShares Semiconductor ETF tracking the PHLX Semiconductor Sector Index",
-    "WDC": "Western Digital Corporation, data storage products manufacturer including hard drives and flash storage",
     "SPY": "SPDR S&P 500 ETF Trust tracking the 500 largest US publicly traded companies",
     "QQQ": "Invesco QQQ Trust tracking the Nasdaq-100 Index of the largest non-financial Nasdaq-listed companies",
     "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
     "GLD": "SPDR Gold Shares ETF tracking the spot price of gold bullion",
-    "UUP": "Invesco DB US Dollar Index Bullish Fund tracking USD strength against a basket of major currencies",
-    "XLE": "Energy Select Sector SPDR Fund tracking US-listed oil, gas, and energy sector stocks",
-    "OXY": "Occidental Petroleum Corporation, US oil and gas exploration and production company",
-    "CVX": "Chevron Corporation, global integrated energy major in oil, gas, and refining operations",
-    "USO": "United States Oil Fund ETF tracking WTI crude oil futures",
-    "FXI": "iShares China Large-Cap ETF tracking large-cap Chinese equities listed in Hong Kong",
-    "BABA": "Alibaba Group Holding, Chinese e-commerce and cloud computing conglomerate",
-    "JD": "JD.com Inc., major Chinese e-commerce retailer and logistics company",
-    "PDD": "PDD Holdings Inc., parent of Pinduoduo and Temu, fast-growing Chinese-founded e-commerce platforms",
-    "NVDA": "NVIDIA Corporation, leading AI chip designer making GPUs and data centre accelerators for AI workloads",
-    "QCOM": "Qualcomm Incorporated, semiconductor company specialising in mobile chipsets and wireless technology"
+    "8035.T": "Tokyo Electron Ltd., Japan's largest semiconductor equipment manufacturer serving the global chip industry",
+    "6857.T": "Advantest Corp., global leader in semiconductor and electronic component test equipment",
+    "7203.T": "Toyota Motor Corp., Japan's largest automaker and the world's leading vehicle manufacturer by annual volume",
+    "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest bank by total assets and a global financial institution",
+    "0700.HK": "Tencent Holdings Ltd., China's largest technology conglomerate spanning social media, gaming, payments, and cloud",
+    "9988.HK": "Alibaba Group Holding Ltd., China's dominant e-commerce and cloud computing company listed in Hong Kong",
+    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies listed on the Hong Kong Stock Exchange",
+    "NVDA": "NVIDIA Corporation, world's leading designer of AI accelerators and graphics processing units for data centres",
+    "AMD": "Advanced Micro Devices Inc., semiconductor company competing in CPUs, GPUs, and AI data-centre accelerators",
+    "QCOM": "Qualcomm Inc., wireless technology and semiconductor company specialising in mobile chipsets and IoT",
+    "AVGO": "Broadcom Inc., semiconductor and infrastructure software company with major AI networking chip exposure",
+    "XLE": "Energy Select Sector SPDR Fund tracking US-listed oil, gas, and energy sector equities",
+    "CVX": "Chevron Corporation, global integrated energy major in oil, gas, and refining with upstream production assets",
+    "USO": "United States Oil Fund ETF tracking WTI crude oil front-month futures",
+    "000660.KS": "SK Hynix Inc., South Korea's second-largest memory chipmaker and a leading supplier of HBM chips for AI"
   },
   "quickHits": [
-    "Bitcoin at ~$58,620, a 21-month low, as hawkish Fed signals and sustained ETF outflows pressure crypto ahead of the July 28–29 FOMC meeting (CoinDesk)",
-    "Gold near $3,982/oz, heading for its worst quarterly drop in decades (-11% in Q2) as elevated Treasury yields favour income-bearing assets over bullion (Trading Economics)",
-    "Section 122 tariff authority expires July 24 — Congress must act or Trump's 10% global tariff lapses, adding a key legislative deadline to an already busy summer calendar (CNBC / Tax Foundation)",
-    "SpaceX (SPCX) joins the Nasdaq-100 on July 7, adding meaningful weight to QQQ and extending the AI-infrastructure theme in the index"
+    "Whale Rock Capital up ~73% in 2026 YTD — hedge fund's concentrated AI hardware bets delivered a 39% return in April alone on memory chip and data-centre positions. (Bloomberg)",
+    "Fed Chair Warsh: inflation expectations have eased over the past month, signalling no urgency to raise rates at the July 28–29 FOMC meeting. (CNBC)",
+    "SpaceX (SPCX) joins the Nasdaq-100 on Monday July 7, adding meaningful weight to QQQ and deepening the index's AI-infrastructure tilt. (CNBC)",
+    "SK Hynix Nasdaq ADR (SKHY) targets July 10 listing at ~$29B — would surpass Alibaba's 2014 offering as the largest ADR in US history. (CNBC)"
   ]
 }
