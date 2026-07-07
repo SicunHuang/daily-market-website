@@ -1,94 +1,85 @@
 {
-  "date": "2026-07-06",
-  "marketMood": "Week-ahead setup: OPEC+ output hike, Getty-Shutterstock collapse, and SpaceX Nasdaq-100 entry dominate a thin summer tape while traders await July 15 China GDP and July 28-29 FOMC.",
+  "date": "2026-07-07",
+  "marketMood": "Risk-on with technical tailwinds: SpaceX joins the Nasdaq-100 today with $4.3B in forced index buying, AI hardware euphoria lifts markets to fresh records, but hawkish FOMC minutes Wednesday and a July 24 tariff deadline keep traders on guard.",
   "upcomingEvents": [
-    { "date": "2026-07-07", "event": "SpaceX (SPCX) joins Nasdaq-100 — QQQ rebalancing effective at open", "significance": "high" },
-    { "date": "2026-07-10", "event": "SK Hynix Nasdaq ADR (SKHY) listing — record ~$29B offering", "significance": "high" },
-    { "date": "2026-07-15", "event": "China Q2 GDP + June retail sales & industrial production", "significance": "high" },
-    { "date": "2026-07-24", "event": "US Section 122 tariffs (10%) expiration deadline — Congress must act", "significance": "high" },
-    { "date": "2026-07-29", "event": "FOMC rate decision (July 28–29 meeting)", "significance": "high" }
+    { "date": "2026-07-08", "event": "FOMC June Meeting Minutes Release (Warsh's debut meeting)", "significance": "high" },
+    { "date": "2026-07-09", "event": "Japan PPI & Machine Tool Orders Data", "significance": "medium" },
+    { "date": "2026-07-10", "event": "SK Hynix Nasdaq ADR (SKHY) First Trading Day — ~$29B listing", "significance": "high" },
+    { "date": "2026-07-15", "event": "China Q2 GDP + June Retail Sales & Industrial Production", "significance": "high" },
+    { "date": "2026-07-24", "event": "US Section 122 Tariffs (10%) Expiry — Congress must act to renew", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "OPEC+ Approves 188K bpd Output Increase for August as Middle East Tensions Ease",
+      "headline": "SpaceX (SPCX) Joins Nasdaq-100 Today, Triggering ~$4.3B in Forced Index Buying at Open",
       "source": "CNBC",
-      "summary": "Seven core OPEC+ members — led by Saudi Arabia and Russia — voted on July 5 to raise collective quotas by 188,000 barrels per day from August, continuing a gradual production restoration as the US-Iran peace MOU nears finalisation and Strait of Hormuz shipping recovers.",
-      "marketImpact": "↓ Oil — WTI near $68–69/bbl; ↑ Asia energy-import economies; ↓ XLE, CVX on margin compression; Goldman Sachs year-end Brent target $80",
-      "tickers": ["XLE", "CVX", "USO"],
-      "url": "https://www.cnbc.com/amp/2026/07/05/opec-set-to-approve-another-oil-output-increase.html",
-      "region": "Global"
-    },
-    {
-      "headline": "Getty Images Terminates $3.7B Shutterstock Merger After UK Regulator Demands Editorial Divestiture",
-      "source": "Yahoo Finance",
-      "summary": "Getty's board unanimously voted on July 6 to terminate the Agreement and Plan of Merger after the UK Competition and Markets Authority demanded Shutterstock divest its entire editorial business — a condition both companies deemed commercially unacceptable.",
-      "marketImpact": "↓ SSTK — merger premium fully collapses; ↓ GETY — loses strategic combination rationale; 10.500% senior secured notes trigger mandatory redemption; both stocks face standalone re-rating",
-      "tickers": ["GETY", "SSTK"],
-      "url": "https://finance.yahoo.com/media-advertising/articles/getty-images-terminates-3-7-130045150.html",
-      "region": "US"
-    },
-    {
-      "headline": "SpaceX (SPCX) Enters Nasdaq-100 Monday; $4.3B Forced Index Buy Due After Sunday Close",
-      "source": "CNBC",
-      "summary": "SpaceX's fast-track Nasdaq-100 inclusion is effective before market open on July 7, requiring index-tracking funds — including the $800B+ QQQ — to purchase approximately $4.3 billion in SPCX; the stock has run from its $135 IPO price (June 12) to ~$171.",
-      "marketImpact": "↑ SPCX — mechanical demand spike at open Monday; watch crowding and reversal risk mid-week; ↑ QQQ on added AI-infrastructure exposure",
+      "summary": "SpaceX's fast-track Nasdaq-100 inclusion is effective at Monday's open, requiring index-tracking funds — including the $800B+ QQQ — to purchase roughly $4.3 billion in SPCX; the stock has surged from its $135 IPO price on June 12 to approximately $171.",
+      "marketImpact": "SPCX ↑ mechanical demand at open — watch crowding and mid-week reversal risk; QQQ ↑ marginally on added AI/space-infrastructure exposure",
       "tickers": ["SPCX", "QQQ"],
       "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
       "region": "US"
     },
     {
-      "headline": "June Payrolls Miss Deepens Rate-Cut Case; Fed's July Hike Now Off the Table",
+      "headline": "June Payrolls Miss Deepens Rate-Cut Case — 57K Jobs Added, Well Below 115K Forecast",
       "source": "CNBC",
-      "summary": "June added just 57,000 nonfarm jobs — well below the ~115K consensus — with April/May revised down a combined 74,000; unemployment held at 4.2% and Fed Chair Warsh signalled no urgency to raise rates, dropping forward guidance in favour of pure data dependence.",
-      "marketImpact": "↓ Rate-hike odds (July hike near zero); ↑ TLT on lower-for-longer bets; ↓ DXY on weaker dollar; 10Y yield fell to ~4.46%; next catalyst is July 28–29 FOMC",
+      "summary": "The US added only 57,000 nonfarm jobs in June, well below the 115,000 consensus, with leisure and hospitality shedding 61,000 (World Cup drag); April and May were revised down a combined 74,000, and the unemployment rate held at 4.2% only because the labor force participation rate fell to a five-year low of 61.5%.",
+      "marketImpact": "S&P 500 ↑ 0.72% to 7,537 and Nasdaq ↑ 1.12% as rate-cut hopes revived; TLT ↑; DXY ↓; July hike odds near zero — July 29 FOMC now the next live meeting",
       "tickers": ["SPY", "TLT", "DXY"],
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
       "region": "US"
     },
     {
-      "headline": "USD/JPY Hits 161 as Japan Finance Minister Warns of FX Intervention; BOJ at 31-Year Rate High",
-      "source": "CNBC",
-      "summary": "USD/JPY rose to 161.27 on Friday as Finance Minister Satsuki Katayama warned authorities stand ready to intervene; the Bank of Japan raised rates to 1% in June — the highest since 1995 — and board members have flagged a neutral rate target near 2%.",
-      "marketImpact": "watch — JPY intervention risk elevated during thin summer liquidity; ↑ yen-hedged Japan equity plays; ↓ carry trades funded in JPY; ↑ 8306.T, 8316.T (banks benefit from rate normalisation)",
-      "tickers": ["8306.T", "7203.T"],
-      "url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
-      "region": "Japan"
+      "headline": "BofA Warns AI Speculation at 'Extreme Levels,' Sets S&P 500 Year-End Target at 7,100",
+      "source": "Fortune",
+      "summary": "Bank of America reaffirmed its year-end S&P 500 target of 7,100 — about 5% below Monday's close of 7,537 — warning that high-multiple AI stocks have 'gapped up demonstrably,' a pattern that has historically preceded a valuation snap-back; Micron is up 242% year-to-date.",
+      "marketImpact": "Chip/AI stocks ↓ risk (MU, NVDA, WDC, MRVL most exposed); limited near-term upside thesis for high-multiple names; watch for sector rotation",
+      "tickers": ["MU", "NVDA", "WDC", "MRVL"],
+      "url": "https://fortune.com/2026/07/05/stock-market-outlook-sp500-target-7100-ai-boom-speculation-extreme-levels/",
+      "region": "US"
     },
     {
-      "headline": "Nikkei Rebounds 1.47% to 69,744 on Payroll Miss; Japan AI Semis Stabilise After Selloff",
-      "source": "Nikkei Asia",
-      "summary": "Japan's Nikkei 225 recovered to close +1.47% at 69,744 on Friday, lifted by the weak US jobs report easing Fed hawkishness; financials (MUFG +1.9%, Mizuho +2.4%) and Toyota (+3.6%) led while semiconductor stocks partially stabilised after a bruising week.",
-      "marketImpact": "↑ Japan financials (8306.T) and autos (7203.T); sector rotation from AI semis to value names continuing; Nikkei holding 31-year highs as structural bullish backdrop",
-      "tickers": ["8035.T", "6857.T", "7203.T", "8306.T"],
-      "url": "https://asia.nikkei.com/business/markets",
-      "region": "Japan"
+      "headline": "SK Hynix $29B Nasdaq ADR (SKHY) Set to Price This Week — Biggest-Ever Foreign US Listing",
+      "source": "Fortune",
+      "summary": "South Korea's SK Hynix, Nvidia's top HBM memory supplier with roughly 60% high-bandwidth memory market share, is set to price its $29B Nasdaq ADR with shares expected to begin trading Friday, July 10 — surpassing Alibaba's 2014 IPO as the largest-ever US listing by a foreign company.",
+      "marketImpact": "SKHY ↑ potential on AI/HBM demand; ASML ↑ as key EUV capex beneficiary; MU ↓ risk from better-funded competitor entering US capital markets",
+      "tickers": ["SKHY", "000660.KS", "MU", "ASML"],
+      "url": "https://fortune.com/2026/07/06/sk-hynix-ipo-stock-offer-nasdaq-29-billion-ai/",
+      "region": "Asia"
     },
     {
-      "headline": "July 24 US Tariff Expiry Looms; Chinese Exporters Rush Shipments in Final Stretch",
+      "headline": "Beijing Cracks Down on Cross-Border Trading; Mainland Investors Flock to Hong Kong",
+      "source": "Hong Kong Free Press",
+      "summary": "Chinese regulators fined Futu, Tiger Brokers, and Longbridge a combined $330M+ for facilitating unauthorized cross-border stock trading and ordered a two-year phase-out of mainland operations, pushing retail investors toward Hong Kong as a regulated alternative.",
+      "marketImpact": "FUTU ↓, TIGR ↓ on direct regulatory hit; HK-listed brokers ↑; Hang Seng ↑ 1.3% to ~23,350 on capital inflow expectations from mainland",
+      "tickers": ["FUTU", "TIGR", "9988.HK", "0700.HK"],
+      "url": "https://hongkongfp.com/2026/07/04/chinese-investors-flock-to-hong-kong-as-trading-curbs-tighten/",
+      "region": "China"
+    },
+    {
+      "headline": "July 24 US Tariff Expiry Looms; Chinese Exporters Rushing Final Shipments",
       "source": "CNBC",
-      "summary": "Chinese exporters are accelerating shipments to the US ahead of the Section 122 tariff (10%) expiry on July 24, helping drive a ~15% YoY export surge in H1 2026; June trade data and China Q2 GDP arrive July 15 and are expected to confirm robust top-line growth.",
-      "marketImpact": "watch — FXI cautiously supported near-term; key risk is Congressional renewal/reinstatement of tariffs post-July 24; Q2 GDP beat would support 0700.HK, 9988.HK",
+      "summary": "Chinese exporters are accelerating shipments ahead of the Section 122 tariff (10%) expiry on July 24, helping drive a ~15% YoY export surge in H1 2026; China Q2 GDP and June trade data arrive July 15 and are expected to confirm robust top-line growth from front-running.",
+      "marketImpact": "FXI cautiously supported near-term; key risk is Congressional renewal/reinstatement post-July 24; Q2 GDP beat would support 0700.HK, 9988.HK",
       "tickers": ["FXI", "0700.HK", "9988.HK"],
       "url": "https://www.cnbc.com/2026/06/29/china-economy-june-trade-exports-manufacturing-tariffs-iran-war-consumption-ai-technology-.html",
       "region": "China"
     },
     {
-      "headline": "South Korea KOSPI Hits Record Highs as Semiconductor Supercycle Drives 300% Earnings Growth Forecast",
-      "source": "Business Standard",
-      "summary": "South Korea's total market cap has soared 86% YTD to $5 trillion, overtaking India as the world's 6th largest equity market; the KOSPI is benefiting from a memory-chip supercycle driven by AI-compute demand, with 2026 earnings growth forecast at 300% — the strongest in Asia since the 1999 recovery.",
-      "marketImpact": "↑ 000660.KS (SK Hynix), 005930.KS (Samsung) — supercycle driven by HBM and AI compute demand; SKHY Nasdaq ADR listing July 10 adds $29B in potential demand",
-      "tickers": ["000660.KS", "005930.KS", "SKHY"],
-      "url": "https://www.business-standard.com/markets/news/south-korea-overtakes-india-as-world-s-6th-largest-stock-market-on-ai-rally-126060200084_1.html",
-      "region": "Asia"
+      "headline": "USD/JPY Holds at 161 as BOJ Eyes Further Hikes; Finance Minister Repeats Intervention Warning",
+      "source": "CNBC",
+      "summary": "USD/JPY trades at 161.87 as the Bank of Japan — which raised rates to 1% in June, the highest since 1995 — signals further hikes are warranted with CPI projected at 2.5–3.0% for FY2026; Finance Minister Katayama reiterated that authorities stand ready to intervene at any time during thin summer liquidity.",
+      "marketImpact": "JPY ↑ potential on intervention or BOJ hike; JGBs ↓; 8306.T ↑ on rate normalisation; Nikkei 225 at 69,302 faces headwinds from tighter policy",
+      "tickers": ["8306.T", "7203.T", "8035.T"],
+      "url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+      "region": "Japan"
     },
     {
-      "headline": "Bitcoin Rebounds Above $63K During US Holiday Weekend on Softening Inflation Signals",
-      "source": "Yahoo Finance",
-      "summary": "Bitcoin climbed back above $63,000 during thin July 4 holiday weekend trading, reversing a late-June slide to a 21-month low near $60,000; the move was supported by Fed Chair Warsh's comments on easing inflation expectations and aggressive whale accumulation of 270,000+ BTC.",
-      "marketImpact": "watch — BTC still down ~30% YTD from $93K peak; US BTC ETFs recorded $4.5B in outflows in June; $65K is key resistance; hold above $60K for near-term sentiment stabilisation",
-      "tickers": ["IBIT", "FBTC"],
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-3-2026-green-july-off-to-a-solid-start-131639758.html",
-      "region": "US"
+      "headline": "Crude Slides Below $69 as Saudi Arabia Recovers Exports and OPEC+ Adds 188K bpd",
+      "source": "CNBC",
+      "summary": "WTI fell below $69/bbl and Brent below $72 as Saudi Arabia ramped crude exports back toward pre-conflict levels of ~6.3 million bpd following normalization of Strait of Hormuz shipping; OPEC+ approved a 188,000 bpd output increase for August.",
+      "marketImpact": "Energy stocks ↓ (XOM, CVX, XLE); airlines/transport ↑; oil decline eases inflation pressure and provides mild support to risk assets; Goldman Sachs year-end Brent target $80",
+      "tickers": ["XLE", "CVX", "USO", "XOM"],
+      "url": "https://www.cnbc.com/amp/2026/07/05/opec-set-to-approve-another-oil-output-increase.html",
+      "region": "Global"
     }
   ],
   "companiesToWatch": [
@@ -96,79 +87,82 @@
       "name": "SpaceX",
       "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Nasdaq-100 index inclusion effective Monday July 7 triggers ~$4.3B in forced buying by QQQ and other index funds — mechanical demand spike expected at open with reversal risk into mid-week.",
+      "reason": "Nasdaq-100 index inclusion is effective at Monday's open, triggering ~$4.3B in forced buying by QQQ and other index funds — mechanical demand spike expected at open, with mid-week reversal risk.",
       "direction": "↑"
     },
     {
       "name": "SK Hynix",
-      "ticker": "000660.KS",
-      "exchange": "KRX",
-      "reason": "Nasdaq ADR (SKHY) targets July 10 listing at ~$29B — would surpass Alibaba as the largest ADR in US history; memory supercycle fundamentals remain strong with AI-compute HBM demand surging.",
+      "ticker": "SKHY",
+      "exchange": "NASDAQ",
+      "reason": "Nasdaq ADR (SKHY) pricing this week for Friday July 10 listing at ~$29B — would surpass Alibaba as the largest ADR offering in US history; AI/HBM memory supercycle fundamentals remain the strongest in the semiconductor sector.",
       "direction": "↑"
+    },
+    {
+      "name": "Futu Holdings",
+      "ticker": "FUTU",
+      "exchange": "NASDAQ",
+      "reason": "Beijing's cross-border trading crackdown directly targets Futu's core business model with $330M+ in fines and a mandatory two-year phase-out order — sustained regulatory pressure on revenue.",
+      "direction": "↓"
     },
     {
       "name": "Getty Images",
       "ticker": "GETY",
       "exchange": "NYSE",
-      "reason": "Merger termination on July 6 leaves Getty standalone; mandatory note redemption and strategic vacuum require a new capital plan — stock faces material re-rating downward.",
-      "direction": "↓"
-    },
-    {
-      "name": "Shutterstock",
-      "ticker": "SSTK",
-      "exchange": "NYSE",
-      "reason": "Merger premium fully collapses after UK CMA forced Getty's hand; standalone AI-imagery thesis needs rebuilding with no near-term catalyst.",
+      "reason": "Merger with Shutterstock terminated July 6 after UK CMA demanded editorial business divestiture; standalone re-rating needed with mandatory note redemption and no near-term strategic catalyst.",
       "direction": "↓"
     },
     {
       "name": "Mitsubishi UFJ Financial Group",
       "ticker": "8306.T",
       "exchange": "TSE",
-      "reason": "BOJ at 1% and signalling path to 2% neutral rate — Japan's largest bank is a direct beneficiary of rate normalisation and outperformed last session (+1.9%) while the Nikkei rose on softer US rates.",
+      "reason": "BOJ at 1% and signalling path to a ~2% neutral rate — Japan's largest bank is a direct beneficiary of rate normalisation with net interest margin expansion ahead.",
       "direction": "↑"
     },
     {
-      "name": "Chevron",
-      "ticker": "CVX",
-      "exchange": "NYSE",
-      "reason": "OPEC+ approved another 188K bpd output hike for August; with WTI near $68-69, Chevron's Q3 earnings will face oil price headwinds and management's guidance on Hormuz recovery timing is key.",
-      "direction": "↓"
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "exchange": "NASDAQ",
+      "reason": "Up 242% year-to-date and the AI memory bellwether, but squarely in BofA's crosshairs as a prime candidate for a valuation snap-back if AI speculation unwinds.",
+      "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.46,
-    "us30y": 4.99,
-    "asOf": "2026-07-03"
+    "us10y": 4.49,
+    "us30y": 4.98,
+    "asOf": "2026-07-07"
   },
   "tickerDescriptions": {
-    "XLE": "Energy Select Sector SPDR Fund tracking US-listed oil, gas, and energy sector equities",
-    "CVX": "Chevron Corporation, global integrated energy major in oil, gas, and refining with upstream production assets",
-    "USO": "United States Oil Fund ETF tracking WTI crude oil front-month futures",
-    "GETY": "Getty Images Holdings Inc., global provider of stock photos, videos, and editorial imagery",
-    "SSTK": "Shutterstock Inc., online marketplace for licensed stock images, videos, and music",
-    "SPCX": "SpaceX, private aerospace and satellite communications company; IPO'd June 2026 on NASDAQ",
-    "QQQ": "Invesco QQQ Trust tracking the Nasdaq-100 Index of the largest non-financial Nasdaq-listed companies",
-    "SPY": "SPDR S&P 500 ETF Trust tracking the 500 largest US publicly traded companies",
-    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
+    "SPCX": "SpaceX, private aerospace and satellite communications company; IPO'd June 2026 on NASDAQ — joined Nasdaq-100 on July 7",
+    "QQQ": "Invesco QQQ Trust tracking the Nasdaq-100 Index of the 100 largest non-financial Nasdaq-listed companies",
+    "SPY": "SPDR S&P 500 ETF Trust tracking the 500 largest US publicly traded companies by market capitalization",
+    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds, highly sensitive to rate expectations",
     "DXY": "US Dollar Index measuring the dollar's strength against a basket of six major currencies",
-    "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest bank by total assets and a global financial institution",
-    "8316.T": "Sumitomo Mitsui Financial Group, Japan's second-largest banking group by assets",
-    "7203.T": "Toyota Motor Corp., Japan's largest automaker and the world's leading vehicle manufacturer by annual volume",
-    "8035.T": "Tokyo Electron Ltd., Japan's largest semiconductor equipment manufacturer serving the global chip industry",
-    "6857.T": "Advantest Corp., global leader in semiconductor and electronic component test equipment",
-    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies listed on the Hong Kong Stock Exchange",
-    "0700.HK": "Tencent Holdings Ltd., China's largest technology conglomerate spanning social media, gaming, payments, and cloud",
+    "MU": "Micron Technology Inc., major US producer of DRAM and NAND memory chips for AI data centers and consumer devices",
+    "NVDA": "Nvidia Corporation, dominant designer of AI accelerator GPUs and high-performance computing chips",
+    "WDC": "Western Digital Corporation, maker of hard drives, flash storage, and data center storage solutions",
+    "MRVL": "Marvell Technology Inc., semiconductor company specializing in data infrastructure, custom AI chips, and networking silicon",
+    "SKHY": "SK Hynix Nasdaq ADR (targeting July 10 listing) — represents shares in South Korea's leading HBM memory chipmaker for AI",
+    "000660.KS": "SK Hynix Inc., South Korea's second-largest memory chipmaker and Nvidia's top supplier of high-bandwidth memory (HBM)",
+    "ASML": "ASML Holding NV, Dutch semiconductor equipment maker and sole global supplier of extreme ultraviolet (EUV) lithography machines",
+    "FUTU": "Futu Holdings Ltd., Hong Kong-based online brokerage facilitating cross-border stock trading for Chinese retail investors",
+    "TIGR": "UP Fintech Holding Ltd. (Tiger Brokers), Chinese online brokerage platform for cross-border trading facing Beijing regulatory action",
     "9988.HK": "Alibaba Group Holding Ltd., China's dominant e-commerce and cloud computing company listed in Hong Kong",
-    "000660.KS": "SK Hynix Inc., South Korea's second-largest memory chipmaker and a leading supplier of HBM chips for AI",
-    "005930.KS": "Samsung Electronics Co., South Korea's largest conglomerate and global leader in memory chips, displays, and smartphones",
-    "SKHY": "SK Hynix Nasdaq ADR targeting July 10 listing — represents shares in the South Korean memory semiconductor leader",
-    "IBIT": "iShares Bitcoin Trust ETF, BlackRock's spot Bitcoin ETF providing regulated US exposure to Bitcoin",
-    "FBTC": "Fidelity Wise Origin Bitcoin Fund, spot Bitcoin ETF providing regulated US exposure to Bitcoin"
+    "0700.HK": "Tencent Holdings Ltd., China's largest technology conglomerate spanning social media, gaming, payments, and cloud",
+    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies listed on the Hong Kong Stock Exchange",
+    "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest bank by total assets and a primary beneficiary of BOJ rate normalisation",
+    "7203.T": "Toyota Motor Corp., Japan's largest automaker and global leader in hybrid and hydrogen vehicle technology",
+    "8035.T": "Tokyo Electron Ltd., Japan's largest semiconductor equipment manufacturer serving the global chip fabrication industry",
+    "XLE": "Energy Select Sector SPDR Fund tracking energy companies in the S&P 500 index",
+    "CVX": "Chevron Corporation, global integrated energy major in oil, gas, and refining facing margin pressure from declining crude prices",
+    "USO": "United States Oil Fund ETF tracking WTI crude oil front-month futures contracts",
+    "XOM": "ExxonMobil Corporation, the largest US integrated oil and gas company by market capitalization",
+    "GETY": "Getty Images Holdings Inc., global provider of stock photos, videos, and editorial imagery — standalone after merger termination",
+    "SSTK": "Shutterstock Inc., online marketplace for licensed stock images, videos, and music — merger with Getty Images terminated July 6"
   },
   "quickHits": [
-    "Japan Finance Minister Katayama warns of FX intervention 'at any time' as USD/JPY holds near 161 — thin summer liquidity raises whipsaw risk for JPY carry trades. (CNBC)",
-    "China HK assets-under-management hit a record HK$42.2 trillion in 2025 with net inflows to wealth managers up 80% — underscoring HK's continued role as the offshore hub for mainland capital. (Caixin)",
-    "Gold at ~$4,170/oz after a 2% weekly gain, rebounding from a near-term low as Fed rate-hike fears fade; major banks target $4,500–$5,000 for year-end. (World Gold Council / Trading Economics)",
-    "FOMC July 28–29 meeting is now the key event horizon for Fed watchers — futures have stripped out a July hike entirely following the 57K payroll miss. (Intellectia / Kiplinger)"
+    "Getty-Shutterstock $3.7B merger officially terminated on July 6 after UK CMA demanded full editorial business divestiture — both stocks face standalone re-rating with GETY triggering mandatory note redemption (Yahoo Finance)",
+    "FOMC June minutes release Wednesday July 8: Warsh's debut meeting notes will reveal vote breakdown and language on the rate path — key catalyst for bond and equity markets this week (Federal Reserve)",
+    "South Korea's KOSPI hit record highs as market cap surged 86% YTD to $5T, overtaking India as the world's 6th largest equity market on semiconductor supercycle driven by AI-compute HBM demand (Business Standard)",
+    "Bitcoin steadied above $63,000 after whale accumulation of 270,000+ BTC reversed a late-June slide toward $60K; $65K remains key resistance with BTC still ~30% below its $93K YTD peak (Yahoo Finance)"
   ]
 }
