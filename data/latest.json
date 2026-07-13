@@ -1,159 +1,156 @@
 {
-  "date": "2026-07-09",
-  "marketMood": "Risk-off: US-Iran ceasefire collapse drives oil above $75, pushes Fed rate hike probability to 70%, and deepens the AI trade selloff triggered by Samsung's 'sell-the-news' crash.",
+  "date": "2026-07-13",
+  "marketMood": "Geopolitical-led risk-off: US-Iran weekend airstrikes and Hormuz closure fears weigh on futures, with a pivotal Tuesday of June CPI, five big bank earnings, and Fed Chair Warsh's debut congressional testimony looming.",
   "upcomingEvents": [
-    { "date": "2026-07-10", "event": "SK Hynix (SKHY) NASDAQ ADR First Trading Day — ~$29B listing", "significance": "high" },
+    { "date": "2026-07-14", "event": "US June CPI report (8:30am ET) + Q2 Bank Earnings: JPMorgan, Goldman Sachs, BofA, Wells Fargo, Citigroup (all pre-market)", "significance": "high" },
+    { "date": "2026-07-14", "event": "Fed Chair Warsh debut testimony — House Financial Services Committee", "significance": "high" },
     { "date": "2026-07-14", "event": "China June Trade Data Release", "significance": "high" },
     { "date": "2026-07-15", "event": "China Q2 GDP + June Retail Sales & Industrial Output", "significance": "high" },
-    { "date": "2026-07-20", "event": "USMCA Round 3 Tariff Review", "significance": "high" },
-    { "date": "2026-07-24", "event": "Section 122 Tariff Surcharge Expires — Transition to Section 301 (12.5% on 46 countries)", "significance": "high" }
+    { "date": "2026-07-15", "event": "Fed Chair Warsh — Senate Banking Committee testimony", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "US-Iran Ceasefire Collapses; US Launches Second Wave of Airstrikes on Iran",
+      "headline": "US and Iran Trade Weekend Airstrikes; Tehran Claims Strait of Hormuz Closed",
       "source": "Bloomberg",
-      "summary": "Trump declared last month's interim ceasefire 'over' after Iran struck US bases in the Gulf and attacked commercial tankers in the Strait of Hormuz; the US launched a second wave of airstrikes to degrade Iran's maritime threat capability, with Trump signalling further strikes overnight.",
-      "marketImpact": "WTI crude ↑ to ~$75/bbl (two-day surge exceeds 6%); Brent near $78–79/bbl; energy stocks ↑; global equities ↓; US 10Y yield ↑ to 4.58%; gold ↑ on safe-haven demand",
-      "tickers": ["OXY", "VLO", "XOM"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/latest-oil-market-news-and-analysis-for-july-9",
+      "summary": "Iran and the US exchanged airstrikes over the weekend; Tehran declared the Strait of Hormuz closed to commercial traffic, though President Trump disputed this on Sunday, saying the key waterway remained open to ships.",
+      "marketImpact": "Oil elevated: Brent ~$76/bbl, WTI ~$72; S&P 500 futures ↓ 0.2%; energy stocks XOM, OXY, CVX ↑; gold ↑ safe-haven bid; shipping and LNG at risk",
+      "tickers": ["OXY", "XOM", "CVX", "USO"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/iranian-missile-hits-qatari-lng-ship-in-strait-testing-us-talks",
       "region": "Global"
     },
     {
-      "headline": "Fed September Rate Hike Probability Surges to 70% on Oil-Driven Inflation Threat",
-      "source": "Bloomberg",
-      "summary": "After hawkish FOMC June minutes revealed a split committee — 9 members favouring at least one hike in 2026 — the oil price surge from the US-Iran escalation pushed September rate hike probability to ~70%, up from 58% the prior day, with Bank of America forecasting three 25bp hikes.",
-      "marketImpact": "S&P 500 ↓ ~1.1%; Dow ↓ ~1.1%; TLT ↓; QQQ under pressure; financials watch for net interest margin benefit; stagflation risk re-emerges",
-      "tickers": ["SPY", "TLT", "QQQ"],
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-8-2026",
-      "region": "US"
-    },
-    {
-      "headline": "Samsung Q2 Profit Jumps 19-Fold to Record $58B — Stock Crashes 10%, Circuit Breaker Triggered",
-      "source": "Bloomberg",
-      "summary": "Samsung Electronics posted Q2 operating profit of 89.4 trillion won ($58B) — a 19x year-on-year surge and the largest quarterly profit in tech history — but shares plunged more than 10% in Seoul, briefly triggering a circuit breaker, as the ~150% year-to-date run-up had priced in perfection and investors feared slowing AI capex.",
-      "marketImpact": "Samsung (005930.KS) ↓ 10%+; Kospi circuit-breaker triggered; NVDA ↓; AMD ↓; broader AI semiconductor trade ↓ globally; open-source AI shift threatens hardware capex growth",
-      "tickers": ["005930.KS", "NVDA", "AMD"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/samsung-scores-profit-beat-due-to-runaway-demand-for-ai-memory",
-      "region": "Global"
-    },
-    {
-      "headline": "Nvidia Loses $1 Trillion in Market Cap Since May Peak, Down 17% From All-Time High",
-      "source": "Bloomberg",
-      "summary": "Nvidia has shed roughly $1 trillion in market value in under two months since its May 14 ATH of $235, now trading at 21.7x forward earnings — the cheapest valuation since before the AI boom — as investors reassess AI infrastructure spending growth amid Samsung's shock, rising competition, and the open-source AI shift.",
-      "marketImpact": "NVDA ↓ 17% from ATH (rebounded +3.5% on July 8); AMD watch; SMH semiconductor ETF under pressure; hyperscaler capex commitment signal key for next leg",
-      "tickers": ["NVDA", "AMD", "SMH"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/nvidia-s-1-trillion-slide-sends-valuation-to-pre-ai-boom-levels",
-      "region": "US"
-    },
-    {
-      "headline": "Momenta Global Holds Gains on Day 2 After Successful $752M Hong Kong IPO Debut",
+      "headline": "Meta Posts Best Week Since Early 2024 on AI Cloud Compute Initiative",
       "source": "CNBC",
-      "summary": "Chinese autonomous driving firm Momenta Global — backed by GM, Tencent, Mercedes-Benz, and BlackRock — rose ~3% on its July 8 trading debut at HK$301 vs. an offer price of HK$295.60, after raising HK$5.89 billion ($752M) with 14 cornerstone investors committing $376M.",
-      "marketImpact": "Momenta HKEX ↑ watch for Day 2 stability; 0700.HK (Tencent) ↑ as major backer; GM ↑ watch for autonomous driving narrative; positive signal for China tech IPO pipeline",
-      "tickers": ["0700.HK", "GM"],
-      "url": "https://www.cnbc.com/2026/07/08/chinese-autonomous-driving-firm-momenta-rises-3percent-in-hong-kong-debut-.html",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Section 122 Tariff Cliff: Three Trade Deadlines Converge in 18 Days",
-      "source": "Thompson Coburn",
-      "summary": "The 10% global Section 122 import surcharge — which survived a legal challenge after the Federal Circuit stayed a lower court strike-down — expires July 24 by operation of law; USTR is replacing it with 12.5% Section 301 duties on 46 countries, while USMCA Round 3 lands July 20 and USITC hearings concluded July 9.",
-      "marketImpact": "Import-sensitive sectors ↑ watch as near-term tariff uncertainty peaks July 24; auto sector at intersection of Section 122, 301 and USMCA; EU goods locked at 15% under trade deal",
-      "tickers": [],
-      "url": "https://www.thompsoncoburn.com/insights/81-july-9-2026-emerging-tariff-framework-post-section-122/",
+      "summary": "Meta Platforms surged ~15% last week — its strongest weekly performance since early 2024 — after announcing a new 'Meta Compute' unit to sell excess AI computing capacity externally, reframing its $125–145B annual capex as a potential revenue source.",
+      "marketImpact": "META ↑ 15% WTD; AI cloud narrative extends to non-hyperscalers; watch for follow-through or profit-taking at Monday open",
+      "tickers": ["META"],
+      "url": "https://www.cnbc.com/2026/07/10/meta-shares-surge-6percent-as-optimism-grows-on-it.html",
       "region": "US"
     },
     {
-      "headline": "World Bank Cuts China 2026 Growth to 4.4%; Beijing Expands Offshore Yuan Trading Hub",
-      "source": "South China Morning Post",
-      "summary": "The World Bank revised China's 2026 GDP growth forecast to 4.4% (and 4.3% in 2027), both below the government's ~5% target, citing prolonged property sector contraction and subdued consumer demand; separately, Beijing and Hong Kong announced new measures expanding currency, bond, and gold trading to deepen the city's offshore yuan hub.",
-      "marketImpact": "China property stocks ↓ watch; consumer discretionary ↓; Hang Seng cautious; offshore yuan trading ↑ — watch HKEX volumes and renminbi-denominated bond issuance",
-      "tickers": ["9988.HK", "0700.HK"],
-      "url": "https://www.scmp.com/topics/hong-kong-stock-market",
+      "headline": "SK Hynix (SKHY) Begins Regular Nasdaq Trading After Record $26.5B IPO",
+      "source": "TechCrunch",
+      "summary": "SK Hynix's Nasdaq-listed ADRs begin regular trading today under permanent ticker SKHY after debuting Thursday at $149 and closing up 13%, in the largest-ever US listing by a foreign company; the Korean chipmaker controls ~60% of the global HBM market and says its full 2026 output is already sold out.",
+      "marketImpact": "SKHY ↑ watch on HBM demand confirmation; NVDA (key HBM customer) ↑ watch; AI memory complex broadly in focus",
+      "tickers": ["SKHY", "NVDA"],
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "region": "US"
+    },
+    {
+      "headline": "ByteDance and Alibaba Shut Down AI Companion Features Ahead of China's July 15 Rules",
+      "source": "Bloomberg",
+      "summary": "New CAC regulations effective July 15 ban platforms from offering emotional AI companion services; ByteDance's Doubao and Alibaba's Qwen are disabling customisable AI persona features, with Tencent's Yuanbao also scaling back.",
+      "marketImpact": "9988.HK (Alibaba) ↓ watch; 0700.HK (Tencent) ↓ watch; China consumer AI monetisation narrative re-rated; minors entirely barred from companion AI",
+      "tickers": ["BABA", "9988.HK", "0700.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-06/bytedance-alibaba-pull-ai-companions-as-beijing-tightens-rules",
       "region": "China"
     },
     {
-      "headline": "Nikkei Extends Decline as Japan Wage Growth Fails to Lift Real Incomes",
+      "headline": "Nikkei Slips Monday on Risk-Off; Japan AI Component Makers Flag H2 Supply Crunch",
       "source": "Nikkei Asia",
-      "summary": "Japan's Nikkei 225 fell 2.12% to 68,257, a three-week low, as the global chip rout and oil shock combined with weak domestic data — nominal wages rose 3.2% in May but household spending fell 0.4%, indicating real income pressure persists; Kioxia fell 11.3%, Taiyo Yuden 11%, Murata 10.1% in the prior session.",
-      "marketImpact": "Nikkei 225 ↓ 2.1%; Topix ↓ 0.97%; Japan chip/component sector ↓; Bank of Japan wage-inflation watchpoint; yen weakening as oil import bill swells",
-      "tickers": ["6600.T", "8035.T"],
-      "url": "https://asia.nikkei.com/economy/east-asia/japan",
+      "summary": "Nikkei 225 opened lower at ~68,177 Monday on geopolitical jitters and chip sector overhang; book-to-bill ratios for high-end MLCCs at Taiyo Yuden, Murata, and Samsung Electro-Mechanics have hit COVID-era highs, signalling a potential AI server component shortage in H2 2026.",
+      "marketImpact": "Nikkei ↓; 6976.T (Taiyo Yuden) ↑ on pricing power; 6981.T (Murata) ↑; AI server build timelines at risk if component shortage materialises",
+      "tickers": ["6976.T", "6981.T"],
+      "url": "https://asia.nikkei.com/business/markets",
       "region": "Japan"
     },
     {
-      "headline": "ADB Raises Asia 2026 Growth Forecast to 4.9% Despite Persistent Middle East Headwinds",
+      "headline": "Triple Catalyst Tuesday: June CPI, Five Bank Earnings, and Warsh's Debut Testimony",
+      "source": "CNBC",
+      "summary": "June CPI (forecast: −0.1% MoM, ~3.9% YoY) lands at 8:30am ET Tuesday, JPMorgan, Goldman Sachs, BofA, Wells Fargo, and Citigroup all report Q2 earnings pre-market, and new Fed Chair Kevin Warsh delivers his debut congressional testimony to the House 90 minutes after the inflation data drops.",
+      "marketImpact": "Rate-path repricing risk both ways; JPM, BAC, GS, WFC, C ↑↓ on earnings; TLT and rate futures highly sensitive; September rate hike probability at ~64%",
+      "tickers": ["JPM", "BAC", "GS", "WFC", "C"],
+      "url": "https://www.cnbc.com/2026/07/10/stock-market-next-week-outlook-for-july-13-17-2026.html",
+      "region": "US"
+    },
+    {
+      "headline": "Semiconductor Selloff Extends Into New Week; Chip Sector Sheds Over $1 Trillion in 10 Sessions",
+      "source": "CNBC",
+      "summary": "The VanEck Semiconductor ETF (SMH) is down ~8% over the past 10 sessions and the broader chip sector has shed over $1 trillion in market value, with Intel, AMD, and Micron under sustained pressure from AI capex sustainability fears and the open-source AI shift.",
+      "marketImpact": "NVDA showing relative strength vs peers; AMD ↓; INTC ↓; MU ↓; SMH ↓; hyperscaler capex commentary in bank earnings will be the key read-across this week",
+      "tickers": ["NVDA", "AMD", "INTC", "MU", "SMH"],
+      "url": "https://www.cnbc.com/2026/07/07/chip-stocks-ai-selloff-samsung.html",
+      "region": "US"
+    },
+    {
+      "headline": "China Faces Biggest Data Week of 2026: Trade, GDP, Retail Sales All in Focus",
       "source": "Bloomberg",
-      "summary": "The Asian Development Bank upgraded Asia's 2026 growth forecast to 4.9% from 4.7%, citing resilient domestic demand, with Southeast Asia at 4.7% and Vietnam at 7.2%; the ADB warned that Middle East conflict continues to weigh on supply chains and energy costs, while India benefits from a 125bp cumulative rate cut cycle.",
-      "marketImpact": "ASEAN equities ↑ watch; India infrastructure ↑; commodity-importing Asian economies pressured by oil spike; Vietnam and Philippines diverge on growth trajectory",
-      "tickers": [],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/asia-growth-improves-but-adb-warns-of-persistent-headwinds",
-      "region": "Asia"
+      "summary": "China releases June trade data Tuesday and Q2 GDP, June retail sales, and industrial output Wednesday — the most comprehensive demand check yet since the World Bank cut its 2026 growth forecast to 4.4% (below Beijing's ~5% target).",
+      "marketImpact": "HSI and CSI 300 sensitive to prints; 9988.HK, 0700.HK as China growth proxies; commodity demand outlook and Hang Seng direction in focus",
+      "tickers": ["9988.HK", "0700.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-11/warsh-and-us-inflation-will-set-tone-for-july-fed-decision",
+      "region": "China"
     }
   ],
   "companiesToWatch": [
     {
+      "name": "SK Hynix",
+      "ticker": "SKHY",
+      "exchange": "NASDAQ",
+      "reason": "First regular Nasdaq session after its $26.5B IPO debut — the market's continued vote on AI memory demand and HBM supply scarcity.",
+      "direction": "↑"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "reason": "Carrying a 15% weekly gain after announcing an AI cloud compute business; Monday is the test of whether the narrative holds or profit-taking takes over.",
+      "direction": "↑"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "ticker": "JPM",
+      "exchange": "NYSE",
+      "reason": "Earnings pre-market Tuesday; NII guidance and any Bitcoin ETF commentary are the key watchpoints for the rate-sensitive financial sector.",
+      "direction": "↑"
+    },
+    {
       "name": "Nvidia",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Down 17% from its May ATH and now at its cheapest valuation since pre-AI boom — AI capex re-rating continues as Samsung's crash deepens the sector-wide reassessment.",
-      "direction": "↓"
+      "reason": "Showing relative outperformance in the chip selloff; SKHY's successful debut and sold-out HBM production reinforces the AI infrastructure demand thesis.",
+      "direction": "↑"
     },
     {
-      "name": "Samsung Electronics",
-      "ticker": "005930.KS",
-      "exchange": "KRX",
-      "reason": "Record $58B quarterly profit triggered a 10% stock crash and Kospi circuit breaker — the definitive bellwether for whether the AI hardware trade can sustain itself.",
-      "direction": "↓"
-    },
-    {
-      "name": "Occidental Petroleum",
-      "ticker": "OXY",
+      "name": "Citigroup",
+      "ticker": "C",
       "exchange": "NYSE",
-      "reason": "Direct beneficiary of the US-Iran escalation driving WTI above $75; energy names broadly in focus as Middle East supply risk premiums build.",
-      "direction": "↑"
-    },
-    {
-      "name": "Valero Energy",
-      "ticker": "VLO",
-      "exchange": "NYSE",
-      "reason": "Largest US petroleum refiner benefits from oil price surge; downstream crack spreads in focus as crude costs rise but product demand remains firm.",
-      "direction": "↑"
-    },
-    {
-      "name": "Tencent Holdings",
-      "ticker": "0700.HK",
-      "exchange": "HKEX",
-      "reason": "Key Momenta backer riding IPO momentum, but faces China growth headwind from World Bank's 4.4% downgrade and ongoing property sector drag.",
-      "direction": "↑"
+      "reason": "Most globally exposed of the mega-banks to Strait of Hormuz shipping disruption risk; Q2 earnings Tuesday will reveal trade-finance and cross-border exposure.",
+      "direction": "↓"
     }
   ],
   "bondYields": {
-    "us10y": 4.58,
-    "us30y": 5.02,
-    "asOf": "2026-07-09"
+    "us10y": 4.54,
+    "us30y": 4.98,
+    "asOf": "2026-07-10"
   },
   "tickerDescriptions": {
-    "OXY": "Occidental Petroleum Corporation, a major US oil and gas exploration and production company",
-    "VLO": "Valero Energy Corporation, one of the largest petroleum refining companies in the US",
-    "XOM": "ExxonMobil Corporation, the largest US integrated oil and gas company by market cap",
-    "SPY": "SPDR S&P 500 ETF Trust, tracking the performance of the 500 largest US companies",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, a benchmark for long-duration US government debt",
-    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 Index of the largest non-financial Nasdaq-listed companies",
-    "005930.KS": "Samsung Electronics Co., South Korea's largest conglomerate and world-leading memory chip and smartphone maker",
-    "NVDA": "Nvidia Corporation, the dominant AI chip designer with ~70–80% market share in data center GPUs",
-    "AMD": "Advanced Micro Devices Inc., a semiconductor company competing with Nvidia in AI chips and data center processors",
-    "SMH": "VanEck Semiconductor ETF, tracking the MVIS US Listed Semiconductor 25 Index of leading chip companies",
+    "OXY": "Occidental Petroleum Corporation, a major US oil and gas exploration and production company with significant Middle East exposure",
+    "XOM": "ExxonMobil Corporation, the largest US integrated oil and gas company by market capitalisation",
+    "CVX": "Chevron Corporation, a major US integrated energy company with global upstream oil and gas operations",
+    "USO": "United States Oil Fund ETF, tracking front-month WTI crude oil futures prices",
+    "META": "Meta Platforms Inc., parent of Facebook, Instagram, and WhatsApp, now building an AI cloud compute business to monetise excess capacity",
+    "SKHY": "SK Hynix ADR on Nasdaq, South Korean memory chipmaker holding ~60% of the global HBM market supplying AI data centres",
+    "NVDA": "Nvidia Corporation, dominant AI chip designer with ~70–80% market share in data-centre GPUs and the largest customer of SK Hynix HBM",
+    "BABA": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing platform listed on NYSE",
+    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud platform, primary HKEX-listed shares",
     "0700.HK": "Tencent Holdings Ltd., China's largest internet conglomerate spanning gaming, social media, fintech, and AI investments",
-    "GM": "General Motors Company, a US automaker with strategic autonomous driving investments including a stake in Momenta Global",
-    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing company",
-    "6600.T": "Kioxia Holdings Corporation, Japan's largest NAND flash memory chip maker and a key global semiconductor supplier",
-    "8035.T": "Tokyo Electron Ltd., Japan's largest semiconductor equipment manufacturer supplying global chipmakers"
+    "6976.T": "Taiyo Yuden Co., Japanese electronic components maker specialising in MLCCs used in AI server platforms",
+    "6981.T": "Murata Manufacturing Co., Japan's leading producer of MLCCs and passive electronic components for AI and consumer hardware",
+    "JPM": "JPMorgan Chase & Co., the largest US bank by assets, reporting Q2 2026 earnings on July 14",
+    "BAC": "Bank of America Corporation, a major US commercial and investment bank reporting Q2 2026 earnings July 14",
+    "GS": "Goldman Sachs Group Inc., a global investment banking and securities firm reporting Q2 2026 earnings July 14",
+    "WFC": "Wells Fargo & Company, a major US commercial and consumer bank reporting Q2 2026 earnings July 14",
+    "C": "Citigroup Inc., a global diversified financial services company with significant trade-finance and cross-border transaction exposure",
+    "AMD": "Advanced Micro Devices Inc., semiconductor company competing with Nvidia in AI chips and data-centre processors",
+    "INTC": "Intel Corporation, US chip designer and manufacturer under sustained pressure from AI-era GPU competition",
+    "MU": "Micron Technology Inc., US memory chip manufacturer producing DRAM and NAND flash for AI and consumer markets",
+    "SMH": "VanEck Semiconductor ETF, tracking the MVIS US Listed Semiconductor 25 Index of the world's largest chip companies"
   },
   "quickHits": [
-    "SK Hynix's NASDAQ ADR (SKHY) debuts tomorrow (July 10) in one of the largest-ever Korean equity listings on a US exchange — ~$29B at debut. (Bloomberg)",
-    "India's RBI has cut rates 125bps YTD to 5.25% — inflation at a 47-year low of ~2% — as infrastructure project completions set to provide a growth multiplier in H2. (ADB)",
-    "Weak yen delivers fiscal dividends to Southeast Asia: yen-denominated ODA loans in Philippines, Vietnam, and Indonesia shrink in local-currency terms, easing debt servicing pressure. (Asia Times)",
-    "Section 301 tariff replacement for the expiring Section 122 surcharge proposes 12.5% duties on 46 countries; USTR comment period closed July 6 with implementation target before July 24. (Thompson Coburn)"
+    "China's June trade data (Tuesday) and Q2 GDP + retail sales (Wednesday) make this the biggest data week for Beijing in 2026 — markets watching for signs that stimulus is working. (Bloomberg)",
+    "Section 301 tariffs (12.5% on 46 countries) replace the expiring Section 122 surcharge on July 24 — import-sensitive sectors watching for implementation details. (Thompson Coburn)",
+    "BOJ's July 30–31 policy meeting widely expected to hold at 1%; central bank may raise growth outlook but trim inflation forecast slightly on softer oil prices. (Nikkei Asia)",
+    "BTC hovering near $63,000, recovering from June's low of ~$58,000 but still well off its January high of ~$93,000 as risk appetite remains subdued. (CoinDesk)"
   ]
 }
