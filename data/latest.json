@@ -1,180 +1,164 @@
 {
-  "date": "2026-07-14",
-  "marketMood": "Risk-off triple-header: Hormuz re-blockade sends oil surging 8%+ while traders brace for June CPI, five major bank earnings, and Fed Chair Warsh's inaugural Congressional testimony all colliding in a single session.",
+  "date": "2026-07-15",
+  "marketMood": "Crosscurrents: IBM's shock 25% crash rattles tech/consulting while JPMorgan's blowout Q2 lifts financials — all against a backdrop of surging oil from the US–Iran Hormuz escalation and a surprise CPI monthly decline that hands the Fed a complex dilemma.",
   "upcomingEvents": [
-    { "date": "2026-07-14", "event": "June CPI Release (BLS, 8:30 a.m. ET)", "significance": "high" },
-    { "date": "2026-07-14", "event": "Q2 Earnings: JPMorgan, Goldman Sachs, BofA, Wells Fargo, Citigroup (pre-market)", "significance": "high" },
-    { "date": "2026-07-14", "event": "Fed Chair Warsh Testimony — House Financial Services Committee (10 a.m. ET)", "significance": "high" },
-    { "date": "2026-07-15", "event": "China Q2 GDP + June Retail Sales & Industrial Output; Warsh Senate Banking testimony", "significance": "high" },
-    { "date": "2026-07-15", "event": "China AI Companion Rules Take Effect (CAC Interim Measures)", "significance": "medium" }
+    { "date": "2026-07-15", "event": "Fed Chair Warsh Senate Banking Committee testimony", "significance": "high" },
+    { "date": "2026-07-15", "event": "Morgan Stanley Q2 earnings (pre-market)", "significance": "high" },
+    { "date": "2026-07-16", "event": "China Q2 GDP + June Retail Sales & Industrial Output (NBS)", "significance": "high" },
+    { "date": "2026-07-16", "event": "US Retail Sales (June)", "significance": "medium" },
+    { "date": "2026-07-30", "event": "FOMC rate decision", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Trump Reimposing Strait of Hormuz Blockade; 20% Levy on All Cargo Effective 4 p.m. ET Today",
-      "source": "Axios",
-      "summary": "President Trump announced the US will reinstate its blockade of the Strait of Hormuz starting 4 p.m. ET today, with a 20% fee charged on all cargo passing through the waterway that handles roughly 20% of global oil and gas trade — escalating the US-Iran standoff that began in February.",
-      "marketImpact": "Oil ↑ sharply (WTI +8% to ~$78/bbl, Brent near $83); energy stocks XOM, CVX ↑; airlines and global shipping ↓; inflation re-acceleration risk watch",
-      "tickers": ["XOM", "CVX", "HAL", "OIH"],
-      "url": "https://www.axios.com/2026/07/13/oil-trump-us-iran-blockade-strait-hormuz",
+      "headline": "IBM Stock Craters 25% After Shock Q2 Earnings Warning",
+      "source": "CNBC",
+      "summary": "IBM released preliminary Q2 results showing revenue of $17.2B and EPS of $2.93, both missing estimates; CEO Arvind Krishna said clients diverted quarterly capex to servers, storage, and memory to secure supply-constrained hardware ahead of price increases, causing large consulting and software deals to miss close timelines.",
+      "marketImpact": "IBM ↓ 25% — worst single-day decline on record. Panic spreading into software and IT-consulting peers; AI-as-a-service monetisation narrative challenged.",
+      "tickers": ["IBM"],
+      "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
+      "region": "US"
+    },
+    {
+      "headline": "June CPI Posts First Monthly Price Decline in Six Years; Annual Rate Cools to 3.5%",
+      "source": "CNN",
+      "summary": "US CPI fell 0.4% month-on-month in June — the first negative monthly reading since 2020 — pulling the year-on-year rate to 3.5% from May's 4.2%, driven mainly by lower energy costs; Fed Chair Warsh cautioned Congress that one good print is not 'mission accomplished' at 3.5% vs the 2% target.",
+      "marketImpact": "Bonds ↑ (yields dipped); rate-cut hopes revived but Warsh's hawkish framing kept equity markets cautious; USD mixed.",
+      "tickers": ["TLT", "SPY", "QQQ"],
+      "url": "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony",
+      "region": "US"
+    },
+    {
+      "headline": "JPMorgan Posts Blowout Q2 Beat; Five Big Banks Report Strong Results",
+      "source": "Yahoo Finance",
+      "summary": "JPMorgan reported Q2 EPS of $6.14 (vs $5.85 estimate) on revenue of $58.02B (vs $50.19B expected), driven by wealth management; Goldman, Bank of America, Wells Fargo, and Citigroup also reported Monday, broadly meeting or beating expectations.",
+      "marketImpact": "JPM ↑; financials broadly bid ahead of Morgan Stanley's report today (July 15); lending and deal commentary will set tone for rest of earnings season.",
+      "tickers": ["JPM", "GS", "BAC", "WFC", "C", "MS"],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/big-bank-earnings-today-results-023731559.html",
+      "region": "US"
+    },
+    {
+      "headline": "US–Iran Airstrikes Continue; Trump Abandons Hormuz Shipping Fee but Blockade Persists",
+      "source": "CNBC",
+      "summary": "Trump abandoned his demand for a 20% cargo fee on Strait of Hormuz transits after announcing Gulf state trade and investment deals, but US airstrikes on Iran continued; only 6 ships crossed the Strait in a 12-hour window versus the usual 18–22, with roughly 230 loaded oil tankers stranded inside the Gulf.",
+      "marketImpact": "WTI ↑ to $79.34/bbl (+1.5%), Brent ↑ to $84.73 (+1.7%); energy stocks XOM, CVX ↑; airlines and global industrials ↓; inflationary risk complicates Fed's path.",
+      "tickers": ["XOM", "CVX", "OIH"],
+      "url": "https://www.cnbc.com/2026/07/14/oil-prices-today-brent-wti-hormuz-trump-toll-iran.html",
       "region": "Global"
     },
     {
-      "headline": "Five Major US Banks Report Q2 Earnings Before Open; Investment Banking Bonanza Anticipated",
-      "source": "CNBC",
-      "summary": "JPMorgan, Goldman Sachs, Bank of America, Wells Fargo, and Citigroup all report Q2 2026 results this morning, with analysts broadly expecting double-digit EPS growth powered by surging trading revenues (+14% YoY) and investment banking fees boosted by the record SpaceX IPO.",
-      "marketImpact": "JPM, GS, BAC, WFC, C ↑ on anticipated beats; focus on net interest margin guidance and any management caution around the Iran-driven macro outlook",
-      "tickers": ["JPM", "GS", "BAC", "WFC", "C"],
-      "url": "https://www.cnbc.com/2026/07/13/bank-earnings-jpmorgan-chase-goldman-sachs-bank-of-america.html",
-      "region": "US"
-    },
-    {
-      "headline": "June CPI Released at 8:30 a.m. ET; Inflation Expected to Ease to ~3.9% as Gasoline Prices Drop",
-      "source": "IG",
-      "summary": "The BLS releases June CPI data today; consensus expects the headline rate to fall from 4.2% in May to ~3.8–3.9% year-over-year, driven by a ~10% decline in gasoline prices during June — a partial reversal of three consecutive monthly accelerations caused by the Iran energy shock.",
-      "marketImpact": "Bonds ↑ (TLT) if data confirms disinflation; USD ↓; equities may get a relief bounce; an upside CPI surprise would rattle rate-cut expectations and weigh on risk assets",
-      "tickers": ["TLT", "GLD", "UUP", "SPY", "QQQ"],
-      "url": "https://www.ig.com/uk/trading-strategies/us-cpi-june-2026-preview-what-to-expect-tomorrow-260713",
-      "region": "US"
-    },
-    {
-      "headline": "Fed Chair Kevin Warsh Delivers Inaugural Congressional Testimony at 10 a.m. ET",
-      "source": "Yahoo Finance",
-      "summary": "Newly installed Federal Reserve Chairman Kevin Warsh gives his first semiannual monetary policy address before the House Financial Services Committee today — coinciding with the June CPI print — with the Senate Banking Committee appearance following tomorrow.",
-      "marketImpact": "Hawkish Warsh tone would push yields ↑ and equities ↓; any opening to rate cuts would spark a bond rally; his personal Bitcoin holdings and anti-inflation track record expected to draw lawmaker scrutiny",
-      "tickers": ["TLT", "SPY"],
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-warsh-testify-lawmakers-204340412.html",
-      "region": "US"
-    },
-    {
-      "headline": "Nikkei Falls 1.92%; Yaskawa Crashes 14%, Kioxia Sheds 13% on Disappointing Results",
+      "headline": "Nikkei Slides 2%; Yaskawa Profit Warning and Oil Surge Compound Losses",
       "source": "Business Recorder",
-      "summary": "Japan's Nikkei 225 closed down 1.92% on Monday as the oil-price surge darkened Japan's corporate outlook; robot maker Yaskawa Electric plunged 14.34% after Q1 net profit fell 21.7%, while memory chip maker Kioxia shed 12.86% on weak guidance.",
-      "marketImpact": "6506.T ↓, 285A.T ↓; Japanese manufacturers face margin pressure as energy import costs rise; Nikkei futures point to further weakness Tuesday",
-      "tickers": ["6506.T", "285A.T"],
-      "url": "https://www.brecorder.com/news/40429769",
+      "summary": "Japan's Nikkei 225 fell 1.98% to 67,197 on Monday as oil prices surged on Hormuz fears and Yaskawa Electric plunged 14.34% after Q1 net profit fell 21.7%; Murata Manufacturing shed 9.60% on component demand concerns.",
+      "marketImpact": "6506.T ↓ 14.3%; 6981.T ↓ 9.6%; Japanese manufacturers face rising energy import costs; Nikkei bank stocks MUFG (8306.T ↑ 2.3%) and SMFG (8316.T ↑ 1.6%) gained as investors rotated to value.",
+      "tickers": ["6506.T", "6981.T", "8306.T", "8316.T"],
+      "url": "https://www.brecorder.com/news/40429769/japans-nikkei-closes-lower-as-oil-price-jump-dims-corporate-outlook",
       "region": "Japan"
     },
     {
-      "headline": "Japanese Bank Stocks Rally as Investors Rotate From AI Tech Into Value",
-      "source": "MarketScreener",
-      "summary": "Mitsubishi UFJ Financial Group rose 2.31% and Sumitomo Mitsui Financial Group gained 1.63% on Monday as investors shifted out of AI-related growth names into value stocks, limiting the broader Topix's decline to just 0.71% versus the Nikkei's 1.92% fall.",
-      "marketImpact": "8306.T ↑, 8316.T ↑; rotation trade signals caution on Japan's high-multiple tech sector; Japanese financial stocks benefiting from higher interest rate environment",
-      "tickers": ["8306.T", "8316.T"],
-      "url": "https://www.marketscreener.com/news/japan-s-nikkei-closes-lower-as-oil-price-jump-dims-corporate-outlook-ce7f5edfde8bf224",
-      "region": "Japan"
+      "headline": "SK Hynix Shares Continue Post-Nasdaq Rout After Record $26.5B Listing",
+      "source": "CNBC",
+      "summary": "SK Hynix's Seoul-listed shares fell over 15% on Monday after its blockbuster Nasdaq ADR debut last week; the US-listed SKHY dropped a further 8% on Tuesday as investors continued to unwind positions following the largest-ever US listing by a foreign company.",
+      "marketImpact": "SKHY ↓; Korean memory complex under pressure; analysts say structural AI memory demand remains intact but near-term sentiment is fragile.",
+      "tickers": ["SKHY", "000660.KS"],
+      "url": "https://www.cnbc.com/2026/07/13/sk-hynix-shares-fall-after-stellar-nasdaq-debut.html",
+      "region": "Asia"
     },
     {
-      "headline": "DeepSeek Developing Own AI Inference Chip, Deepening China's Semiconductor Independence Push",
-      "source": "Bloomberg",
-      "summary": "Chinese AI startup DeepSeek is building a proprietary chip optimised for AI inference, the latest move by a major Chinese tech firm to reduce dependence on US-controlled semiconductor supply chains as domestic chipmakers' market share is projected to reach 55% by 2027.",
-      "marketImpact": "NVDA ↓ watch (long-term China market risk elevated); domestic Chinese chip ecosystem ↑; Huawei and SMIC beneficiaries as US firms lose ground in world's largest AI market",
-      "tickers": ["NVDA", "INTC", "SMH"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says",
-      "region": "China"
-    },
-    {
-      "headline": "China June Exports Beat at +5.8% YoY; Imports Return to Growth for First Time in 2026",
-      "source": "Reuters",
-      "summary": "China's June trade data released today showed exports grew 5.8% year-over-year — beating the 5% consensus — with ASEAN shipments surging 16.8% and EU up 7.6%; imports rose 1.1% for the first growth reading of the year, signalling tentative domestic demand recovery.",
-      "marketImpact": "9988.HK, 0700.HK ↑ on improved China growth outlook; rare earth exports hit a record (+60.3%) — a strategic lever for Beijing; US exports fell 16.1% for a third month but rate of decline eased",
+      "headline": "China Clears Shein for Hong Kong IPO; Listing Could Come as Early as September",
+      "source": "China Retail News",
+      "summary": "China's securities regulator (CSRC) approved Shein's Hong Kong Stock Exchange application; the IPO could raise low single-digit billions at an estimated $40–50B valuation — a steep discount from its $100B 2022 peak — after London and New York listing attempts were blocked by regulatory scrutiny over labour practices and transparency.",
+      "marketImpact": "HK IPO pipeline ↑; HKEX sentiment ↑; Alibaba and Tencent (early Shein investors) watch; Western fast-fashion rivals (Inditex, H&M) potentially ↓.",
       "tickers": ["9988.HK", "0700.HK", "FXI"],
-      "url": "https://finance.yahoo.com/economy/articles/china-june-exports-growth-set-032924305.html",
-      "region": "China"
-    },
-    {
-      "headline": "Zhipu AI Launches $4 Billion Hong Kong Share Sale After Stock Surged 1,500%",
-      "source": "Bloomberg",
-      "summary": "Beijing-based AI firm Zhipu AI launched an accelerated $4 billion share placement in Hong Kong at HK$1,588–1,698 per share — a 7–13% discount to its July 8 close — after the stock surged ~1,500% since its January HKEX IPO, with proceeds earmarked for R&D and computing infrastructure.",
-      "marketImpact": "Tests investor appetite for Chinese AI at elevated valuations; HK IPO market remains active after Luxshare Precision's record HK$24.3B debut last week; Hong Kong AI tech sentiment bullish",
-      "tickers": ["FXI"],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-24/zhipu-considers-multibillion-dollar-share-sale-in-hong-kong-after-2-000-gain",
+      "url": "https://www.chinaretailnews.com/2026/07/13/25830-shein-to-face-hong-kong-ipo-hearing-amid-public-expectations/",
       "region": "Hong Kong"
     },
     {
-      "headline": "South Korea KOSPI Drops 5.14%, Leads Asia-Wide Sell-Off on Oil Surge and Semiconductor Weakness",
-      "source": "CNBC",
-      "summary": "Asian markets broadly declined on Monday, with South Korea's KOSPI suffering the steepest losses as semiconductor and AI stocks plunged amid renewed Middle East tensions, the sharp rise in oil prices, and investor caution ahead of today's US inflation print.",
-      "marketImpact": "005930.KS ↓, 000660.KS ↓; pan-Asia tech and semis under broad pressure; MSCI Asia ex-Japan declining; oil-importing Asian economies face currency and inflation headwinds",
-      "tickers": ["005930.KS", "000660.KS", "SKHY"],
-      "url": "https://coinpedia.org/crypto-live-news/asian-stock-market-today-fall-as-south-korea-stocks-leads-sell-off/",
-      "region": "Asia"
+      "headline": "MiniMax Plans $2B Secondary Raise and Mainland China Listing",
+      "source": "Caproasia",
+      "summary": "Hong Kong-listed Chinese AI startup MiniMax — up 62.8% since its January 2026 HKEX IPO — announced plans to raise $2B via new shares and bonds and is pursuing a secondary listing on a mainland Chinese exchange, deepening its capital market presence.",
+      "marketImpact": "Chinese AI sector sentiment ↑; HK fundraising momentum strengthens; Alibaba (9988.HK) and Tencent (0700.HK), both MiniMax backers, in focus.",
+      "tickers": ["9988.HK", "0700.HK"],
+      "url": "https://www.caproasia.com/2026/07/11/china-11-billion-ai-startup-hong-kong-listed-minimax-to-raise-2-billion-in-new-shares-sale-bonds-issue-plans-china-secondary-listing-ipo-founded-in-2022-by-yan-junjie-yang-bin-zhou-yucong-cu/",
+      "region": "China"
     }
   ],
   "companiesToWatch": [
     {
+      "name": "IBM",
+      "ticker": "IBM",
+      "exchange": "NYSE",
+      "reason": "Shock Q2 earnings miss drove the stock to its worst single day on record (-25%); watch for contagion into Accenture, SAP, and Salesforce on concerns that enterprise AI consulting budgets are being cut.",
+      "direction": "↓"
+    },
+    {
       "name": "JPMorgan Chase",
       "ticker": "JPM",
       "exchange": "NYSE",
-      "reason": "Reporting Q2 2026 earnings this morning; consensus expects ~$5.67 EPS on $50.5B revenue; net interest margin guidance and management tone on Iran macro risks are the key watchpoints.",
+      "reason": "Blowout Q2 beat ($6.14 EPS vs $5.85 est.) set a high bar for today's Morgan Stanley report; management commentary on lending conditions and geopolitical risk will guide financial sector sentiment.",
       "direction": "↑"
     },
     {
-      "name": "Goldman Sachs",
-      "ticker": "GS",
+      "name": "Morgan Stanley",
+      "ticker": "MS",
       "exchange": "NYSE",
-      "reason": "Q2 results due this morning; SpaceX IPO advisory fees and record trading revenues expected to drive a strong beat vs. ~$14 EPS consensus.",
+      "reason": "Reports Q2 earnings today (July 15, pre-market); consensus expects ~$2.89 EPS on $19.3B revenue, a ~36% year-on-year increase; wealth management and M&A advisory are the key metrics.",
       "direction": "↑"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "SKHY",
+      "exchange": "NASDAQ",
+      "reason": "Continued selling following its record $26.5B Nasdaq debut; a stabilisation here would signal a floor for the AI memory supply chain and ease concerns about the Nasdaq listing's price discovery.",
+      "direction": "↓"
     },
     {
       "name": "Yaskawa Electric",
       "ticker": "6506.T",
       "exchange": "TSE",
-      "reason": "Shares plunged 14.34% Monday after Q1 net profit fell 21.7%; further downside risk if oil-driven margin pressure deepens across Japanese manufacturers.",
-      "direction": "↓"
-    },
-    {
-      "name": "NVIDIA",
-      "ticker": "NVDA",
-      "exchange": "NASDAQ",
-      "reason": "DeepSeek's own-chip push marks a structural challenge to Nvidia's AI chip dominance in China; watch for analyst reactions and any read-through from bank earnings on AI capex.",
+      "reason": "Q1 net profit fell 21.7%, triggering a 14% share plunge; rising oil costs add further margin pressure for Japan's industrial robotics leader heading into the Tokyo session.",
       "direction": "↓"
     },
     {
       "name": "ExxonMobil",
       "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "Primary US beneficiary of the Hormuz re-blockade and oil price surge; energy sector broadly in focus as the new blockade takes effect at 4 p.m. ET today.",
+      "reason": "Primary US beneficiary of the Hormuz disruption sending WTI above $79/bbl; watches for any ceasefire signal or further US–Iran escalation that could sharply reverse the oil rally.",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.58,
-    "us30y": 5.11,
-    "asOf": "2026-07-13"
+    "us10y": 4.62,
+    "us30y": 5.06,
+    "asOf": "2026-07-14"
   },
   "tickerDescriptions": {
-    "XOM": "ExxonMobil Corporation, one of the world's largest publicly traded oil and gas companies",
-    "CVX": "Chevron Corporation, a US-based integrated energy company with global oil and gas exploration and production",
-    "HAL": "Halliburton Company, a leading oilfield services provider serving the global energy industry",
-    "OIH": "VanEck Oil Services ETF, tracking companies that provide services and equipment to the oil and gas drilling industry",
-    "JPM": "JPMorgan Chase & Co., the largest US bank by assets, offering investment banking, commercial banking, and financial services",
+    "IBM": "International Business Machines Corp., enterprise technology, AI consulting, and cloud services company",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, providing exposure to long-duration US government bonds",
+    "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US publicly traded companies by market capitalisation",
+    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 Index of the 100 largest non-financial Nasdaq-listed companies",
+    "JPM": "JPMorgan Chase & Co., the largest US bank by assets, offering investment banking, commercial banking, and wealth management",
     "GS": "The Goldman Sachs Group, a leading global investment banking, securities, and investment management firm",
     "BAC": "Bank of America Corporation, one of the largest US commercial and investment banks with global operations",
     "WFC": "Wells Fargo & Company, one of the largest US banks offering retail, commercial, and mortgage banking services",
     "C": "Citigroup Inc., a global bank operating in over 100 countries with major investment banking and consumer banking divisions",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, providing exposure to long-duration US government bonds",
-    "GLD": "SPDR Gold Shares, an ETF tracking the spot price of gold bullion",
-    "UUP": "Invesco DB US Dollar Index Bullish Fund, tracking the US dollar against a basket of major global currencies",
-    "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US publicly traded companies by market capitalisation",
-    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 Index of the 100 largest non-financial Nasdaq-listed companies",
+    "MS": "Morgan Stanley, global financial services firm specialising in investment banking, wealth management, and trading",
+    "XOM": "ExxonMobil Corporation, one of the world's largest publicly traded integrated oil and gas companies",
+    "CVX": "Chevron Corporation, a US-based integrated energy company with global oil and gas exploration and production",
+    "OIH": "VanEck Oil Services ETF, tracking companies that provide services and equipment to the oil and gas drilling industry",
     "6506.T": "Yaskawa Electric Corporation, a Japanese manufacturer of servo motors, industrial robots, and motion control systems",
-    "285A.T": "Kioxia Holdings Corporation, a major Japanese manufacturer of NAND flash memory chips and solid-state drives",
+    "6981.T": "Murata Manufacturing Co., a Japanese maker of advanced electronic components including capacitors, sensors, and wireless modules",
     "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest bank by assets and one of the world's largest financial institutions",
     "8316.T": "Sumitomo Mitsui Financial Group, one of Japan's three megabanks offering banking, securities, and consumer finance",
-    "NVDA": "NVIDIA Corporation, a US semiconductor company and market leader in AI chips, graphics processors, and data centre computing",
-    "INTC": "Intel Corporation, a major US semiconductor manufacturer producing processors and chips for computers and data centres",
-    "SMH": "VanEck Semiconductor ETF, tracking the world's largest chip companies including Nvidia, TSMC, and Samsung",
-    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing platform, primary HKEX-listed shares",
-    "0700.HK": "Tencent Holdings Ltd., China's largest internet conglomerate spanning gaming, social media, fintech, and AI investments",
-    "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese equities listed on the Hong Kong Stock Exchange",
-    "005930.KS": "Samsung Electronics Co., South Korea's largest conglomerate and a global leader in semiconductors, displays, and consumer electronics",
-    "000660.KS": "SK Hynix Inc., a leading South Korean semiconductor manufacturer specialising in DRAM and NAND flash memory chips",
-    "SKHY": "SK Hynix ADR on Nasdaq, South Korean memory chipmaker holding ~60% of the global HBM market and supplying AI data centres"
+    "SKHY": "SK Hynix Inc. ADR on Nasdaq, South Korean memory chipmaker holding ~60% of the global high-bandwidth memory (HBM) market",
+    "000660.KS": "SK Hynix Inc., a South Korean semiconductor manufacturer and AI memory leader listed on the Korea Exchange",
+    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing platform, listed on HKEX",
+    "0700.HK": "Tencent Holdings Ltd., China's largest internet conglomerate spanning gaming, social media, fintech, and AI",
+    "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese equities listed on the Hong Kong Stock Exchange"
   },
   "quickHits": [
-    "China AI companion rules take effect tomorrow (July 15) — ByteDance's Doubao and Alibaba's Qwen are disabling custom persona features, resetting monetisation expectations for China's consumer AI segment (Bloomberg / SCMP)",
-    "Gold slips to ~$4,002/oz as Iran-US military exchanges continue to weigh on safe-haven demand alongside a firmer dollar; was above $4,100 a week ago (Forbes)",
-    "Bitcoin near $63,000, down ~18% month-to-date, with US demand weakness persisting; July 28–29 FOMC is the next major catalyst for crypto (Fortune / CoinDesk)",
-    "Goldman Sachs sets $205 SpaceX (SPCX) price target vs Morgan Stanley's $300 — the widest divide among lead IPO underwriters in recent memory, after both banks earned ~$100M in fees (CNBC)"
+    "Fed Chair Warsh testifies to the Senate Banking Committee today (July 15) — yesterday's hawkish House testimony sent a clear signal that the Fed will not cut rates on a single month of soft CPI. (Bloomberg)",
+    "Murata Manufacturing (6981.T) fell 9.6% on Monday as rising oil prices raise input cost fears for Japanese electronic component makers, compounding sector-wide weakness. (Nikkei Asia)",
+    "China's AI companion content rules (CAC Interim Measures) took effect today — ByteDance's Doubao and Alibaba's Qwen are disabling custom persona features, resetting consumer AI monetisation timelines. (SCMP)",
+    "IBM's warning sent 'panic' into software and consulting stocks broadly, with Seeking Alpha flagging contagion risk across the enterprise IT sector after CEO Krishna admitted IBM 'faltered.' (Seeking Alpha)"
   ]
 }
