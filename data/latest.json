@@ -1,179 +1,152 @@
 {
-  "date": "2026-07-16",
-  "marketMood": "Risk-on with caveats: cooler-than-expected US CPI slashes Fed hike bets and lifts equities broadly, but Brent crude surges past $85 as US-Iran strikes escalate and China's Q2 GDP misses target for the first time since COVID.",
+  "date": "2026-07-17",
+  "marketMood": "Risk-off globally: AI trade valuation doubts, US-Iran escalation pushing oil to $87/barrel, and a hawkish Fed signalling a possible September rate hike create a bearish trifecta for equities.",
   "upcomingEvents": [
-    { "date": "2026-07-16", "event": "US June Retail Sales data (NBS)", "significance": "medium" },
-    { "date": "2026-07-17", "event": "US housing starts & industrial production data", "significance": "medium" },
-    { "date": "2026-07-29", "event": "FOMC rate decision (hold expected at 3.50–3.75%)", "significance": "high" },
-    { "date": "2026-07-31", "event": "Bank of Japan policy meeting + quarterly outlook (rate hike watch)", "significance": "high" }
+    { "date": "2026-07-21", "event": "Q2 Earnings Season Continues — Major Tech Companies (MSFT, GOOGL, AMZN cycle)", "significance": "high" },
+    { "date": "2026-07-22", "event": "US Existing Home Sales (June)", "significance": "medium" },
+    { "date": "2026-07-24", "event": "US Flash PMI — July Preliminary (Manufacturing & Services)", "significance": "medium" },
+    { "date": "2026-07-29", "event": "FOMC Rate Decision & Fed Chair Warsh Press Conference", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "US June CPI Falls for First Time Since 2020, Slashing Fed Hike Bets",
-      "source": "Bloomberg",
-      "summary": "Consumer prices dropped 0.4% in June, dragging the annual rate to 3.5% from May's 4.2%, with core CPI at 2.6% — both well below expectations — cutting the odds of a July Fed hike from 42% to 17%.",
-      "marketImpact": "↑ S&P 500 (+0.38% to 7,572), ↑ Nasdaq (+0.62% to 26,269); ↑ Treasuries (10Y yield fell to ~4.57%); ↑ rate-sensitive tech; ↓ dollar",
-      "tickers": ["SPY", "TLT", "QQQ"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-14/us-cpi-falls-for-the-first-time-since-2020-core-gauge-unchanged",
-      "region": "US"
-    },
-    {
-      "headline": "US Launches New Iran Strikes, Reinstates Naval Blockade Over Strait of Hormuz",
-      "source": "CNBC",
-      "summary": "US Central Command conducted a seven-hour airstrike operation targeting Iranian military assets near the Strait of Hormuz and reimposed a naval blockade, with Iran's IRGC threatening to cut off regional energy exports; tanker transits fell to a two-month low.",
-      "marketImpact": "↑ Brent crude (~$85/barrel), ↑ WTI (~$80/barrel); ↑ XOM, CVX; ↓ oil-importing Asian economies; geopolitical risk watch",
-      "tickers": ["XOM", "CVX", "USO"],
-      "url": "https://www.cnbc.com/2026/07/15/oil-prices-today-brent-wti-hormuz-blockade.html",
+      "headline": "TSMC Delivers Record Q2 Earnings but Shares Fall 4%+ on AI Valuation Concerns",
+      "source": "Yahoo Finance",
+      "summary": "TSMC reported Q2 net income up 77.4% YoY to NT$706.56B on $40.2B revenue — a fifth consecutive record quarter — while CEO C.C. Wei pledged an additional $100B Arizona investment bringing total US commitments to $265B, yet shares dropped as investors questioned whether AI chip valuations can be sustained.",
+      "marketImpact": "TSM ↓ 4%+; Philadelphia Semiconductor Index ↓; Nasdaq 100 ↓ 1.6% Thursday; AI trade under pressure globally.",
+      "tickers": ["TSM"],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-q2-2026-earnings-record-112109987.html",
       "region": "Global"
     },
     {
-      "headline": "China Approves Apple Intelligence Powered by Alibaba's Qwen AI",
-      "source": "TechCrunch",
-      "summary": "China's Cyberspace Administration approved Apple Intelligence for mainland iPhones and Macs, with Alibaba's Qwen AI model integrated across iOS, iPadOS, and macOS — Apple's AI had been absent from China since its 2024 debut.",
-      "marketImpact": "↑ AAPL (+4%, new all-time high); ↑ BABA ADRs (+5%); ↑ 9988.HK; broadens Apple's China revenue opportunity after a market-share squeeze from Huawei and Xiaomi",
-      "tickers": ["AAPL", "BABA", "9988.HK"],
-      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-      "region": "China"
-    },
-    {
-      "headline": "US Bank Earnings Season Delivers Profit Bonanza; Morgan Stanley Posts Records Across the Board",
+      "headline": "Netflix Slumps 8%+ After-Hours on Q2 Revenue Miss and Slowing Q3 Guidance",
       "source": "CNBC",
-      "summary": "Morgan Stanley reported record Q2 net revenues of $21.3B (+27% YoY) and EPS of $3.46, with equities trading up 69% YoY and a new $20B buyback; JPMorgan, Goldman Sachs, BofA, and Citigroup also beat estimates earlier in the week on elevated trading revenues from geopolitical volatility.",
-      "marketImpact": "↑ MS, JPM, GS, BAC, C; financials sector outperformed broader market; Goldman highlighted SpaceX IPO advisory fees",
-      "tickers": ["MS", "JPM", "GS", "BAC", "C"],
-      "url": "https://www.gurufocus.com/news/8960749/morgan-stanley-ms-reports-record-q2-2026-earnings-and-dividend-increase",
+      "summary": "Netflix reported Q2 revenue of $12.56B (up 13% YoY but slightly below estimates) and guided Q3 growth at 12% — a second consecutive quarter of decelerating sales growth — while narrowing full-year revenue guidance to $51–51.4B.",
+      "marketImpact": "NFLX ↓ 8%+ after-hours; streaming deceleration thesis gaining traction; growth stock sentiment cautious heading into Friday.",
+      "tickers": ["NFLX"],
+      "url": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html",
       "region": "US"
     },
     {
-      "headline": "Chip Stocks Retreat as Valuation Concerns Weigh on Semiconductor Sector",
-      "source": "Bloomberg",
-      "summary": "Micron fell 8%, Lam Research dropped 3%, and AMD slid 3% as investors reassessed semiconductor valuations following a near-tripling for many names in Q2; mega-cap tech stocks (Amazon, Alphabet, Microsoft +~3%) held gains on the softer rate outlook.",
-      "marketImpact": "↓ MU (-8%), ↓ LRCX (-3%), ↓ AMD (-3%); ↑ AMZN, GOOGL, MSFT (+3%); rotation from semis toward large-cap software",
-      "tickers": ["MU", "LRCX", "AMD", "AMZN", "GOOGL", "MSFT"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/stock-market-today-dow-s-p-live-updates",
+      "headline": "US Strikes Iran Again as Brent Crude Holds Near $87; Strait of Hormuz at Risk",
+      "source": "CNBC",
+      "summary": "The US launched fresh military strikes on Iran and revoked oil sanctions waivers; three commercial vessels were attacked in the Strait of Hormuz, halting tanker transits, with Iran signalling it may use Houthi allies to also block the Bab el-Mandeb strait.",
+      "marketImpact": "Brent crude ↑ ~$87/barrel (4th consecutive day of gains, +9% above pre-conflict levels); energy stocks ↑; Treasury yields ↑ on inflation fears; equities ↓.",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.cnbc.com/amp/2026/07/16/oil-rise-as-us-strikes-on-iran-raise-fears-of-wider-conflict.html",
+      "region": "Global"
+    },
+    {
+      "headline": "Fed Chair Warsh Stays Hawkish After June CPI Cools to 3.5%; September Hike on the Table",
+      "source": "CNN",
+      "summary": "Fed Chairman Kevin Warsh testified that June inflation falling to 3.5% from 4.2% is 'not mission accomplished'; nearly half of FOMC members now forecast another rate hike this year, with Goldman Sachs pushing rate cut expectations to 2027.",
+      "marketImpact": "Rate-sensitive sectors ↓ (real estate, utilities); US 10Y yield ↑ to 4.57%; US 30Y ↑ to 5.09%; growth tech under pressure; TLT ↓.",
+      "tickers": ["TLT", "IYR"],
+      "url": "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony",
       "region": "US"
     },
     {
-      "headline": "China Q2 GDP Slows to 4.3%, Missing Target for First Time Since COVID",
-      "source": "CNN Business",
-      "summary": "China's Q2 GDP expanded 4.3% year-on-year — the slowest pace since 2022 — missing the 4.5% consensus and the government's 5% annual target; fixed-asset investment fell 5.7% and June retail sales rose only 1.0%, underscoring domestic demand fragility despite record exports.",
-      "marketImpact": "↓ FXI; ↓ 9988.HK, ↓ 0700.HK; commodity currencies (AUD, NZD) under pressure; watch for Beijing stimulus signals",
-      "tickers": ["FXI", "9988.HK", "0700.HK"],
-      "url": "https://www.cnn.com/2026/07/14/business/china-q2-gdp-export-economy-intl-hnk",
-      "region": "China"
-    },
-    {
-      "headline": "China June Exports Hit Record $412bn as AI Boom and Tariff Rush Drive Trade Surge",
+      "headline": "China June Exports Surge 27% — Strongest Annual Gain Since 2021 on AI Hardware Demand",
       "source": "CNBC",
-      "summary": "China's exports surged 27% year-on-year to a record $412.4 billion in June, widening the trade surplus to $125.6 billion — the second-largest on record — driven by AI hardware demand and front-loading ahead of potential US tariff hikes; vehicle exports exceeded 1 million units in a single month for the first time.",
-      "marketImpact": "↑ Chinese exporters; ↑ FXI; yuan/CNH firming; watch for US tariff response given surplus widening",
-      "tickers": ["FXI"],
+      "summary": "China's exports rose a record 27% YoY to $412.39B in June, driven by booming global AI semiconductor demand and exporters front-running anticipated US tariffs; imports jumped 36% to an all-time high, widening the trade surplus to $125.62B.",
+      "marketImpact": "Positive for Chinese manufacturers and logistics; trade surplus expansion may revive US tariff threats ↑ watch; 9988.HK resilient.",
+      "tickers": ["9988.HK", "BABA", "FXI"],
       "url": "https://www.cnbc.com/2026/07/14/china-june-trade-data-exports-imports.html",
       "region": "China"
     },
     {
-      "headline": "Nikkei Surges Past 68,300 as Tech Stocks Rally; Kioxia Dethrones Toyota as Japan's Most Valuable Company",
-      "source": "Nikkei Asia",
-      "summary": "Japan's Nikkei 225 climbed 0.9% above 68,300, led by AI-related stocks — Kioxia (+6.7%), Lasertec (+6.9%), Advantest (+4.4%), Tokyo Electron (+1.6%) — with Kioxia surpassing Toyota by market cap to become Japan's most valuable listed company; domestic machinery orders fell more than expected, raising BoJ caution.",
-      "marketImpact": "↑ 6600.T (Kioxia), ↑ 6857.T (Advantest), ↑ 6920.T (Lasertec), ↑ 8035.T (Tokyo Electron); watch BoJ July 30–31 meeting for further rate signals after June hike to 1%",
-      "tickers": ["6600.T", "6857.T", "6920.T", "8035.T"],
-      "url": "https://asia.nikkei.com/business/markets",
+      "headline": "Shein Wins CSRC Approval for $40–50B Hong Kong IPO Targeting September Launch",
+      "source": "South China Morning Post",
+      "summary": "China's securities regulator CSRC approved Shein's plan to list up to 341.6 million shares (~8% of total) on the Hong Kong Stock Exchange, with a September–October IPO targeted at a ~$40–50B valuation — well below its $100B 2022 peak.",
+      "marketImpact": "HK IPO pipeline ↑; 0388.HK (HKEX operator) ↑ watch; fast-fashion/retail sector attention; valuation discount reflects regulatory and geopolitical overhang.",
+      "tickers": ["0388.HK"],
+      "url": "https://www.scmp.com/tech/big-tech/article/3360165/shein-receives-approval-hong-kong-ipo-chinese-regulators",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "Nikkei 225 Falls 2.8% as Kioxia Crashes 15% and SoftBank, Tokyo Electron Slump",
+      "source": "BigGo Finance",
+      "summary": "Japan's Nikkei 225 fell 2.79% to 66,835 on Thursday as the global semiconductor selloff hit AI-exposed Japanese names hard — Kioxia Holdings off 15%, SoftBank Group off 5.9%, Tokyo Electron off 5.2%, Advantest off 5.1% — the four names alone stripping 1,300+ index points.",
+      "marketImpact": "6600.T ↓ 15%; 9984.T ↓ 5.9%; 8035.T ↓ 5.2%; 6857.T ↓ 5.1%; TOPIX outperformed Nikkei; yen safe-haven demand a watch for USD/JPY.",
+      "tickers": ["6600.T", "8035.T", "9984.T", "6857.T"],
+      "url": "https://finance.biggo.com/news/12fffbdf-d4ea-4e5e-acfa-f1aaef770618",
       "region": "Japan"
     },
     {
-      "headline": "KOSPI Surges 7% to Reclaim 7,000 as SK Hynix Soars 9% on AI Memory Demand",
-      "source": "TradingKey",
-      "summary": "South Korea's KOSPI jumped ~7% to 7,335 — its strongest session in months — as SK Hynix surged 9.4% and Samsung rose 5.9% on strong AI memory demand and the broader CPI-driven relief rally; the move came after the KOSPI had sold off following SK Hynix's record Nasdaq ADR debut.",
-      "marketImpact": "↑ SKHY, ↑ 000660.KS (SK Hynix +9.4%), ↑ 005930.KS (Samsung +5.9%); AI memory complex broadly repriced higher",
-      "tickers": ["SKHY", "000660.KS", "005930.KS"],
-      "url": "https://www.tradingkey.com/analysis/stocks/more/262030214-kospi-nekki-kioxia-samsung-skhynix-ai-softbank-adr-skhy-cpi-warsh-asml-tradingkey",
+      "headline": "South Korea KOSPI Plunges 7%+, Triggers Circuit Breaker; SK Hynix Falls 11%",
+      "source": "BigGo Finance",
+      "summary": "South Korea's KOSPI triggered a circuit breaker as the AI chip selloff accelerated; SK Hynix tumbled over 11% and Samsung Electronics fell sharply — the two stocks together account for more than half of the index's total market value.",
+      "marketImpact": "000660.KS ↓ 11%+; 005930.KS ↓; KOSPI circuit breaker activated; broader Asian tech sentiment ↓; Korean won under pressure.",
+      "tickers": ["000660.KS", "005930.KS", "SKHY"],
+      "url": "https://finance.biggo.com/news/c9632b9f-0b52-4f71-9e81-3035ee661925",
       "region": "Asia"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Apple",
-      "ticker": "AAPL",
-      "exchange": "NASDAQ",
-      "reason": "Hit a new all-time high after China approved Apple Intelligence powered by Alibaba's Qwen AI, unlocking the world's largest smartphone market for its AI platform after a two-year absence.",
-      "direction": "↑"
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "exchange": "NYSE",
+      "reason": "Record Q2 earnings (77% profit surge, $100B new Arizona investment) failed to lift the stock — sets the tone for the global AI chip valuation debate Friday.",
+      "direction": "↓"
     },
     {
-      "name": "Alibaba Group",
-      "ticker": "BABA",
-      "exchange": "NYSE",
-      "reason": "ADRs jumped 5% after its Qwen AI was selected as the backbone of Apple Intelligence in China, a landmark enterprise AI partnership that counters the weak domestic demand reflected in the Q2 GDP miss.",
-      "direction": "↑"
+      "name": "Netflix",
+      "ticker": "NFLX",
+      "exchange": "NASDAQ",
+      "reason": "Q2 revenue miss and decelerating Q3 guidance signal the streaming growth engine may be cooling faster than the market expected.",
+      "direction": "↓"
     },
     {
       "name": "Kioxia Holdings",
       "ticker": "6600.T",
       "exchange": "TSE",
-      "reason": "Surged 6.7% to become Japan's most valuable listed company by market cap; booming AI-driven NAND demand and an expected tripling of its TOPIX index weight are drawing institutional flows.",
-      "direction": "↑"
-    },
-    {
-      "name": "SK Hynix",
-      "ticker": "SKHY",
-      "exchange": "NASDAQ",
-      "reason": "Seoul shares soared 9.4% after the prior week's Nasdaq ADR sell-off; AI HBM memory demand and NVIDIA partnership fundamentals remain intact, making a stabilisation of SKHY the key watch for US investors.",
-      "direction": "↑"
-    },
-    {
-      "name": "Micron Technology",
-      "ticker": "MU",
-      "exchange": "NASDAQ",
-      "reason": "Fell 8% as investors reassessed valuations following a near-tripling in Q2 2026; HBM production slowdown signals from SK Hynix add to demand growth uncertainty.",
+      "reason": "Crashed 15% in Thursday's Tokyo session as the AI chip selloff hit Japan's largest flash memory maker hardest; sentiment fragile heading into Friday.",
       "direction": "↓"
     },
     {
-      "name": "Chevron",
-      "ticker": "CVX",
+      "name": "SoftBank Group",
+      "ticker": "9984.T",
+      "exchange": "TSE",
+      "reason": "Down 5.9% as AI infrastructure concerns mount; Vision Fund's deep AI bets face re-rating risk if the valuation debate deepens.",
+      "direction": "↓"
+    },
+    {
+      "name": "ExxonMobil",
+      "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "In focus as Brent crude surged above $85 on renewed US-Iran strikes and the reimposition of the Strait of Hormuz naval blockade, lifting major integrated oil producers.",
+      "reason": "Direct beneficiary of Brent crude's return to $87/barrel; Iran conflict premium unlikely to fade with two critical shipping lanes now threatened.",
       "direction": "↑"
     }
   ],
   "bondYields": {
     "us10y": 4.57,
-    "us30y": 5.08,
-    "asOf": "2026-07-15"
+    "us30y": 5.09,
+    "asOf": "2026-07-16"
   },
   "tickerDescriptions": {
-    "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US companies by market capitalisation",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
-    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 Index of the 100 largest non-financial Nasdaq-listed companies",
-    "XOM": "Exxon Mobil Corporation, one of the world's largest integrated oil and gas companies",
-    "CVX": "Chevron Corporation, US integrated energy company with global oil and gas operations",
-    "USO": "United States Oil Fund ETF, tracking West Texas Intermediate crude oil prices",
-    "AAPL": "Apple Inc., maker of iPhone, Mac, and the Apple Intelligence AI platform",
-    "BABA": "Alibaba Group Holding, Chinese e-commerce and cloud giant whose Qwen AI powers Apple Intelligence in China",
-    "9988.HK": "Alibaba Group Holding (Hong Kong listing), Chinese e-commerce, AI, and cloud company",
-    "MS": "Morgan Stanley, global investment bank that posted record Q2 2026 revenues of $21.3B with equities trading up 69% year-on-year",
-    "JPM": "JPMorgan Chase, largest US bank by assets with a blowout Q2 2026 earnings beat",
-    "GS": "Goldman Sachs, US investment bank that booked SpaceX IPO advisory fees in a strong Q2 2026",
-    "BAC": "Bank of America, major US bank reporting strong Q2 2026 trading and lending revenues",
-    "C": "Citigroup, major US global bank benefiting from elevated trading revenues in Q2 2026",
-    "MU": "Micron Technology, leading US manufacturer of DRAM and NAND memory chips for AI data centers",
-    "LRCX": "Lam Research Corporation, maker of semiconductor wafer fabrication equipment",
-    "AMD": "Advanced Micro Devices, US chipmaker competing in AI accelerators with its MI300/MI400 series",
-    "AMZN": "Amazon.com, US e-commerce and cloud computing giant (AWS)",
-    "GOOGL": "Alphabet Inc., parent of Google and YouTube, major AI and cloud infrastructure player",
-    "MSFT": "Microsoft Corporation, US software and cloud giant with a major OpenAI partnership",
+    "TSM": "Taiwan Semiconductor Manufacturing Company, the world's largest contract chipmaker producing leading-edge chips for Apple, Nvidia, AMD, and others",
+    "NFLX": "Netflix Inc., the leading global video streaming platform with over 300 million subscribers worldwide",
+    "XOM": "ExxonMobil Corp., one of the world's largest integrated oil and gas companies, benefiting from elevated crude prices",
+    "CVX": "Chevron Corp., a major US-listed integrated oil and gas company with global upstream and downstream operations",
+    "USO": "United States Oil Fund ETF, designed to track the daily price movements of West Texas Intermediate crude oil",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, providing exposure to long-duration US government bonds — falls when yields rise",
+    "IYR": "iShares US Real Estate ETF, tracking US real estate investment trusts (REITs), sensitive to interest rate changes",
+    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate listed on the Hong Kong Stock Exchange",
+    "BABA": "Alibaba Group Holding ADR, US-listed American depositary receipt tracking the Hong Kong-listed 9988.HK",
     "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese companies listed on HKEX",
-    "0700.HK": "Tencent Holdings Ltd., China's largest internet conglomerate spanning gaming, social media, fintech, and AI",
-    "6600.T": "Kioxia Holdings, Japanese flash memory and SSD manufacturer, now Japan's most valuable listed company",
-    "6857.T": "Advantest Corporation, Japanese maker of semiconductor testing equipment for AI chips",
-    "6920.T": "Lasertec Corporation, Japanese manufacturer of EUV mask inspection equipment for advanced semiconductors",
-    "8035.T": "Tokyo Electron, Japanese semiconductor manufacturing equipment company",
-    "SKHY": "SK Hynix Nasdaq ADR, South Korean memory chipmaker and leading producer of HBM chips for AI data centers",
-    "000660.KS": "SK Hynix Inc., South Korean semiconductor manufacturer and AI memory leader listed on the Korea Exchange",
-    "005930.KS": "Samsung Electronics, South Korean technology conglomerate making memory chips, displays, and consumer electronics"
+    "0388.HK": "Hong Kong Exchanges and Clearing (HKEX), the operator of Hong Kong's stock, bond, and derivatives markets — a key IPO pipeline beneficiary",
+    "6600.T": "Kioxia Holdings Corp., Japan's largest NAND flash memory chip manufacturer, listed on the Tokyo Stock Exchange",
+    "8035.T": "Tokyo Electron Limited, a leading global manufacturer of semiconductor production equipment, listed on the Tokyo Stock Exchange",
+    "9984.T": "SoftBank Group Corp., a Japanese technology conglomerate known for its Vision Fund with major AI and technology investments globally",
+    "6857.T": "Advantest Corp., a Japanese manufacturer of semiconductor test systems and equipment, closely tied to the AI chip supply chain",
+    "000660.KS": "SK Hynix Inc., South Korea's second-largest semiconductor company and a global leader in high-bandwidth memory (HBM) chips for AI",
+    "005930.KS": "Samsung Electronics Co., South Korea's largest company and a global leader in memory chips, displays, and consumer electronics",
+    "SKHY": "SK Hynix Nasdaq ADR, South Korean memory chipmaker and leading producer of HBM chips for AI data centers, listed on Nasdaq"
   },
   "quickHits": [
-    "Singapore's Straits Times Index hit a 5th consecutive record high (+1.3%), leading Southeast Asian markets on tech and AI optimism. (Nikkei Asia)",
-    "China's vehicle exports surpassed 1 million units in June for the first time ever, led by BYD and other domestic EV brands. (CNBC/CAAM)",
-    "Bank of Japan meeting set for July 30–31; markets watch for further rate guidance after the BoJ hiked to 1% in June. (Reuters/BOJ)",
-    "Goldman Sachs flagged SpaceX IPO advisory fees and record M&A deal-making activity as key drivers of its Q2 2026 earnings beat. (CNBC)"
+    "US June housing starts and building permits data released this morning — May starts fell 15.4% to a 6-year low; June figures watched for signs of housing market stabilisation (US Census Bureau)",
+    "University of Michigan consumer sentiment (July preliminary) also due Friday — inflation expectations component in focus amid Middle East escalation and oil price surge (U of Michigan)",
+    "US bank earnings Friday: Travelers (TRV), Truist Financial (TFC), and Fifth Third Bancorp (FITB) report Q2 results — financials may offer a counterpoint to the tech-driven selloff (CNBC)",
+    "Goldman Sachs cuts India 2026 corporate profit growth forecast to 8%, far below the 16% consensus, citing higher energy costs and currency headwinds from the Iran-driven oil price surge (Goldman Sachs)"
   ]
 }
