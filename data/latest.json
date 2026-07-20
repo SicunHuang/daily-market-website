@@ -1,152 +1,171 @@
 {
-  "date": "2026-07-17",
-  "marketMood": "Risk-off globally: AI trade valuation doubts, US-Iran escalation pushing oil to $87/barrel, and a hawkish Fed signalling a possible September rate hike create a bearish trifecta for equities.",
+  "date": "2026-07-20",
+  "marketMood": "Risk-off: Global AI/chip selloff enters bear market territory as US-Iran oil spike and rising Fed hike odds add fresh headwinds.",
   "upcomingEvents": [
-    { "date": "2026-07-21", "event": "Q2 Earnings Season Continues — Major Tech Companies (MSFT, GOOGL, AMZN cycle)", "significance": "high" },
-    { "date": "2026-07-22", "event": "US Existing Home Sales (June)", "significance": "medium" },
+    { "date": "2026-07-22", "event": "Alphabet (GOOGL) & Tesla (TSLA) Q2 2026 Earnings", "significance": "high" },
+    { "date": "2026-07-23", "event": "Intel (INTC) Q2 2026 Earnings", "significance": "medium" },
     { "date": "2026-07-24", "event": "US Flash PMI — July Preliminary (Manufacturing & Services)", "significance": "medium" },
-    { "date": "2026-07-29", "event": "FOMC Rate Decision & Fed Chair Warsh Press Conference", "significance": "high" }
+    { "date": "2026-07-28", "event": "China Politburo Meeting (late-July; stimulus signals expected)", "significance": "high" },
+    { "date": "2026-07-29", "event": "FOMC Interest Rate Decision & Fed Chair Warsh Press Conference", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "TSMC Delivers Record Q2 Earnings but Shares Fall 4%+ on AI Valuation Concerns",
-      "source": "Yahoo Finance",
-      "summary": "TSMC reported Q2 net income up 77.4% YoY to NT$706.56B on $40.2B revenue — a fifth consecutive record quarter — while CEO C.C. Wei pledged an additional $100B Arizona investment bringing total US commitments to $265B, yet shares dropped as investors questioned whether AI chip valuations can be sustained.",
-      "marketImpact": "TSM ↓ 4%+; Philadelphia Semiconductor Index ↓; Nasdaq 100 ↓ 1.6% Thursday; AI trade under pressure globally.",
-      "tickers": ["TSM"],
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-q2-2026-earnings-record-112109987.html",
-      "region": "Global"
-    },
-    {
-      "headline": "Netflix Slumps 8%+ After-Hours on Q2 Revenue Miss and Slowing Q3 Guidance",
+      "headline": "Global AI/Chip Selloff Deepens; Semiconductor Index Enters Bear Market, Down 20% from Record",
       "source": "CNBC",
-      "summary": "Netflix reported Q2 revenue of $12.56B (up 13% YoY but slightly below estimates) and guided Q3 growth at 12% — a second consecutive quarter of decelerating sales growth — while narrowing full-year revenue guidance to $51–51.4B.",
-      "marketImpact": "NFLX ↓ 8%+ after-hours; streaming deceleration thesis gaining traction; growth stock sentiment cautious heading into Friday.",
-      "tickers": ["NFLX"],
-      "url": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html",
+      "summary": "The Philadelphia Semiconductor Index has fallen 20% from its all-time high, with SOXX down 10%+ week-to-date — driven by fears over AI spending ROI, DeepSeek's push to develop its own chips reducing Nvidia dependency, and Meta cutting reliance on third-party compute.",
+      "marketImpact": "NVDA, AMD, INTC, SOXX, SMH ↓; Nasdaq leads broad market lower; worst week for semis since April 2025",
+      "tickers": ["NVDA", "AMD", "INTC", "SOXX", "SMH"],
+      "url": "https://www.cnbc.com/2026/07/17/stock-market-next-week-outlook-for-july-20-24-2026.html",
       "region": "US"
     },
     {
-      "headline": "US Strikes Iran Again as Brent Crude Holds Near $87; Strait of Hormuz at Risk",
-      "source": "CNBC",
-      "summary": "The US launched fresh military strikes on Iran and revoked oil sanctions waivers; three commercial vessels were attacked in the Strait of Hormuz, halting tanker transits, with Iran signalling it may use Houthi allies to also block the Bab el-Mandeb strait.",
-      "marketImpact": "Brent crude ↑ ~$87/barrel (4th consecutive day of gains, +9% above pre-conflict levels); energy stocks ↑; Treasury yields ↑ on inflation fears; equities ↓.",
-      "tickers": ["XOM", "CVX", "USO"],
-      "url": "https://www.cnbc.com/amp/2026/07/16/oil-rise-as-us-strikes-on-iran-raise-fears-of-wider-conflict.html",
-      "region": "Global"
-    },
-    {
-      "headline": "Fed Chair Warsh Stays Hawkish After June CPI Cools to 3.5%; September Hike on the Table",
-      "source": "CNN",
-      "summary": "Fed Chairman Kevin Warsh testified that June inflation falling to 3.5% from 4.2% is 'not mission accomplished'; nearly half of FOMC members now forecast another rate hike this year, with Goldman Sachs pushing rate cut expectations to 2027.",
-      "marketImpact": "Rate-sensitive sectors ↓ (real estate, utilities); US 10Y yield ↑ to 4.57%; US 30Y ↑ to 5.09%; growth tech under pressure; TLT ↓.",
-      "tickers": ["TLT", "IYR"],
-      "url": "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony",
+      "headline": "JPMorgan Posts Highest Quarterly Profit in US Banking History at $21.2 Billion",
+      "source": "Reuters",
+      "summary": "JPMorgan Chase reported Q2 net income of $21.2B (+41% YoY) — the largest quarterly profit ever by a US bank; Goldman Sachs nearly doubled EPS; all five major banks beat estimates driven by surging trading revenues and investment banking fees.",
+      "marketImpact": "JPM, GS, BAC, WFC, C ↑; earnings season off to historic start — 88% of S&P 500 reporters beating estimates",
+      "tickers": ["JPM", "GS", "BAC", "WFC", "C"],
+      "url": "https://www.techtimes.com/articles/320491/20260714/all-five-major-banks-beat-estimates-jpmorgan-posts-highest-profit-us-history.htm",
       "region": "US"
     },
     {
-      "headline": "China June Exports Surge 27% — Strongest Annual Gain Since 2021 on AI Hardware Demand",
+      "headline": "Fed Rate Hike Odds Climb to 46.5% Ahead of July 28-29 FOMC Meeting",
       "source": "CNBC",
-      "summary": "China's exports rose a record 27% YoY to $412.39B in June, driven by booming global AI semiconductor demand and exporters front-running anticipated US tariffs; imports jumped 36% to an all-time high, widening the trade surplus to $125.62B.",
-      "marketImpact": "Positive for Chinese manufacturers and logistics; trade surplus expansion may revive US tariff threats ↑ watch; 9988.HK resilient.",
-      "tickers": ["9988.HK", "BABA", "FXI"],
-      "url": "https://www.cnbc.com/2026/07/14/china-june-trade-data-exports-imports.html",
-      "region": "China"
+      "summary": "CME FedWatch now prices a 46.5% probability of a 25bp rate hike at the upcoming FOMC meeting as oil prices climb on Iran tensions and inflation expectations firm; Bank of America now projects three additional 25bp hikes in September, October, and December.",
+      "marketImpact": "TLT ↓ (yields ↑); USD ↑; rate-sensitive sectors under pressure; US 10Y at 4.55%, 30Y at 5.06%",
+      "tickers": ["TLT", "IYR", "SPY"],
+      "url": "https://www.cnbc.com/2026/07/13/-a-july-rate-hike-from-the-fed-the-odds-are-rising.html",
+      "region": "US"
     },
     {
-      "headline": "Shein Wins CSRC Approval for $40–50B Hong Kong IPO Targeting September Launch",
-      "source": "South China Morning Post",
-      "summary": "China's securities regulator CSRC approved Shein's plan to list up to 341.6 million shares (~8% of total) on the Hong Kong Stock Exchange, with a September–October IPO targeted at a ~$40–50B valuation — well below its $100B 2022 peak.",
-      "marketImpact": "HK IPO pipeline ↑; 0388.HK (HKEX operator) ↑ watch; fast-fashion/retail sector attention; valuation discount reflects regulatory and geopolitical overhang.",
-      "tickers": ["0388.HK"],
-      "url": "https://www.scmp.com/tech/big-tech/article/3360165/shein-receives-approval-hong-kong-ipo-chinese-regulators",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Nikkei 225 Falls 2.8% as Kioxia Crashes 15% and SoftBank, Tokyo Electron Slump",
-      "source": "BigGo Finance",
-      "summary": "Japan's Nikkei 225 fell 2.79% to 66,835 on Thursday as the global semiconductor selloff hit AI-exposed Japanese names hard — Kioxia Holdings off 15%, SoftBank Group off 5.9%, Tokyo Electron off 5.2%, Advantest off 5.1% — the four names alone stripping 1,300+ index points.",
-      "marketImpact": "6600.T ↓ 15%; 9984.T ↓ 5.9%; 8035.T ↓ 5.2%; 6857.T ↓ 5.1%; TOPIX outperformed Nikkei; yen safe-haven demand a watch for USD/JPY.",
-      "tickers": ["6600.T", "8035.T", "9984.T", "6857.T"],
-      "url": "https://finance.biggo.com/news/12fffbdf-d4ea-4e5e-acfa-f1aaef770618",
+      "headline": "Nikkei Falls 4% into Correction; SoftBank -9%, Tokyo Electron -8% Lead Declines",
+      "source": "Japan Times",
+      "summary": "Japan's Nikkei 225 closed at 64,141 Friday — down 4.03% on the day and 11% from its June record — as the global AI chip selloff swept through Tokyo with SoftBank sinking 9%, Tokyo Electron losing 8.1%, and Advantest falling 7.2%.",
+      "marketImpact": "9984.T ↓, 8035.T ↓, 6857.T ↓; Topix fell 2.72%; yen bid as safe-haven flows emerge",
+      "tickers": ["9984.T", "8035.T", "6857.T"],
+      "url": "https://www.japantimes.co.jp/business/2026/07/17/markets/nikkei-index-drop-july/",
       "region": "Japan"
     },
     {
-      "headline": "South Korea KOSPI Plunges 7%+, Triggers Circuit Breaker; SK Hynix Falls 11%",
-      "source": "BigGo Finance",
-      "summary": "South Korea's KOSPI triggered a circuit breaker as the AI chip selloff accelerated; SK Hynix tumbled over 11% and Samsung Electronics fell sharply — the two stocks together account for more than half of the index's total market value.",
-      "marketImpact": "000660.KS ↓ 11%+; 005930.KS ↓; KOSPI circuit breaker activated; broader Asian tech sentiment ↓; Korean won under pressure.",
-      "tickers": ["000660.KS", "005930.KS", "SKHY"],
-      "url": "https://finance.biggo.com/news/c9632b9f-0b52-4f71-9e81-3035ee661925",
-      "region": "Asia"
+      "headline": "Kioxia Loses $181 Billion in Market Value; Patent Ruling Compounds AI Selloff",
+      "source": "Bloomberg",
+      "summary": "Japanese memory chipmaker Kioxia plunged 16% on Friday — now down 52% from its June peak — after a Texas federal jury ordered $229M in patent damages (Viasat claim), compounding its AI-era valuation unwind; Kioxia had rallied 600%+ from January's low.",
+      "marketImpact": "6600.T ↓↓; NAND memory segment under pressure; broader Japan tech sentiment severely hurt",
+      "tickers": ["6600.T"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/chipmaker-kioxia-s-market-value-halves-from-peak-on-ai-selloff",
+      "region": "Japan"
+    },
+    {
+      "headline": "China Q2 GDP Slows to 4.3%, Weakest Since Late 2022; Politburo Meeting Eyed for Stimulus",
+      "source": "NPR",
+      "summary": "China's economy grew just 4.3% YoY in Q2, missing the 4.5% consensus and slowing from Q1's 5.0%; fixed-asset investment fell 5.7%; markets now look to the late-July Politburo meeting for additional stimulus signals with RMB6.8T in unused bond quota available.",
+      "marketImpact": "Chinese consumer and property stocks ↓; stimulus watch — yuan and HK tech could rally on Politburo easing signals",
+      "tickers": ["9988.HK", "0700.HK", "3690.HK", "FXI"],
+      "url": "https://www.npr.org/2026/07/15/g-s1-133672/chinas-economy-grows-4-3-in-q2-slowest-since-late-2022",
+      "region": "China"
+    },
+    {
+      "headline": "Hang Seng Drops 1.8%; SMIC Slumps 10% as US Chip Rout Hits Hong Kong",
+      "source": "South China Morning Post",
+      "summary": "The Hang Seng Index fell 446 points (1.78%) to 24,562 Friday, tracking the US semiconductor selloff; SMIC dropped 10%, Tencent fell 4.6%, Meituan and Xiaomi shed 2-4%; some capital rotated from hardware into internet names with Alibaba briefly outperforming.",
+      "marketImpact": "0981.HK ↓↓, 0700.HK ↓, 9988.HK mixed, 3690.HK ↓; mainland southbound investors remain buyers of AI hardware dips",
+      "tickers": ["0981.HK", "0700.HK", "9988.HK", "3690.HK"],
+      "url": "https://www.scmp.com/topics/hang-seng-index",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "US-Iran Ceasefire Collapses; Oil Climbs Back Above $80 on Strait of Hormuz Attacks",
+      "source": "Bloomberg",
+      "summary": "The US revoked Iran's 60-day oil sanctions waiver after ceasefire negotiations broke down; Iran's IRGC attacked tankers near the Strait of Hormuz; the US military shot down Iranian drones and sanctioned Iran's key oil-shipping networks; Brent crude surged 5%+.",
+      "marketImpact": "XOM, CVX ↑; airlines and transport ↓; oil services watch; inflation expectations ↑; complicates Fed pivot narrative",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/us-sanctions-iran-oil-tycoon-s-network-after-ceasefire-collapses",
+      "region": "Global"
+    },
+    {
+      "headline": "Alphabet and Tesla Headline a Packed Earnings Week; AI Capex Narrative in Focus",
+      "source": "CNBC",
+      "summary": "77 S&P 500 companies report Q2 this week; Alphabet (Wednesday) is expected to show 25.5% EPS growth on $116.9B revenue with its $190B AI capex guidance under scrutiny; Tesla (also Wednesday) faces questions on Cybercab ramp timing and China volumes.",
+      "marketImpact": "GOOGL, TSLA watch; strong Alphabet results could partially stabilise tech sentiment mid-week; INTC reports Thursday",
+      "tickers": ["GOOGL", "TSLA", "INTC"],
+      "url": "https://www.cnbc.com/2026/07/19/earnings-playbook-alphabet-tesla-headline-this-weeks-big-reports.html",
+      "region": "US"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Taiwan Semiconductor Manufacturing",
-      "ticker": "TSM",
-      "exchange": "NYSE",
-      "reason": "Record Q2 earnings (77% profit surge, $100B new Arizona investment) failed to lift the stock — sets the tone for the global AI chip valuation debate Friday.",
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "reason": "Bellwether of the AI chip trade, in the crosshairs of the SOX bear market and DeepSeek's chip development ambitions",
       "direction": "↓"
     },
     {
-      "name": "Netflix",
-      "ticker": "NFLX",
+      "name": "Tesla",
+      "ticker": "TSLA",
       "exchange": "NASDAQ",
-      "reason": "Q2 revenue miss and decelerating Q3 guidance signal the streaming growth engine may be cooling faster than the market expected.",
-      "direction": "↓"
+      "reason": "Reports Q2 earnings Wednesday; Cybercab ramp timeline and China volumes are key swing factors for market direction",
+      "direction": "↑"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "exchange": "NASDAQ",
+      "reason": "Reports Q2 Wednesday with 25%+ EPS growth expected; $190B AI capex guidance could swing broader tech sentiment",
+      "direction": "↑"
     },
     {
       "name": "Kioxia Holdings",
       "ticker": "6600.T",
       "exchange": "TSE",
-      "reason": "Crashed 15% in Thursday's Tokyo session as the AI chip selloff hit Japan's largest flash memory maker hardest; sentiment fragile heading into Friday.",
+      "reason": "Down 52% from June peak after patent ruling adds to AI selloff pressure; further selling or capitulation possible",
       "direction": "↓"
     },
     {
       "name": "SoftBank Group",
       "ticker": "9984.T",
       "exchange": "TSE",
-      "reason": "Down 5.9% as AI infrastructure concerns mount; Vision Fund's deep AI bets face re-rating risk if the valuation debate deepens.",
+      "reason": "Sank 9% Friday, heavily exposed to AI and semiconductor investments via Vision Fund; broader Japan market barometer",
       "direction": "↓"
-    },
-    {
-      "name": "ExxonMobil",
-      "ticker": "XOM",
-      "exchange": "NYSE",
-      "reason": "Direct beneficiary of Brent crude's return to $87/barrel; Iran conflict premium unlikely to fade with two critical shipping lanes now threatened.",
-      "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.57,
-    "us30y": 5.09,
-    "asOf": "2026-07-16"
+    "us10y": 4.55,
+    "us30y": 5.06,
+    "asOf": "2026-07-17"
   },
   "tickerDescriptions": {
-    "TSM": "Taiwan Semiconductor Manufacturing Company, the world's largest contract chipmaker producing leading-edge chips for Apple, Nvidia, AMD, and others",
-    "NFLX": "Netflix Inc., the leading global video streaming platform with over 300 million subscribers worldwide",
-    "XOM": "ExxonMobil Corp., one of the world's largest integrated oil and gas companies, benefiting from elevated crude prices",
-    "CVX": "Chevron Corp., a major US-listed integrated oil and gas company with global upstream and downstream operations",
-    "USO": "United States Oil Fund ETF, designed to track the daily price movements of West Texas Intermediate crude oil",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, providing exposure to long-duration US government bonds — falls when yields rise",
+    "NVDA": "NVIDIA Corporation, designer of leading GPUs and AI accelerator chips powering data centres globally",
+    "AMD": "Advanced Micro Devices, US semiconductor company making CPUs, GPUs, and data centre processors",
+    "INTC": "Intel Corporation, the leading US semiconductor manufacturer reporting Q2 2026 earnings this Thursday",
+    "SOXX": "iShares Semiconductor ETF tracking the ICE Semiconductor Index of US-listed chipmakers",
+    "SMH": "VanEck Semiconductor ETF tracking the MVIS US Listed Semiconductor 25 Index",
+    "JPM": "JPMorgan Chase, the largest US bank by assets and a leading global investment bank",
+    "GS": "Goldman Sachs Group, a premier US investment bank known for trading, banking, and asset management",
+    "BAC": "Bank of America, the second-largest US bank by assets serving retail and institutional clients",
+    "WFC": "Wells Fargo & Company, a major US commercial and consumer bank",
+    "C": "Citigroup Inc., a major US global banking institution with large international operations",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, a benchmark proxy for long-dated US government bonds",
     "IYR": "iShares US Real Estate ETF, tracking US real estate investment trusts (REITs), sensitive to interest rate changes",
-    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate listed on the Hong Kong Stock Exchange",
-    "BABA": "Alibaba Group Holding ADR, US-listed American depositary receipt tracking the Hong Kong-listed 9988.HK",
+    "SPY": "SPDR S&P 500 ETF Trust, the most widely traded ETF tracking the S&P 500 index",
+    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and major AI and venture investor via Vision Fund",
+    "8035.T": "Tokyo Electron Ltd., Japan's leading semiconductor equipment manufacturer supplying chipmakers globally",
+    "6857.T": "Advantest Corp., a Japanese manufacturer of semiconductor test systems closely tied to the AI chip supply chain",
+    "6600.T": "Kioxia Holdings Corp., Japan's largest NAND flash memory chipmaker that staged a dramatic AI-era rally in early 2026",
+    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate listed in Hong Kong",
+    "0700.HK": "Tencent Holdings, China's largest internet and social media company and a major AI investor",
+    "0981.HK": "Semiconductor Manufacturing International Corp. (SMIC), China's largest and most advanced chipmaker",
+    "3690.HK": "Meituan, China's dominant food delivery and local services super-app platform",
     "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese companies listed on HKEX",
-    "0388.HK": "Hong Kong Exchanges and Clearing (HKEX), the operator of Hong Kong's stock, bond, and derivatives markets — a key IPO pipeline beneficiary",
-    "6600.T": "Kioxia Holdings Corp., Japan's largest NAND flash memory chip manufacturer, listed on the Tokyo Stock Exchange",
-    "8035.T": "Tokyo Electron Limited, a leading global manufacturer of semiconductor production equipment, listed on the Tokyo Stock Exchange",
-    "9984.T": "SoftBank Group Corp., a Japanese technology conglomerate known for its Vision Fund with major AI and technology investments globally",
-    "6857.T": "Advantest Corp., a Japanese manufacturer of semiconductor test systems and equipment, closely tied to the AI chip supply chain",
-    "000660.KS": "SK Hynix Inc., South Korea's second-largest semiconductor company and a global leader in high-bandwidth memory (HBM) chips for AI",
-    "005930.KS": "Samsung Electronics Co., South Korea's largest company and a global leader in memory chips, displays, and consumer electronics",
-    "SKHY": "SK Hynix Nasdaq ADR, South Korean memory chipmaker and leading producer of HBM chips for AI data centers, listed on Nasdaq"
+    "XOM": "ExxonMobil Corporation, the largest US integrated oil and gas major",
+    "CVX": "Chevron Corporation, a major US integrated energy company with global oil and gas operations",
+    "USO": "United States Oil Fund ETF tracking the price of West Texas Intermediate (WTI) crude oil",
+    "GOOGL": "Alphabet Inc. (Google), the multinational technology conglomerate behind Search, YouTube, and Google Cloud",
+    "TSLA": "Tesla Inc., electric vehicle and clean energy technology company also developing autonomous driving (Cybercab)"
   },
   "quickHits": [
-    "US June housing starts and building permits data released this morning — May starts fell 15.4% to a 6-year low; June figures watched for signs of housing market stabilisation (US Census Bureau)",
-    "University of Michigan consumer sentiment (July preliminary) also due Friday — inflation expectations component in focus amid Middle East escalation and oil price surge (U of Michigan)",
-    "US bank earnings Friday: Travelers (TRV), Truist Financial (TFC), and Fifth Third Bancorp (FITB) report Q2 results — financials may offer a counterpoint to the tech-driven selloff (CNBC)",
-    "Goldman Sachs cuts India 2026 corporate profit growth forecast to 8%, far below the 16% consensus, citing higher energy costs and currency headwinds from the Iran-driven oil price surge (Goldman Sachs)"
+    "Samsung Q2 operating profit surged 19-fold to a record ~KRW89.4T yet shares fell 7% as markets doubted AI demand sustainability (Bloomberg)",
+    "Indonesia suffered 23,000 layoffs in H1 2026 as Southeast Asian economies battle rising oil costs and external headwinds (Nikkei Asia)",
+    "Bank of America now forecasts three additional 25bp Fed rate hikes in September, October, and December 2026 (Reuters)",
+    "China's unused government bond quota stands at RMB6.8T — Politburo meeting in late July is the likely trigger for renewed fiscal deployment (Capital Economics)"
   ]
 }
