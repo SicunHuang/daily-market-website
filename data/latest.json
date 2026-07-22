@@ -1,155 +1,174 @@
 {
-  "date": "2026-07-21",
-  "marketMood": "Cautious rebound as Asian markets recover from last week's Kimi K3 AI shock, but Big Tech earnings this week and ongoing Iran-US tensions keep sentiment fragile.",
+  "date": "2026-07-22",
+  "marketMood": "Risk-on recovery: Nasdaq climbs 1.3% and chip stocks rebound into Alphabet/Tesla earnings tonight, with oil near $90 on US-Iran tensions and Fed hawks shadowing the July 28-29 FOMC meeting.",
   "upcomingEvents": [
-    { "date": "2026-07-21", "event": "General Motors (GM) Q2 2026 Earnings (pre-market)", "significance": "medium" },
-    { "date": "2026-07-22", "event": "Alphabet (GOOGL) & Tesla (TSLA) Q2 2026 Earnings (after close)", "significance": "high" },
-    { "date": "2026-07-22", "event": "IBM Full Q2 2026 Earnings Report (after close)", "significance": "medium" },
-    { "date": "2026-07-24", "event": "Intel (INTC) Q2 2026 Earnings", "significance": "medium" },
-    { "date": "2026-07-28", "event": "China Politburo Meeting (stimulus signals expected)", "significance": "high" }
+    { "date": "2026-07-22", "event": "Alphabet (GOOGL) & Tesla (TSLA) Q2 earnings after bell", "significance": "high" },
+    { "date": "2026-07-22", "event": "AMD Advancing AI 2026 event — Zen 6 CPU launch (Day 1)", "significance": "medium" },
+    { "date": "2026-07-23", "event": "Intel (INTC) Q2 earnings after bell", "significance": "medium" },
+    { "date": "2026-07-28", "event": "FOMC rate decision — ~25% probability of 25bp rate hike", "significance": "high" },
+    { "date": "2026-08-16", "event": "US-Iran 60-day ceasefire memorandum expiry deadline", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Moonshot AI's Kimi K3 Wipes $3.3 Trillion From Global Chip Stocks in DeepSeek-Style Shock",
-      "source": "Fortune",
-      "summary": "China's Moonshot AI released Kimi K3 on July 17 — a 2.8 trillion-parameter open-weight model outperforming leading US models on several benchmarks at roughly a fifth of the cost — triggering a global tech selloff that erased over $3.3T in semiconductor market value.",
-      "marketImpact": "NVDA ↓ (briefly lost most-valuable-company status to Apple), AMD ↓, MU ↓, INTC ↓; global semiconductor index ↓ 6%+ last week; Moonshot AI valuation ↑ to $20–30B; markets attempting recovery today",
-      "tickers": ["NVDA", "AMD", "MU", "INTC", "9988.HK"],
-      "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/",
-      "region": "China"
-    },
-    {
-      "headline": "Chip Stocks Rebound Early as Peace Talk Hopes Emerge; SOX Climbs 2%",
+      "headline": "Alphabet and Tesla Q2 Earnings Tonight Put AI Capex Narrative to the Test",
       "source": "CNBC",
-      "summary": "US markets opened higher Monday on reports that US-Iran peace talks could resume, with the SOX climbing 2% as AI and semiconductor stocks led a relief rally after last week's Kimi K3-driven selloff; Micron and Western Digital each rose 4%+.",
-      "marketImpact": "MU ↑ 4%+, WDC ↑ 4%+, SOX ↑ 2%; S&P 500 and Nasdaq cautiously higher; oil ↓ on ceasefire optimism; chip sector staging technical rebound from oversold levels",
-      "tickers": ["MU", "WDC", "NVDA"],
-      "url": "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html",
-      "region": "US"
-    },
-    {
-      "headline": "Nikkei 225 Rebounds 2.2% After Marine Day Holiday as Chip and AI Stocks Lead Bargain Hunt",
-      "source": "MarketScreener",
-      "summary": "Japan's benchmark rallied as markets reopened from the public holiday, with investors buying semiconductor and AI-related stocks at a discount following last week's 6.4% weekly plunge — the steepest in over a year.",
-      "marketImpact": "Nikkei 225 ↑ 2.2% to ~64,946; Topix ↑ 1.3%; Kioxia ↑ 5.9%; Shiseido ↑ 5.8%; MSCI Asia Pacific ↑ 1.7%; KOSPI ↑ 2.5%+",
-      "tickers": ["6600.T", "9984.T", "8035.T"],
-      "url": "https://www.marketscreener.com/news/japan-s-nikkei-rallies-after-steep-decline-as-focus-turns-to-tech-results-ce7f51dbdf8cf527",
-      "region": "Japan"
-    },
-    {
-      "headline": "Chinese State Insurers — China Life, Ping An, PICC — Pledge Long-Term Capital to Stabilize A-Shares",
-      "source": "South China Morning Post",
-      "summary": "Five major Chinese state insurers including China Life, PICC, Ping An, China Pacific, and New China Life said they would deploy long-term patient capital into domestic equities after Beijing stepped up market stabilization efforts following last week's sharp selloff.",
-      "marketImpact": "A-share markets ↑ on sentiment; 2628.HK ↑, 2318.HK ↑, 2328.HK ↑; rotation back into HK and mainland shares on stimulus and stabilization hopes; state support seen as a floor for near-term downside",
-      "tickers": ["2628.HK", "2318.HK", "2328.HK"],
-      "url": "https://www.scmp.com/business/china-business/article/3361139/beijing-steps-stem-chinas-stock-market-decline-us89b-state-purchases",
-      "region": "China"
-    },
-    {
-      "headline": "US Launches New Airstrikes on Iran; Oil Volatile as Ceasefire Remains Out of Reach",
-      "source": "Bloomberg",
-      "summary": "The US conducted a fresh round of airstrikes against Iran and reported another American service member killed, keeping the Strait of Hormuz risk premium elevated and oil markets in flux as mediators attempt to broker a renewed ceasefire.",
-      "marketImpact": "WTI and Brent crude watch (volatile, swinging on ceasefire headlines); XOM ↑, CVX ↑; defense stocks ↑; geopolitical risk premium remains elevated; airlines and shipping watch ↓",
-      "tickers": ["XOM", "CVX", "USO"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-17/sixth-day-of-us-iran-counterattacks-puts-ceasefire-out-of-reach",
-      "region": "US"
-    },
-    {
-      "headline": "Alphabet and Tesla Headline Big Tech Earnings Week; AI Capex Narrative Faces First Real Test",
-      "source": "CNBC",
-      "summary": "Alphabet (expecting ~$101B revenue and $180–190B 2026 AI capex guidance) and Tesla (a record 480K vehicle deliveries in Q2) both report after Wednesday's bell, marking the week's defining moment for the AI spending narrative.",
-      "marketImpact": "GOOGL watch ↑ on Google Cloud strength; TSLA watch ↑ on record deliveries and robotaxi update; IBM watch (full Q2 after 25% one-day crash); AI capex narrative at its first real reckoning of the cycle",
-      "tickers": ["GOOGL", "TSLA", "IBM", "INTC"],
+      "summary": "Alphabet and Tesla report Q2 2026 results after the bell, with expectations of 20%+ revenue growth for Alphabet's cloud and record delivery-driven profits for Tesla, marking the first real reckoning of whether AI spending generates tangible returns.",
+      "marketImpact": "GOOGL and TSLA could surge ↑ on strong AI cloud and EV results; a capex-heavy miss risks a repeat of last week's Mag-7 selloff; INTC reports Thursday",
+      "tickers": ["GOOGL", "TSLA", "INTC"],
       "url": "https://www.cnbc.com/2026/07/19/earnings-playbook-alphabet-tesla-headline-this-weeks-big-reports.html",
       "region": "US"
     },
     {
-      "headline": "IBM Faces Full Q2 Reckoning After Historic 25% One-Day Crash — Its Worst Since 1968",
-      "source": "IG",
-      "summary": "IBM fell 25% on July 14 after a Q2 warning missed revenue expectations by $660M; CEO Arvind Krishna cited clients rapidly redirecting spending toward AI infrastructure hardware, with the full earnings report due Wednesday.",
-      "marketImpact": "IBM ↓ 28% YTD; consulting and legacy IT sector ↓ watch; AI infrastructure suppliers (NVDA) potential beneficiaries ↑; Wednesday full report is a key reset for the stock",
-      "tickers": ["IBM"],
-      "url": "https://www.ig.com/uk/trading-strategies/ibm-share-price-earnings-miss-q2-2026-260715",
+      "headline": "Chip Stocks and Nasdaq Stage 5%+ Rebound After Last Week's AI-Driven Selloff",
+      "source": "CNBC",
+      "summary": "US indices rose Tuesday — S&P 500 +0.89%, Nasdaq +1.29%, Dow +0.74% — with the Philadelphia Semiconductor Index surging over 5% as markets stabilised following last week's sharp AI-driven rout.",
+      "marketImpact": "NVDA, AMD ↑; broader chip sector recovery fragile heading into tonight's Alphabet and Tesla earnings",
+      "tickers": ["NVDA", "AMD", "SMH"],
+      "url": "https://www.kucoin.com/news/flash/u-s-stock-indices-rise-on-july-22-2026",
       "region": "US"
     },
     {
-      "headline": "General Motors Reports Q2 2026: Pricing Discipline Holds Despite 4.2% US Vehicle Sales Decline",
+      "headline": "Fed's Waller Flags Hawkish Tilt Ahead of July 28-29 FOMC Meeting",
+      "source": "Forbes",
+      "summary": "Governor Waller said the Fed's focus has 'completely flipped' to inflation containment, raising CME FedWatch odds of a 25bp hike at next week's meeting to ~25%; rates currently hold at 3.50-3.75%.",
+      "marketImpact": "Rate-sensitive sectors ↓; USD ↑; TLT and long-duration bonds volatile; equity risk premium widening",
+      "tickers": ["TLT"],
+      "url": "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
+      "region": "US"
+    },
+    {
+      "headline": "US-Iran Conflict Drives Brent Above $90 as Strait of Hormuz Flows Collapse 62%",
+      "source": "Al Jazeera",
+      "summary": "Ongoing US strikes on Iranian coastal and military targets have cut confirmed crude flows through the Strait of Hormuz to 4.1 million barrels per day, down 62% from normal; a 60-day ceasefire memorandum expires August 16.",
+      "marketImpact": "Energy stocks ↑ (XLE, CVX, COP); airline and shipping costs ↑; oil-driven inflation adds upward pressure on the Fed's rate path",
+      "tickers": ["XLE", "CVX", "COP"],
+      "url": "https://www.aljazeera.com/economy/2026/7/20/petrol-prices-climb-as-us-iran-tensions-disrupt",
+      "region": "Global"
+    },
+    {
+      "headline": "Andy Burnham Becomes UK's Seventh Prime Minister in a Decade",
+      "source": "CNBC",
+      "summary": "Andy Burnham was appointed UK Prime Minister on July 20, replacing Keir Starmer who resigned following election defeats and scandals; Trump immediately called Britain a 'Poverty Stricken Disaster.'",
+      "marketImpact": "GBP volatile ↓ on political instability; FTSE 100 under mild pressure; UK gilts and EWU in focus",
+      "tickers": ["EWU"],
+      "url": "https://www.cnbc.com/2026/07/20/uk-prime-minister-burnham-trump-poverty-stricken-disaster.html",
+      "region": "Global"
+    },
+    {
+      "headline": "Hang Seng Falls 1.8% as HK Stocks' Discount to China Widens on Liquidity Pressure",
+      "source": "Bloomberg",
+      "summary": "Hong Kong's Hang Seng slid 446 points as tighter capital outflow controls and persistent liquidity pressures expanded the valuation gap between HK-listed shares and their mainland Chinese counterparts.",
+      "marketImpact": "0700.HK (Tencent), 9988.HK (Alibaba), 3690.HK (Meituan) pressured ↓; structural discount likely to persist near term",
+      "tickers": ["0700.HK", "9988.HK", "3690.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/hong-kong-stocks-discount-to-china-widens-on-liquidity-pressure",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "Apple Intelligence Wins Chinese Regulatory Approval, Runs on Alibaba's Qwen",
+      "source": "TechCrunch",
+      "summary": "China's Cyberspace Administration cleared Apple Intelligence with Alibaba's Qwen as the primary foundation model for iOS/macOS in China, opening AI features to over a billion iPhones ahead of Apple's fall software cycle.",
+      "marketImpact": "AAPL ↑ on China AI growth unlock; 9988.HK (Alibaba) ↑ as exclusive primary AI partner; 9888.HK (Baidu) secondary beneficiary",
+      "tickers": ["AAPL", "9988.HK", "9888.HK"],
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "region": "China"
+    },
+    {
+      "headline": "BOJ Holds at 1% (30-Year High); Nikkei Surges 3.26% on Semiconductor Rebound",
+      "source": "CNBC",
+      "summary": "With the Bank of Japan at its highest rate since 1995, the Nikkei 225 closed at 66,232 (+3.26%) on Tuesday as semiconductor stocks recovered globally; UBS maintained an 'Attractive' view on Japanese equities after the recent pullback.",
+      "marketImpact": "Japanese tech exporters ↑; yen strengthening creates headwind for Toyota (7203.T) and Sony (6758.T); carry trade unwind risk remains elevated",
+      "tickers": ["7203.T", "6758.T", "9984.T"],
+      "url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html",
+      "region": "Japan"
+    },
+    {
+      "headline": "South Korea's KOSPI Bounces 4.7% After Monday's AI Chip-Led 4.5% Crash",
+      "source": "AP",
+      "summary": "The KOSPI fell 4.5% Monday — pushing the index more than 22% below its monthly peak and into bear-market territory — before recovering 4.7% Tuesday as Samsung and SK Hynix stabilised on improving global AI chip sentiment.",
+      "marketImpact": "005930.KS (Samsung), 000660.KS (SK Hynix) bouncing ↑ after heavy losses; KOSPI remains deep in bear-market territory for the month",
+      "tickers": ["005930.KS", "000660.KS"],
+      "url": "https://www.wral.com/news/ap/30c42-asian-shares-mostly-gain-and-south-korea-and-japan-recover-some-losses-from-ai-stock-sell-offs/",
+      "region": "Asia"
+    },
+    {
+      "headline": "AMD Kicks Off 'Advancing AI 2026' Event with Zen 6 CPU Launch",
       "source": "TradingKey",
-      "summary": "GM reports Q2 earnings pre-market today with analysts expecting $3.13 EPS on $46–47B revenue; US vehicle sales fell 4.2% YoY but average transaction prices topped $52,400 as the automaker maintained discipline on discounting.",
-      "marketImpact": "GM watch ↑; four consecutive quarterly beats with ~20% average upside surprise; strong pricing power thesis; F watch as sector read-across; US auto sector ↑ on beat scenario",
-      "tickers": ["GM", "F"],
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262041142-general-motors-gm-q2-2026-earnings-preview-july-21-trucks-software-tradingkey",
+      "summary": "AMD's two-day Advancing AI 2026 event begins today featuring the Zen 6 Venice CPU launch, a critical catalyst as AMD shares sit 17% below their June peak amid sector-wide AI sentiment pressure.",
+      "marketImpact": "AMD ↑ on positive product reception; potential to shift competitive narrative vs. NVDA and INTC; broader chip sector sentiment watch",
+      "tickers": ["AMD", "NVDA", "INTC"],
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262037492-amd-stock-forecast-week-july-20-2026-advancing-ai-july-22-tradingkey",
       "region": "US"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Nvidia",
-      "ticker": "NVDA",
-      "exchange": "NASDAQ",
-      "reason": "Kimi K3 briefly stripped Nvidia of its most-valuable-company status; chip rebound today is a key test of whether the selloff is a pause or a paradigm shift in AI dominance.",
-      "direction": "↑"
-    },
-    {
       "name": "Alphabet",
       "ticker": "GOOGL",
       "exchange": "NASDAQ",
-      "reason": "Reports Q2 after close Wednesday; ~$101B revenue expected and $180–190B AI capex guidance — pivotal test of whether AI spend is generating real cloud returns.",
+      "reason": "Q2 earnings after the bell today; Google Cloud's $462B backlog and AI capex return on investment are the key focal points for investors.",
       "direction": "↑"
     },
     {
       "name": "Tesla",
       "ticker": "TSLA",
       "exchange": "NASDAQ",
-      "reason": "Reports Q2 after close Wednesday; record 480K vehicle deliveries and robotaxi strategy update in focus; market pricing in ~15% revenue growth.",
+      "reason": "Q2 earnings after the bell today; record 480K delivery quarter sets a high bar, with EV margins and FSD progress closely watched.",
       "direction": "↑"
     },
     {
-      "name": "General Motors",
-      "ticker": "GM",
-      "exchange": "NYSE",
-      "reason": "Reports Q2 pre-market today; strong pricing discipline and truck segment margins in focus despite a 4.2% volume decline in the quarter.",
+      "name": "AMD",
+      "ticker": "AMD",
+      "exchange": "NASDAQ",
+      "reason": "Advancing AI 2026 event kicks off today with Zen 6 CPU launch; AMD is down 17% from its June peak and needs a catalyst.",
       "direction": "↑"
     },
     {
-      "name": "IBM",
-      "ticker": "IBM",
-      "exchange": "NYSE",
-      "reason": "Full Q2 report Wednesday after its worst single-day crash since 1968; market needs clarity on how IBM will pivot amid the AI infrastructure spending shift.",
-      "direction": "↓"
+      "name": "Alibaba",
+      "ticker": "9988.HK",
+      "exchange": "HKEX",
+      "reason": "Apple Intelligence approval with Qwen as primary AI model is a major strategic win, adding to strong cloud revenue momentum.",
+      "direction": "↑"
+    },
+    {
+      "name": "Tencent",
+      "ticker": "0700.HK",
+      "exchange": "HKEX",
+      "reason": "Recovering from HK-wide liquidity selloff; AI model performance gains and 21% YoY net profit growth provide fundamental support.",
+      "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.60,
-    "us30y": 5.12,
-    "asOf": "2026-07-20"
+    "us10y": 4.63,
+    "us30y": 5.03,
+    "asOf": "2026-07-21"
   },
   "tickerDescriptions": {
-    "NVDA": "NVIDIA Corporation, designer of leading GPUs and AI accelerator chips powering data centres globally",
-    "AMD": "Advanced Micro Devices, US semiconductor company making CPUs, GPUs, and data centre processors",
-    "MU": "Micron Technology, US manufacturer of DRAM and NAND flash memory chips used in AI servers and consumer devices",
-    "INTC": "Intel Corporation, US semiconductor giant making CPUs, data centre processors, and AI accelerator chips",
-    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate listed in Hong Kong",
-    "WDC": "Western Digital Corporation, maker of hard disk drives and NAND flash storage products used in data centres",
-    "6600.T": "Kioxia Holdings Corp., Japan's largest NAND flash memory chipmaker that staged a dramatic AI-era rally in early 2026",
-    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and major AI and venture investor via Vision Fund",
-    "8035.T": "Tokyo Electron Ltd., Japan's leading semiconductor equipment manufacturer supplying chipmakers globally",
-    "2628.HK": "China Life Insurance, China's largest state-owned life insurance company listed on the Hong Kong Stock Exchange",
-    "2318.HK": "Ping An Insurance Group, China's largest insurer by market value offering integrated financial and insurance services",
-    "2328.HK": "PICC Property and Casualty Company, China's largest property and casualty insurer listed in Hong Kong",
-    "XOM": "ExxonMobil Corporation, the largest US integrated oil and gas major",
-    "CVX": "Chevron Corporation, a major US integrated energy company with global oil and gas operations",
-    "USO": "United States Oil Fund ETF tracking the price of West Texas Intermediate (WTI) crude oil",
-    "GOOGL": "Alphabet Inc. (Google), parent company behind Search, YouTube, and Google Cloud with leading AI investment",
-    "TSLA": "Tesla Inc., electric vehicle and clean energy company with growing AI, robotaxi, and energy storage businesses",
-    "IBM": "International Business Machines, US technology consulting and enterprise software company undergoing an AI transformation",
-    "GM": "General Motors Company, US automotive giant selling Chevrolet, GMC, Cadillac, and Buick vehicles",
-    "F": "Ford Motor Company, US automaker producing Ford and Lincoln vehicles with a significant and expanding EV segment"
+    "GOOGL": "Alphabet Inc., Google's parent company and global leader in search, advertising, cloud computing, and AI",
+    "TSLA": "Tesla Inc., electric vehicle and clean energy company known for EVs, energy storage, and autonomous driving",
+    "INTC": "Intel Corporation, US chipmaker producing CPUs and competing in the AI accelerator market",
+    "NVDA": "NVIDIA Corporation, dominant AI GPU and data center chip maker with ~70-80% market share in AI training workloads",
+    "AMD": "Advanced Micro Devices, semiconductor company making CPUs and GPUs and competing with NVIDIA in AI infrastructure",
+    "SMH": "VanEck Semiconductor ETF tracking the performance of the world's largest semiconductor companies",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, a proxy for long-duration US government bond performance",
+    "XLE": "Energy Select Sector SPDR ETF tracking major US energy companies including ExxonMobil and Chevron",
+    "CVX": "Chevron Corporation, one of the world's largest integrated oil and gas companies",
+    "COP": "ConocoPhillips, US-based upstream oil and gas exploration and production company",
+    "EWU": "iShares MSCI United Kingdom ETF, tracking the performance of UK large- and mid-cap equities",
+    "0700.HK": "Tencent Holdings Ltd, China's largest social media, gaming, payments, and AI conglomerate listed in Hong Kong",
+    "9988.HK": "Alibaba Group Holding Ltd, China's leading e-commerce and cloud computing platform listed in Hong Kong",
+    "3690.HK": "Meituan, China's dominant food delivery, hotel booking, and local commerce super-app",
+    "AAPL": "Apple Inc., maker of iPhone, Mac, and iPad and operator of the iOS App Store ecosystem",
+    "9888.HK": "Baidu Inc., China's largest search engine and a leading AI research and autonomous driving company",
+    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and global leader in hybrid and hydrogen vehicles",
+    "6758.T": "Sony Group Corporation, Japan's diversified consumer electronics, entertainment, and gaming conglomerate",
+    "9984.T": "SoftBank Group Corp., Japan's technology investment conglomerate and major backer of AI and internet companies",
+    "005930.KS": "Samsung Electronics Co. Ltd, South Korea's largest company and a global leader in memory chips and consumer electronics",
+    "000660.KS": "SK Hynix Inc., South Korea's second-largest chipmaker and a major global supplier of DRAM and NAND flash memory"
   },
   "quickHits": [
-    "South Korea's KOSPI rebounds 2.5%+ Tuesday after a 4.5% AI-driven plunge Monday; Samsung Electronics and SK Hynix lead the recovery (Bloomberg)",
-    "Moonshot AI targets a Hong Kong IPO in H2 2026 as Kimi K3 goes viral among US developers, pushing its valuation from ~$4B to $20–30B (CryptoBriefing)",
-    "Chinese AI models now account for 30%+ of weekly token usage by US companies on OpenRouter, up from ~11% a year ago — with some weeks hitting 46% (CNBC)",
-    "Philip Morris International reports Q2 this week with smoke-free products ZYN and IQOS expected to cross 40% of total revenue for the first time (Reuters)"
+    "TSMC raised 2026 capex guidance to $60-64B (from $52-56B), reinforcing the view that AI infrastructure buildout has further to run (Reuters/CNBC)",
+    "Jakarta and Manila equities hit multi-month highs Tuesday as Southeast Asian markets prove resilient to the broader AI chip rout (AP)",
+    "Danaher shares plunged after trimming its earnings forecast; GM and Philip Morris also reporting this week in a busy calendar (Yahoo Finance)",
+    "US-Iran ceasefire memorandum expires August 16; Rystad Energy forecasts a 'narrow, face-saving agreement' but energy markets remain on edge (Al Jazeera)"
   ]
 }
