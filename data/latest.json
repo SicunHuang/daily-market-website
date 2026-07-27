@@ -1,148 +1,169 @@
 {
-  "date": "2026-07-24",
-  "marketMood": "Risk-off: Tech earnings capex shock and Houthis pushing Brent above $100 trigger the S&P 500's biggest one-day drop in a month, with US 10-year yields climbing to January highs.",
+  "date": "2026-07-27",
+  "marketMood": "Risk-on bounce as US-Iran strike pause sends oil tumbling 5%+; Nasdaq futures surge >1% ahead of a jam-packed week of FOMC, Big Tech earnings, BOJ, and China PMI.",
   "upcomingEvents": [
-    { "date": "2026-07-27", "event": "CXMT IPO debut on Shanghai STAR Market — Asia's largest IPO of 2026", "significance": "high" },
-    { "date": "2026-07-29", "event": "FOMC rate decision (July 28–29 meeting; current rate 3.5–3.75%)", "significance": "high" },
-    { "date": "2026-07-29", "event": "Meta (META) and Microsoft (MSFT) Q2 2026 earnings after market close", "significance": "high" },
-    { "date": "2026-07-30", "event": "Amazon (AMZN) Q2 2026 earnings after market close", "significance": "high" },
-    { "date": "2026-07-31", "event": "Bank of Japan rate decision (July 30–31 meeting; hike probability elevated)", "significance": "high" }
+    { "date": "2026-07-28", "event": "FOMC Meeting Day 1 (rate decision July 29)", "significance": "high" },
+    { "date": "2026-07-29", "event": "Fed Rate Decision & Press Conference; Meta & Microsoft Q2 Earnings", "significance": "high" },
+    { "date": "2026-07-30", "event": "Apple Q2 Earnings; BOJ Meeting Day 1", "significance": "high" },
+    { "date": "2026-07-31", "event": "BOJ Rate Decision; China NBS Manufacturing PMI; Hong Kong Q2 GDP Estimate", "significance": "high" },
+    { "date": "2026-07-29", "event": "Advantest & Tokyo Electron Q2 Earnings (Japan AI chip bellwethers)", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Alphabet Q2 Revenue Surges 24% but $205B Capex Raise Sends Stock Down 7%",
-      "source": "CNBC",
-      "summary": "Alphabet reported Q2 revenue of $119.8B and Google Cloud up 82%, but raising full-year capex to as high as $205B reignited investor concern about the ROI on AI infrastructure spending.",
-      "marketImpact": "GOOGL ↓ 7%; Nasdaq Composite ↓ 2.15% dragged by tech; AI capex-vs-payoff debate intensifies across Mag-7 peers ↓",
-      "tickers": ["GOOGL"],
-      "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
-      "region": "US"
-    },
-    {
-      "headline": "Tesla Posts Record Deliveries but Profits Implode — EPS Misses by 35%, Stock Falls 14%",
-      "source": "Electrek",
-      "summary": "Tesla delivered 480,126 vehicles in Q2 (+25%), but GAAP operating income collapsed 57% YoY to $398M with operating margin at 1.4%; adjusted EPS of $0.33 was far below the $0.51 consensus.",
-      "marketImpact": "TSLA ↓ 14%; operating margin compression raises questions about EV pricing strategy; energy storage peers under pressure ↓",
-      "tickers": ["TSLA"],
-      "url": "https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/",
-      "region": "US"
-    },
-    {
-      "headline": "Houthis Strike Two Saudi Oil Tankers in Red Sea, Brent Crude Spikes Above $100",
-      "source": "Bloomberg",
-      "summary": "Houthi militants attacked Saudi tankers Encelia and Layla in the Red Sea; five more tankers reversed course after a declared maritime embargo; the US completed its 12th consecutive night of airstrikes on Iranian targets.",
-      "marketImpact": "Brent ↑ ~7% to ~$101/barrel (first above $100 since May); energy sector ↑; airlines and consumer discretionary ↓; inflation re-acceleration risk; US 10Y yield ↑ to 4.71%",
-      "tickers": ["XLE", "CVX", "XOM", "COP"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-22/brent-crude-spikes-in-late-trading-after-red-sea-tanker-attack",
+      "headline": "US and Iran Pause Military Strikes; Brent Crude Tumbles More Than 5%",
+      "source": "Reuters",
+      "summary": "The US refrained from striking Iran for a second consecutive night and Tehran suspended its retaliatory strikes, easing fears of a prolonged Middle East conflict and Strait of Hormuz supply disruption.",
+      "marketImpact": "Brent ↓ ~5% to ~$91/bbl; WTI ↓ ~5.5% to ~$84/bbl; Nasdaq 100 futures ↑ >1%; energy stocks ↓ (XOM, CVX, XLE); AUD and EUR ↑ vs USD on risk-on tone",
+      "tickers": ["XLE", "USO", "BNO", "CVX", "XOM"],
+      "url": "https://www.investing.com/news/commodities-news/oil-slips-more-than-5-after-us-pauses-strikes-on-iran-4812923",
       "region": "Global"
     },
     {
-      "headline": "S&P 500 Falls 1.2%, Nasdaq Sinks 2.1% in Worst Single-Day Drop in a Month",
-      "source": "CNBC",
-      "summary": "Dual earnings shocks from Alphabet and Tesla, combined with oil surging above $100 on geopolitical risk, drove the S&P 500 to its biggest one-day sell-off since late June.",
-      "marketImpact": "S&P 500 ↓ 1.21% to 7,408; Nasdaq ↓ 2.15% to 25,138; Dow ↓ 0.97% to 51,712; Asian equity futures pointing broadly lower ↓",
-      "tickers": ["QQQ", "SPY"],
-      "url": "https://www.cnbc.com/2026/07/22/stock-market-today-live-updates.html",
+      "headline": "FOMC Meets Tuesday–Wednesday; Market Expects Hold at 3.50–3.75%",
+      "source": "Bloomberg",
+      "summary": "The Fed's July 28-29 meeting is the week's biggest macro event; markets are pricing near-certainty of no change with inflation still above target and no new dot plot to be released.",
+      "marketImpact": "Rate-sensitive sectors watch; US 10Y at 4.69% — any dovish hint could send yields ↓ and lift TLT, XLU, XLF; hawkish surprise would reprice equities ↓",
+      "tickers": ["SPY", "QQQ", "TLT", "XLF", "XLU"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
       "region": "US"
     },
     {
-      "headline": "Uber Cuts 10% of Customer Service Workforce, Directly Cites AI Automation",
-      "source": "Engadget",
-      "summary": "Uber laid off 10% of its Community Operations team, stating AI tools have made the current support structure too complex; the move follows a 23% cut to the HR division in June.",
-      "marketImpact": "UBER watch for long-run cost efficiency ↑ vs. near-term service quality risk; AI-automation headcount reduction theme accelerates across platform companies",
-      "tickers": ["UBER"],
-      "url": "https://americanbazaaronline.com/2026/07/23/uber-cut-customer-service-roles-ai-485147/",
+      "headline": "Big Tech Earnings on Trial Over AI Spending: Meta and Microsoft Report Wednesday",
+      "source": "Fortune",
+      "summary": "Meta guided Q2 revenue at $58–61B and raised its 2026 capex to $125–145B; Microsoft targets ~$190B capex; investor patience with AI spend is fraying as Meta trades 24% below its 52-week high.",
+      "marketImpact": "META ↓ risk on guidance; MSFT watch on Azure AI growth; AAPL reports Thursday; NVDA and AVGO directional on Big Tech capex commentary",
+      "tickers": ["META", "MSFT", "AAPL", "NVDA", "AVGO", "GOOGL"],
+      "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
       "region": "US"
     },
     {
-      "headline": "China Q2 GDP Slows to 4.3%, Weakest Since 2022 — Politburo Stimulus Watch Intensifies",
-      "source": "CNBC",
-      "summary": "China's economy expanded just 4.3% in Q2, missing the 4.5% consensus and the slowest pace since Q4 2022, as urban fixed-asset investment fell 5.7% in H1 and private consumption stayed subdued.",
-      "marketImpact": "FXI, 9988.HK ↓ on growth concerns; late-July Politburo meeting is key catalyst for H2 stimulus signal; copper and iron ore ↓",
-      "tickers": ["FXI", "9988.HK"],
-      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
-      "region": "China"
+      "headline": "S&P 500 Q2 Earnings Off to a 5-Year-Best Start; 86% of Reporters Beat EPS",
+      "source": "FactSet",
+      "summary": "With 27% of S&P 500 companies reporting, 86% beat EPS and 80% beat revenue targets, putting Q2 2026 on track for the highest year-over-year earnings growth rate since Q3 2021.",
+      "marketImpact": "SPY ↑ broadly supportive; breadth risk — ex-GOOGL the aggregate surprise rate falls from 39.3% to 12.6%, highlighting concentration in Alphabet's outsized beat",
+      "tickers": ["SPY", "GOOGL", "IVV", "VOO"],
+      "url": "https://insight.factset.com/sp-500-earnings-season-update-july-24-2026",
+      "region": "US"
     },
     {
-      "headline": "Tencent Tumbles 7% as Gaming Concerns Mount and Buyback Programme Suspended",
-      "source": "TS2 Tech",
-      "summary": "Tencent Holdings slid to HK$440.60 after suspending share buybacks and as investors grew wary about slowing gaming revenues and heavy AI capital commitments ahead of August 12 earnings.",
-      "marketImpact": "0700.HK ↓ 7%; Hang Seng Tech Index weighed; buyback removal strips a key price floor; Alibaba (9988.HK) holds up on AI model optimism ↔",
-      "tickers": ["0700.HK"],
-      "url": "https://ts2.tech/en/tencent-hkg0700-tumbles-7-as-gaming-concerns-and-buyback-halt-weigh-on-shares/",
+      "headline": "Zhongji Innolight Eyes HK$63.3B IPO — Potential Largest Hong Kong Listing of 2026",
+      "source": "Caixin",
+      "summary": "The world's top optical module maker — whose Q1 2026 revenue surged 192% YoY — aims to raise up to HK$63.3B ($8.1B including greenshoe) backed by 33 cornerstone investors including Temasek, ADIA, BlackRock, Alibaba, and Tencent.",
+      "marketImpact": "HK IPO market sentiment ↑; Alibaba (9988.HK) and Tencent (0700.HK) as anchor investors watch; AI optical interconnect sector positive",
+      "tickers": ["9988.HK", "0700.HK"],
+      "url": "https://www.caixinglobal.com/2026-07-18/zhongji-innolight-clears-hong-kong-listing-hearing-for-potential-7-billion-ipo-102465538.html",
       "region": "Hong Kong"
     },
     {
-      "headline": "Japan June Core CPI at 1.6%, Below BOJ Target — Rate Hike Still Expected at July 30–31 Meeting",
-      "source": "CNBC",
-      "summary": "Japan's June core CPI rose 1.6% YoY, matching forecasts but staying below the BOJ's 2% target for a fifth straight month; headline inflation ticked up to 1.7%; BOJ meets July 30–31.",
-      "marketImpact": "JPY watch with elevated BOJ rate hike probability; JGBs steady; 7203.T (Toyota) ↑ on yen softness; energy-inflation base effect fades in coming months",
-      "tickers": ["7203.T"],
-      "url": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
+      "headline": "Moonshot AI Releases Kimi K3 Open Weights — World's Largest Open-Source Model at 2.8T Parameters",
+      "source": "VentureBeat",
+      "summary": "China's Moonshot AI dropped the full 2.8-trillion-parameter Kimi K3 weights on Hugging Face today — the largest open-weight release in history — rivaling top US frontier systems in coding and reasoning.",
+      "marketImpact": "Chinese AI competitiveness ↑ (Alibaba 9988.HK, Baidu 9888.HK, SenseTime 0020.HK watch); pressure on premium attached to closed US frontier models; open-source AI infrastructure demand ↑",
+      "tickers": ["9988.HK", "9888.HK", "0020.HK", "NVDA"],
+      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+      "region": "China"
+    },
+    {
+      "headline": "Nikkei Searches for Floor at 64,611 as Yen Hits 39-Year Low Near ¥164/USD",
+      "source": "Nikkei Asia",
+      "summary": "Japan's Nikkei 225 fell 2.73% to 64,611 on Friday, down sharply from a June peak above 72,000, as AI spending jitters hammered tech stocks and the yen weakened to its lowest level since the late 1980s.",
+      "marketImpact": "Japanese exporters (7203.T, 6758.T) ↑ on yen weakness; AI chip equipment (6857.T, 8035.T) ↓ on capex concerns; week defined by FOMC and BOJ outcomes",
+      "tickers": ["7203.T", "6758.T", "6857.T", "8035.T"],
+      "url": "https://finance.biggo.com/news/273b9138-f5d9-4224-ac4e-ebbd790abd16",
+      "region": "Japan"
+    },
+    {
+      "headline": "Bank of Japan Set to Hold Rates at 1% at July 30–31 Meeting",
+      "source": "Nikkei Asia",
+      "summary": "The BOJ is widely expected to hold its benchmark rate at 1% following June's 25bp hike to a 31-year high, though GDP growth forecasts for FY2026 may be revised up to ~0.8% on AI-driven export demand.",
+      "marketImpact": "JPY near ¥164/USD; any hawkish surprise → yen ↑ sharply and Nikkei exporters ↓; JGBs watch; SoftBank (9984.T) sensitive to rate path as leveraged tech investor",
+      "tickers": ["7203.T", "9984.T", "6857.T"],
+      "url": "https://uk.finance.yahoo.com/news/bank-japan-set-hold-rates-134011447.html",
       "region": "Japan"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Alphabet",
-      "ticker": "GOOGL",
+      "name": "Meta Platforms",
+      "ticker": "META",
       "exchange": "NASDAQ",
-      "reason": "Q2 revenue beat at $119.8B overshadowed by raising full-year capex to $205B; ROI on AI infrastructure is now the central market debate.",
+      "reason": "Reports Q2 2026 earnings July 29; guided $58–61B revenue but investors fixate on $125–145B AI capex — stock already 24% off 52-week high",
       "direction": "↓"
     },
     {
-      "name": "Tesla",
-      "ticker": "TSLA",
+      "name": "Microsoft",
+      "ticker": "MSFT",
       "exchange": "NASDAQ",
-      "reason": "Record Q2 deliveries obscured by operating margin collapsing to 1.4% and EPS missing estimates by 35%; pricing strategy under intense scrutiny.",
-      "direction": "↓"
-    },
-    {
-      "name": "Tencent Holdings",
-      "ticker": "0700.HK",
-      "exchange": "HKEX",
-      "reason": "Buyback suspension removes a key price floor; gaming revenue slowdown and AI capex concerns weigh ahead of August 12 earnings.",
-      "direction": "↓"
-    },
-    {
-      "name": "Uber Technologies",
-      "ticker": "UBER",
-      "exchange": "NYSE",
-      "reason": "AI-driven 10% customer-service headcount cut signals an aggressive efficiency phase; market weighing cost savings against service quality risk.",
+      "reason": "Reports Q2 2026 results July 29; Azure AI at $37B annualized run rate (+123% YoY) is the bull case against ~$190B capex headwind",
       "direction": "↑"
     },
     {
-      "name": "Exxon Mobil",
+      "name": "ExxonMobil",
       "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "Brent crossing $100 for the first time since May is a direct earnings tailwind for integrated oil majors as the Red Sea and Iran war risk premium rebuilds.",
+      "reason": "Oil prices sliding 5%+ on US-Iran pause directly pressures integrated oil majors and the broader energy sector",
+      "direction": "↓"
+    },
+    {
+      "name": "Alibaba",
+      "ticker": "9988.HK",
+      "exchange": "HKEX",
+      "reason": "Cornerstone investor in Zhongji Innolight IPO, benefits from Moonshot AI open-source narrative, and Apple Intelligence Qwen partnership confirmed",
+      "direction": "↑"
+    },
+    {
+      "name": "Advantest",
+      "ticker": "6857.T",
+      "exchange": "TSE",
+      "reason": "Japan's premier AI chip test equipment maker reports earnings this week; caught between strong structural demand and AI capex anxiety",
+      "direction": "↓"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "reason": "Key proxy for the entire Big Tech AI capex cycle; Meta and Microsoft guidance on Wednesday will be a major directional signal",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.71,
-    "us30y": 5.17,
+    "us10y": 4.69,
+    "us30y": 5.16,
     "asOf": "2026-07-24"
   },
   "tickerDescriptions": {
-    "GOOGL": "Alphabet Inc., Google's parent company and global leader in search, advertising, cloud computing, and AI",
-    "TSLA": "Tesla Inc., leading electric vehicle manufacturer and clean energy company with growing energy storage and autonomous driving businesses",
-    "XLE": "Energy Select Sector SPDR ETF tracking major US oil, gas, and energy companies in the S&P 500",
-    "CVX": "Chevron Corporation, one of the world's largest integrated oil and gas companies",
-    "XOM": "Exxon Mobil Corporation, the largest US integrated oil and gas major with global upstream, downstream, and chemical operations",
-    "COP": "ConocoPhillips, US-based upstream oil and gas exploration and production company",
-    "QQQ": "Invesco QQQ Trust ETF tracking the Nasdaq-100 Index of the 100 largest non-financial Nasdaq-listed companies",
-    "SPY": "SPDR S&P 500 ETF Trust tracking the S&P 500 Index of 500 large-cap US companies",
-    "UBER": "Uber Technologies Inc., global ride-hailing, food delivery, and logistics platform operating in 70+ countries",
-    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies listed on the Hong Kong Stock Exchange",
-    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing company listed in Hong Kong",
-    "0700.HK": "Tencent Holdings Ltd., China's largest social media and gaming company, operating WeChat and major international gaming investments",
-    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and global leader in hybrid and hydrogen fuel-cell vehicles"
+    "XLE": "Energy Select Sector SPDR ETF tracking large US energy companies",
+    "USO": "United States Oil Fund ETF tracking WTI crude oil futures",
+    "BNO": "United States Brent Oil Fund ETF tracking Brent crude oil futures",
+    "CVX": "Chevron Corp., major US integrated oil and gas producer",
+    "XOM": "ExxonMobil Corp., the world's largest publicly traded integrated oil company",
+    "SPY": "SPDR S&P 500 ETF, the most widely-traded US large-cap equity index fund",
+    "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq 100 index of large-cap tech stocks",
+    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
+    "XLF": "Financial Select Sector SPDR ETF tracking large US financial companies",
+    "XLU": "Utilities Select Sector SPDR ETF tracking large US utility companies",
+    "META": "Meta Platforms Inc., parent company of Facebook, Instagram, and WhatsApp",
+    "MSFT": "Microsoft Corp., global software, cloud computing, and AI giant",
+    "AAPL": "Apple Inc., consumer electronics and software giant",
+    "NVDA": "NVIDIA Corp., world's leading designer of AI and data center GPUs",
+    "AVGO": "Broadcom Inc., semiconductor and infrastructure software company serving AI data centers",
+    "GOOGL": "Alphabet Inc., parent company of Google and the world's leading digital advertising platform",
+    "IVV": "iShares Core S&P 500 ETF tracking the 500 largest US companies",
+    "VOO": "Vanguard S&P 500 ETF tracking the S&P 500 index",
+    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing company",
+    "0700.HK": "Tencent Holdings Ltd., China's largest social media and gaming conglomerate",
+    "9888.HK": "Baidu Inc., China's leading internet search and AI company",
+    "0020.HK": "SenseTime Group Inc., Chinese AI software and visual computing company",
+    "7203.T": "Toyota Motor Corp., Japan's largest automaker and global hybrid vehicle pioneer",
+    "6758.T": "Sony Group Corp., Japanese multinational conglomerate in electronics, entertainment, and gaming",
+    "6857.T": "Advantest Corp., world-leading semiconductor test equipment maker supplying AI chipmakers",
+    "8035.T": "Tokyo Electron Ltd., Japan's largest semiconductor equipment maker",
+    "9984.T": "SoftBank Group Corp., Japanese conglomerate and major global technology investor"
   },
   "quickHits": [
-    "Goldman Sachs Q2 2026: EPS $20.98 and ROE 23.5% — a standout investment banking quarter; stock relatively resilient vs. broader tech selloff (Goldman Sachs)",
-    "China Politburo meeting expected late July — stimulus guidance will be key to whether H2 emerging-market sentiment can recover (Reuters)",
-    "Meta (META) and Microsoft (MSFT) earnings due July 29 after close — AI capex scrutiny is intensifying following Alphabet's selloff (Bloomberg)",
-    "Bank of Japan meets July 30–31 with rate hike probability elevated; yen and JGB traders on high alert heading into the weekend (Nikkei Asia)"
+    "Apple Intelligence received full Chinese regulatory approval mid-July with Alibaba's Qwen confirmed as the foundation model — clearing the path for iPhone AI features in China (Bloomberg)",
+    "Houthis claimed new drone and missile attacks against Saudi targets over the weekend, signaling the broader regional conflict has not fully subsided despite the US-Iran pause (AP)",
+    "China NBS Manufacturing PMI due July 31; June printed 50.3 — third straight month of expansion driven by AI-linked high-tech exports (Trading Economics)",
+    "Hong Kong Q2 GDP advance estimate also due July 31, providing a dual data read alongside China PMI on regional economic momentum (SCMP)"
   ]
 }
