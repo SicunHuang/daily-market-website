@@ -1,173 +1,174 @@
 {
-  "date": "2026-07-28",
-  "marketMood": "Mixed-to-risk-off: Semiconductor selloff deepens into a third session as FOMC begins its July meeting; oil steadies near $82–84 after Monday's crash while Boeing, Ford, and Visa headline a packed earnings day.",
+  "date": "2026-07-29",
+  "marketMood": "Risk-off: Middle East re-escalation sends oil above $83 and a global AI capex selloff rips another 4% off the Nikkei; FOMC decision, Meta, and Microsoft earnings all converge today.",
   "upcomingEvents": [
     { "date": "2026-07-29", "event": "FOMC Rate Decision & Chair Warsh Press Conference (2:00 PM ET)", "significance": "high" },
     { "date": "2026-07-29", "event": "Meta & Microsoft Q2 2026 Earnings After Close", "significance": "high" },
-    { "date": "2026-07-30", "event": "Apple Q2 Earnings; Bank of Japan Meeting Day 1", "significance": "high" },
-    { "date": "2026-07-31", "event": "BOJ Rate Decision; China NBS Manufacturing PMI; Hong Kong Q2 GDP Estimate", "significance": "high" },
-    { "date": "2026-07-29", "event": "Advantest & Tokyo Electron Q2 Earnings (Japan AI chip bellwethers)", "significance": "medium" }
+    { "date": "2026-07-30", "event": "Apple Q3 Fiscal 2026 Earnings After Bell; Zhongji Innolight HKEX Debut (3308.HK)", "significance": "high" },
+    { "date": "2026-07-31", "event": "Bank of Japan Rate Decision", "significance": "high" },
+    { "date": "2026-07-31", "event": "US PCE Inflation Data (Fed's Preferred Gauge)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Semiconductor Selloff Deepens: Nvidia Down 5%, AMD Down 8%, SMH Drops 4%",
-      "source": "Yahoo Finance",
-      "summary": "A broad-based chip rout extended Monday as the VanEck Semiconductor ETF fell 4% — taking its one-month decline past 9% — with Jim Cramer flagging 'monstrous, motivated and often margined' sellers behind an intraday reversal that proved hard to arrest.",
-      "marketImpact": "NVDA ↓ ~5%, AMD ↓ ~8%, INTC ↓ ~3.5%, AVGO ↓; SMH ↓ 4%; contagion spreads to Asian chipmakers at Tuesday open; SK Hynix (SKHY) Q2 results today a key sentiment pivot",
-      "tickers": ["NVDA", "AMD", "AVGO", "INTC", "SMH"],
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-broadcom-amd-lead-ai-130643330.html",
+      "headline": "US Military Intercepts Iranian Attack; WTI Crude Surges ~5% to $83+",
+      "source": "Bloomberg",
+      "summary": "The US military announced it successfully intercepted an Iranian 'attempted surprise attack' on US troops in the Middle East, reigniting geopolitical tensions after several days of calm and driving a sharp move in energy markets.",
+      "marketImpact": "WTI crude ↑ ~5% to $83+; US equity-index futures ↓; energy stocks ↑; safe-haven flows into gold and Treasuries",
+      "tickers": [],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates",
+      "region": "Global"
+    },
+    {
+      "headline": "AI Capex Fears Fuel US Chip Selloff; Micron Down 4%+, AMD Down 3%+, Nvidia Down 1.2% Premarket",
+      "source": "CNBC",
+      "summary": "Semiconductor stocks face renewed selling pressure as investors question whether hyperscalers — now potentially sitting on excess GPU capacity — are approaching an inflection point that could unwind the AI scarcity thesis driving valuations.",
+      "marketImpact": "MU ↓ 4%+ premarket; AMD ↓ 3%+; NVDA ↓ 1.2%; INTC ↓ 3%+; Semiconductor Index already off 20% from June peak",
+      "tickers": ["MU", "NVDA", "AMD", "INTC", "SMH"],
+      "url": "https://www.cnbc.com/2026/07/28/stock-market-today-live-updates.html",
       "region": "US"
     },
     {
-      "headline": "FOMC Begins July Meeting; Rate Hold at 3.50–3.75% Widely Expected as Inflation Stays at 4.2%",
+      "headline": "FOMC Decision Day: Fed Widely Expected to Hold at 3.50–3.75%; Warsh Speaks at 2:30 PM ET",
       "source": "Kiplinger",
-      "summary": "The Fed's two-day July meeting kicks off today with Chair Kevin Warsh set to announce the decision Wednesday at 2:00 PM ET; markets price near-certainty of a fifth consecutive hold, though June's hawkish projections signal a higher-for-longer path.",
-      "marketImpact": "Rate-sensitive sectors on hold watch; US 10Y at 4.67%; any dovish surprise → TLT ↑, QQQ ↑; hawkish tone → yields ↑, equities ↓; no new dot plot released this meeting",
+      "summary": "The Fed's two-day July meeting concludes today with markets pricing ~85% probability of a hold; the updated dot plot shown in June put the median year-end 2026 rate at 3.8% with 9 of 18 officials pencilling at least one hike — today's presser is the key watch.",
+      "marketImpact": "Hawkish tone → yields ↑, equities ↓; any dovish pivot surprise → TLT ↑, QQQ ↑; no new dot plot released at this meeting",
       "tickers": ["SPY", "QQQ", "TLT"],
       "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026",
       "region": "US"
     },
     {
-      "headline": "Boeing, Ford, and Visa All Report Q2 Earnings Today; Boeing Enters with $695B Backlog",
-      "source": "TipRanks",
-      "summary": "Boeing reports at market open with a record $695B backlog and a 14% YoY delivery increase (171 aircraft); Ford reports after close with EPS expected at $0.36 on ~$45.7B revenue; Visa reports fiscal Q3 results at 5:00 PM ET.",
-      "marketImpact": "BA watch (analysts see 29% upside; narrowed loss expected); F watch (tariff impact on margins key); V watch (payment volumes indicator of consumer health)",
-      "tickers": ["BA", "F", "V"],
-      "url": "https://www.tipranks.com/news/boeing-will-report-q2-earnings-on-july-28-heres-what-to-expect",
+      "headline": "UPS Beats Q2 Estimates, Raises Full-Year Revenue Guidance to $91.2B",
+      "source": "BusinessWire",
+      "summary": "UPS reported Q2 revenue of $22.8B (vs. $21.81B estimate) and adjusted EPS of $1.76 (vs. $1.66 estimate), raising its full-year 2026 revenue guidance to $91.2B and adjusted EPS to ~$7.22.",
+      "marketImpact": "UPS ↑ premarket; a rare positive catalyst in today's risk-off session; signals resilient logistics demand despite macro headwinds",
+      "tickers": ["UPS"],
+      "url": "https://www.businesswire.com/news/home/20260728974785/en/UPS-Releases-2Q-2026-Earnings",
       "region": "US"
     },
     {
-      "headline": "SpaceX Shares Fall Below $135 IPO Price, Now Down 51% from Post-IPO Peak",
+      "headline": "Visa Cuts 2,600 Jobs — 7% of Workforce — in AI-Driven Efficiency Push",
       "source": "Bloomberg",
-      "summary": "SpaceX stock closed below its June 12 IPO price for the first time, trading near $109 — more than 51% below its $225 post-IPO peak — as investors scrutinize the company's fundamentals and a Starship launch delay weighs on sentiment.",
-      "marketImpact": "SPCX ↓; broader high-multiple tech and space names under pressure; adds to narrative of post-IPO hype deflation across 2026 listings",
-      "tickers": ["SPCX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/spacex-shares-fall-below-ipo-price-for-first-time-as-hype-fades",
+      "summary": "CEO Ryan McInerney announced a workforce reduction primarily targeting technology and product teams, citing AI tools that now handle routine tasks; freed capital will be redirected toward stablecoin, B2B, and cross-border payment products.",
+      "marketImpact": "V near-term sentiment ↓; longer-term strategic pivot to high-growth verticals; read-across to MA as sector AI-efficiency narrative deepens",
+      "tickers": ["V", "MA"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/visa-to-cut-7-of-workforce-as-ceo-seeks-to-revamp-payments-firm",
       "region": "US"
     },
     {
-      "headline": "SK Hynix Reports Q2 Earnings Today; HBM Supply to Nvidia Is the AI Memory Bellwether",
-      "source": "Yahoo Finance",
-      "summary": "SK Hynix (SKHY) posts Q2 results today amid intense volatility — shares have swung between a 11% crash and a 14% rebound in a single week — as investors assess whether AI server memory demand can sustain premium HBM pricing.",
-      "marketImpact": "SKHY earnings catalyst; beat → chip sector relief, NVDA ↑, MU ↑; miss → accelerates broader semiconductor selloff; Korea KOSPI chipmakers correlated",
-      "tickers": ["SKHY", "MU", "NVDA"],
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-rockets-14-ahead-181517636.html",
-      "region": "Asia"
-    },
-    {
-      "headline": "Nikkei 225 Tests 63K–67K Range as FOMC, BOJ, and Earnings All Converge This Week",
-      "source": "Nikkei Asia",
-      "summary": "Japan's benchmark fell 1,839 points (2.77%) to 64,584 Friday, led by SoftBank (-7.6%) and Renesas (-7.2%), as uncertainty mounts from this week's simultaneous FOMC (July 28–29) and BOJ (July 30–31) meetings alongside peak earnings season.",
-      "marketImpact": "JP225 ↓ pressure; JPY near ¥164/USD; SoftBank (9984.T) exposed to rate path as leveraged tech investor; Advantest (6857.T) earnings Thursday a key AI equipment read",
-      "tickers": ["7203.T", "9984.T", "6857.T"],
-      "url": "https://finance.biggo.com/news/722d4d4a-24b4-49b4-97d3-78f4ef2a8393",
-      "region": "Japan"
-    },
-    {
-      "headline": "BYD Officially Launches 'Racco' Kei EV in Japan Today, Targeting Suzuki's Wagon R",
-      "source": "BigGo Finance",
-      "summary": "Chinese EV giant BYD launched its Racco kei-class electric vehicle in Japan on July 28 — priced at ~¥2M ($12,200) after subsidies with 320km range — directly challenging Suzuki's best-selling Wagon R in Japan's most competitive automotive segment.",
-      "marketImpact": "1211.HK (BYD) ↑ on overseas expansion; 7269.T (Suzuki) ↓ competitive pressure; BYD's 70–80 Japan dealerships vs. Suzuki's 1,000+ remains a distribution constraint to watch",
-      "tickers": ["1211.HK", "7269.T"],
-      "url": "https://finance.biggo.com/news/2d75ba07-323e-4005-a5a2-1fb3330d9454",
-      "region": "Japan"
-    },
-    {
-      "headline": "China's June Exports Surge 27%, Fastest Since 2021, on AI Hardware and Tariff Rush",
-      "source": "CNBC",
-      "summary": "China's exports jumped 27% YoY in June — the strongest pace since October 2021 — driven by surging global demand for AI infrastructure hardware and a rush by manufacturers to front-run anticipated US tariff increases; economists lifted 2026 GDP growth to 4.6%.",
-      "marketImpact": "9988.HK, 0700.HK broadly supported; CNY stable; FXI ↑ on growth outlook; supply chain momentum for Chinese AI hardware exporters; US tariff risk remains on the horizon",
-      "tickers": ["9988.HK", "0700.HK", "FXI"],
-      "url": "https://www.cnbc.com/2026/07/14/china-june-trade-data-exports-imports.html",
-      "region": "China"
-    },
-    {
-      "headline": "Hang Seng Rebounds 1% to 25,207 as Oil Crash and Easing Geopolitical Fears Lift Sentiment",
-      "source": "South China Morning Post",
-      "summary": "Hong Kong's Hang Seng Index recovered Friday's 1% loss on Monday, closing at 25,207, as technology and financial stocks led the rebound; easing Middle East tensions after the US-Iran hostility pause helped broader risk appetite.",
-      "marketImpact": "9988.HK, 0700.HK ↑ short-term; oil price stabilization supports Asian sentiment; Tuesday open at risk from US chip stock contagion; Shein HK IPO progress continues to underpin IPO pipeline optimism",
-      "tickers": ["9988.HK", "0700.HK"],
-      "url": "https://www.scmp.com/topics/hang-seng-index",
+      "headline": "Zhongji Innolight Raises $6.81B in Hong Kong's Largest AI-Infrastructure IPO in Nearly Seven Years",
+      "source": "Caixin Global",
+      "summary": "The Chinese optical transceiver maker priced at HK$980/share, raising HK$53.4 billion — Asia's second-largest IPO of 2026 — backed by Temasek, BlackRock, Hillhouse, Alibaba, and Tencent; Q1 net profit nearly quadrupled YoY; trading begins July 30.",
+      "marketImpact": "3308.HK debut tomorrow ↑ watch; strong cornerstone investor lineup signals sustained institutional appetite for AI infrastructure despite sector volatility",
+      "tickers": ["3308.HK", "0700.HK", "9988.HK"],
+      "url": "https://www.caixinglobal.com/2026-07-22/chinese-ai-hardware-maker-innolight-launches-7-billion-hong-kong-mega-ipo-102467033.html",
       "region": "Hong Kong"
+    },
+    {
+      "headline": "Shein Targets Late-August Hong Kong IPO at $40–50B Despite Q1 Net Loss of $99M",
+      "source": "CNBC",
+      "summary": "Shein disclosed a Q1 2026 net loss driven by US de minimis tariff changes and European import fees, targeting a Hong Kong listing as early as late August at a valuation sharply below its 2023 peak of ~$100B.",
+      "marketImpact": "Fast-fashion and cross-border e-commerce tariff exposure ↓; valuation reset signals IPO market is demanding hard fundamental anchoring",
+      "tickers": [],
+      "url": "https://www.cnbc.com/2026/07/26/shein-reveals-key-financials-ahead-of-hong-kong-ipo.html",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "Nikkei Plunges 3.95% to Two-Month Low as Japanese Chip Stocks Crater",
+      "source": "Nikkei Asia",
+      "summary": "Japan's Nikkei 225 fell to 62,365 led by semiconductor-linked names, with Kioxia Holdings (285A.T) down 18.3%, Advantest (6857.T) down 10.1%, and Tokyo Electron (8035.T) down 11%; banking stocks also weakened.",
+      "marketImpact": "285A.T ↓ 18.3%, 6857.T ↓ 10.1%, 8035.T ↓ 11%, 9984.T ↓ 4.4%, 8306.T ↓ 3.6%, 8316.T ↓ 3.9%; Topix ↓ 2.52%",
+      "tickers": ["285A.T", "6857.T", "8035.T", "9984.T", "8306.T", "8316.T"],
+      "url": "https://asia.nikkei.com/business/markets",
+      "region": "Japan"
+    },
+    {
+      "headline": "Big Asia Funds Rotate Out of AI Chip Trades, Into Diversified Laggards",
+      "source": "Bloomberg",
+      "summary": "Major Asia asset managers including M&G and Eastspring are trimming overweight AI and Taiwan positions, rotating into Indonesian banks, Chinese e-commerce, and Indian tech firms to reduce AI-cycle concentration risk.",
+      "marketImpact": "9988.HK (Alibaba) and regional diversified plays ↑ relative; Taiwan and AI-linked names see incremental outflows ↓",
+      "tickers": ["9988.HK", "1810.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/big-asia-stock-funds-turn-to-laggards-to-cut-risk-from-ai-swings",
+      "region": "Asia"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "NVIDIA",
-      "ticker": "NVDA",
+      "name": "Meta Platforms",
+      "ticker": "META",
       "exchange": "NASDAQ",
-      "reason": "Down ~5% in Monday's chip selloff; SK Hynix Q2 earnings today and Meta/Microsoft AI capex guidance tomorrow are the two biggest near-term directional signals",
-      "direction": "↓"
-    },
-    {
-      "name": "Boeing",
-      "ticker": "BA",
-      "exchange": "NYSE",
-      "reason": "Reports Q2 2026 earnings today with a record $695B backlog and 171 plane deliveries; analysts see 29% upside with a Strong Buy consensus",
+      "reason": "Reports Q2 earnings after close today; AI capex guidance is the single most closely watched datapoint for the entire chip complex — any scale-back would deepen the semiconductor selloff.",
       "direction": "↑"
     },
     {
-      "name": "SK Hynix",
-      "ticker": "SKHY",
+      "name": "Microsoft",
+      "ticker": "MSFT",
       "exchange": "NASDAQ",
-      "reason": "Reports Q2 earnings today; as Nvidia's primary HBM supplier, results set the tone for the entire AI memory and chip complex",
+      "reason": "Reports Q2 earnings after close today alongside Meta; Azure AI growth rate and forward cloud capex commentary will set the tone for the AI infrastructure debate.",
       "direction": "↑"
     },
     {
-      "name": "Ford Motor",
-      "ticker": "F",
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "exchange": "NASDAQ",
+      "reason": "Down 4%+ premarket as the global chip selloff extends to the US; the stock surged ~884% over the past year on AI memory demand, making it a prime crowded-trade unwind target.",
+      "direction": "↓"
+    },
+    {
+      "name": "UPS",
+      "ticker": "UPS",
       "exchange": "NYSE",
-      "reason": "Reports Q2 after close today; tariff headwinds on Mexico/Canada auto supply chains are the main concern against a $0.36 EPS consensus",
+      "reason": "Clean Q2 beat on both revenue and EPS plus raised full-year guidance — a rare positive catalyst in today's risk-off session.",
+      "direction": "↑"
+    },
+    {
+      "name": "Visa",
+      "ticker": "V",
+      "exchange": "NYSE",
+      "reason": "Announced 2,600 job cuts (7% of workforce) targeting tech and product teams, reinforcing the AI-driven headcount compression trend across financial services.",
       "direction": "↓"
     },
     {
-      "name": "SpaceX",
-      "ticker": "SPCX",
-      "exchange": "NASDAQ",
-      "reason": "Fell below its $135 IPO price for the first time, now down 51% from peak; Starship delays and fundamental scrutiny extend the post-IPO hangover",
-      "direction": "↓"
-    },
-    {
-      "name": "Advanced Micro Devices",
-      "ticker": "AMD",
-      "exchange": "NASDAQ",
-      "reason": "Worst major chip performer in Monday's selloff at -8.3%; vulnerable ahead of its own earnings and the broader AI spending debate",
+      "name": "SoftBank Group",
+      "ticker": "9984.T",
+      "exchange": "TSE",
+      "reason": "Fell 4.4% in today's Nikkei rout; as a heavily leveraged AI investment vehicle its share price serves as a real-time proxy for global AI capex sentiment.",
       "direction": "↓"
     }
   ],
   "bondYields": {
-    "us10y": 4.67,
-    "us30y": 5.17,
-    "asOf": "2026-07-27"
+    "us10y": 4.62,
+    "us30y": 5.07,
+    "asOf": "2026-07-28"
   },
   "tickerDescriptions": {
-    "NVDA": "NVIDIA Corp., world's leading designer of AI and data center GPUs",
-    "AMD": "Advanced Micro Devices, semiconductor company making CPUs and GPUs for AI, data centers, and PCs",
-    "AVGO": "Broadcom Inc., diversified semiconductor and infrastructure software company serving AI data centers",
-    "INTC": "Intel Corp., major manufacturer of processors and semiconductor chips for PCs and servers",
-    "SMH": "VanEck Semiconductor ETF tracking the largest US-listed semiconductor companies",
-    "SPY": "SPDR S&P 500 ETF, the most widely-traded US large-cap equity index fund",
-    "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq 100 index of large-cap tech stocks",
-    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
-    "BA": "Boeing Co., US aerospace and defense manufacturer of commercial and military aircraft",
-    "F": "Ford Motor Co., US automaker producing cars, trucks, and electric vehicles",
-    "V": "Visa Inc., the world's largest global digital payments network",
-    "SPCX": "SpaceX Inc., commercial space transportation and Starlink satellite internet company",
-    "SKHY": "SK Hynix Inc., South Korean memory chip maker and leading supplier of HBM to Nvidia",
-    "MU": "Micron Technology Inc., US manufacturer of DRAM, NAND flash, and HBM memory chips",
-    "7203.T": "Toyota Motor Corp., Japan's largest automaker and global hybrid vehicle pioneer",
-    "9984.T": "SoftBank Group Corp., Japanese conglomerate and major global technology investor",
-    "6857.T": "Advantest Corp., world-leading semiconductor test equipment maker supplying AI chipmakers",
-    "1211.HK": "BYD Company Ltd., China's largest electric vehicle and rechargeable battery manufacturer",
-    "7269.T": "Suzuki Motor Corp., Japanese automaker specializing in compact cars, kei vehicles, and motorcycles",
-    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing company",
-    "0700.HK": "Tencent Holdings Ltd., China's largest social media and gaming conglomerate",
-    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese stocks listed in Hong Kong"
+    "MU": "Micron Technology Inc., US-based manufacturer of DRAM, NAND flash, and HBM memory chips for AI and enterprise applications",
+    "NVDA": "NVIDIA Corp., world's leading designer of AI and data center GPUs; key supplier to hyperscaler AI infrastructure buildouts",
+    "AMD": "Advanced Micro Devices Inc., US semiconductor company making CPUs, GPUs, and AI accelerators competing with Nvidia",
+    "INTC": "Intel Corp., US semiconductor company producing CPUs, networking silicon, and foundry services for data centers and PCs",
+    "SMH": "VanEck Semiconductor ETF tracking the 25 largest US-listed semiconductor companies by market cap",
+    "SPY": "SPDR S&P 500 ETF, the world's most widely-traded US large-cap equity index fund",
+    "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq 100 index of the 100 largest non-financial Nasdaq-listed companies",
+    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds; a key rate-sensitivity indicator",
+    "V": "Visa Inc., the world's largest global digital payments network processing billions of consumer and commercial transactions",
+    "MA": "Mastercard Incorporated, global payments technology company operating one of the world's two dominant card networks",
+    "UPS": "United Parcel Service Inc., global package delivery and supply chain management company serving 220+ countries",
+    "META": "Meta Platforms Inc., parent of Facebook, Instagram, and WhatsApp; one of the world's largest AI infrastructure investors",
+    "MSFT": "Microsoft Corporation, global software and cloud computing company; Azure is the world's second-largest cloud platform",
+    "3308.HK": "Zhongji Innolight Co., Chinese optical transceiver manufacturer supplying high-speed data center interconnect for AI infrastructure, listing on HKEX",
+    "0700.HK": "Tencent Holdings Ltd., China's largest social media and gaming conglomerate and cornerstone investor in Innolight's IPO",
+    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce and cloud computing company; a destination for Asia fund rotation",
+    "1810.HK": "Xiaomi Corporation, Chinese consumer electronics and smart device maker with a fast-growing electric vehicle business",
+    "285A.T": "Kioxia Holdings Corp., Japanese manufacturer of NAND flash memory chips for enterprise storage and AI data center applications",
+    "6857.T": "Advantest Corporation, Japanese manufacturer of semiconductor test equipment; a bellwether for global chip production health",
+    "8035.T": "Tokyo Electron Ltd., Japanese semiconductor equipment manufacturer and a key supplier to global chip fabrication plants",
+    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and major AI investment vehicle with stakes across global tech",
+    "8306.T": "Mitsubishi UFJ Financial Group Inc., Japan's largest bank by total assets and a globally systemically important financial institution",
+    "8316.T": "Sumitomo Mitsui Financial Group Inc., Japanese banking conglomerate offering retail, corporate, and investment banking services"
   },
   "quickHits": [
-    "BYD's Racco kei EV goes on sale in Japan today at ~¥2M ($12,200); BYD has only 70–80 Japan dealerships vs. Suzuki's 1,000+ network (BigGo Finance)",
-    "US Gallup Economic Confidence Index improved to -31 in July from -38 in June, though Americans broadly remain pessimistic about the economy (UPI)",
-    "University of Michigan Consumer Sentiment rose to 54.4 in July — second straight monthly gain — driven by declining gasoline prices (Conference Board)",
-    "Mondelez, Waste Management, NXP Semiconductors, Seagate, and Omnicom also report earnings today alongside Boeing, Ford, and Visa (Bloomberg)"
+    "Apple (AAPL) reports Q3 fiscal 2026 earnings after the bell Thursday — analysts forecast EPS of $1.89 (+20.4% YoY) on $108.9B revenue (+15.8% YoY) (Reuters/Kiplinger)",
+    "US PCE inflation data due Friday — the Fed's preferred gauge; current CPI remains at 4.2%, underpinning the rate-hold consensus (BEA)",
+    "India presses China for market access and narrowing trade imbalance at ASEAN Manila summit as FM Jaishankar meets Wang Yi (Bloomberg)",
+    "Southeast Asia FDI hit a record $244B in 2025, led by Singapore, as supply-chain realignment drives diversification away from AI-driven volatility (Bloomberg)"
   ]
 }
