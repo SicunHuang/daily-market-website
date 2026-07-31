@@ -1,179 +1,179 @@
 {
-  "date": "2026-07-30",
-  "marketMood": "Risk-off after a hawkish Fed hold with three dissenters sent the Dow down 1,100+ points, 30Y Treasury yields hit their highest since 2007, and Iran's missile attack pushed Brent crude above $90.",
+  "date": "2026-07-31",
+  "marketMood": "Risk-on rebound: June PCE cools for first time in six years while Amazon AWS and Microsoft cloud beats validate AI capex thesis, though Iran-US conflict and elevated bond yields remain as cross-currents.",
   "upcomingEvents": [
-    { "date": "2026-07-30", "event": "Bank of England Rate Decision (12:00pm London / 7:00am ET) — Super Thursday with full Monetary Policy Report", "significance": "high" },
-    { "date": "2026-07-30", "event": "Apple Q3 FY2026 Earnings After Close — Tim Cook's Final Earnings Call as CEO", "significance": "high" },
-    { "date": "2026-07-31", "event": "Bank of Japan Rate Decision; US June PCE Inflation Data (8:30am ET)", "significance": "high" },
+    { "date": "2026-08-01", "event": "BOJ Governor Ueda Post-Decision Press Conference", "significance": "high" },
+    { "date": "2026-07-31", "event": "US June PCE Inflation Data — Already Released Today", "significance": "high" },
     { "date": "2026-08-07", "event": "US July Nonfarm Payrolls (Jobs Report)", "significance": "high" },
-    { "date": "2026-08-12", "event": "US July CPI Inflation Report", "significance": "high" }
+    { "date": "2026-08-12", "event": "US July CPI Inflation Report", "significance": "high" },
+    { "date": "2026-09-24", "event": "Xi Jinping Washington Visit (US-China Summit)", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Fed Holds Rates 9-3 as Three Officials Dissent in Favor of a Hike",
-      "source": "Bloomberg",
-      "summary": "The FOMC voted 9-3 to hold the fed funds rate at 3.5%–3.75% for a fifth consecutive meeting, with Cleveland's Hammack, Minneapolis's Kashkari, and Dallas's Logan dissenting for a 25bp hike — the most dissents since September 2016.",
-      "marketImpact": "Dow ↓ 1,153 pts (-2.19%), S&P 500 ↓ 1.52%, Nasdaq ↓ 1.74%; bond market signalled the Fed is falling behind on inflation; September hike bets re-priced higher",
+      "headline": "June PCE Inflation Cools for First Time in Six Years, Giving Markets a Relief Valve",
+      "source": "Quartz / BEA",
+      "summary": "The BEA's June Personal Consumption Expenditures report showed headline PCE fell 0.1% month-on-month — the first monthly decline in six years — while the annual rate came in at 3.7% and core PCE rose just 0.1% MoM (+3.3% YoY), helping underpin Thursday's broad market recovery.",
+      "marketImpact": "Bonds stabilised; equities ↑ on Fed dovish-pivot optionality; PCE still well above 2% target, limiting market euphoria",
       "tickers": ["SPY", "QQQ", "TLT"],
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/fed-holds-rates-steady-three-officials-dissent-favoring-a-hike",
+      "url": "https://qz.com/june-2026-pce-consumer-spending-personal-income-073026",
       "region": "US"
     },
     {
-      "headline": "30-Year Treasury Yield Tops 5.2%, Highest Since 2007, After Fed Stands Pat",
-      "source": "CNBC",
-      "summary": "The 30-year Treasury yield surged to 5.244% and the 10-year jumped 7bps to 4.67% as bond markets re-priced the risk that the Fed is behind the curve on inflation following its hawkish hold.",
-      "marketImpact": "TLT ↓; rate-sensitive equities (real estate, utilities) ↓; dollar ↑ on hawkish repricing; 30Y highest level since July 2007",
-      "tickers": ["TLT", "IEF"],
-      "url": "https://www.cnbc.com/2026/07/29/treasury-yields-fed-interest-rates.html",
+      "headline": "Amazon Posts First-Ever $200B Quarter; AWS Grows 37% at Fastest Rate in 18 Quarters",
+      "source": "Quartz",
+      "summary": "Amazon's Q2 2026 net sales reached $200.6B (+20% YoY) with AWS revenue surging 37% to $42.2B driven by AI infrastructure demand; AWS operating income hit $16.6B at a 39% margin; advertising grew 26% to $19.8B.",
+      "marketImpact": "AMZN ↑9% post-market; AWS growth validates the AI cloud capex supercycle and anchors Thursday's rally ↑",
+      "tickers": ["AMZN"],
+      "url": "https://qz.com/amazon-q2-2026-earnings-aws-cloud-growth-073026",
       "region": "US"
     },
     {
-      "headline": "Meta Q2 Free Cash Flow Collapses 91% as AI Capital Expenditure Hits $31 Billion",
-      "source": "TechTimes",
-      "summary": "Meta's Q2 revenue grew 28% to $60.8B, but free cash flow fell 91% to just $784M as AI infrastructure capex doubled to $31.1B in a single quarter; the company projects full-year 2026 capex of $130–145B.",
-      "marketImpact": "META ↓ ~5% after-hours; questions over AI capex sustainability and return timelines weigh on broader mega-cap tech sentiment",
-      "tickers": ["META"],
-      "url": "https://www.techtimes.com/articles/322139/20260729/meta-q2-beats-revenue-while-legal-charges-ai-spending-destroy-free-cash-flow.htm",
-      "region": "US"
-    },
-    {
-      "headline": "Iran Fires Ballistic Missiles at US Forces; All Intercepted; Trump Threatens to Hit Iran Hard",
-      "source": "CNBC",
-      "summary": "Iran's IRGC launched a surprise ballistic missile attack targeting US troops in the Middle East; all were intercepted by US defenses, but President Trump's threat to retaliate drove a sharp move in oil markets.",
-      "marketImpact": "Brent crude ↑ above $90; WTI ↑ 6.6% to $84.46; energy stocks ↑; gold ↑ on safe-haven demand",
-      "tickers": ["XLE", "XOM", "CVX"],
-      "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
-      "region": "Global"
-    },
-    {
-      "headline": "Kioxia Plunges 16%, Nikkei Falls 930 Points as AI Chip Sell-Off Deepens",
-      "source": "Nikkei Asia",
-      "summary": "Japanese memory chip giant Kioxia Holdings fell another 16%, halving its market cap from peak as investors unwound leveraged AI chip positions; the Nikkei 225 fell 930 points and SoftBank dropped 7%.",
-      "marketImpact": "285A.T ↓ 16%; 9984.T ↓ 7%; Nikkei ↓ 1.49% to 61,434; PHLX Semiconductor Index ↓ 4.5%; MU, AMD, NVDA all under pressure",
-      "tickers": ["285A.T", "9984.T", "NVDA", "AMD", "MU"],
-      "url": "https://asia.nikkei.com/business/markets/japanese-stocks-plunge-as-ai-deleverage-sends-kioxia-down-16",
-      "region": "Japan"
-    },
-    {
-      "headline": "Microsoft Azure Crosses $100B Revenue as Cloud Posts Fastest Growth in Four Years",
-      "source": "Futurum",
-      "summary": "Microsoft's Q2 FY2026 results showed total revenue of $90B (+18%), with Azure up 39% YoY crossing $100B for the first time and commercial remaining backlog more than doubling to $625B.",
-      "marketImpact": "MSFT ↑ slightly; a positive counterweight to Meta's FCF miss; validates AI infrastructure investment thesis for cloud providers",
-      "tickers": ["MSFT"],
-      "url": "https://futurumgroup.com/insights/microsoft-q2-fy-2026-cloud-surpasses-50b-azure-up-38-cc/",
-      "region": "US"
-    },
-    {
-      "headline": "Zhongji Innolight Debuts on HKEX in Asia's Second-Largest IPO of 2026",
-      "source": "China Daily Asia",
-      "summary": "Optical module maker Zhongji Innolight (3308.HK) begins trading on the Hong Kong Stock Exchange today after raising HK$53.4B ($6.81B) — the biggest HK listing since Alibaba's 2019 secondary IPO — with Q1 net profit up 262% YoY.",
-      "marketImpact": "3308.HK watch on debut; Hang Seng edged up 0.4% yesterday, bucking regional selloff; sustained institutional appetite for AI supply chain plays in HK",
-      "tickers": ["3308.HK", "0700.HK", "1810.HK"],
-      "url": "https://www.chinadailyasia.com/hk/article/637033",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Advantest Delivers Strong Quarterly Earnings on Robust AI Chip-Tester Demand",
-      "source": "Markets Daily",
-      "summary": "Chip-test equipment maker Advantest reported $1.51 EPS for the latest quarter with FY2026 guidance of 1.42T yen in net sales, as AI semiconductor production sustains robust demand for its testing systems.",
-      "marketImpact": "6857.T watch on open; strong guidance could help stabilise Japan's battered semiconductor complex; positive read-through for AI chip supply chain health",
-      "tickers": ["6857.T"],
-      "url": "https://www.themarketsdaily.com/2026/07/29/advantest-otcmktsateyy-releases-earnings-results.html",
-      "region": "Japan"
-    },
-    {
-      "headline": "Bank of England Super Thursday: Hold Expected at 3.75% but Services Inflation Keeps Hike Risk Live",
-      "source": "TechTimes",
-      "summary": "The BoE announces its rate decision today at 12:00pm London / 7:00am ET with consensus expecting a hold at 3.75%; the June vote was 7-2 with Greene and Pill dissenting for a hike, and renewed oil price spikes add upside risk.",
-      "marketImpact": "GBP/USD watch; hawkish surprise or shift in vote split could ripple into global rate expectations already strained by the Fed's three dissenters",
-      "tickers": ["SPY", "QQQ"],
-      "url": "https://www.techtimes.com/articles/321682/20260727/bank-england-super-thursday-hold-expected-services-inflation-keeps-hike-risk-live.htm",
-      "region": "Global"
-    },
-    {
-      "headline": "Apple Reports Q3 Results Tonight — Tim Cook's Final Earnings Call as CEO",
-      "source": "Motley Fool",
-      "summary": "Apple releases Q3 fiscal 2026 results after the bell today with analysts expecting EPS of $1.89 (+20% YoY) on ~$109B revenue, driven by iPhone demand and Services strength; John Ternus succeeds Tim Cook as CEO.",
-      "marketImpact": "AAPL watch after close; any Services deceleration or weaker iPhone guidance would compound yesterday's market pain; strong beat could anchor sentiment",
+      "headline": "Apple Q3 Revenue Hits Record $109.4B with iPhone +22%, but Services Miss Weighs on Shares",
+      "source": "9to5Mac",
+      "summary": "Apple reported FY Q3 revenue of $109.4B (+16% YoY) and EPS of $2.02 (+29%), with iPhone up 22%, but services revenue of $30.74B came in below the $31.22B consensus, sending shares down 3–4% after hours.",
+      "marketImpact": "AAPL ↓3–4% after-hours; services deceleration risk to premium valuation at $5T market cap ↓",
       "tickers": ["AAPL"],
-      "url": "https://www.fool.com/investing/2026/07/28/apple-reports-q3-earnings-on-july-30-heres-what-in/",
+      "url": "https://9to5mac.com/2026/07/30/apple-reports-q3-2026-earnings-109-4-billion-in-revenue-up-16/",
+      "region": "US"
+    },
+    {
+      "headline": "Microsoft Cloud and AI Strength Fuels Record $90B Quarter, Leads Tech Recovery",
+      "source": "Microsoft",
+      "summary": "Microsoft Q4 FY2026 revenue hit $90B (+18%) with operating income of $40.6B (+18%) and net income of $35.8B (+31%), driven by Azure and Copilot AI products; full-year revenue reached $331.8B.",
+      "marketImpact": "MSFT ↑ leading Thursday's tech recovery rally; Azure and AI backlog growth reassures cloud spend thesis ↑",
+      "tickers": ["MSFT"],
+      "url": "https://news.microsoft.com/source/2026/07/29/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results-4/",
+      "region": "US"
+    },
+    {
+      "headline": "Meta Revenue Surges 28% to $60.8B but EPS Misses Badly as AI Capex Doubles to $31B per Quarter",
+      "source": "Investing.com",
+      "summary": "Meta's Q2 revenue of $60.8B (+28%) beat estimates, but EPS of $6.18 missed $7.17 consensus by 14% as capital expenditure hit $31.1B in a single quarter — more than double a year ago — collapsing free cash flow to $784M.",
+      "marketImpact": "META ↓ ~5%; AI capex sustainability and FCF destruction are the central investor debate for mega-cap tech ↓",
+      "tickers": ["META"],
+      "url": "https://www.investing.com/news/company-news/meta-q2-2026-slides-revenue-surges-28-as-ai-spending-pressures-margins-93CH-4821943",
+      "region": "US"
+    },
+    {
+      "headline": "BOJ Holds at 1% with Lone Dissent as Japan and US Conduct Coordinated Yen Intervention",
+      "source": "CNBC",
+      "summary": "The Bank of Japan kept its policy rate at 1% (8-1 vote, with Hajime Takata dissenting for a hike to 1.25%) while warning underlying inflation may exceed 2%; Japan and the US conducted coordinated yen-buying/dollar-selling intervention, driving USD/JPY from the 162 range to as low as 157–158.",
+      "marketImpact": "JPY ↑3.3% vs USD; Toyota, Honda ↓ on yen strength; Nikkei 225 ↑600+ pts on US tech tailwinds offsetting FX headwinds",
+      "tickers": ["7203.T", "9984.T"],
+      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
+      "region": "Japan"
+    },
+    {
+      "headline": "Japan Carries Out Massive Yen-Buying Intervention in New York, US Executes Rate Check",
+      "source": "Nikkei Asia",
+      "summary": "Japan conducted massive yen-buying, dollar-selling intervention in New York markets with US authorities simultaneously executing rate checks, in a coordinated effort that drove the yen to as strong as 157 per dollar from above 162, its biggest single-day move in years.",
+      "marketImpact": "USD/JPY ↓2.6% to ~159; export-oriented Japanese stocks under pressure; Nikkei absorbs yen impact via semiconductor gains ↑",
+      "tickers": ["7203.T"],
+      "url": "https://asia.nikkei.com/business/markets/currencies/japan-carries-out-yen-buying-intervention-as-us-executes-rate-check",
+      "region": "Japan"
+    },
+    {
+      "headline": "US Strikes Iran as Conflict Escalates; Saudi Arabia Proposes Naval Coalition to Protect Hormuz",
+      "source": "CNN / CNBC",
+      "summary": "US forces conducted a heavy wave of retaliatory strikes against Iran on July 29 after Iranian ballistic missiles targeting US troops were intercepted; Iran threatens further response while Saudi Arabia proposes a naval coalition to protect the Strait of Hormuz, tempering oil's spike.",
+      "marketImpact": "Brent crude eased to ~$89 from $90.74 spike; WTI ~$83.59; energy stocks ↑; Hormuz disruption risk remains elevated ↑",
+      "tickers": ["XLE", "XOM", "CVX"],
+      "url": "https://www.cnbc.com/2026/07/30/oil-prices-us-iran-war.html",
+      "region": "Global"
+    },
+    {
+      "headline": "Beijing Says Washington Pledged to Cap New Tariffs on Chinese Goods at 20%",
+      "source": "Bloomberg",
+      "summary": "China's Commerce Ministry disclosed that the US committed during bilateral trade talks to limit replacement tariffs on Chinese goods to a ceiling of 20%; the current replacement tariff stands at 12.5% after new Section 301 levies on July 23.",
+      "marketImpact": "Reduced escalation risk provides a near-term floor for Chinese equities; Hang Seng holding ~25,858 ↑",
+      "tickers": ["9988.HK", "0700.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/china-says-us-pledged-to-cap-replacement-tariffs-at-20",
+      "region": "China"
+    },
+    {
+      "headline": "Philadelphia Semiconductor Index Surges 8%+ as Amazon and Microsoft Capex Validates Chip Demand",
+      "source": "CNBC",
+      "summary": "The Philadelphia SOX semiconductor index surged 8.19% Thursday, led by AMD, Nvidia, and Broadcom, as Amazon's AWS blowout and Microsoft's cloud results reaffirmed the AI infrastructure buildout sustaining unprecedented chip demand; Intel's 18A foundry also attracting major customer wins.",
+      "marketImpact": "AMD ↑ sharply (up ~150% YTD); NVDA ↑; AVGO ↑; INTC ↑; entire AI chip supply chain re-rated upward ↑",
+      "tickers": ["AMD", "NVDA", "AVGO", "INTC", "MU"],
+      "url": "https://www.cnbc.com/2026/07/29/stock-market-today-live-updates.html",
       "region": "US"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Meta Platforms",
-      "ticker": "META",
+      "name": "Amazon",
+      "ticker": "AMZN",
       "exchange": "NASDAQ",
-      "reason": "Free cash flow collapsed 91% to $784M as AI capex doubled to $31B; shares down ~5% premarket and the central debate for mega-cap AI spend.",
-      "direction": "↓"
-    },
-    {
-      "name": "Microsoft",
-      "ticker": "MSFT",
-      "exchange": "NASDAQ",
-      "reason": "Azure crossed $100B and grew 39% YoY; strong quarter provides a positive counterweight to Meta's capex concerns.",
+      "reason": "First-ever $200B revenue quarter with AWS growing 37% — the biggest single-quarter beat in the AI infrastructure earnings season; stock +9% post-market.",
       "direction": "↑"
     },
     {
       "name": "Apple",
       "ticker": "AAPL",
       "exchange": "NASDAQ",
-      "reason": "Reports Q3 fiscal 2026 tonight in Tim Cook's final earnings call; consensus expects $109B revenue and $1.89 EPS driven by iPhone and Services.",
-      "direction": "↑"
-    },
-    {
-      "name": "Zhongji Innolight",
-      "ticker": "3308.HK",
-      "exchange": "HKEX",
-      "reason": "HKEX debut today after raising $6.81B in Asia's 2nd-largest IPO of 2026; debut price action is a real-time read on institutional appetite for AI optical networking.",
-      "direction": "↑"
-    },
-    {
-      "name": "Kioxia Holdings",
-      "ticker": "285A.T",
-      "exchange": "TSE",
-      "reason": "Fell 16% yesterday, halving market cap from peak; the key barometer for AI/memory chip sentiment in Tokyo and the focal point of the ongoing leveraged-position unwind.",
+      "reason": "Record $109.4B revenue quarter but services miss versus consensus raises questions about growth at a $5T valuation; stock -3-4% after hours.",
       "direction": "↓"
     },
     {
-      "name": "Advantest",
-      "ticker": "6857.T",
-      "exchange": "TSE",
-      "reason": "Released strong quarterly earnings overnight with upbeat FY2026 guidance; could provide a stabilising signal for Japan's battered chip-equipment complex.",
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "exchange": "NASDAQ",
+      "reason": "Record $90B Q4 with Azure cloud and Copilot AI driving 18% growth; leading the broad tech recovery alongside semiconductor names.",
       "direction": "↑"
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "exchange": "NASDAQ",
+      "reason": "MI300 AI chip gains driving the semiconductor rally; AMD up ~150% YTD vs Nvidia's 13%, making it the sector's breakout play.",
+      "direction": "↑"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "reason": "Amazon and Microsoft capex confirmation sustains GPU demand outlook; 86% AI chip market share in focus ahead of next earnings.",
+      "direction": "↑"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "reason": "Revenue +28% but EPS missed by 14% as AI capex doubled to $31B per quarter; free cash flow collapsed to $784M from prior levels.",
+      "direction": "↓"
     }
   ],
   "bondYields": {
     "us10y": 4.67,
-    "us30y": 5.22,
-    "asOf": "2026-07-29"
+    "us30y": 5.20,
+    "asOf": "2026-07-30"
   },
   "tickerDescriptions": {
-    "SPY": "SPDR S&P 500 ETF Trust, the world's most widely-traded US large-cap equity index fund tracking the 500 largest US companies",
+    "SPY": "SPDR S&P 500 ETF Trust tracking the 500 largest US publicly traded companies",
     "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq-100 index of the 100 largest non-financial Nasdaq-listed companies",
     "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds; a key interest-rate sensitivity indicator",
-    "IEF": "iShares 7-10 Year Treasury Bond ETF tracking intermediate-term US government bonds",
-    "META": "Meta Platforms Inc., operator of Facebook, Instagram, and WhatsApp; one of the world's largest AI infrastructure investors",
-    "XLE": "Energy Select Sector SPDR Fund, ETF tracking US oil, gas, and energy companies",
+    "AMZN": "Amazon.com Inc., e-commerce, cloud computing (AWS), and digital advertising giant",
+    "AAPL": "Apple Inc., consumer electronics and software giant; maker of iPhone, Mac, and the high-margin Services ecosystem",
+    "MSFT": "Microsoft Corp., enterprise software and cloud computing (Azure) leader; one of the world's largest AI infrastructure investors",
+    "META": "Meta Platforms Inc., operator of Facebook, Instagram, and WhatsApp; among the world's largest AI infrastructure spenders",
+    "AMD": "Advanced Micro Devices Inc., US designer of CPUs and AI accelerator chips, growing challenger to Nvidia in AI data centers",
+    "NVDA": "Nvidia Corp., dominant designer of GPUs and AI accelerator chips with approximately 86% share of the AI chip market",
+    "AVGO": "Broadcom Inc., diversified semiconductor and infrastructure software company; key AI networking chip supplier",
+    "INTC": "Intel Corp., US semiconductor company pursuing foundry turnaround with its 18A manufacturing node",
+    "MU": "Micron Technology Inc., US manufacturer of DRAM and NAND flash memory chips; a major supplier to AI training infrastructure",
+    "7203.T": "Toyota Motor Corp., Japan's largest automaker; sensitive to yen strength given its global export revenue base",
+    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and major AI investment vehicle with stakes in Arm and OpenAI",
+    "XLE": "Energy Select Sector SPDR Fund, ETF tracking US oil, gas, and energy companies in the S&P 500",
     "XOM": "Exxon Mobil Corp., the largest US integrated oil and gas company by market capitalisation",
     "CVX": "Chevron Corp., major US integrated oil and gas company with global upstream and downstream operations",
-    "285A.T": "Kioxia Holdings Corp., Japanese manufacturer of NAND flash memory and SSDs for AI data centers and enterprise storage",
-    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and major AI investment vehicle with large stakes in Arm, OpenAI, and AI ventures",
-    "NVDA": "Nvidia Corp., dominant designer of GPUs and AI accelerator chips used across hyperscaler data centers worldwide",
-    "AMD": "Advanced Micro Devices Inc., US designer of CPUs, GPUs, and AI computing chips competing with Nvidia in data centers",
-    "MU": "Micron Technology Inc., US manufacturer of DRAM and NAND flash memory chips, a major supplier to AI training infrastructure",
-    "MSFT": "Microsoft Corp., global software and cloud computing giant; Azure is the world's second-largest cloud platform",
-    "3308.HK": "Zhongji Innolight Co., the world's leading optical module manufacturer supplying high-speed AI data center interconnects; listed on HKEX",
-    "0700.HK": "Tencent Holdings Ltd., China's largest social media, gaming, and cloud computing conglomerate",
-    "1810.HK": "Xiaomi Corp., Chinese consumer electronics and smartphone maker with a fast-growing electric vehicle business",
-    "6857.T": "Advantest Corp., Japanese manufacturer of semiconductor automatic test equipment; a bellwether for global AI chip production health",
-    "AAPL": "Apple Inc., US consumer electronics and software giant known for iPhone, Mac, and its high-margin Services segment"
+    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing company listed on HKEX",
+    "0700.HK": "Tencent Holdings Ltd., China's largest social media, gaming, and cloud computing conglomerate listed on HKEX"
   },
   "quickHits": [
-    "SK Hynix fell 10%+ despite record Q2 profits, triggering a 'sell the news' rout across Asian memory and AI chip stocks (CNBC)",
-    "Bank of Japan meets Friday (July 31) — expected to hold, but USD/JPY near 163.7 (a 40-year low for the yen) keeps political and market pressure on the board (Nikkei Asia)",
-    "Horizon Robotics (9660.HK) surged 8.9% in Hong Kong, one of the few tech gainers, on strong autonomous driving demand signals (SCMP)",
-    "US July jobs report due August 7, CPI due August 12 — the next key data catalysts that will revive or dampen rising rate-hike bets (CNBC)"
+    "S&P 500 posts best session since April; Nasdaq snaps six-day losing streak as semiconductor stocks surge 8% (CNBC)",
+    "June PCE fell 0.1% MoM — first monthly decline in six years — adding fuel to Thursday's relief rally (BEA / CNN Business)",
+    "New BOJ board member Ayano Sato signals dovish lean, suggesting Takaichi appointees favour accommodative policy (CNBC)",
+    "Saudi Arabia proposes international naval coalition to protect Strait of Hormuz shipping after US-Iran military exchange (CNBC)"
   ]
 }
