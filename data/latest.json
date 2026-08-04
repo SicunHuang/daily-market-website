@@ -1,165 +1,163 @@
 {
-  "date": "2026-08-03",
-  "marketMood": "Geopolitical relief rally: Trump's last-minute Iran strike cancellation sends oil down 4.5% and lifts risk assets, but China's PMI contraction and a 4.75% US 10Y yield keep the mood cautious.",
+  "date": "2026-08-04",
+  "marketMood": "Risk-on with caveats: Iran diplomacy crushes oil prices and fuels a broad tech rally, but China PMI contraction and Japan yen intervention signal persistent macro headwinds.",
   "upcomingEvents": [
-    { "date": "2026-08-03", "event": "US July ISM Manufacturing PMI (10am ET) + Palantir & Vertex Q2 Earnings After Close", "significance": "medium" },
-    { "date": "2026-08-03", "event": "US-Iran Strait of Hormuz Peace Talks Begin (Washington / Oman)", "significance": "high" },
-    { "date": "2026-08-05", "event": "US July ISM Services PMI", "significance": "medium" },
-    { "date": "2026-08-07", "event": "US July Nonfarm Payrolls (Jobs Report)", "significance": "high" },
-    { "date": "2026-08-12", "event": "US July CPI Inflation Report", "significance": "high" }
+    { "date": "2026-08-04", "event": "SpaceX (SPCX) Q2 Earnings — First-ever public report after close", "significance": "high" },
+    { "date": "2026-08-04", "event": "AMD Q2 Earnings after close — AI data center revenue closely watched", "significance": "high" },
+    { "date": "2026-08-07", "event": "US Nonfarm Payrolls (July Jobs Report)", "significance": "high" },
+    { "date": "2026-08-12", "event": "US CPI Inflation Report (July)", "significance": "high" },
+    { "date": "2026-08-14", "event": "Hong Kong / China revised 2026 GDP forecast release", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Trump Scraps Massive Iran Strike, Calls for Talks Today; Oil Dives 4.5%",
-      "source": "CNBC",
-      "summary": "President Trump announced Sunday he called off a planned massive strike on Iran — which he described as 'the biggest attack since WWII' — after Gulf allies and Tehran urged restraint; US-Iran peace talks on Strait of Hormuz access and denuclearisation begin today, though Iran disputes Trump's claim a deal was already reached.",
-      "marketImpact": "WTI crude ↓4.5% to ~$80.89; Brent ↓4.4% to ~$84.10; XOM, CVX, XLE ↓; broader risk assets ↑ on geopolitical relief",
-      "tickers": ["XLE", "XOM", "CVX"],
-      "url": "https://www.cnbc.com/2026/08/03/trump-iran-us-negotiations-peace-proposals-.html",
+      "headline": "Trump Cancels Iran Strike, Oil Tumbles 5–6% as Hormuz Talks Resume",
+      "source": "The National / Reuters",
+      "summary": "President Trump called off planned military strikes against Iran and revived diplomatic talks aimed at reopening the Strait of Hormuz and halting Tehran's nuclear program; new negotiations began Monday.",
+      "marketImpact": "Brent crude ↓4.8% to ~$83.70; WTI ↓6% to ~$79.60; lower energy costs eased inflation fears, triggering a broad equity rally ↑",
+      "tickers": ["BP", "XOM", "CVX"],
+      "url": "https://www.thenationalnews.com/business/energy/2026/08/03/oil-prices-slump-on-potential-us-iran-deal-to-open-strait-of-hormuz/",
       "region": "Global"
     },
     {
-      "headline": "OPEC+ Raises September Oil Output by 188,000 bpd, Amplifying Crude's Decline",
-      "source": "Bloomberg",
-      "summary": "The OPEC+ group agreed to increase September production by 188,000 barrels per day, piling supply-side pressure on top of the Iran peace relief trade and pushing crude oil to five-week lows.",
-      "marketImpact": "Oil double-hit from geopolitics and supply ↓; energy sector under pressure; easing inflation impulse from lower oil prices",
-      "tickers": ["XLE", "XOM", "CVX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/latest-oil-market-news-and-analysis-for-aug-3",
-      "region": "Global"
+      "headline": "AI Hyperscalers Surge — Amazon Crosses $3 Trillion Market Cap for First Time",
+      "source": "US News / Yahoo Finance",
+      "summary": "Post-earnings momentum from Microsoft and Amazon drove megacap tech sharply higher: Amazon +4.6%, Microsoft +4.9%, Meta +6–7%, Alphabet +4.9%, Nvidia +2.9%; Amazon crossed the $3 trillion market cap mark for the first time.",
+      "marketImpact": "S&P 500 ↑1.48% to 7,600; Nasdaq ↑2.1% to 25,914; Dow ↑1.32% to 53,178; broad risk-on rally ↑",
+      "tickers": ["AMZN", "MSFT", "META", "GOOGL", "NVDA"],
+      "url": "https://www.usnews.com/news/top-news/articles/2026-08-03/amazon-enters-3-trillion-club-as-ai-optimism-sweeps-through-wall-street",
+      "region": "US"
     },
     {
-      "headline": "China Factory Activity Unexpectedly Contracts in July; PMI Falls to 49.2",
-      "source": "CNBC",
-      "summary": "China's official July Manufacturing PMI dropped to 49.2 from 50.3 in June — the first contraction in five months — with new orders slumping to 48.5, the lowest reading since 2023, hit by tariff uncertainty and off-season production weakness.",
-      "marketImpact": "Chinese equities ↓; 9988.HK, 0700.HK under pressure; commodity demand outlook dimmed; yuan softening watch",
-      "tickers": ["9988.HK", "0700.HK"],
-      "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
+      "headline": "SpaceX Reports First-Ever Public Earnings After Market Close Today",
+      "source": "Forbes / Motley Fool",
+      "summary": "SpaceX (NASDAQ: SPCX) releases Q2 results after market close — investors' first audited look at its three-segment business spanning space, connectivity, and AI post-xAI integration; Wall Street consensus revenue is $6.82 billion.",
+      "marketImpact": "SPCX ↑/↓ watch — stock has fallen 45%+ since its record June IPO; Starlink profitability and AI capex guidance are the key tests",
+      "tickers": ["SPCX"],
+      "url": "https://www.fool.com/investing/2026/08/03/spacex-reports-its-first-ever-earnings-tuesday-her/",
+      "region": "US"
+    },
+    {
+      "headline": "AMD Q2 Earnings: Data Center Revenue Expected to Double Year-on-Year",
+      "source": "Yahoo Finance",
+      "summary": "AMD reports Q2 after market close with consensus revenue of $11.3 billion (+47% YoY); the data center segment is expected at $6.5 billion, more than double Q2 2025, driven by Instinct AI accelerators and EPYC CPUs.",
+      "marketImpact": "AMD ↑ watch on a beat; guidance on MI350 chips and Helios rack-scale systems will set the tone for chipmakers heading into H2",
+      "tickers": ["AMD", "NVDA"],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-q2-earnings-deck-expect-120615704.html",
+      "region": "US"
+    },
+    {
+      "headline": "Caterpillar Q2 Before the Bell — Infrastructure Capex Cycle in Focus",
+      "source": "Seeking Alpha",
+      "summary": "Caterpillar reports Q2 before market open with consensus EPS of $6.25 (+32% YoY) and revenue of $19.3 billion (+16.6% YoY); the company has beaten estimates in three of its last four quarters.",
+      "marketImpact": "CAT ↑ watch if results confirm trend; key bellwether for global construction and mining spending cycle ↑",
+      "tickers": ["CAT"],
+      "url": "https://seekingalpha.com/news/4623592-caterpillar-q2-2026-earnings-preview-wall-street-expects-strong-growth",
+      "region": "US"
+    },
+    {
+      "headline": "China Manufacturing PMI Falls to 49.2 — First Contraction in Five Months",
+      "source": "South China Morning Post / CNBC",
+      "summary": "China's official manufacturing PMI fell to 49.2 in July from 50.3 in June, missing forecasts; new orders dropped to 48.5, the lowest since 2023, while services and construction PMIs also slipped into contraction amid weak domestic demand and typhoon disruptions.",
+      "marketImpact": "Hang Seng edged up only 0.1% as sentiment soured; commodity demand concerns ↓; Beijing pledged accelerated fiscal spending for H2",
+      "tickers": ["9988.HK", "0700.HK", "FXI"],
+      "url": "https://www.scmp.com/economy/economic-indicators/article/3362490/chinas-manufacturing-sector-falters-july-growth-momentum-cools",
       "region": "China"
     },
     {
-      "headline": "BOJ Holds at 1%, Nikkei Surges 4% — Yen Settling After US-Japan Coordinated Intervention",
-      "source": "Nikkei Asia",
-      "summary": "After the Bank of Japan held rates at 1% (8-1 vote) on Friday and Japan and the US jointly intervened in FX markets driving USD/JPY from ~162 to ~157, the Nikkei 225 surged 4.03% to ~64,362 as US tech earnings tailwinds overpowered yen strength headwinds for export stocks.",
-      "marketImpact": "7203.T (Toyota), 9984.T (SoftBank) watch on yen sensitivity ↓; semiconductor-related Nikkei names ↑; USD/JPY stabilising near 159–160",
-      "tickers": ["7203.T", "9984.T"],
-      "url": "https://asia.nikkei.com/business/markets/currencies/japan-carries-out-yen-buying-intervention-as-us-executes-rate-check",
+      "headline": "Japan and US Execute Coordinated $34 Billion Yen-Buying Intervention",
+      "source": "Bloomberg",
+      "summary": "Japan's Ministry of Finance and the US Treasury confirmed joint yen-buying intervention after USD/JPY neared 40-year lows; BOJ data pointed to approximately $34 billion deployed on Friday, setting a new monthly record.",
+      "marketImpact": "USD/JPY ↓ (yen strengthening); Nikkei 225 ↓0.6% to ~63,300 as stronger yen weighs on exporter earnings; 9984.T ↓2.4%, 6857.T ↓2.2%, 8306.T ↓1.8%",
+      "tickers": ["9984.T", "6857.T", "8306.T"],
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/boj-data-point-to-34-billion-japanese-fx-intervention-on-friday",
       "region": "Japan"
     },
     {
-      "headline": "Zhongji Innolight Falls 8% in Disappointing HKEX Debut After $6.8B Raise",
+      "headline": "BOJ Holds Rates at 1%, Signals Core Inflation Likely to Exceed 2% Target",
       "source": "CNBC",
-      "summary": "Optical transceiver maker Zhongji Innolight (3308.HK) slipped approximately 8% on its HKEX debut July 30, trading near HK$900 versus its HK$980 IPO price, despite raising $6.81B in Asia's second-largest IPO of 2026 — a soft debut that tests near-term appetite for AI supply chain listings in Hong Kong.",
-      "marketImpact": "3308.HK ↓; investor sentiment toward HK tech IPO pipeline dented; Hang Seng tech names under pressure ↓",
-      "tickers": ["3308.HK"],
-      "url": "https://www.cnbc.com/2026/07/30/china-ai-supplier-zhongji-innolight-hong-kong-debut.html",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Shein Clears HKEX Listing Hearing, Targets September IPO at $40–50B Valuation but Posts Quarterly Loss",
-      "source": "CNBC",
-      "summary": "Shein received Hong Kong Stock Exchange listing committee clearance for a September IPO targeting a $40–50B valuation — half its 2023 peak — but disclosed a Q2 quarterly loss and flagged US tariff headwinds in its pre-IPO financials, raising questions over pricing and timing.",
-      "marketImpact": "HKEX IPO pipeline ↑ in volume; tariff-exposed fast fashion and e-commerce watch; competing for institutional capital with Zhongji Innolight",
-      "tickers": ["9988.HK"],
-      "url": "https://www.cnbc.com/2026/07/26/shein-reveals-key-financials-ahead-of-hong-kong-ipo.html",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Palantir Reports Q2 Earnings After Close Today; Stock Priced at 105x Forward PE",
-      "source": "Barchart",
-      "summary": "Palantir Technologies reports Q2 2026 results tonight following Q1 revenue of $1.63B (+85% YoY); the AI government and commercial data analytics firm trades at approximately 105x forward earnings — a valuation that makes it one of the most expensively priced large-cap AI names heading into results.",
-      "marketImpact": "PLTR watch after close; any guidance cut or miss risks sharp de-rating from current valuation; beat and raise needed to hold gains ↑ or ↓",
-      "tickers": ["PLTR"],
-      "url": "https://www.barchart.com/story/news/3486229/palantir-reports-earnings-august-3-trade-the-volatility-with-leveraged-and-inverse-etfs",
-      "region": "US"
-    },
-    {
-      "headline": "US 10Y Yield Near 4.75%; NFP Friday and CPI August 12 Are the Week's Critical Rate Tests",
-      "source": "CNBC",
-      "summary": "The US 10-year Treasury yield climbed to ~4.75% as of July 31 — near its highest since 2007 — driven by the Fed's hawkish hold with three dissenters; this week's July jobs report (August 7) and next week's CPI (August 12) will decide whether September rate-hike bets continue to build.",
-      "marketImpact": "TLT, IEF ↓ on rate pressure; rate-sensitive equities (real estate, utilities) under pressure; dollar supported ↑",
-      "tickers": ["TLT", "IEF", "SPY"],
-      "url": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html",
-      "region": "US"
-    },
-    {
-      "headline": "S&P 500 Q2 Earnings Season: 85% Beat Rate, Aggregate Profits Tracking +47% YoY",
-      "source": "CNBC / FactSet",
-      "summary": "With roughly 300 S&P 500 companies having reported, 85% beat earnings expectations and aggregate corporate profits are tracking over 47% YoY growth — the strongest reporting cycle since 2021 — led by technology, AI infrastructure, and consumer discretionary.",
-      "marketImpact": "SPY, QQQ ↑ fundamentally supported; earnings season nearly complete, macro data now the next market driver",
-      "tickers": ["SPY", "QQQ"],
-      "url": "https://www.cnbc.com/2026/07/31/stock-market-next-week-outlook-for-aug-3-7-2026.html",
-      "region": "US"
+      "summary": "The Bank of Japan kept its benchmark rate at 1% at its July meeting in an 8-1 vote, with one board member dissenting for an immediate hike to 1.25%; BOJ projects core inflation will run clearly above 2% from H2 FY2026.",
+      "marketImpact": "Rate hike expectations creeping higher ↑; JGB yields ↑ watch; yen positioning increasingly complex given simultaneous intervention pressure",
+      "tickers": ["8306.T", "9984.T"],
+      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
+      "region": "Japan"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Palantir Technologies",
-      "ticker": "PLTR",
+      "name": "SpaceX",
+      "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Reports Q2 2026 after close tonight; priced at 105x forward earnings after Q1 revenue surged 85% — any guidance softness could trigger a sharp de-rating.",
+      "reason": "Reports first-ever public earnings after close; market skeptical after 45% post-IPO decline — Starlink profitability and AI capex guidance are the key tests.",
       "direction": "↑"
     },
     {
-      "name": "Exxon Mobil",
-      "ticker": "XOM",
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "exchange": "NASDAQ",
+      "reason": "Q2 earnings after close; AI data center revenue expected to double YoY — guidance on MI350 chips and Helios rack-scale systems will move the stock and set tone for chipmakers.",
+      "direction": "↑"
+    },
+    {
+      "name": "Caterpillar",
+      "ticker": "CAT",
       "exchange": "NYSE",
-      "reason": "Oil diving 4.5% on Iran peace talks and OPEC+ supply increase; energy majors under direct selling pressure today.",
-      "direction": "↓"
-    },
-    {
-      "name": "Vertex Pharmaceuticals",
-      "ticker": "VRTX",
-      "exchange": "NASDAQ",
-      "reason": "Reports Q2 2026 after close tonight; consensus expects $3.2B revenue and $4.74 EPS from the cystic fibrosis drug leader — a steadier setup than Palantir.",
+      "reason": "Q2 earnings before the bell; global construction and mining capex bellwether with a high bar set by prior beats.",
       "direction": "↑"
     },
     {
-      "name": "Toyota Motor",
-      "ticker": "7203.T",
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "reason": "Freshly crossed $3 trillion market cap on Monday; AWS and AI momentum carrying the stock in a risk-on tape.",
+      "direction": "↑"
+    },
+    {
+      "name": "SoftBank Group",
+      "ticker": "9984.T",
       "exchange": "TSE",
-      "reason": "Yen settling near 159–160 after last week's coordinated intervention; yen headwind for Japan's largest automaker in focus as markets digest BOJ hold.",
+      "reason": "Down 2.4% in the Asian session, squeezed by yen appreciation following coordinated Japan-US intervention and ongoing AI portfolio valuation concerns.",
       "direction": "↓"
     },
     {
-      "name": "Zhongji Innolight",
-      "ticker": "3308.HK",
-      "exchange": "HKEX",
-      "reason": "Watching for stabilisation after its 8% debut flop; AI data center optical demand thesis intact but post-IPO price discovery ongoing.",
-      "direction": "↓"
-    },
-    {
-      "name": "Alibaba Group",
-      "ticker": "9988.HK",
-      "exchange": "HKEX",
-      "reason": "China's PMI surprise contraction to 49.2 flags domestic demand weakness directly relevant to Alibaba's e-commerce and cloud businesses.",
+      "name": "BP",
+      "ticker": "BP",
+      "exchange": "NYSE",
+      "reason": "Reports Q2 earnings today; oil's sharp 5–6% slide on Iran diplomacy adds meaningful downside risk to energy earnings consensus.",
       "direction": "↓"
     }
   ],
   "bondYields": {
-    "us10y": 4.75,
-    "us30y": 5.20,
-    "asOf": "2026-07-31"
+    "us10y": 4.70,
+    "us30y": 5.22,
+    "asOf": "2026-08-03"
   },
   "tickerDescriptions": {
-    "XLE": "Energy Select Sector SPDR Fund, ETF tracking US oil, gas, and energy companies in the S&P 500",
-    "XOM": "Exxon Mobil Corp., the largest US integrated oil and gas company by market capitalisation",
+    "BP": "BP plc, British multinational oil and gas company with global exploration, production, and refining operations",
+    "XOM": "Exxon Mobil Corp., one of the world's largest publicly traded integrated oil and gas companies",
     "CVX": "Chevron Corp., major US integrated oil and gas company with global upstream and downstream operations",
-    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing company listed on HKEX",
-    "0700.HK": "Tencent Holdings Ltd., China's largest social media, gaming, and cloud computing conglomerate listed on HKEX",
-    "7203.T": "Toyota Motor Corp., Japan's largest automaker; revenues highly sensitive to yen strength given its global export base",
-    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and major AI investment vehicle with stakes in Arm and OpenAI",
-    "3308.HK": "Zhongji Innolight Co., world-leading optical transceiver manufacturer supplying high-speed AI data center interconnects; listed on HKEX",
-    "PLTR": "Palantir Technologies Inc., US AI and data analytics company serving government defence agencies and commercial enterprises",
-    "VRTX": "Vertex Pharmaceuticals Inc., US biotechnology company specialising in cystic fibrosis treatments with a strong pipeline",
-    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds; a key interest-rate sensitivity indicator",
-    "IEF": "iShares 7-10 Year Treasury Bond ETF tracking intermediate-term US government bonds",
-    "SPY": "SPDR S&P 500 ETF Trust, the world's most widely-traded large-cap US equity index fund tracking the 500 largest US companies",
-    "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq-100 index of the 100 largest non-financial Nasdaq-listed companies"
+    "AMZN": "Amazon.com Inc., global e-commerce giant and operator of AWS, the world's leading cloud platform",
+    "MSFT": "Microsoft Corp., enterprise software and cloud infrastructure company behind Azure and Microsoft 365",
+    "META": "Meta Platforms Inc., parent of Facebook, Instagram, and WhatsApp with major AI and VR investments",
+    "GOOGL": "Alphabet Inc., parent of Google Search, YouTube, and Google Cloud",
+    "NVDA": "NVIDIA Corp., leading designer of AI training and inference chips (GPUs) and data center systems",
+    "SPCX": "SpaceX Inc., aerospace company operating Falcon/Starship launch vehicles, Starlink satellite internet, and AI platforms post-xAI integration",
+    "AMD": "Advanced Micro Devices Inc., designer of EPYC server CPUs and Instinct AI accelerators competing with NVIDIA in data centers",
+    "CAT": "Caterpillar Inc., world's largest manufacturer of construction, mining, and energy equipment",
+    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate listed in Hong Kong",
+    "0700.HK": "Tencent Holdings Ltd., China's largest social media, gaming, and cloud computing company listed in Hong Kong",
+    "FXI": "iShares China Large-Cap ETF tracking the FTSE China 50 Index of major Chinese stocks",
+    "9984.T": "SoftBank Group Corp., Japanese technology investment conglomerate with holdings in AI, semiconductors, and global startups via Vision Fund",
+    "6857.T": "Advantest Corp., Japanese maker of semiconductor testing equipment critical to chip production supply chains",
+    "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest banking group with global operations",
+    "MCD": "McDonald's Corp., world's largest fast-food restaurant chain serving approximately 70 million customers daily",
+    "MRK": "Merck & Co. Inc., US pharmaceutical company and maker of Keytruda, the world's best-selling cancer immunotherapy drug",
+    "SPOT": "Spotify Technology S.A., the world's leading music and podcast streaming platform with over 600 million monthly active users",
+    "0005.HK": "HSBC Holdings plc, global banking and financial services group headquartered in London with major Asia and Hong Kong operations"
   },
   "quickHits": [
-    "Iran disputes Trump's claim a Strait of Hormuz deal is already done — Monday's actual negotiating session is the real market test (CNN)",
-    "S&P 500 Q2 season: 85% beat rate and +47% aggregate profit growth — strongest reporting cycle since 2021 — with earnings now mostly in the rearview (FactSet via CNBC)",
-    "Marriott International also reports Q2 today; hotel pricing power and travel demand are key reads on US consumer resilience (CNBC)",
-    "S&P Global US Manufacturing PMI edged down to 53.8 in July from 53.9, slightly below forecast — still expansionary but softening at the margin (S&P Global)"
+    "McDonald's (MCD) and Merck (MRK) also report Q2 today; MCD same-store sales a key read on global consumer health (Reuters)",
+    "HSBC (0005.HK) and Spotify (SPOT) are additional major reporters on Tuesday's earnings slate (FX Leaders)",
+    "Beijing policymakers pledged 'incremental policies' and accelerated fiscal spending to shore up H2 growth after broad PMI contraction (SCMP)",
+    "Hong Kong Financial Secretary Paul Chan expected to raise the city's 2026 GDP growth forecast when revised figures release on August 14 (HK Economy Gov)"
   ]
 }
