@@ -1,163 +1,163 @@
 {
-  "date": "2026-08-04",
-  "marketMood": "Risk-on with caveats: Iran diplomacy crushes oil prices and fuels a broad tech rally, but China PMI contraction and Japan yen intervention signal persistent macro headwinds.",
+  "date": "2026-08-05",
+  "marketMood": "Risk-on surge: Wall Street hits fresh records on Palantir's AI blowout and Iran deal progress, but SpaceX capex shock and AMD guidance miss cool the after-hours picture.",
   "upcomingEvents": [
-    { "date": "2026-08-04", "event": "SpaceX (SPCX) Q2 Earnings — First-ever public report after close", "significance": "high" },
-    { "date": "2026-08-04", "event": "AMD Q2 Earnings after close — AI data center revenue closely watched", "significance": "high" },
-    { "date": "2026-08-07", "event": "US Nonfarm Payrolls (July Jobs Report)", "significance": "high" },
-    { "date": "2026-08-12", "event": "US CPI Inflation Report (July)", "significance": "high" },
-    { "date": "2026-08-14", "event": "Hong Kong / China revised 2026 GDP forecast release", "significance": "medium" }
+    { "date": "2026-08-06", "event": "US Weekly Initial Jobless Claims", "significance": "medium" },
+    { "date": "2026-08-07", "event": "US Nonfarm Payrolls — July 2026 Jobs Report (consensus: ~85K)", "significance": "high" },
+    { "date": "2026-08-07", "event": "US Unemployment Rate & Average Hourly Earnings — July 2026", "significance": "medium" },
+    { "date": "2026-08-12", "event": "US CPI Inflation Report (July)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Trump Cancels Iran Strike, Oil Tumbles 5–6% as Hormuz Talks Resume",
-      "source": "The National / Reuters",
-      "summary": "President Trump called off planned military strikes against Iran and revived diplomatic talks aimed at reopening the Strait of Hormuz and halting Tehran's nuclear program; new negotiations began Monday.",
-      "marketImpact": "Brent crude ↓4.8% to ~$83.70; WTI ↓6% to ~$79.60; lower energy costs eased inflation fears, triggering a broad equity rally ↑",
-      "tickers": ["BP", "XOM", "CVX"],
-      "url": "https://www.thenationalnews.com/business/energy/2026/08/03/oil-prices-slump-on-potential-us-iran-deal-to-open-strait-of-hormuz/",
-      "region": "Global"
-    },
-    {
-      "headline": "AI Hyperscalers Surge — Amazon Crosses $3 Trillion Market Cap for First Time",
-      "source": "US News / Yahoo Finance",
-      "summary": "Post-earnings momentum from Microsoft and Amazon drove megacap tech sharply higher: Amazon +4.6%, Microsoft +4.9%, Meta +6–7%, Alphabet +4.9%, Nvidia +2.9%; Amazon crossed the $3 trillion market cap mark for the first time.",
-      "marketImpact": "S&P 500 ↑1.48% to 7,600; Nasdaq ↑2.1% to 25,914; Dow ↑1.32% to 53,178; broad risk-on rally ↑",
-      "tickers": ["AMZN", "MSFT", "META", "GOOGL", "NVDA"],
-      "url": "https://www.usnews.com/news/top-news/articles/2026-08-03/amazon-enters-3-trillion-club-as-ai-optimism-sweeps-through-wall-street",
+      "headline": "S&P 500 and Nasdaq Hit Fresh Records on Palantir Blowout and Iran Deal Optimism",
+      "source": "Bloomberg",
+      "summary": "S&P 500 surged 1.79% to 7,736 and Nasdaq jumped 2.59% to 26,585 on Tuesday, driven by Palantir's earnings beat and easing US-Iran tensions that sent oil lower.",
+      "marketImpact": "SPY ↑, QQQ ↑, DIA ↑; crude oil ↓ on Middle East diplomatic progress easing supply fears",
+      "tickers": ["SPY", "QQQ", "DIA"],
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
       "region": "US"
     },
     {
-      "headline": "SpaceX Reports First-Ever Public Earnings After Market Close Today",
-      "source": "Forbes / Motley Fool",
-      "summary": "SpaceX (NASDAQ: SPCX) releases Q2 results after market close — investors' first audited look at its three-segment business spanning space, connectivity, and AI post-xAI integration; Wall Street consensus revenue is $6.82 billion.",
-      "marketImpact": "SPCX ↑/↓ watch — stock has fallen 45%+ since its record June IPO; Starlink profitability and AI capex guidance are the key tests",
+      "headline": "Palantir Surges 29% After 'Otherworldly' Q2 — Revenue Up 93%, Full-Year Guidance Raised",
+      "source": "Fortune",
+      "summary": "Palantir posted Q2 revenue of $1.94B (+93% YoY) with US commercial revenue up 149%, and raised its full-year guidance to $8.16B — CEO Alex Karp called the quarter 'otherworldly.'",
+      "marketImpact": "PLTR ↑ 29%; AI software cohort broadly ↑; confirms sustained enterprise AI monetization",
+      "tickers": ["PLTR"],
+      "url": "https://fortune.com/2026/08/03/palantir-earnings-guidance-beat-revenue-profit-ai-demand/",
+      "region": "US"
+    },
+    {
+      "headline": "SpaceX's AI Capex Surge Sinks Stock ~9% After Hours Despite Revenue Beat",
+      "source": "Bloomberg",
+      "summary": "In its first post-IPO quarterly report, SpaceX beat revenue estimates ($7.8B vs $6.81B expected) but AI capex hit $15.8B — nearly double the prior quarter and far above the $13.09B forecast — rattling investors.",
+      "marketImpact": "SPCX ↓ ~9% AH; AI capex concern weighs on cloud and infrastructure names heading into Wednesday",
       "tickers": ["SPCX"],
-      "url": "https://www.fool.com/investing/2026/08/03/spacex-reports-its-first-ever-earnings-tuesday-her/",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/spacex-exceeds-revenue-estimates-in-first-earnings-since-ipo",
       "region": "US"
     },
     {
-      "headline": "AMD Q2 Earnings: Data Center Revenue Expected to Double Year-on-Year",
+      "headline": "AMD Beats Q2 on Record Revenue But Q3 Guidance Disappointment Sends Stock Down 8% After Hours",
+      "source": "Bloomberg",
+      "summary": "AMD reported record Q2 revenue of $11.54B (+50% YoY) with data center sales up 107%, but Q3 guidance of $13B missed elevated buy-side estimates, triggering an 8% post-market selloff.",
+      "marketImpact": "AMD ↓ ~8% AH; illustrates the sharply elevated bar for AI chipmakers entering the second half",
+      "tickers": ["AMD"],
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/amd-sales-outlook-disappoints-investors-after-ai-fueled-rally",
+      "region": "US"
+    },
+    {
+      "headline": "Jeff Bezos Files to Sell $4 Billion in Amazon Shares After Stock Crosses $3 Trillion",
       "source": "Yahoo Finance",
-      "summary": "AMD reports Q2 after market close with consensus revenue of $11.3 billion (+47% YoY); the data center segment is expected at $6.5 billion, more than double Q2 2025, driven by Instinct AI accelerators and EPYC CPUs.",
-      "marketImpact": "AMD ↑ watch on a beat; guidance on MI350 chips and Helios rack-scale systems will set the tone for chipmakers heading into H2",
-      "tickers": ["AMD", "NVDA"],
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-q2-earnings-deck-expect-120615704.html",
+      "summary": "Bezos filed to sell ~15 million Amazon shares (~$4.1B) through a pre-arranged plan days after Amazon became the fifth company ever to cross a $3 trillion market cap.",
+      "marketImpact": "AMZN ↓ ~2%; insider overhang tempers momentum at record highs; Jim Cramer called it a 'buzzkill'",
+      "tickers": ["AMZN"],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-files-sell-4-133812157.html",
       "region": "US"
     },
     {
-      "headline": "Caterpillar Q2 Before the Bell — Infrastructure Capex Cycle in Focus",
-      "source": "Seeking Alpha",
-      "summary": "Caterpillar reports Q2 before market open with consensus EPS of $6.25 (+32% YoY) and revenue of $19.3 billion (+16.6% YoY); the company has beaten estimates in three of its last four quarters.",
-      "marketImpact": "CAT ↑ watch if results confirm trend; key bellwether for global construction and mining spending cycle ↑",
-      "tickers": ["CAT"],
-      "url": "https://seekingalpha.com/news/4623592-caterpillar-q2-2026-earnings-preview-wall-street-expects-strong-growth",
-      "region": "US"
+      "headline": "HKEX Launches World's First Offshore Chinese Sovereign Bond Futures",
+      "source": "Caixin",
+      "summary": "Hong Kong Exchanges (HKEX) listed the world's first offshore Chinese government bond futures — a 5-year, cash-settled contract — on August 3, giving global managers holding ~2 trillion yuan in Chinese sovereign debt a new hedging tool.",
+      "marketImpact": "0388.HK ↑; reinforces Hong Kong's offshore yuan hub status; watch for increased cross-border bond inflows",
+      "tickers": ["0388.HK"],
+      "url": "https://www.caixinglobal.com/2026-08-03/hong-kong-debuts-worlds-first-offshore-chinese-sovereign-bond-futures-102470867.html",
+      "region": "Hong Kong"
     },
     {
-      "headline": "China Manufacturing PMI Falls to 49.2 — First Contraction in Five Months",
-      "source": "South China Morning Post / CNBC",
-      "summary": "China's official manufacturing PMI fell to 49.2 in July from 50.3 in June, missing forecasts; new orders dropped to 48.5, the lowest since 2023, while services and construction PMIs also slipped into contraction amid weak domestic demand and typhoon disruptions.",
-      "marketImpact": "Hang Seng edged up only 0.1% as sentiment soured; commodity demand concerns ↓; Beijing pledged accelerated fiscal spending for H2",
-      "tickers": ["9988.HK", "0700.HK", "FXI"],
-      "url": "https://www.scmp.com/economy/economic-indicators/article/3362490/chinas-manufacturing-sector-falters-july-growth-momentum-cools",
+      "headline": "China CSRC Backs Hong Kong Firms for Mainland Listings, Plans REITs on Stock Connect",
+      "source": "Caixin",
+      "summary": "China's top securities regulator announced support for HK-listed companies to pursue mainland IPOs and bond issuance onshore, and plans to add REITs to the Stock Connect, deepening cross-border capital market integration.",
+      "marketImpact": "HK IPO pipeline ↑; 0388.HK (HKEX) ↑; broad HK-listed financials ↑ on policy tailwinds",
+      "tickers": ["0388.HK", "9988.HK", "0700.HK"],
+      "url": "https://www.caixinglobal.com/2026-08-03/china-backs-hong-kong-firms-for-mainland-listings-102470886.html",
       "region": "China"
     },
     {
-      "headline": "Japan and US Execute Coordinated $34 Billion Yen-Buying Intervention",
-      "source": "Bloomberg",
-      "summary": "Japan's Ministry of Finance and the US Treasury confirmed joint yen-buying intervention after USD/JPY neared 40-year lows; BOJ data pointed to approximately $34 billion deployed on Friday, setting a new monthly record.",
-      "marketImpact": "USD/JPY ↓ (yen strengthening); Nikkei 225 ↓0.6% to ~63,300 as stronger yen weighs on exporter earnings; 9984.T ↓2.4%, 6857.T ↓2.2%, 8306.T ↓1.8%",
-      "tickers": ["9984.T", "6857.T", "8306.T"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/boj-data-point-to-34-billion-japanese-fx-intervention-on-friday",
+      "headline": "Nikkei Gains 2.7%, KOSPI Surges 4.5% as AI Chip Stocks Lead Asia Rally; Kioxia Unveils Denser NAND",
+      "source": "TradingKey",
+      "summary": "Asian markets surged following Wall Street's overnight gains, led by SK Hynix, SoftBank, and Kioxia; Kioxia also announced a new QLC 3D NAND flash generation with ~60% higher bit density than its predecessor.",
+      "marketImpact": "9984.T (SoftBank) ↑; 000660.KS (SK Hynix) ↑; Japan and Korea semiconductor names broadly ↑",
+      "tickers": ["9984.T", "000660.KS"],
+      "url": "https://www.tradingkey.com/analysis/stocks/more/262074716-japan-south-korea-stocks-rally-kospi-nikkei-softbank-sk-hynix-kioxia-tradingkey",
       "region": "Japan"
     },
     {
-      "headline": "BOJ Holds Rates at 1%, Signals Core Inflation Likely to Exceed 2% Target",
-      "source": "CNBC",
-      "summary": "The Bank of Japan kept its benchmark rate at 1% at its July meeting in an 8-1 vote, with one board member dissenting for an immediate hike to 1.25%; BOJ projects core inflation will run clearly above 2% from H2 FY2026.",
-      "marketImpact": "Rate hike expectations creeping higher ↑; JGB yields ↑ watch; yen positioning increasingly complex given simultaneous intervention pressure",
-      "tickers": ["8306.T", "9984.T"],
-      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
-      "region": "Japan"
+      "headline": "Hong Kong GDP Expands 4.3% in Q2; Full-Year Growth Forecast to Be Upgraded to ~4%",
+      "source": "South China Morning Post",
+      "summary": "Hong Kong's economy grew 4.3% year-on-year in the second quarter of 2026, beating expectations, prompting authorities to signal an upgrade to their full-year GDP growth forecast.",
+      "marketImpact": "HKD assets ↑; supportive for Hong Kong-listed financials and property stocks",
+      "tickers": ["0388.HK", "0005.HK"],
+      "url": "https://www.scmp.com/business",
+      "region": "Hong Kong"
     }
   ],
   "companiesToWatch": [
     {
+      "name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "exchange": "NASDAQ",
+      "reason": "Surged 29% on Tuesday after 'otherworldly' Q2 with 93% revenue growth and raised guidance; watch for continuation or consolidation as AI software monetization is now firmly validated.",
+      "direction": "↑"
+    },
+    {
       "name": "SpaceX",
       "ticker": "SPCX",
       "exchange": "NASDAQ",
-      "reason": "Reports first-ever public earnings after close; market skeptical after 45% post-IPO decline — Starlink profitability and AI capex guidance are the key tests.",
-      "direction": "↑"
+      "reason": "First post-IPO earnings beat on revenue but AI capex of $15.8B alarmed investors; stock fell ~9% after hours and opens under pressure Wednesday.",
+      "direction": "↓"
     },
     {
       "name": "Advanced Micro Devices",
       "ticker": "AMD",
       "exchange": "NASDAQ",
-      "reason": "Q2 earnings after close; AI data center revenue expected to double YoY — guidance on MI350 chips and Helios rack-scale systems will move the stock and set tone for chipmakers.",
-      "direction": "↑"
-    },
-    {
-      "name": "Caterpillar",
-      "ticker": "CAT",
-      "exchange": "NYSE",
-      "reason": "Q2 earnings before the bell; global construction and mining capex bellwether with a high bar set by prior beats.",
-      "direction": "↑"
+      "reason": "Record Q2 revenue with data center sales up 107%, but Q3 guidance of $13B fell short of elevated buy-side expectations; stock down ~8% after hours.",
+      "direction": "↓"
     },
     {
       "name": "Amazon",
       "ticker": "AMZN",
       "exchange": "NASDAQ",
-      "reason": "Freshly crossed $3 trillion market cap on Monday; AWS and AI momentum carrying the stock in a risk-on tape.",
+      "reason": "Crossed $3 trillion market cap milestone before Bezos filed a $4B share sale, creating near-term overhang at record highs.",
+      "direction": "↓"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS",
+      "exchange": "KRX",
+      "reason": "Leading KOSPI's 4.5% surge on HBM4 AI chip demand and memory sector momentum reinforced by Kioxia's NAND technology announcement.",
       "direction": "↑"
     },
     {
-      "name": "SoftBank Group",
-      "ticker": "9984.T",
-      "exchange": "TSE",
-      "reason": "Down 2.4% in the Asian session, squeezed by yen appreciation following coordinated Japan-US intervention and ongoing AI portfolio valuation concerns.",
-      "direction": "↓"
-    },
-    {
-      "name": "BP",
-      "ticker": "BP",
-      "exchange": "NYSE",
-      "reason": "Reports Q2 earnings today; oil's sharp 5–6% slide on Iran diplomacy adds meaningful downside risk to energy earnings consensus.",
-      "direction": "↓"
+      "name": "HKEX",
+      "ticker": "0388.HK",
+      "exchange": "HKEX",
+      "reason": "Dual policy catalyst: world's first offshore Chinese sovereign bond futures live on its platform plus CSRC's new cross-border listing and REIT expansion measures.",
+      "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.70,
-    "us30y": 5.22,
-    "asOf": "2026-08-03"
+    "us10y": 4.63,
+    "us30y": 5.20,
+    "asOf": "2026-08-04"
   },
   "tickerDescriptions": {
-    "BP": "BP plc, British multinational oil and gas company with global exploration, production, and refining operations",
-    "XOM": "Exxon Mobil Corp., one of the world's largest publicly traded integrated oil and gas companies",
-    "CVX": "Chevron Corp., major US integrated oil and gas company with global upstream and downstream operations",
-    "AMZN": "Amazon.com Inc., global e-commerce giant and operator of AWS, the world's leading cloud platform",
-    "MSFT": "Microsoft Corp., enterprise software and cloud infrastructure company behind Azure and Microsoft 365",
-    "META": "Meta Platforms Inc., parent of Facebook, Instagram, and WhatsApp with major AI and VR investments",
-    "GOOGL": "Alphabet Inc., parent of Google Search, YouTube, and Google Cloud",
-    "NVDA": "NVIDIA Corp., leading designer of AI training and inference chips (GPUs) and data center systems",
+    "SPY": "SPDR S&P 500 ETF, tracking the 500 largest US companies by market capitalisation",
+    "QQQ": "Invesco QQQ ETF, tracking the Nasdaq-100 index of the 100 largest non-financial Nasdaq-listed companies",
+    "DIA": "SPDR Dow Jones Industrial Average ETF, tracking the 30 blue-chip stocks in the Dow Jones index",
+    "PLTR": "Palantir Technologies Inc., AI-powered data analytics and software platform serving US government agencies and commercial enterprises",
     "SPCX": "SpaceX Inc., aerospace company operating Falcon/Starship launch vehicles, Starlink satellite internet, and AI platforms post-xAI integration",
-    "AMD": "Advanced Micro Devices Inc., designer of EPYC server CPUs and Instinct AI accelerators competing with NVIDIA in data centers",
-    "CAT": "Caterpillar Inc., world's largest manufacturer of construction, mining, and energy equipment",
+    "AMD": "Advanced Micro Devices Inc., designer of EPYC server CPUs and Instinct AI accelerators competing with NVIDIA in data centre AI infrastructure",
+    "AMZN": "Amazon.com Inc., global e-commerce giant and operator of AWS, the world's leading cloud platform",
+    "0388.HK": "Hong Kong Exchanges and Clearing Ltd. (HKEX), operator of Hong Kong's stock, derivatives, and commodities markets",
     "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate listed in Hong Kong",
     "0700.HK": "Tencent Holdings Ltd., China's largest social media, gaming, and cloud computing company listed in Hong Kong",
-    "FXI": "iShares China Large-Cap ETF tracking the FTSE China 50 Index of major Chinese stocks",
-    "9984.T": "SoftBank Group Corp., Japanese technology investment conglomerate with holdings in AI, semiconductors, and global startups via Vision Fund",
-    "6857.T": "Advantest Corp., Japanese maker of semiconductor testing equipment critical to chip production supply chains",
-    "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest banking group with global operations",
-    "MCD": "McDonald's Corp., world's largest fast-food restaurant chain serving approximately 70 million customers daily",
-    "MRK": "Merck & Co. Inc., US pharmaceutical company and maker of Keytruda, the world's best-selling cancer immunotherapy drug",
-    "SPOT": "Spotify Technology S.A., the world's leading music and podcast streaming platform with over 600 million monthly active users",
-    "0005.HK": "HSBC Holdings plc, global banking and financial services group headquartered in London with major Asia and Hong Kong operations"
+    "9984.T": "SoftBank Group Corp., Japanese technology investment conglomerate with major holdings in ARM, OpenAI, and AI ventures via Vision Fund",
+    "000660.KS": "SK Hynix Inc., South Korean memory semiconductor maker and leading producer of HBM (High Bandwidth Memory) AI chips",
+    "0005.HK": "HSBC Holdings plc, global banking and financial services group with major operations in Asia and Hong Kong"
   },
   "quickHits": [
-    "McDonald's (MCD) and Merck (MRK) also report Q2 today; MCD same-store sales a key read on global consumer health (Reuters)",
-    "HSBC (0005.HK) and Spotify (SPOT) are additional major reporters on Tuesday's earnings slate (FX Leaders)",
-    "Beijing policymakers pledged 'incremental policies' and accelerated fiscal spending to shore up H2 growth after broad PMI contraction (SCMP)",
-    "Hong Kong Financial Secretary Paul Chan expected to raise the city's 2026 GDP growth forecast when revised figures release on August 14 (HK Economy Gov)"
+    "Apple and Nvidia trade near all-time highs as AI capex debate intensifies across this week's earnings slate (Bloomberg).",
+    "Kioxia and SanDisk jointly launched a new QLC 3D NAND flash generation with ~60% higher bit density than prior products, lifting memory upgrade cycle expectations (TradingKey).",
+    "US weekly initial jobless claims land Thursday Aug 6; July nonfarm payrolls (consensus: ~85K vs June's soft 57K) drop Friday Aug 7 — the week's highest-impact macro event.",
+    "South Korea's KOSPI leads global equity gains, up 4.5%, as the AI chip trade re-accelerates behind Wall Street's outsized overnight rally (TradingKey)."
   ]
 }
