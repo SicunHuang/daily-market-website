@@ -1,143 +1,170 @@
 {
-  "date": "2026-08-06",
-  "marketMood": "Risk-on with caveats — Hormuz deal optimism and AI earnings propel Wall Street to fresh records and Asia tech to multi-month highs, while SpaceX's historic $123B lockup expiry and Houthi Red Sea escalation inject two-sided volatility.",
+  "date": "2026-08-07",
+  "marketMood": "Risk bifurcated: AI earnings euphoria (Palantir +93%) clashes with Apple's guidance miss and soft July jobs data lifting September Fed cut odds.",
   "upcomingEvents": [
-    { "date": "2026-08-06", "event": "SpaceX (SPCX) IPO lockup expiry — first 20% tranche of ~$123B in insider shares eligible for sale", "significance": "medium" },
-    { "date": "2026-08-07", "event": "US July Nonfarm Payrolls & Unemployment Rate (consensus: ~85K, 4.2%)", "significance": "high" },
+    { "date": "2026-08-07", "event": "US July Nonfarm Payrolls & Unemployment Rate (8:30 AM ET)", "significance": "high" },
     { "date": "2026-08-12", "event": "US July CPI Inflation Report", "significance": "high" },
-    { "date": "2026-08-14", "event": "China Q2 GDP Revised Figures & Detailed Statistics Release", "significance": "medium" }
+    { "date": "2026-08-13", "event": "US July PPI Producer Price Index", "significance": "medium" },
+    { "date": "2026-08-23", "event": "New US-China Tit-for-Tat Tariffs on $16B Goods (effective date)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Amazon Eclipses $3 Trillion in Market Cap on AWS Cloud Beat",
-      "source": "Bloomberg",
-      "summary": "Amazon shares surged 5.3% after Q2 AWS revenue hit $42.2B (beating estimates by ~$1.7B), making it the fifth company ever to top $3 trillion in market value.",
-      "marketImpact": "AMZN ↑ 5.3%; AI cloud spending cycle reinforced; Alphabet and Microsoft rallied in sympathy; raises the bar for remaining tech earnings.",
-      "tickers": ["AMZN"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/amazon-joins-elite-list-of-stocks-to-top-3-trillion-in-value",
-      "region": "US"
-    },
-    {
-      "headline": "SpaceX's $123B IPO Lockup Expires Today — 911.5 Million Insider Shares Eligible for Sale",
-      "source": "Motley Fool",
-      "summary": "SpaceX's first post-IPO lockup tranche expires August 6, making ~$123B worth of insider shares (68x the typical large-cap lockup) eligible for sale, with further staggered tranches through December.",
-      "marketImpact": "SPCX ↓ ~14% ahead of expiry; supply overhang is the dominant near-term driver; staggered tranches through Q3 earnings extend pressure throughout the year.",
-      "tickers": ["SPCX"],
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacexs-lockup-expires-aug-6-080500494.html",
-      "region": "US"
-    },
-    {
-      "headline": "US Says Iran Strait of Hormuz Deal Could Come 'Today or Tomorrow' as Oil Plunges 5%",
-      "source": "France 24",
-      "summary": "Treasury Secretary Bessent said an interim US-Iran agreement is imminent, involving inbound vessels transiting Iranian waters and outbound ships using Oman's corridor, sending Brent crude down 5.3% to $79.36/bbl.",
-      "marketImpact": "Brent ↓ 5.3% to ~$79/bbl; WTI ↓ to ~$76/bbl; US 10Y yield ↓ to ~4.60% for third straight session; eased near-term Fed rate-hike expectations; equities ↑ broadly.",
-      "tickers": ["USO"],
-      "url": "https://www.france24.com/en/middle-east/20260805-us-says-iran-hormuz-deal-could-come-today-or-tomorrow-as-oil-prices-plunge",
-      "region": "Global"
-    },
-    {
-      "headline": "Houthis Claim Missile Strike on Saudi Oil Tanker Near Yanbu, Pledge Wider Red Sea Campaign",
-      "source": "Bloomberg",
-      "summary": "Yemen's Houthis claimed a ballistic missile hit on a Saudi tanker in the northern Red Sea near Yanbu — their eighth Saudi tanker targeted since July 22 — and pledged to expand attacks northward as Saudi Arabia reroutes vessels.",
-      "marketImpact": "Brent ↑ ~1% after strike, partially reversing the Hormuz-deal selloff; shipping insurance premiums ↑; oil caught in a tug-of-war between Hormuz optimism and Red Sea escalation.",
-      "tickers": ["USO"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/yemen-s-houthis-say-they-ll-target-tankers-in-northern-red-sea",
-      "region": "Global"
-    },
-    {
-      "headline": "Nikkei Surges 3.5% to 66,217 — SoftBank Jumps 13% on Q1 Earnings and ARM Rally",
+      "headline": "July Jobs Report Disappoints; September Fed Rate Cut Odds Climb",
       "source": "CNBC",
-      "summary": "Japan's Nikkei 225 gained 2,260 points (+3.53%) to 66,217, led by SoftBank Group's 13% surge after Q1 revenue grew 9% YoY to a record high and after ARM Holdings jumped on AI data-center royalty optimism.",
-      "marketImpact": "9984.T ↑ 13%; broader Japan tech ↑; Nikkei near all-time highs; yen stable near 157/$ limiting currency drag on exporters.",
-      "tickers": ["9984.T"],
-      "url": "https://www.cnbc.com/2026/08/05/softbank-samsung-sk-hynix-samsung-tech-rally.html",
+      "summary": "The BLS July Employment Situation report is due at 8:30 AM ET; ADP private payrolls pre-printed only 44K new jobs for July vs. 75K consensus, signalling another below-expectations print after June's weak 57K; the Fed held rates at 3.50–3.75% in a divided 9–3 vote on July 29.",
+      "marketImpact": "↑ September rate cut probability; ↓ US dollar (DXY); ↑ Treasuries (TLT); S&P 500 and Nasdaq futures mixed ahead of open",
+      "tickers": ["QQQ", "TLT"],
+      "url": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
+      "region": "US"
+    },
+    {
+      "headline": "Palantir Q2 Revenue Surges 93%; US Commercial AI Revenue Up 149%",
+      "source": "CNBC",
+      "summary": "Palantir posted Q2 revenue of $1.94B (+93% YoY), GAAP EPS of $0.41, and raised full-year revenue guidance to $8.15–8.16B (representing ~82% YoY growth), driven by explosive adoption of its AI platforms across US commercial and government clients.",
+      "marketImpact": "PLTR ↑ ~15% post-earnings; AI software sector broadly ↑; SMH semiconductor ETF rallied in sympathy",
+      "tickers": ["PLTR", "SMH"],
+      "url": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+      "region": "US"
+    },
+    {
+      "headline": "Amazon Crosses $3 Trillion Market Cap; Bezos Sells $4B in Pre-Planned Share Trade",
+      "source": "CNBC",
+      "summary": "Amazon became the fourth company to reach a $3 trillion valuation after strong AWS earnings (+37% YoY); founder Jeff Bezos subsequently sold 15M shares ($4.07B) via a pre-set 10b5-1 plan, dragging shares ~2% in a move described as a 'buzzkill' by Jim Cramer.",
+      "marketImpact": "AMZN ↓ ~2% on Bezos sale overhang despite strong AWS growth; $3T market cap in focus as support floor",
+      "tickers": ["AMZN"],
+      "url": "https://www.cnbc.com/2026/08/04/jeff-bezos-just-filed-to-sell-4-billion-in-amazon-the-shares-are-falling.html",
+      "region": "US"
+    },
+    {
+      "headline": "Apple Beats Q3 but Q4 Guidance Misses Analyst Estimates; Stock Falls 6%",
+      "source": "MacRumors",
+      "summary": "Apple reported record June quarter revenue of $109.4B (+16% YoY), EPS of $1.91 vs. $1.89 estimated, but guided Q4 revenue growth at 9–11%, falling short of the ~12% analyst consensus due to Mac supply constraints and a 2.5ppt FX headwind.",
+      "marketImpact": "AAPL ↓ ~6% in extended trading; Nasdaq weighed on tech sentiment; services revenue at a record $30.7B remains a structural positive",
+      "tickers": ["AAPL"],
+      "url": "https://www.macrumors.com/2026/07/30/apple-3q-2026-earnings/",
+      "region": "US"
+    },
+    {
+      "headline": "Honeywell Aerospace Crashes 20% After Slashing 2026 Sales Growth Outlook",
+      "source": "The Motley Fool",
+      "summary": "Honeywell Aerospace Technologies cut its 2026 organic sales growth guidance to 4–5%, sharply down from its prior 7–9% forecast, citing slower defense procurement cycles, supply chain delays, and weaker-than-expected commercial aviation demand.",
+      "marketImpact": "HONA ↓ ~20%; defense and industrial sector broadly under pressure; contagion risk for other aerospace suppliers",
+      "tickers": ["HONA"],
+      "url": "https://www.fool.com/investing/2026/08/06/why-honeywell-aerospace-stock-just-crashed/",
+      "region": "US"
+    },
+    {
+      "headline": "Hong Kong Raises 2026 GDP Forecast; IPO Market Tops Full-Year 2025 in Seven Months",
+      "source": "The Standard",
+      "summary": "Financial Secretary Paul Chan signalled Hong Kong will upgrade its 2026 full-year GDP forecast after H1 GDP rose 5.1% YoY; IPO proceeds through July surpassed all of 2025 by 13%; the city launched offshore China Government Bond Futures on August 3, reinforcing its role as a financial hub.",
+      "marketImpact": "HSI ↑ 0.5% to 26,009; ↑ HK-listed tech and financials; positive sentiment for Chinese ADRs and mainland capital markets",
+      "tickers": ["0700.HK", "9988.HK"],
+      "url": "https://www.thestandard.com.hk/finance/article/338822/Hong-Kong-lifts-2026-GDP-forecast-offshore-CGB-Futures-debut-August-3",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "Nikkei Falls 0.93% as Japan Chip and Electronics Stocks Face Broad Selloff",
+      "source": "Asia Intelligence Brief",
+      "summary": "The Nikkei 225 closed at 65,683 (–0.93% Thursday), led lower by Japan's semiconductor and passive component makers — Kioxia Holdings –10.2%, Taiyo Yuden –11%, Murata Manufacturing –5.2%, and SoftBank Group –4.4% — while Nintendo bucked the trend on US tariff refunds and strong Switch 2 sales.",
+      "marketImpact": "285A.T ↓ 10.2%, 6981.T ↓ 5.2%, 9984.T ↓ 4.4%; global chip supply chain anxiety resurfaces; BoJ holds at 1.0% but September hike remains on the table",
+      "tickers": ["285A.T", "6981.T", "9984.T", "7974.T"],
+      "url": "https://www.riotimesonline.com/asia-intelligence-brief-for-august-6-2026/",
       "region": "Japan"
     },
     {
-      "headline": "KOSPI Surges 3.76%, Buy-Side Sidecar Triggered — Samsung +5%, SK Hynix +6%",
-      "source": "Korea JoongAng Daily",
-      "summary": "South Korea's KOSPI closed at 6,598 (+239 pts) with KRX activating a buy-side sidecar at the open as Samsung Electronics and SK Hynix led a broad semiconductor rally; KOSPI is now up 100%+ year-to-date.",
-      "marketImpact": "005930.KS ↑ 5%; 000660.KS ↑ 6%; AI chip demand narrative reinforced; HBM supply-chain plays outperformed across the region.",
-      "tickers": ["005930.KS", "000660.KS"],
-      "url": "https://www.koreajoongangdaily.com/business/buyside-sidecar-activated-on-kospi-after-index-opens-385-higher/12808902",
-      "region": "Asia"
-    },
-    {
-      "headline": "China's July PMI Contracts Broadly — Factory Activity Falls for First Time Since February",
+      "headline": "Oil Retreats to $85 WTI as Trump Signals Iran Deal Framework, Hormuz Partially Reopens",
       "source": "CNBC",
-      "summary": "China's official manufacturing PMI slipped to 49.2 in July (vs 50.0 est.) in its first contraction since February, while non-manufacturing PMI also missed at 49.0 and Caixin manufacturing PMI came in at 50.9 vs 51.5 expected.",
-      "marketImpact": "Hang Seng ~flat at 25,880 as weak data offset Wall Street's positive lead; FXI ↓ watch; Chinese optical stocks fell on added US tech restriction concerns; raises doubts about China's recovery momentum.",
-      "tickers": ["FXI"],
-      "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
-      "region": "China"
+      "summary": "WTI crude pulled back toward $85/bbl (Brent ~$90) as President Trump signalled a potential deal framework and partial Strait of Hormuz reopening; Iranian tanker attacks in late July had previously spiked Brent above $114/bbl, representing a dramatic reversal from the peak crisis premium.",
+      "marketImpact": "Energy sector ↑ on short-covering relief; ↓ oil inflation premium eases broader CPI trajectory; watch for any resumption of Iranian tanker attacks",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
+      "region": "Global"
     },
     {
-      "headline": "US Treasuries Rally as Falling Oil Prices Ease Inflation Outlook for Third Session",
-      "source": "Reuters",
-      "summary": "US 10-year Treasury yield fell to ~4.60% for the third consecutive session as Hormuz deal optimism sent oil prices sharply lower, reducing near-term inflation concerns and prompting markets to reassess Fed rate-hike timing.",
-      "marketImpact": "US 10Y ↓ to ~4.60%; US 30Y ~5.20%; bonds ↑; FOMC September decision increasingly data-dependent; next key marker is Friday's July Nonfarm Payrolls.",
-      "tickers": ["TLT"],
-      "url": "https://www.cnbc.com/2026/08/05/oil-prices-iran-war-houthis-saudi-tanker.html",
-      "region": "US"
+      "headline": "US Slaps New 12.5% Tariffs on China; Trade Talks Penciled for Late August",
+      "source": "Gulf News",
+      "summary": "The US imposed new 12.5% Section 301 tariffs on Chinese goods effective July 24; China is sending Vice Commerce Minister Wang Shouwen to resume negotiations in late August, but a new round of tit-for-tat tariffs targeting $16B of goods from each country is expected August 23 if talks fail.",
+      "marketImpact": "↓ China-exposed US retailers and manufacturers; ↑ uncertainty for Chinese exporters; BABA, JD and HK-listed names watching diplomatic progress closely",
+      "tickers": ["BABA", "JD", "0700.HK", "9988.HK"],
+      "url": "https://gulfnews.com/business/china-us-to-resume-trade-talks-in-late-august-1.2267216",
+      "region": "China"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Amazon",
-      "ticker": "AMZN",
+      "name": "Palantir Technologies",
+      "ticker": "PLTR",
       "exchange": "NASDAQ",
-      "reason": "Crossed $3 trillion market cap on AWS beat; watch for continued momentum and read-through to broader cloud/AI capital expenditure cycle.",
+      "reason": "Q2 AI blowout — revenue +93% YoY, US commercial +149%; guidance raised aggressively; watching for sustained momentum above $140 post-earnings gap",
       "direction": "↑"
     },
     {
-      "name": "SpaceX",
-      "ticker": "SPCX",
+      "name": "Apple",
+      "ticker": "AAPL",
       "exchange": "NASDAQ",
-      "reason": "First IPO lockup tranche expires today, unlocking ~$123B in insider shares; unprecedented supply event is the dominant near-term driver.",
+      "reason": "Q3 record revenue beat but Q4 guidance of 9–11% missed ~12% analyst consensus; supply constraints and FX headwinds weigh on near-term outlook",
       "direction": "↓"
     },
     {
-      "name": "SoftBank Group",
-      "ticker": "9984.T",
-      "exchange": "TSE",
-      "reason": "Strong Q1 earnings combined with ARM's AI data center rally create dual tailwinds; key Japan proxy for global AI and Vision Fund sentiment.",
-      "direction": "↑"
-    },
-    {
-      "name": "SK Hynix",
-      "ticker": "000660.KS",
-      "exchange": "KRX",
-      "reason": "HBM chip demand driving shares up 6% in Asia session; watch US hyperscaler AI capex guidance for the next leg of the move.",
-      "direction": "↑"
-    },
-    {
-      "name": "Arm Holdings",
-      "ticker": "ARM",
+      "name": "Honeywell Aerospace Technologies",
+      "ticker": "HONA",
       "exchange": "NASDAQ",
-      "reason": "Surged on Wall Street on AI data center royalty optimism, fuelling SoftBank's rally; own earnings report approaching will be next test.",
+      "reason": "Slashed 2026 organic growth guidance from 7–9% to 4–5%; stock –20% in single session; watching for support levels and sector contagion",
+      "direction": "↓"
+    },
+    {
+      "name": "UWM Holdings",
+      "ticker": "UWMC",
+      "exchange": "NYSE",
+      "reason": "$452M Q2 net loss and first-ever dividend suspension; shares near 52-week lows at ~$1.21; key mortgage sector stress signal",
+      "direction": "↓"
+    },
+    {
+      "name": "Datadog",
+      "ticker": "DDOG",
+      "exchange": "NASDAQ",
+      "reason": "Record single-day drop of 16% despite Q2 earnings beat and raised guidance; weak forward revenue outlook signals caution on cloud monitoring spending",
+      "direction": "↓"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "reason": "Bezos $4B sale overhang clears; AWS +37% YoY remains a durable growth engine; watching whether $3T market cap holds as support",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.60,
+    "us10y": 4.63,
     "us30y": 5.20,
     "asOf": "2026-08-06"
   },
   "tickerDescriptions": {
-    "AMZN": "Amazon.com Inc., e-commerce and cloud computing giant powering AWS, the world's largest cloud platform",
-    "SPCX": "SpaceX Inc., commercial space launch vehicle provider and operator of the Starlink satellite internet constellation",
-    "USO": "United States Oil Fund ETF, tracking daily price movements of WTI crude oil futures contracts",
-    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and majority owner of ARM Holdings with major AI and Vision Fund investments",
-    "005930.KS": "Samsung Electronics Co., South Korean consumer electronics and semiconductor giant and the world's largest memory chip maker",
-    "000660.KS": "SK Hynix Inc., South Korean semiconductor company and world's second-largest DRAM and HBM memory chip supplier",
-    "FXI": "iShares China Large-Cap ETF tracking the 50 largest and most liquid Chinese stocks traded on Hong Kong Exchange",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds and reflecting interest rate expectations",
-    "ARM": "Arm Holdings plc, British semiconductor IP company whose chip architecture powers the vast majority of the world's mobile devices and AI accelerators"
+    "QQQ": "Invesco QQQ Trust, ETF tracking the Nasdaq-100 index of 100 largest non-financial Nasdaq-listed companies",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, tracks long-dated US government bond prices and reflects long-term interest rate expectations",
+    "PLTR": "Palantir Technologies Inc., AI-powered data analytics and defense intelligence platform serving commercial and government clients",
+    "SMH": "VanEck Semiconductor ETF, tracks the performance of the 25 largest US-listed semiconductor companies",
+    "AMZN": "Amazon.com Inc., e-commerce, cloud computing (AWS), and AI services conglomerate with $3T market cap",
+    "AAPL": "Apple Inc., consumer electronics (iPhone, Mac, iPad), software, and digital services company",
+    "HONA": "Honeywell Aerospace Technologies Inc., aerospace systems and defense technology company spun off from Honeywell International",
+    "0700.HK": "Tencent Holdings Ltd., Chinese internet and technology conglomerate (gaming, fintech, cloud) listed on HKEX",
+    "9988.HK": "Alibaba Group Holding Ltd., Chinese e-commerce and cloud computing giant listed on HKEX",
+    "285A.T": "Kioxia Holdings Corp., Japanese NAND flash memory chip manufacturer listed on the Tokyo Stock Exchange",
+    "6981.T": "Murata Manufacturing Co. Ltd., Japanese manufacturer of electronic components including capacitors and modules",
+    "9984.T": "SoftBank Group Corp., Japanese technology investment conglomerate with major stakes in ARM, global AI, and Vision Fund portfolio",
+    "7974.T": "Nintendo Co. Ltd., Japanese video game hardware (Switch platform) and software developer",
+    "XOM": "Exxon Mobil Corp., US-based integrated oil and natural gas supermajor and one of the world's largest energy companies",
+    "CVX": "Chevron Corp., US-based integrated energy and oil supermajor with global upstream and downstream operations",
+    "USO": "United States Oil Fund LP, ETF tracking the daily price movements of WTI crude oil front-month futures contracts",
+    "BABA": "Alibaba Group Holding Ltd., Chinese e-commerce and cloud giant trading as a US ADR on NYSE",
+    "JD": "JD.com Inc., Chinese direct-sale e-commerce and logistics company trading as a US ADR on NASDAQ",
+    "UWMC": "UWM Holdings Corporation, largest wholesale mortgage lender in the United States",
+    "DDOG": "Datadog Inc., cloud monitoring, security analytics, and observability SaaS platform"
   },
   "quickHits": [
-    "KOSPI is now up 100%+ year-to-date in 2026 as South Korea's semiconductor re-rating accelerates — one of the best-performing major indices globally (Yahoo Finance)",
-    "Arm Holdings (ARM) surged on Wall Street on AI data-center royalty demand ahead of its own earnings report, directly fuelling SoftBank's 13% rally in Tokyo (CNBC)",
-    "Brent crude bounced ~1% after Houthis claimed a missile hit on a Saudi tanker near Yanbu, partially reversing the Hormuz-deal 5% selloff and illustrating two-sided oil risk (Bloomberg)",
-    "China's Hong Kong-listed optical stocks led Hang Seng decliners on renewed US tech restriction fears, with Zhongji Innolight among the hardest hit (South China Morning Post)"
+    "UWM Holdings (UWMC) crashes 35% after $452M Q2 net loss and first-ever dividend suspension — largest US wholesale mortgage lender signals housing sector stress (Seeking Alpha)",
+    "Datadog (DDOG) plunges 16% despite Q2 earnings beat and raised guidance — weak forward revenue outlook triggers a record single-day drop in cloud monitoring (CNBC)",
+    "Reserve Bank of India holds repo rate at 5.25%, raises FY27 GDP growth forecast to 6.7% — India maintains steady emerging-market outperformance amid global uncertainty (Al Jazeera)",
+    "Nintendo (7974.T) beats Q2 on US tariff refunds and Switch 2 software sales — lone bright spot in Japan's broad chip-driven selloff (Nikkei Asia)"
   ]
 }
