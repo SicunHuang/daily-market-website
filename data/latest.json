@@ -1,160 +1,140 @@
 {
-  "date": "2026-08-20",
-  "marketMood": "Risk-mixed: Treasury buybacks cap the 30-year yield rally and lift gold, but chip stocks and Japan's Nikkei extend losses on rate anxiety — FOMC minutes today and Jackson Hole next week are the next key catalysts.",
+  "date": "2026-08-24",
+  "marketMood": "Risk-on hesitation: markets brace for a pivotal week — Nvidia earnings, July PCE data, and Fed Chair Warsh's debut Jackson Hole keynote will collectively set the tone for the September rate decision.",
   "upcomingEvents": [
-    { "date": "2026-08-20", "event": "FOMC Minutes Release (July meeting)", "significance": "high" },
-    { "date": "2026-08-26", "event": "NVIDIA Q2 FY2027 Earnings", "significance": "high" },
-    { "date": "2026-08-27", "event": "Jackson Hole Symposium begins", "significance": "high" },
-    { "date": "2026-08-28", "event": "Fed Chair Warsh keynote at Jackson Hole", "significance": "high" },
-    { "date": "2026-09-09", "event": "US Treasury expanded long-bond buyback operations take effect", "significance": "medium" }
+    { "date": "2026-08-25", "event": "US Consumer Confidence (August)", "significance": "medium" },
+    { "date": "2026-08-26", "event": "Nvidia Q2 FY27 Earnings (after market close)", "significance": "high" },
+    { "date": "2026-08-27", "event": "US July PCE Price Index & Personal Income/Spending", "significance": "high" },
+    { "date": "2026-08-28", "event": "Jackson Hole: Fed Chair Warsh Keynote + BLS Annual Payroll Benchmark Revision", "significance": "high" },
+    { "date": "2026-08-28", "event": "Jackson Hole Economic Symposium begins (Aug 27-29)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Bessent Doubles Long-Bond Buybacks, Jolts Debt Market",
-      "source": "Bloomberg",
-      "summary": "Treasury Secretary Bessent announced the US will at least double maximum buyback size for longer-dated Treasuries from $2B to $4B per operation, effective September 9, to support orderly market functioning after yields hit multi-decade highs.",
-      "marketImpact": "US 30Y yield fell ~10bps from 5.34% (19-year high) to 5.18% ↓; dollar slid to a 3-month low ↓; gold surged to highest since June ↑; broad equity rebound",
-      "tickers": ["TLT"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/-the-treasury-is-watching-bessent-s-buybacks-jolt-bond-market",
+      "headline": "Jackson Hole Countdown: Warsh's First Fed Chair Keynote Arrives as September Hike Odds Sit at 37%",
+      "source": "Regards of Wallstreet",
+      "summary": "The Kansas City Fed's annual symposium (Aug 27-29) draws intense scrutiny as new Chair Kevin Warsh — who succeeded Jerome Powell in May 2026 — delivers his debut keynote Friday, just three weeks before the September FOMC meeting.",
+      "marketImpact": "Rates watch: hawkish lean → bonds ↓ yields ↑ USD ↑ equities ↓; dovish tone → SPY QQQ ↑ TLT ↑; current fed funds rate held at 3.50–3.75% in July (9-3 vote)",
+      "tickers": ["SPY", "QQQ", "TLT"],
+      "url": "https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech",
       "region": "US"
     },
     {
-      "headline": "Nikkei Slides 2.9% as Chip and AI Stocks Buckle on Yield Anxiety",
-      "source": "Bloomberg",
-      "summary": "Japan's benchmark fell for a second straight session led by Kioxia (-10%), Furukawa Electric (-9.8%), Tokyo Electron (-4.7%), and Advantest (-4.4%) as elevated global bond yields — with Japan's 10Y at 30-year highs — sapped risk appetite from the AI trade.",
-      "marketImpact": "Nikkei 225 ↓ 2.9% to ~65,500; Topix ↓ 2.4%; global AI supply-chain names under pressure ↓",
-      "tickers": ["6600.T", "6857.T", "8035.T", "5803.T"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/japanese-stocks-slide-as-bond-market-anxiety-hits-ai-sentiment",
-      "region": "Japan"
+      "headline": "Nvidia Reports Q2 FY27 Earnings Wednesday — $93-95B Revenue Forecast in AI Bellwether Test",
+      "source": "Capital Street FX",
+      "summary": "Wall Street expects Nvidia to post ~$93-95 billion in revenue (+67% YoY) driven by Data Center AI-GPU demand, in results that will set the tone for the entire AI infrastructure trade ahead of Jackson Hole.",
+      "marketImpact": "NVDA ↑ on beat with broad AI-chip complex (AMD, SMCI) likely following; miss or soft guidance risks tech-led selloff into a critical macro week",
+      "tickers": ["NVDA"],
+      "url": "https://www.capitalstreetfx.com/market-analysis/nvidia-earnings-jackson-week-ahead-us-24-29-august-2026/",
+      "region": "US"
     },
     {
-      "headline": "HKEX Posts Record H1 Profit as AI IPO Boom Fuels Surge in Turnover",
-      "source": "South China Morning Post",
-      "summary": "Hong Kong Exchanges and Clearing reported first-half net profit rose 24% to a record HK$10.57 billion, beating analyst estimates, with revenue and investment income up 19% to HK$16.7 billion driven by surging IPO activity and record trading volumes.",
-      "marketImpact": "0388.HK ↑ ~1.6%; positive read-through for regional exchanges and investment banks active in Hong Kong listings ↑",
-      "tickers": ["0388.HK"],
-      "url": "https://www.scmp.com/business/banking-finance/article/3364515/hkex-profit-jumps-record-high-surging-ipos-and-turnover-beating-market-estimates",
+      "headline": "S&P 500 Snaps Three-Week Win Streak; Nasdaq Off 2% as July Payrolls Disappoint and Bond Yields Rebound",
+      "source": "CNBC",
+      "summary": "US equities fell last week — S&P 500 -1.4% to 7,674, Nasdaq -2%, Dow -0.9% — after July nonfarm payrolls came in at -23,000 vs. the +83,000 consensus, though Friday's strong PMI data sparked a partial recovery.",
+      "marketImpact": "SPY QQQ under pressure ↓; 10Y yield ~4.70%, 30Y ~5.25%; July PCE due Wednesday is the key inflation test — softer energy prices may ease the print",
+      "tickers": ["SPY", "QQQ"],
+      "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
+      "region": "US"
+    },
+    {
+      "headline": "Tencent Q2: Revenue Up 11% but AI Capex Surges 176% to RMB 52.8B, Turning Free Cash Flow Negative",
+      "source": "Cryptopolitan",
+      "summary": "Tencent posted solid Q2 results (revenue RMB 204.8B, adjusted net profit +9%) but a 176% YoY jump in capex to RMB 52.8 billion on AI infrastructure investment pushed free cash flow to negative RMB 13.8 billion.",
+      "marketImpact": "0700.HK near-term FCF pressure ↓; management framing AI spend as future revenue driver; Hang Seng Tech index broader read-through",
+      "tickers": ["0700.HK", "TCEHY"],
+      "url": "https://www.cryptopolitan.com/tencent-revenue-climbs-q2-capex-jumps-176/",
       "region": "Hong Kong"
     },
     {
-      "headline": "Trump Presses Congress to Pass Clarity Act at White House Crypto Summit",
+      "headline": "Japan CPI Hits 1.9% — Highest This Year — as Energy Costs Rise, Cementing BOJ September Hike Case",
       "source": "Bloomberg",
-      "summary": "President Trump hosted leading crypto executives from Coinbase, Ripple, Gemini, and Robinhood alongside CFTC and SEC chairs, calling the Digital Asset Market Clarity Act critical to US tech leadership — the bill has cleared the House but a Senate floor vote remains elusive.",
-      "marketImpact": "Bitcoin near $60,000 ↑ on sentiment; COIN watch ↑; analysts peg bill-passage probability at ~10% this year — any Senate progress would be a major catalyst",
-      "tickers": ["COIN"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/trump-asks-congress-to-pass-crypto-bill-alongside-executives",
-      "region": "US"
+      "summary": "Japan's headline inflation accelerated to 1.9% in July from 1.6% in June — a second consecutive monthly increase — driven by rising energy costs tied to Middle East tensions, with analysts now calling a BOJ rate hike from 1% to 1.25% in September near-certain.",
+      "marketImpact": "JPY ↑ on hike pricing; JGB yields ↑; Japanese financials ↑; Toyota and export-heavy stocks ↓ on stronger yen headwind",
+      "tickers": ["7203.T"],
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/japan-s-inflation-accelerates-backing-boj-s-case-for-rate-hike",
+      "region": "Japan"
     },
     {
-      "headline": "Middle East Conflict Chokes Strait of Hormuz, Oil Holds Near $92",
-      "source": "Reuters",
-      "summary": "Only ~8 vessels crossed the Strait of Hormuz on Monday versus a pre-war average of 120 as the US-Iran conflict continues to disrupt a fifth of global oil flows, with Saudi Arabia and the UAE seeking alternative export routes.",
-      "marketImpact": "Brent crude near $92/bbl ↑ (6-month high); oil on a four-day winning streak ↑; persistent inflationary pressure on global economies; energy stocks watch ↑",
-      "tickers": ["XOM", "CVX"],
-      "url": "https://www.cnn.com/2026/08/16/world/live-news/iran-war-trump",
+      "headline": "Japan Q2 GDP Misses Estimates at 1.1% Annualized as Weak Domestic Demand Offsets Export Strength",
+      "source": "CNBC",
+      "summary": "Japan's economy grew just 0.3% QoQ (1.1% annualized) in Q2, below the 0.5% QoQ consensus, with exports adding 0.5pp but weak household consumption dragging the headline lower — adding stagflation risk to the BOJ's policy calculus.",
+      "marketImpact": "Nikkei 225 ↓ near 66,016; BOJ faces uncomfortable mix of above-target inflation and sub-par growth; watch domestic consumer stocks",
+      "tickers": ["7203.T", "6758.T"],
+      "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
+      "region": "Japan"
+    },
+    {
+      "headline": "South Korea KOSPI Slips Below 7,000 as Rising US Bond Yields and Iran Tensions Weigh on Chipmakers",
+      "source": "KED Global",
+      "summary": "The KOSPI retreated into the 6,800-point range as Samsung Electronics and SK Hynix — together more than 50% of the index — fell sharply amid rising US and Japanese Treasury yields and renewed Middle East uncertainty dampening risk appetite.",
+      "marketImpact": "005930.KS 000660.KS ↓; KOSPI still up ~41% YTD in USD terms; Nvidia earnings Wednesday a pivotal signal for Korean chipmaker momentum",
+      "tickers": ["005930.KS", "000660.KS"],
+      "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202608180014",
+      "region": "Asia"
+    },
+    {
+      "headline": "Oil Retreats to Pre-War Levels Near $72-73/Bbl as Middle East Supply Fears Ease; Gold Holds Above $4,500",
+      "source": "Al Jazeera",
+      "summary": "Brent crude has pulled back to ~$72-73/barrel as rising Middle East supply expectations outweigh geopolitical risk, while gold remains elevated above $4,500/oz — on course for a third straight weekly gain — as investors seek safe-haven assets amid bond market volatility.",
+      "marketImpact": "XLE ↓ on oil retreat; GLD ↑ (gold miners rally); softer energy prices may ease July PCE inflation reading due Wednesday",
+      "tickers": ["GLD", "XLE"],
+      "url": "https://www.aljazeera.com/news/2026/6/25/oil-prices-back-to-pre-war-levels-on-rising-middle-east-supply",
       "region": "Global"
-    },
-    {
-      "headline": "Gold Hits Highest Since June as Treasury Buybacks Ease Yield Pressure",
-      "source": "Reuters",
-      "summary": "Gold rallied to $4,451/oz — its highest level since June 2026 — as the Treasury's buyback announcement eased long-bond yields and weakened the dollar, extending gold's roughly 11% gain over the past four weeks.",
-      "marketImpact": "GLD ↑; gold miners ↑; watch for continuation if 30Y yields remain suppressed below 5.2%",
-      "tickers": ["GLD"],
-      "url": "https://tradingeconomics.com/commodity/gold",
-      "region": "Global"
-    },
-    {
-      "headline": "NVIDIA Earnings Loom August 26 as AI Revenue Locomotive Accelerates",
-      "source": "Bloomberg",
-      "summary": "With Q2 FY2027 results due August 26, analysts project $93–95B in quarterly revenue — up ~67% year-on-year — and expect another beat as Nvidia maintains ~80-85% market share in AI training chips.",
-      "marketImpact": "NVDA watch ahead of results ↑ directional lean; any miss or soft guidance would ripple through the entire global AI supply chain ↓",
-      "tickers": ["NVDA"],
-      "url": "https://www.fool.com/investing/2026/08/11/prediction-nvidia-stock-is-going-soar-after-aug-26/",
-      "region": "US"
-    },
-    {
-      "headline": "FOMC Minutes Drop Today — Warsh's Jackson Hole Tone in Focus",
-      "source": "Capital Street FX",
-      "summary": "The minutes of the July FOMC meeting publish today; three of 12 committee members dissented in favour of a rate hike, and markets will parse how close the committee came to tightening — ahead of Fed Chair Warsh's first Jackson Hole keynote on August 28.",
-      "marketImpact": "SPY and rate-sensitive sectors watch; hawkish tone could pressure equities and extend bond selloff ↓; dovish lean would provide relief ↑",
-      "tickers": ["SPY"],
-      "url": "https://www.capitalstreetfx.com/market-analysis/week-ahead-1721-august-2026-fomc-minutes/",
-      "region": "US"
-    },
-    {
-      "headline": "Xiaomi Surges While China Unicom and SMIC Sink in Hong Kong Session",
-      "source": "South China Morning Post",
-      "summary": "In the Tuesday Hong Kong session, Xiaomi rose 5.1% on strong consumer electronics demand while China Unicom plunged 12.8% and SMIC fell 4.6% amid heavy tech sector selling, reflecting diverging fortunes across China's tech sector.",
-      "marketImpact": "1810.HK ↑; 0762.HK ↓; 0981.HK ↓; HK tech sector split between consumer strength and telecom/semiconductor weakness",
-      "tickers": ["1810.HK", "0762.HK", "0981.HK"],
-      "url": "https://www.scmp.com/topics/hang-seng-index",
-      "region": "China"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "NVIDIA",
+      "name": "Nvidia",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Q2 FY2027 earnings due August 26 with analysts projecting ~$94B revenue and another blowout beat — results will set the tone for the entire AI sector.",
+      "reason": "Reports Q2 FY27 earnings Wednesday after close — $93-95B revenue expected — a bellwether for the entire AI infrastructure trade and chip sector going into September.",
       "direction": "↑"
     },
     {
-      "name": "Hong Kong Exchanges and Clearing",
-      "ticker": "0388.HK",
+      "name": "Tencent Holdings",
+      "ticker": "0700.HK",
       "exchange": "HKEX",
-      "reason": "Record H1 2026 profit of HK$10.57B reported August 19, beating estimates on AI-fuelled IPO boom and record trading volumes.",
-      "direction": "↑"
-    },
-    {
-      "name": "Kioxia Holdings",
-      "ticker": "6600.T",
-      "exchange": "TSE",
-      "reason": "Worst performer in Tuesday's Nikkei chip selloff with a 10% decline as bond yield anxiety slammed the AI memory chip supply chain.",
+      "reason": "Post-earnings focus on whether record AI capex surge (+176% YoY, negative FCF) will weigh on shares vs. management's long-term monetization framing.",
       "direction": "↓"
     },
     {
-      "name": "Coinbase Global",
-      "ticker": "COIN",
-      "exchange": "NASDAQ",
-      "reason": "White House crypto summit and Trump's Clarity Act push create a potential regulatory catalyst; near-term bill passage odds remain low at ~10%.",
-      "direction": "↑"
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS",
+      "exchange": "KRX",
+      "reason": "KOSPI's largest component and key AI memory bellwether is under pressure from bond yield rises; Nvidia guidance Wednesday is a critical catalyst.",
+      "direction": "↓"
     },
     {
-      "name": "Reddit",
-      "ticker": "RDDT",
-      "exchange": "NYSE",
-      "reason": "First full week as an S&P 500 constituent after joining the index on August 18; index-fund rebalancing flows and elevated attention in focus.",
+      "name": "SK Hynix",
+      "ticker": "000660.KS",
+      "exchange": "KRX",
+      "reason": "Leading HBM chip supplier for Nvidia with strong leverage to any AI upside surprise from Wednesday's earnings release.",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.64,
-    "us30y": 5.18,
-    "asOf": "2026-08-20"
+    "us10y": 4.70,
+    "us30y": 5.25,
+    "asOf": "2026-08-21"
   },
   "tickerDescriptions": {
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
-    "6600.T": "Kioxia Holdings Corp., Japan-based NAND flash memory chipmaker and AI storage supplier",
-    "6857.T": "Advantest Corp., Japanese manufacturer of semiconductor test equipment used in AI chip production",
-    "8035.T": "Tokyo Electron Ltd., Japanese semiconductor and flat-panel display manufacturing equipment maker",
-    "5803.T": "Furukawa Electric Co., Japanese maker of fiber optic cables and electrical infrastructure",
-    "0388.HK": "Hong Kong Exchanges and Clearing Ltd. (HKEX), operator of Hong Kong's stock, derivatives, and commodity markets",
-    "COIN": "Coinbase Global Inc., the largest US-listed cryptocurrency exchange platform",
-    "XOM": "Exxon Mobil Corp., US integrated oil and gas supermajor and largest US energy company",
-    "CVX": "Chevron Corp., US integrated energy company with major oil and gas production globally",
-    "GLD": "SPDR Gold Shares ETF, tracking the spot price of physical gold bullion",
-    "NVDA": "NVIDIA Corp., US semiconductor company and dominant designer of AI training and inference GPUs",
-    "SPY": "SPDR S&P 500 ETF Trust, the largest ETF tracking the 500 largest US publicly listed companies",
-    "1810.HK": "Xiaomi Corp., Chinese consumer electronics, smartphone, and IoT ecosystem company",
-    "0762.HK": "China Unicom Hong Kong Ltd., major Chinese state-owned telecommunications operator",
-    "0981.HK": "Semiconductor Manufacturing International Corp. (SMIC), China's largest semiconductor foundry",
-    "RDDT": "Reddit Inc., US social media and online community platform company"
+    "SPY": "SPDR S&P 500 ETF tracking the 500 largest US-listed companies by market cap",
+    "QQQ": "Invesco Nasdaq-100 ETF tracking the 100 largest non-financial companies on the Nasdaq",
+    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
+    "NVDA": "Nvidia Corporation, the world's leading designer of AI GPUs and data center accelerators",
+    "0700.HK": "Tencent Holdings, Chinese technology conglomerate spanning gaming, social media, cloud, and AI",
+    "TCEHY": "Tencent Holdings ADR, the US-listed American depositary receipt for Tencent (0700.HK)",
+    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and global leader in hybrid and hydrogen vehicles",
+    "6758.T": "Sony Group Corporation, Japanese multinational in gaming, music, film, and consumer electronics",
+    "005930.KS": "Samsung Electronics, South Korean conglomerate and the world's largest memory chip and smartphone maker",
+    "000660.KS": "SK Hynix, South Korean DRAM and HBM (High Bandwidth Memory) chip manufacturer and key Nvidia supplier",
+    "GLD": "SPDR Gold Shares ETF tracking the spot price of gold bullion",
+    "XLE": "Energy Select Sector SPDR ETF tracking large US oil, gas, and energy companies"
   },
   "quickHits": [
-    "Reddit (RDDT) officially joined the S&P 500 on August 18, replacing AvalonBay Communities; shares jumped 12.6% on the inclusion announcement (CNBC)",
-    "China Unicom (0762.HK) plunged 12.8% and SMIC (0981.HK) fell 4.6% in Tuesday's Hong Kong session amid broad tech selling (South China Morning Post)",
-    "Japan and India signed a package of bilateral trade and technology deals as PM Modi prepared a tour of Pacific allies (Nikkei Asia)",
-    "China's PBOC expanded cross-border RMB and foreign-currency operations for multinational corporations as part of ongoing yuan internationalisation (Reuters)"
+    "HKEX shares gained 1.6% to HK$411.40 after the exchange operator posted strong first-half results, bucking broader Hang Seng softness (South China Morning Post)",
+    "BLS annual nonfarm payroll benchmark revision due Thursday Aug 28 — could materially revise prior-year job counts and recalibrate the Fed's labor-market read (BLS)",
+    "US-China tariff truce (10% reciprocal rate) approaches August expiration; trade boards established in May to manage bilateral tariffs with extension expected but not confirmed (MSAdvisory)",
+    "Amazon facing structural headwinds in Southeast Asia as hyper-localized rivals Shopee, Lazada, and Grab continue to outmaneuver its global playbook (Nikkei Asia)"
   ]
 }
