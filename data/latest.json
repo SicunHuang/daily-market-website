@@ -1,102 +1,84 @@
 {
-  "date": "2026-08-26",
-  "marketMood": "Risk-off tilt as Nvidia's AI earnings test and Fed Chair Warsh's Jackson Hole debut drive caution, with Treasury yields at multi-year highs and Chinese tech under selling pressure.",
+  "date": "2026-08-27",
+  "marketMood": "Risk-on tilt: Nvidia's blowout AI earnings lift Nasdaq futures ~1%, while all eyes turn to Fed Chair Warsh's first Jackson Hole keynote Friday and a heavy wave of US retail earnings.",
   "upcomingEvents": [
-    { "date": "2026-08-26", "event": "Nvidia Q2 FY2027 Earnings (after market close)", "significance": "high" },
-    { "date": "2026-08-28", "event": "Fed Chair Warsh Jackson Hole Keynote Speech", "significance": "high" },
-    { "date": "2026-08-27", "event": "Jackson Hole Economic Symposium Opens", "significance": "medium" },
-    { "date": "2026-09-24", "event": "Xi-Trump White House Summit", "significance": "high" }
+    { "date": "2026-08-27", "event": "US Initial Jobless Claims & Wholesale Inventories (July)", "significance": "medium" },
+    { "date": "2026-08-29", "event": "Fed Chair Warsh Jackson Hole Keynote Speech", "significance": "high" },
+    { "date": "2026-09-01", "event": "US ISM Manufacturing PMI (August)", "significance": "medium" },
+    { "date": "2026-09-04", "event": "US August Nonfarm Payrolls (Jobs Report)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Nvidia Q2 Earnings Tonight Are the AI Trade's Biggest Test Yet",
+      "headline": "Nvidia Beats Q2 Estimates, Projects $54B Q3 Revenue on AI Spending Surge",
       "source": "Bloomberg",
-      "summary": "Wall Street expects Q2 FY2027 revenue of $92.2B (+97% YoY) and EPS of ~$2.09, nearly double year-ago levels, setting a high bar for positive surprise.",
-      "marketImpact": "Nasdaq 100 futures ↓0.5% pre-market as investors de-risk; NVDA ↑/↓ sharply on the print; AMD, AVGO, ASML, SMH highly reactive",
-      "tickers": ["NVDA", "AMD", "AVGO", "ASML", "SMH"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap",
+      "summary": "Nvidia reported Q2 revenue of $46.74B (+56% YoY), beating the $46.06B estimate, and guided Q3 to $54B — above consensus of $53.1B — as CFO Colette Kress projected global AI infrastructure spending at $3–4 trillion by decade's end.",
+      "marketImpact": "NVDA ↑ pre-market; Nasdaq 100 futures ↑ ~1%; positive read for MRVL, AMD, and Asian AI chip suppliers SK Hynix and Samsung",
+      "tickers": ["NVDA", "MRVL", "SOXX"],
+      "url": "https://www.bloomberg.com/news/live-blog/2026-08-26/nvidia-second-quarter-earnings",
       "region": "US"
     },
     {
-      "headline": "Fed Chair Warsh Makes Jackson Hole Debut Friday — Rate Hike Odds in Focus",
+      "headline": "Jackson Hole Opens: Warsh Under Pressure to Clarify Rate Outlook in First Keynote",
       "source": "Bloomberg",
-      "summary": "Newly confirmed Fed Chair Kevin Warsh delivers his first keynote at the Jackson Hole symposium on August 28, with markets pricing ~33% odds of a September rate hike as inflation holds at 3.4%.",
-      "marketImpact": "USD ↑ risk into Friday; bonds volatile; gold near 3-month highs; rate-sensitive equities cautious",
-      "tickers": ["TLT", "GLD", "UUP"],
-      "url": "https://www.bloomberg.com/news/articles/2026-08-22/kevin-warsh-to-make-first-jackson-hole-speech-as-fed-chair",
+      "summary": "The Fed's annual Jackson Hole symposium opened today with Chair Kevin Warsh scheduled to speak Friday; 80% of economists surveyed want him to detail his economic views, but 45% expect the communications-averse chair to offer no forward rate guidance.",
+      "marketImpact": "Bond yields and USD ↑ risk on Friday; rate-sensitive assets (utilities, REITs, TLT) in focus; 40% probability of September rate hike priced in",
+      "tickers": ["TLT"],
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/warsh-s-peers-to-highlight-global-inflation-risk-at-jackson-hole",
       "region": "US"
     },
     {
-      "headline": "US Plans 7.5% China Overcapacity Tariff Before Sept. 24 Xi-Trump Summit",
+      "headline": "US Q2 GDP Revised Up to 1.5% as Consumer Spending and Business Investment Strengthened",
       "source": "Bloomberg",
-      "summary": "The Trump administration is set to impose a 7.5% levy on Chinese goods for excess manufacturing capacity, precisely filling the 20% tariff cap agreed with Beijing on July 27; Xi-Trump summit confirmed for September 24.",
-      "marketImpact": "Chinese exporters ↓; EV, solar, steel sectors most exposed; 9988.HK, 0700.HK, FXI, KWEB under pressure; summit context limits worst-case downside",
-      "tickers": ["9988.HK", "0700.HK", "BABA", "FXI", "KWEB", "BYDDY"],
+      "summary": "The second estimate of US Q2 GDP came in at an annualized 1.5% — above the initial reading — with consumer spending and business investment both revised upward, signaling more economic resilience than first thought.",
+      "marketImpact": "Modest positive for equities; complicates Fed rate-cut timing; Fed funds futures show 40% chance of September hike",
+      "tickers": [],
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/us-economy-expands-1-5-with-spending-investment-revised-up",
+      "region": "US"
+    },
+    {
+      "headline": "US Eyes 7.5% Overcapacity Tariffs on China Ahead of Xi-Trump Summit",
+      "source": "Bloomberg",
+      "summary": "Washington is considering a fresh 7.5% tariff on Chinese goods over excess manufacturing capacity ahead of a planned Xi-Trump summit next month, which would bring total US duties on China back to around 20% — the level Beijing considers consistent with its trade truce.",
+      "marketImpact": "Chinese exporters and EV/solar makers ↓ watch; FXI and yuan under pressure; supply chain stocks across Asia affected",
+      "tickers": ["FXI"],
       "url": "https://www.bloomberg.com/news/articles/2026-08-24/us-eyes-china-overcapacity-tariffs-of-7-5-before-xi-trump-talks",
-      "region": "US"
+      "region": "Global"
     },
     {
-      "headline": "Alibaba Closes Record $10B Hong Kong Share Sale to Fund AI Infrastructure",
+      "headline": "Japan's Shinkin Banks and Life Insurers Face ~$194B in Bond Losses as Long Rates Rise",
+      "source": "Nikkei Asia",
+      "summary": "Japan's community-focused shinkin banks are suffering mounting losses on their bond portfolios as long-term JGB yields rise, while major life insurers have accumulated nearly 31 trillion yen ($194B) in unrealized bond losses — up 60% year-on-year.",
+      "marketImpact": "Japanese regional bank and insurer stocks ↓ watch; JGB yields elevated; lending capacity and capital ratios under strain",
+      "tickers": [],
+      "url": "https://asia.nikkei.com/business/finance/japan-credit-unions-burned-by-bond-losses-as-long-rates-rise",
+      "region": "Japan"
+    },
+    {
+      "headline": "Hong Kong Raises 2026 Growth Forecast to 3.5–4.5% After Strongest Q2 in Nearly 5 Years",
       "source": "South China Morning Post",
-      "summary": "Alibaba priced 710 million new HK-listed shares at HK$112.70 each (HK$80B total, ~US$10.2B) to invest in full-stack AI capabilities; Hong Kong's largest-ever follow-on offering closes today.",
-      "marketImpact": "9988.HK ↓~10%; Hang Seng ↓1.84% Monday; dilution and rising AI capex concerns weigh on Chinese tech broadly",
-      "tickers": ["9988.HK", "BABA"],
-      "url": "https://www.scmp.com/tech/big-tech/article/3364957/alibaba-issue-hk80-billion-new-shares-global-ai-push",
+      "summary": "Hong Kong upgraded its full-year 2026 GDP forecast after the economy expanded 4.3% YoY in Q2 — its best in nearly five years — driven by booming AI-related electronics trade and a 13% surge in visitor arrivals to 26.71 million in H1.",
+      "marketImpact": "Hang Seng ↑ bias; HK consumer, logistics, and tourism stocks in focus; positive confidence signal for the city",
+      "tickers": ["2800.HK"],
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364047/hong-kong-raises-2026-economic-forecast-after-strongest-first-half-nearly-5-years",
       "region": "Hong Kong"
     },
     {
-      "headline": "US Consumer Confidence Falls in August as Inflation Keeps Biting",
-      "source": "PBS NewsHour",
-      "summary": "Conference Board CCI fell to 89.4 in August (vs 90.3 expected, 90.2 prior) and UMich Sentiment declined to 51 from 55.2 in July, as elevated prices and tariff concerns weigh on households.",
-      "marketImpact": "Consumer discretionary ↓; XRT, AMZN, HD at risk; reinforces risk-off tone; may restrain Fed appetite for a September rate hike",
-      "tickers": ["XRT", "AMZN", "HD", "SPY"],
-      "url": "https://www.pbs.org/newshour/economy/august-consumer-confidence-dips-with-jobs-and-tariffs-driving-most-unease",
+      "headline": "Retail Earnings Deluge: Ulta, Dollar General, Dollar Tree, Best Buy, Hormel Report Today",
+      "source": "CNBC",
+      "summary": "A major cluster of US consumer companies — Ulta Beauty, Dollar General, Dollar Tree, Best Buy, Hormel Foods, plus tech firms Marvell and Workday — report Q2 results today, providing a broad health check on US consumer spending under elevated interest rates.",
+      "marketImpact": "ULTA, DG, DLTR, BBY, HRL all in focus for directional read on consumer resilience; MRVL results will offer another AI demand data point",
+      "tickers": ["ULTA", "DG", "DLTR", "BBY", "HRL", "MRVL"],
+      "url": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
       "region": "US"
     },
     {
-      "headline": "US 30-Year Treasury Yield Hits 19-Year High on Fiscal Deficit Concerns",
-      "source": "CNBC",
-      "summary": "The 30-year Treasury yield touched 5.33% before settling at ~5.29%, while the 10-year holds around 4.70%, driven by persistent fiscal deficit worries, heavy debt issuance, and above-target inflation.",
-      "marketImpact": "TLT ↓; mortgage and credit markets tightening; banks, REITs under pressure; gold ↑ on debasement trade; higher discount rates weigh on equities",
-      "tickers": ["TLT", "GLD", "IEF", "KRE"],
-      "url": "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
-      "region": "US"
-    },
-    {
-      "headline": "Bank of Japan Holds at 1% but Governor Ueda Warns Inflation May Exceed 2% Target",
-      "source": "CNBC",
-      "summary": "BOJ kept rates at 1.0% at its July meeting but warned core inflation could exceed the 2% target from September; USD/JPY sits at ~159 after Tokyo intervened near 163.",
-      "marketImpact": "JPY ↑ risk ahead of next BOJ decision; 7203.T, 6758.T earnings exposed to yen swings; Japanese financials watch ↑ on rate-hike expectations",
-      "tickers": ["7203.T", "6758.T", "8306.T"],
-      "url": "https://www.cnbc.com/2026/07/31/boj-rates-yen-intervention-inflation-japan.html",
-      "region": "Japan"
-    },
-    {
-      "headline": "Sony Raises FY2026 Guidance After 40% Jump in Operating Income",
+      "headline": "Japan's Record Budget Under Fire as Borrowing Costs Set to Double if JGB Yields Hit 2.5%",
       "source": "Nikkei Asia",
-      "summary": "Sony Group reported a 40% surge in operating income for its latest quarter and upgraded its full-year profit forecasts; the stock has rallied ~10.9% over the past week.",
-      "marketImpact": "SONY / 6758.T ↑; signals resilience in Japan's consumer electronics and entertainment segments despite macro headwinds",
-      "tickers": ["SONY", "6758.T"],
-      "url": "https://asia.nikkei.com/business/business-trends/japan-s-multinationals-take-the-win-from-weak-yen",
+      "summary": "Japan's record fiscal 2026 budget faces a dual test of stimulating the economy while keeping debt in check, with analysts warning that a surge in the 30-year JGB yield to 2.5% could double the country's borrowing costs and destabilize sovereign finances.",
+      "marketImpact": "JGB yields ↑ watch; yen ↓ pressure; Japanese government bond ETFs and financials at risk; global spillover into US and EU yields possible",
+      "tickers": [],
+      "url": "https://asia.nikkei.com/economy/japan-s-record-budget-faces-test-of-stoking-economy-keeping-debt-in-check",
       "region": "Japan"
-    },
-    {
-      "headline": "Chinese Tech Sell-Off Deepens; CSI 300 at Three-Week Lows",
-      "source": "Business Recorder",
-      "summary": "Shanghai Composite slipped 0.6% to 3,882 and CSI 300 fell 1.21% to 4,563, with ChiNext down 3.2% and STAR50 down 3.1%, as Alibaba's dilutive share placement rattled tech investor sentiment.",
-      "marketImpact": "0700.HK (Tencent), 9988.HK ↓; KWEB, CQQQ under pressure; broader Asia tech sentiment drag",
-      "tickers": ["0700.HK", "9988.HK", "KWEB", "CQQQ"],
-      "url": "https://www.brecorder.com/news/40436363/china-hong-kong-stocks-slip-as-alibaba-slides",
-      "region": "China"
-    },
-    {
-      "headline": "Gold Holds Near $4,650 — 3-Month High — on US Debt Debasement Trade",
-      "source": "S&P Global Market Intelligence",
-      "summary": "Gold sustained gains near $4,650/oz after a 5%+ rally last week driven by the US Treasury's long-bond buyback program and the resulting dollar weakness.",
-      "marketImpact": "GLD ↑; silver and gold miners tracking; USD-sensitive assets under pressure; bullion remains key hedge amid fiscal uncertainty",
-      "tickers": ["GLD", "SLV", "GDX"],
-      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/commodity-price-watch-august-2026",
-      "region": "Global"
     }
   ],
   "companiesToWatch": [
@@ -104,76 +86,60 @@
       "name": "Nvidia",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Reports Q2 FY2027 earnings after market close tonight; street expects $92.2B revenue and EPS of $2.09 — a critical AI demand barometer.",
+      "reason": "Blowout Q2 earnings with $54B Q3 guidance confirmed AI infrastructure spending remains robust and shows no sign of fading.",
       "direction": "↑"
     },
     {
-      "name": "Alibaba Group",
-      "ticker": "9988.HK",
-      "exchange": "HKEX",
-      "reason": "HK$80B share placement closes today following a ~10% stock drop; dilution overhang and AI capex concerns persist.",
-      "direction": "↓"
-    },
-    {
-      "name": "Sony Group",
-      "ticker": "6758.T",
-      "exchange": "TSE",
-      "reason": "Raised FY2026 guidance after a 40% operating income surge; stock up ~11% in the past week on earnings momentum.",
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "exchange": "NASDAQ",
+      "reason": "Reports Q2 earnings today; key AI chip and networking supplier whose results will either confirm or complicate Nvidia's bullish AI demand narrative.",
       "direction": "↑"
     },
     {
-      "name": "Toyota Motor",
-      "ticker": "7203.T",
-      "exchange": "TSE",
-      "reason": "Increasing US-market reliance exposes Toyota to sudden Trump policy swings; weak yen at 159 provides partial revenue buffer.",
+      "name": "Dollar General",
+      "ticker": "DG",
+      "exchange": "NYSE",
+      "reason": "Reports Q2 today; closely watched barometer of the US lower-income consumer under persistent inflation and high borrowing costs.",
       "direction": "↓"
     },
     {
-      "name": "Tencent",
-      "ticker": "0700.HK",
-      "exchange": "HKEX",
-      "reason": "Dragged lower by Chinese tech sell-off, US-China tariff headwinds, and Alibaba's dilutive share placement weighing on sector sentiment.",
+      "name": "Ulta Beauty",
+      "ticker": "ULTA",
+      "exchange": "NASDAQ",
+      "reason": "Reports Q2 today; bellwether for discretionary beauty spending and a read on whether consumers are trading down amid macro pressure.",
+      "direction": "↑"
+    },
+    {
+      "name": "Best Buy",
+      "ticker": "BBY",
+      "exchange": "NYSE",
+      "reason": "Reports Q2 today; consumer electronics read facing a slowing PC upgrade cycle and continued pressure from e-commerce competition.",
       "direction": "↓"
     }
   ],
   "bondYields": {
-    "us10y": 4.66,
-    "us30y": 5.29,
-    "asOf": "2026-08-25"
+    "us10y": 4.70,
+    "us30y": 5.18,
+    "asOf": "2026-08-26"
   },
   "tickerDescriptions": {
-    "NVDA": "Nvidia Corporation, dominant designer of AI accelerators and graphics processing units (GPUs)",
-    "AMD": "Advanced Micro Devices, designer of CPUs and GPUs competing with Nvidia in AI and data center chips",
-    "AVGO": "Broadcom Inc., semiconductor and infrastructure software company serving data center and networking markets",
-    "ASML": "ASML Holding, Dutch maker of extreme ultraviolet (EUV) lithography machines critical to advanced chipmaking",
-    "SMH": "VanEck Semiconductor ETF tracking major US-listed semiconductor companies",
-    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
-    "GLD": "SPDR Gold Shares ETF providing exposure to physical gold prices",
-    "UUP": "Invesco DB US Dollar Index Bullish Fund tracking the US dollar against a basket of major currencies",
-    "9988.HK": "Alibaba Group Holding (HK-listed), Chinese e-commerce, cloud computing, and AI infrastructure company",
-    "0700.HK": "Tencent Holdings (HK-listed), Chinese internet, gaming, and technology conglomerate",
-    "BABA": "Alibaba Group Holding (US-listed ADR), Chinese e-commerce, cloud computing, and AI infrastructure company",
-    "FXI": "iShares China Large-Cap ETF tracking the 50 largest Chinese companies listed in Hong Kong",
-    "KWEB": "KraneShares CSI China Internet ETF tracking Chinese internet and e-commerce sector companies",
-    "BYDDY": "BYD Company Limited (US-listed ADR), China's largest electric vehicle and battery manufacturer",
-    "CQQQ": "Invesco China Technology ETF tracking Chinese technology sector companies",
-    "XRT": "SPDR S&P Retail ETF tracking the retail sector within the S&P 500",
-    "AMZN": "Amazon.com Inc., US e-commerce, cloud computing (AWS), and digital advertising giant",
-    "HD": "Home Depot Inc., the largest US home improvement retailer",
-    "SPY": "SPDR S&P 500 ETF Trust tracking the 500 largest US publicly traded companies",
-    "IEF": "iShares 7-10 Year Treasury Bond ETF tracking intermediate-duration US government bonds",
-    "KRE": "SPDR S&P Regional Banking ETF tracking US regional bank stocks",
-    "7203.T": "Toyota Motor Corporation (Tokyo-listed), Japan's largest automaker and global mobility company",
-    "6758.T": "Sony Group Corporation (Tokyo-listed), Japanese electronics, gaming (PlayStation), and entertainment conglomerate",
-    "8306.T": "Mitsubishi UFJ Financial Group (Tokyo-listed), Japan's largest banking and financial services group",
-    "SONY": "Sony Group Corporation (US-listed ADR), Japanese electronics, gaming, and entertainment conglomerate",
-    "SLV": "iShares Silver Trust ETF providing exposure to physical silver prices",
-    "GDX": "VanEck Gold Miners ETF tracking major gold mining companies globally"
+    "NVDA": "Nvidia Corporation, the dominant designer of AI accelerator GPUs and data center chips powering the global AI buildout",
+    "MRVL": "Marvell Technology, a semiconductor company specializing in data infrastructure, AI networking, and custom silicon for hyperscalers",
+    "SOXX": "iShares Semiconductor ETF, tracking a broad index of US-listed semiconductor and chipmaker companies",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds and sensitive to Fed rate expectations",
+    "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese companies listed in Hong Kong — a key proxy for China equity sentiment",
+    "ULTA": "Ulta Beauty Inc., the largest US specialty beauty retailer with over 1,300 stores offering cosmetics, skincare, and salon services",
+    "DG": "Dollar General Corp., a US discount retailer targeting budget-conscious consumers with over 19,000 stores nationwide",
+    "DLTR": "Dollar Tree Inc., a US discount retailer and parent of Family Dollar, operating thousands of value-priced stores across North America",
+    "BBY": "Best Buy Co., the largest US consumer electronics retailer selling devices, appliances, and technology services",
+    "HRL": "Hormel Foods Corporation, an American multinational food company known for brands including Spam, Skippy, Applegate, and Planters",
+    "2800.HK": "Tracker Fund of Hong Kong (TraHK), a passively managed ETF tracking the Hang Seng Index — the benchmark for Hong Kong equities"
   },
   "quickHits": [
-    "BOJ governor Ueda warns rapid rate hikes possible if inflation accelerates — next policy decision now a live event (CNBC)",
-    "US court upholds suspension of $800 de minimis import exemption, a blow to Shein, Temu, and cross-border e-commerce (Reuters)",
-    "KOSPI stabilizing after 3.12% drop; SK Hynix and Samsung Electronics up ~2–3% as regional semis rebound (Investing.com)",
-    "Bitcoin holds above $79,000 ahead of Jackson Hole — investors cautious but not fleeing crypto ahead of Warsh's speech Friday (Yahoo Finance)"
+    "US initial jobless claims and preliminary July wholesale inventories data release at 8:30 AM ET today — key consumer and inventory health reads (Bloomberg)",
+    "Central bankers at Jackson Hole are emphasizing a global rethink on inflation and the prospect of higher-for-longer borrowing costs amid persistent price pressures (Bloomberg)",
+    "Workday and Autodesk also report Q2 earnings after market close today, rounding out a heavy software earnings day alongside Marvell (CNBC)",
+    "Trump's trade wars remain a persistent headwind for Asia investors, who have grown jaded to tariff announcements as China continues to reroute exports via Southeast Asia (Bloomberg)"
   ]
 }
