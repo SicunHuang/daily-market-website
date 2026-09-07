@@ -1,152 +1,153 @@
 {
-  "date": "2026-09-03",
-  "marketMood": "Risk-off bias: Fed rate-hike fears push the 10Y yield near 4.8%, Strait of Hormuz tensions keep oil above $90, and a BOJ hike signal dragged the Nikkei 2.6% lower—offset only by Dell's AI-driven 16% surge.",
+  "date": "2026-09-07",
+  "marketMood": "Geopolitical oil shock meets hawkish Fed surprise: US-Iran strikes push Brent to $97 as August's blowout jobs report lifts Fed rate-hike odds to 62%, with Asia rallying on holiday-thinned trade ahead of a pivotal week of CPI and central bank decisions.",
   "upcomingEvents": [
-    { "date": "2026-09-04", "event": "US Non-Farm Payrolls (August)", "significance": "high" },
-    { "date": "2026-09-03", "event": "US ISM Services PMI (August)", "significance": "medium" },
-    { "date": "2026-09-09", "event": "ECB Governing Council Meeting", "significance": "high" },
-    { "date": "2026-09-16", "event": "US FOMC Rate Decision", "significance": "high" },
-    { "date": "2026-09-17", "event": "Bank of Japan Policy Decision", "significance": "high" }
+    { "date": "2026-09-08", "event": "US Markets Reopen After Labor Day", "significance": "medium" },
+    { "date": "2026-09-10", "event": "US August CPI Inflation Report", "significance": "high" },
+    { "date": "2026-09-15", "event": "FOMC Rate Decision (September Meeting)", "significance": "high" },
+    { "date": "2026-09-17", "event": "Bank of Japan Monetary Policy Decision", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Private Sector Hiring Slows Sharply in August, NFP Friday in Focus",
-      "source": "ADP",
-      "summary": "ADP reported only 38,000 private-sector jobs added in August, well below the 47,000 consensus, setting up Friday's Non-Farm Payrolls as the week's critical macro catalyst.",
-      "marketImpact": "Risk assets under pressure ↓; NFP Friday (consensus +55,000) will determine whether Fed hike odds hold at 66%; bonds watch",
-      "tickers": [],
-      "url": "https://mediacenter.adp.com/2026-09-02-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-38,000-Jobs-in-August",
+      "headline": "August Payrolls Surge 162,000 — More Than Triple Forecasts; Fed Hike Odds Jump to 62%",
+      "source": "CNBC",
+      "summary": "August nonfarm payrolls added 162,000 jobs vs. 53,000 expected, the strongest monthly gain since March, as food service and government jobs led, pushing Fed rate futures to price a 62% chance of a September hike.",
+      "marketImpact": "SPY ↓, DIA ↓, QQQ ↓ on Friday close; Fed rate-hike expectations jump sharply; August CPI next week is the pivotal follow-on data point",
+      "tickers": ["SPY", "QQQ", "DIA", "IEF"],
+      "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
       "region": "US"
     },
     {
-      "headline": "Dell Surges 16% on Record $95B AI Server Backlog and Raised Guidance",
-      "source": "Bloomberg",
-      "summary": "Dell Technologies beat Q2 FY2027 earnings with $47B revenue (+58% YoY) and a $95B AI server backlog, boosting its full-year revenue outlook by $25B to ~$192B.",
-      "marketImpact": "DELL ↑ 15.76% to $492; Citi and BofA raised targets to $600; positive read-through for AI infrastructure and semiconductor supply chain ↑",
-      "tickers": ["DELL", "NVDA"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/dell-raises-annual-revenue-outlook-on-sustained-ai-server-sales",
-      "region": "US"
-    },
-    {
-      "headline": "Brent Near $95 as Supertankers Struck in Strait of Hormuz, US Strikes Iran",
-      "source": "Al Jazeera",
-      "summary": "Two oil supertankers were struck inside the Strait of Hormuz Tuesday and US airstrikes against Iranian targets continued, with the EIA not expecting Middle East output to recover until early 2027.",
-      "marketImpact": "Brent crude ↑ ~$94.86/bbl, WTI ↑ ~$91.85/bbl; energy equities ↑; broad inflation risk weighs on consumer sectors ↓",
-      "tickers": ["XLE", "USO", "XOM", "CVX"],
-      "url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening",
+      "headline": "US Strikes Iranian Oil Tankers Over Weekend; Brent Crude Nears $97",
+      "source": "CNBC",
+      "summary": "The US military struck three Iranian oil tankers after Tehran fired ballistic missiles at American warships in the Strait of Hormuz, escalating the conflict and renewing fears of sustained energy supply disruption.",
+      "marketImpact": "Brent ↑ toward $97; WTI ↑ above $90; XOM, CVX ↑; airlines and global shipping ↓ watch; global inflation expectations tick higher",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html",
       "region": "Global"
     },
     {
-      "headline": "Fed Hike Probability Jumps to 66% as 10Y Yield Hits Multiyear Highs",
-      "source": "CNBC",
-      "summary": "Markets now price a 66% chance of a 25bps hike at the September 16 FOMC meeting under Chair Kevin Warsh, up from ~40% last week, as the US 10-year yield touched 4.81%.",
-      "marketImpact": "Rate-sensitive sectors ↓; USD firming; financials mixed; growth/tech under valuation pressure ↓",
-      "tickers": ["TLT", "IEF"],
-      "url": "https://www.cnbc.com/2026/09/01/stock-market-today-live-updates.html",
+      "headline": "Wall Street Closes Lower Friday as Rate Hike Fears Bite Before Labor Day",
+      "source": "Bloomberg",
+      "summary": "US equities fell on the last session before the long weekend: Dow −0.51% to 53,414, S&P 500 −0.38% to 7,718, and Nasdaq −0.29% to 26,507, as the blowout jobs data revived rate-hike anxiety.",
+      "marketImpact": "Broad equity ↓ on Friday; US 10Y yield at 4.79%, 30Y at 5.24%; US markets reopen Tuesday September 8",
+      "tickers": ["SPY", "DIA", "QQQ"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-06/stock-market-today-dow-s-p-live-updates",
       "region": "US"
     },
     {
-      "headline": "BOJ Governor Ueda Signals September Rate Hike; Nikkei Falls 2.6%",
-      "source": "Bloomberg",
-      "summary": "Governor Ueda told G20 counterparts in Asheville that the BOJ must pay greater attention to upside price risks, cementing expectations for a hike at the September 17–18 meeting; Japan's 10-year yield hit 3% for the first time since 1996.",
-      "marketImpact": "Nikkei 225 ↓ 2.60% to 64,495; SoftBank ↓ 6.4%, Tokyo Electron ↓ 3.4%; JPY strengthened ↑; exporters ↓",
-      "tickers": ["9984.T", "8035.T", "6954.T"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/boj-s-ueda-to-decide-on-policy-with-upside-price-risks-in-mind",
+      "headline": "BOJ Governor Ueda Signals September Rate Hike; Yen Surges 2%, Touches 155.28",
+      "source": "Japan Times",
+      "summary": "Bank of Japan Governor Ueda hinted at a rate hike at the September 17–18 meeting, with hawkish board member Takata calling for 'nimble' tightening potentially faster than the previous semiannual pace, sending the yen sharply higher.",
+      "marketImpact": "JPY ↑ ~2% to 155.28 per USD; JGB 10Y yield at highest since August 1996; Japanese exporters like Toyota ↓ watch; rate differential vs USD narrowing",
+      "tickers": ["7203.T", "9984.T", "FXY", "EWJ"],
+      "url": "https://www.japantimes.co.jp/business/2026/09/02/economy/boj-ueda-katayama-rate/",
       "region": "Japan"
     },
     {
-      "headline": "Shein Crashes 10% on Hong Kong Trading Debut",
-      "source": "CNBC",
-      "summary": "Shein (00625.HK) opened trading Tuesday on HKEX after raising $1.74B at a ~$27B valuation—a fraction of its 2022 peak—and fell 10% shortly after the bell as US tariff headwinds weighed on the fast-fashion retailer's growth story.",
-      "marketImpact": "00625.HK ↓ ~10%; dampens near-term appetite for HK tech IPOs; broader Chinese consumer/retail sentiment watch",
-      "tickers": ["00625.HK"],
-      "url": "https://www.cnbc.com/2026/08/24/shein-ipo-valuation-hong-kong.html",
+      "headline": "Nikkei 225 Snaps Four-Day Losing Streak, Jumps 1.26% to 65,021 on Monday",
+      "source": "Nikkei Asia",
+      "summary": "Japan's Nikkei 225 rebounded Monday to close at 65,021, up 1.26%, as traders rotated into domestic cyclicals and trimmed hedges after four consecutive days of losses.",
+      "marketImpact": "Nikkei 225 ↑ 1.26% to 65,021; Topix ↑ 0.5% to 4,102; yen near 155.8 limits upside for exporters; domestic financials outperformed",
+      "tickers": ["EWJ", "9984.T", "7203.T"],
+      "url": "https://asia.nikkei.com/business/markets",
+      "region": "Japan"
+    },
+    {
+      "headline": "Hang Seng Edges Higher at Open; Hua Hong Semiconductor Officially Joins Blue-Chip Index",
+      "source": "South China Morning Post",
+      "summary": "Hong Kong's Hang Seng opened at 25,652 with marginal gains as Hua Hong Semiconductor entered the blue-chip index and rebounded nearly 2%, while Bilibili and NetEase each fell more than 2%.",
+      "marketImpact": "1347.HK ↑ ~2% on index-inclusion flows; 9626.HK ↓ 2%+; 9999.HK ↓ 2%+; Hang Seng Tech Index ↓ 0.3%",
+      "tickers": ["1347.HK", "9626.HK", "9999.HK", "0700.HK"],
+      "url": "https://www.scmp.com/topics/hang-seng-index",
       "region": "Hong Kong"
     },
     {
-      "headline": "China PMI Sends Mixed Signals: Official Reading Contracts, Caixin Expands",
-      "source": "CNBC",
-      "summary": "China's official NBS manufacturing PMI held at 49.8 in August (contracting for a second month), while the private Caixin/S&P Global survey rose to 51.5, highlighting a split between large state-owned and smaller export-oriented manufacturers.",
-      "marketImpact": "No clear directional signal; domestic demand sectors soft ↓; AI hardware sub-index within PMI outperformed watch; Hang Seng flat ~25,311",
-      "tickers": ["FXI", "MCHI"],
-      "url": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html",
+      "headline": "China's August Manufacturing PMI Edges to 49.8 but Stays in Contraction; Services at 2022 Low",
+      "source": "Vantage Markets",
+      "summary": "China's official manufacturing PMI improved to 49.8 in August from 49.2, still below the 50-expansion line, while private-sector Caixin Manufacturing PMI beat at 51.5; non-manufacturing PMI held at a weak 49.0, the lowest since December 2022.",
+      "marketImpact": "FXI ↓ watch; MCHI, KWEB mixed; stimulus expectations stay elevated; CNY stable; sub-50 official reading tempers risk appetite for Chinese equities",
+      "tickers": ["FXI", "MCHI", "KWEB"],
+      "url": "https://www.vantagemarkets.com/market-news/china-official-manufacturing-pmi-august-2026-september-1-2026/",
       "region": "China"
     },
     {
-      "headline": "US ISM Manufacturing Expands for 8th Consecutive Month But Momentum Fades",
-      "source": "ISM",
-      "summary": "ISM Manufacturing PMI dipped to 54.6 in August from July's near-four-year high of 55.6, missing estimates of 55.2, as new orders softened even while production stayed robust at 58.3.",
-      "marketImpact": "Broadly constructive for industrials ↑; weaker new orders point to potential Q4 deceleration; consistent with ~2.4% annualised GDP growth",
-      "tickers": ["XLI", "CAT", "DE"],
-      "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-6-august-2026-ism-manufacturing-pmi-report-302865127.html",
-      "region": "US"
+      "headline": "South Korea's Kospi Surges 3% at Monday Open as Asia Leads in US Absence",
+      "source": "Newsy Today",
+      "summary": "With US markets closed for Labor Day, Asia-Pacific led global equity moves; South Korea's Kospi jumped 3.09% at the open and the Kosdaq added 1.33%, led by semiconductor and energy names.",
+      "marketImpact": "EWY ↑; Korea semiconductor exporters gaining; energy names benefit from oil price surge; ASX 200 flat",
+      "tickers": ["EWY"],
+      "url": "https://www.newsy-today.com/stock-market-news-today-sept-7-2026/",
+      "region": "Asia"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Dell Technologies",
-      "ticker": "DELL",
+      "name": "ExxonMobil",
+      "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "AI server backlog hit a record $95B and full-year guidance was raised by $25B; multiple analyst upgrades with targets at $600.",
+      "reason": "Direct beneficiary of Brent crude surging toward $97 on renewed US-Iran Strait of Hormuz conflict, with sustained supply-risk premium in focus.",
       "direction": "↑"
     },
     {
-      "name": "Shein",
-      "ticker": "00625.HK",
+      "name": "Chevron",
+      "ticker": "CVX",
+      "exchange": "NYSE",
+      "reason": "Major integrated energy play gaining from oil price spike driven by US-Iran escalation and constrained Hormuz shipping routes.",
+      "direction": "↑"
+    },
+    {
+      "name": "Hua Hong Semiconductor",
+      "ticker": "1347.HK",
       "exchange": "HKEX",
-      "reason": "Day 2 of HK trading after a painful 10% debut; watch whether bargain hunters absorb selling or declines extend.",
-      "direction": "↓"
-    },
-    {
-      "name": "SoftBank Group",
-      "ticker": "9984.T",
-      "exchange": "TSE",
-      "reason": "Fell 6.4% as BOJ rate hike bets intensify, raising borrowing costs and compressing tech valuations across Japan.",
-      "direction": "↓"
-    },
-    {
-      "name": "Tokyo Electron",
-      "ticker": "8035.T",
-      "exchange": "TSE",
-      "reason": "Down 3.4% in Wednesday's Nikkei selloff; bellwether for Japan semis facing sustained pressure if BOJ hikes in September.",
-      "direction": "↓"
-    },
-    {
-      "name": "Energy Select Sector SPDR Fund",
-      "ticker": "XLE",
-      "exchange": "NYSE",
-      "reason": "Strait of Hormuz risk premium and US-Iran escalation keeping crude elevated; further tanker incidents could push Brent toward $100.",
+      "reason": "Officially joined the Hang Seng blue-chip index today, attracting passive fund inflows and momentum buying at the open.",
       "direction": "↑"
+    },
+    {
+      "name": "Bilibili",
+      "ticker": "9626.HK",
+      "exchange": "HKEX",
+      "reason": "Fell more than 2% at the Hong Kong open amid broad tech selling pressure and ongoing macro uncertainty for China internet names.",
+      "direction": "↓"
+    },
+    {
+      "name": "Toyota Motor",
+      "ticker": "7203.T",
+      "exchange": "TSE",
+      "reason": "Japan's largest automaker faces direct headwinds from a sharply strengthening yen (toward 155) as BOJ rate-hike bets mount before the September 17–18 meeting.",
+      "direction": "↓"
     }
   ],
   "bondYields": {
     "us10y": 4.79,
-    "us30y": 4.97,
-    "asOf": "2026-09-02"
+    "us30y": 5.24,
+    "asOf": "2026-09-04"
   },
   "tickerDescriptions": {
-    "DELL": "Dell Technologies Inc., global provider of PCs, servers, and AI infrastructure solutions",
-    "NVDA": "NVIDIA Corporation, leading designer of GPUs and AI accelerator chips",
-    "XLE": "Energy Select Sector SPDR Fund, ETF tracking the energy sector of the S&P 500",
-    "USO": "United States Oil Fund, ETF tracking WTI crude oil futures contracts",
-    "XOM": "Exxon Mobil Corporation, one of the world's largest integrated oil and gas companies",
-    "CVX": "Chevron Corporation, major US-based integrated energy and petroleum company",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
-    "IEF": "iShares 7-10 Year Treasury Bond ETF, tracking intermediate-term US government bonds",
-    "9984.T": "SoftBank Group Corp., Japanese tech conglomerate and major global venture capital investor",
-    "8035.T": "Tokyo Electron Ltd., leading Japanese manufacturer of semiconductor production equipment",
-    "6954.T": "Fanuc Corporation, Japanese maker of CNC systems and industrial robots",
-    "00625.HK": "SHEIN Group Ltd., fast-fashion e-commerce retailer listed on the Hong Kong Stock Exchange",
-    "FXI": "iShares China Large-Cap ETF, tracking the 50 largest Chinese stocks listed in Hong Kong",
-    "MCHI": "iShares MSCI China ETF, broad exposure to Chinese equities across exchanges",
-    "XLI": "Industrial Select Sector SPDR Fund, ETF tracking the industrial sector of the S&P 500",
-    "CAT": "Caterpillar Inc., world's leading manufacturer of construction and mining equipment",
-    "DE": "Deere & Company, global leader in agricultural, construction, and forestry equipment"
+    "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest U.S. companies by market capitalization",
+    "QQQ": "Invesco QQQ Trust, tracking the Nasdaq-100 index of the largest non-financial Nasdaq-listed companies",
+    "DIA": "SPDR Dow Jones Industrial Average ETF, tracking 30 large U.S. blue-chip companies",
+    "IEF": "iShares 7-10 Year Treasury Bond ETF, tracking intermediate-term U.S. government bonds",
+    "XOM": "ExxonMobil Corporation, one of the world's largest publicly traded integrated oil and gas companies",
+    "CVX": "Chevron Corporation, a major global integrated energy company with upstream and downstream operations",
+    "USO": "United States Oil Fund, an ETF tracking the price of West Texas Intermediate light, sweet crude oil",
+    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and the world's biggest carmaker by production volume",
+    "9984.T": "SoftBank Group Corp., a Japanese multinational conglomerate focused on technology and telecommunications investments",
+    "FXY": "Invesco CurrencyShares Japanese Yen Trust, an ETF tracking the value of the Japanese yen against the U.S. dollar",
+    "EWJ": "iShares MSCI Japan ETF, tracking the MSCI Japan Index of large and mid-cap Japanese equities",
+    "1347.HK": "Hua Hong Semiconductor Limited, one of China's leading specialty semiconductor foundries serving domestic chip needs",
+    "9626.HK": "Bilibili Inc., a Chinese online entertainment platform known for video content, anime, and gaming",
+    "9999.HK": "NetEase Inc., a major Chinese internet company with businesses in online gaming, music streaming, and e-commerce",
+    "0700.HK": "Tencent Holdings Limited, China's largest internet conglomerate spanning social media, gaming, and fintech",
+    "FXI": "iShares China Large-Cap ETF, tracking the FTSE China 50 Index of the 50 largest China-listed H-share companies",
+    "MCHI": "iShares MSCI China ETF, tracking large and mid-cap Chinese equities listed across mainland China and Hong Kong",
+    "KWEB": "KraneShares CSI China Internet ETF, tracking major Chinese internet, e-commerce, and technology companies",
+    "EWY": "iShares MSCI South Korea ETF, tracking the MSCI Korea 25/50 Index of South Korean large and mid-cap equities"
   },
   "quickHits": [
-    "US ISM Services PMI for August releases today (Thursday Sep 3) — employment sub-component watched closely ahead of Friday's NFP (Reuters)",
-    "Canada Bank of Canada rate decision on deck this week, adding G10 central bank noise to a crowded macro calendar (Bloomberg)",
-    "Japan auto shares fell ~2% after China unveiled new guidelines targeting fair overseas competition, adding friction for Toyota (7203.T) and Honda (7267.T) (Nikkei Asia)",
-    "Bitcoin tumbled to ~$76,600, down 1.5% on combined Iran escalation and rising Fed rate-hike expectations; gold stabilised near $4,330/oz (Yahoo Finance)"
+    "China's non-manufacturing PMI held at a weak 49.0 in August — its lowest since December 2022 — deepening concern about domestic demand recovery. (Trading Economics)",
+    "US Vice President Vance said Washington will not negotiate with Tehran until Iran stops targeting commercial shipping in the Strait of Hormuz. (CNBC)",
+    "US spot Bitcoin ETFs attracted $1.6B in net inflows last week — the strongest inflow week of 2026 — as BTC consolidates near $80K with resistance at $82,300. (BeinCrypto)",
+    "Japan's 10-year JGB yield hit its highest level since August 1996, as bond markets price in a near-certain Bank of Japan rate hike at the September 17–18 meeting. (Nikkei Asia)"
   ]
 }
