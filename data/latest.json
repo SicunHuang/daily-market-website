@@ -1,76 +1,84 @@
 {
-  "date": "2026-09-14",
-  "marketMood": "Risk-off: AI safety call rattles chip stocks globally while Saudi pipeline shutdown drives oil above $107, with pivotal FOMC and BOJ decisions looming this week.",
+  "date": "2026-09-15",
+  "marketMood": "Risk-off: FOMC rate hike near-certain, 10Y yields breach 5%, Saudi pipeline attack spikes oil to $108, and AI slowdown fears hammer tech.",
   "upcomingEvents": [
-    { "date": "2026-09-15", "event": "FOMC Meeting Begins (2-day)", "significance": "high" },
-    { "date": "2026-09-15", "event": "US Retail Sales (August)", "significance": "medium" },
-    { "date": "2026-09-16", "event": "FOMC Rate Decision & Press Conference", "significance": "high" },
-    { "date": "2026-09-17", "event": "Bank of Japan Policy Meeting Begins", "significance": "high" },
-    { "date": "2026-09-18", "event": "Bank of Japan Rate Decision", "significance": "high" }
+    { "date": "2026-09-16", "event": "FOMC Rate Decision (25bps hike expected)", "significance": "high" },
+    { "date": "2026-09-17", "event": "US August Retail Sales", "significance": "medium" },
+    { "date": "2026-09-17", "event": "US August Industrial Production", "significance": "medium" },
+    { "date": "2026-09-18", "event": "Bank of Japan Rate Decision (25bps hike expected)", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "Amodei, Altman and Musk Call for AI Development Slowdown, Rattling Chip Stocks",
-      "source": "Bloomberg",
-      "summary": "Top AI company leaders — including Anthropic's Dario Amodei, OpenAI's Sam Altman, and Elon Musk — jointly urged a pause in advancing AI models to allow safety measures to catch up, sending Nasdaq 100 futures down more than 1%.",
-      "marketImpact": "Chip stocks ↓: NVDA, AMD, MU, INTC under pressure; Nasdaq 100 futures ↓ >1%; S&P 500 futures ↓ 0.6%",
-      "tickers": ["NVDA", "AMD", "MU", "INTC"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
+      "headline": "FOMC Kicks Off Two-Day Meeting as Rate Hike Seen Near-Certain",
+      "source": "Kiplinger",
+      "summary": "The Fed's September 15-16 meeting opened with markets pricing an 83% chance of a 25bps hike — the first since 2023 — as August CPI and strong payrolls cemented hawkish expectations.",
+      "marketImpact": "US Treasuries under pressure; 10Y yield tested 5.01% intraday; rate-sensitive sectors ↓; USD ↑",
+      "tickers": ["TLT", "SPY", "QQQ"],
+      "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026",
       "region": "US"
     },
     {
-      "headline": "Saudi Arabia Shuts Critical East-West Oil Pipeline After Drone Strikes; Brent Surges Toward $108",
-      "source": "Bloomberg",
-      "summary": "Drone attacks originating from Iraqi territory damaged Saudi Arabia's East-West pipeline — the primary bypass route for crude avoiding the Iran-blockaded Strait of Hormuz — prompting a full shutdown and removing up to 700,000 bpd from global supply.",
-      "marketImpact": "Brent crude ↑ toward $108/bbl; WTI ↑ near $103; energy stocks ↑; stagflation risk ↑",
-      "tickers": ["XOM", "CVX", "OXY"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-11/saudi-oil-pipeline-that-bypasses-hormuz-shut-after-attacks",
+      "headline": "Brent Crude Surges to ~$108 After Saudi Arabia Shuts East-West Pipeline Following Attacks",
+      "source": "Reuters",
+      "summary": "Attacks on infrastructure in Riyadh and Madinah forced Saudi Arabia to temporarily suspend its 7 mb/d East-West pipeline, compounding Hormuz tanker disruptions and pushing Brent up ~9% for the week.",
+      "marketImpact": "Brent crude ↑ ~4% to ~$108/bbl; WTI ~$103; energy stocks ↑; airlines and industrials ↓; broader inflation outlook ↑",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.thenationalnews.com/business/energy/2026/09/14/oil-nears-108-after-saudi-arabia-shuts-pipeline-amid-attacks/",
       "region": "Global"
     },
     {
-      "headline": "FOMC Meets This Week With Markets Pricing Over 50% Odds of a Rate Hike",
-      "source": "Reuters",
-      "summary": "The Federal Reserve's two-day meeting begins Tuesday, with markets now pricing more than 50% odds of a 25bp hike to 3.75–4.00% after Chair Warsh's hawkish Jackson Hole speech and a solid August jobs report.",
-      "marketImpact": "Bond yields ↑; TLT ↓; USD ↑; equities cautious ahead of Wednesday decision",
-      "tickers": ["TLT", "SPY"],
-      "url": "https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/",
+      "headline": "Anthropic and OpenAI CEOs Call for AI Development Slowdown, Rattling Tech Stocks",
+      "source": "Motley Fool",
+      "summary": "Anthropic CEO Dario Amodei published an essay warning of rogue AI agents within six months and proposed 'pacing' frontier AI development; OpenAI's Sam Altman and Google's AI chief quickly agreed.",
+      "marketImpact": "Nasdaq 100 ↓ 0.8%; Philly Semiconductor Index ↓ 5.9%; Nvidia ↓ 3.4%; Intel ↓ 5.6%; AI capex story under scrutiny ↓",
+      "tickers": ["NVDA", "INTC", "MSFT", "GOOGL"],
+      "url": "https://www.fool.com/investing/2026/09/14/we-owe-it-to-humanity-to-try-anthropics-ceo-just-called-for-global-ai-slowdown-elon-musk-sam-altman-and-googles-ai-chief-agree/",
       "region": "US"
     },
     {
-      "headline": "Nikkei 225 Falls 1.7% to Six-Week Low; SoftBank Drops 12%, Kioxia -8.6%",
-      "source": "Nikkei Asia",
-      "summary": "Japan's benchmark index dropped to 62,922 as AI and semiconductor stocks bore the brunt of selling after the global call to slow AI development, with SoftBank Group leading losses.",
-      "marketImpact": "9984.T ↓ 12%; 285A.T ↓ 8.6%; 8035.T ↓ 2.6%; Nikkei 225 ↓ 1.7% to 62,922",
-      "tickers": ["9984.T", "285A.T", "8035.T"],
-      "url": "https://asia.nikkei.com/business/markets",
+      "headline": "US August CPI Rises 3.4% YoY, Core at 2.4%, Cements September Fed Hike",
+      "source": "CNBC",
+      "summary": "Headline CPI rose 0.4% MoM in August driven by energy, with core at +2.4% YoY matching forecasts, pushing Fed funds futures to 89% odds of a September hike.",
+      "marketImpact": "Front-end yields ↑; growth stocks ↓; financials ↑; rate-sensitive bonds ↓",
+      "tickers": ["TLT", "SPY"],
+      "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "region": "US"
+    },
+    {
+      "headline": "China August Retail Sales +4.6% and Industrial Output +4.5% Both Beat Forecasts",
+      "source": "Bloomberg",
+      "summary": "China's NBS reported August retail sales at +4.6% YoY (vs. 3.0% est) and industrial production at +4.5% YoY (vs. 3.9% est), a broad beat after months of disappointing activity data.",
+      "marketImpact": "CNY ↑; HK and mainland equities stabilised; stimulus timeline remains uncertain — watch ↔",
+      "tickers": ["FXI", "9988.HK", "0700.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-s-economy-enters-critical-phase-determining-2026-stimulus",
+      "region": "China"
+    },
+    {
+      "headline": "BOJ on Track for 25bps Hike on September 18; Yen Carry Trade in Focus",
+      "source": "Japan Times",
+      "summary": "With 97% of BOJ watchers expecting Governor Ueda to raise the policy rate to 1.25% on September 18, the coinciding Fed and BOJ decisions mark the first time both central banks tighten in the same week this cycle.",
+      "marketImpact": "JPY ↑; Nikkei volatile — fell 0.81% Monday, recovered 0.4% Tuesday; yen carry-trade unwind risk ↑",
+      "tickers": ["9984.T", "285A.T"],
+      "url": "https://www.techtimes.com/articles/327491/20260914/bank-japan-september-hike-arrives-fed-yen-carry-trade-alert-tech-investors.htm",
       "region": "Japan"
     },
     {
-      "headline": "Hang Seng Drops 2.1% in Worst Week in Over a Year; Tencent -3.7%, SMIC -7.9%",
-      "source": "South China Morning Post",
-      "summary": "Hong Kong's Hang Seng Index fell 533 points to 25,473, closing out its worst weekly performance since 2024 as mainland tech names bore the brunt of a global AI-driven selloff, with Z.AI Co. losing 10.8%.",
-      "marketImpact": "0700.HK ↓ 3.7%; 0981.HK ↓ 7.9%; 1810.HK ↓ 4.1%; Hang Seng ↓ 2.1% to 25,473",
-      "tickers": ["0700.HK", "0981.HK", "1810.HK"],
-      "url": "https://www.scmp.com/business/china-business/article/3358428/hang-seng-index-heads-worst-week-over-year-renewed-sell-engulfs-tech-names",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Alibaba's Record HK$80B Share Placement Funds AI Push But Dilution Concerns Weigh",
-      "source": "StreetInsider",
-      "summary": "Alibaba completed its largest-ever Hong Kong share placement — raising HK$80B to fund AI data centers and computing infrastructure — but markets remain cautious about dilution and the scale of capital expenditure.",
-      "marketImpact": "9988.HK watch ↓ on dilution overhang; AI capex debate intensifies across sector",
-      "tickers": ["9988.HK"],
-      "url": "https://www.streetinsider.com/Corporate+News/Alibaba+completes+HK$80+billion+share+placement+in+Hong+Kong/26977114.html",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Bank of Japan Meets Thursday–Friday; Rate Hike Possible as Inflation Exceeds 2% Target",
-      "source": "Reuters",
-      "summary": "The BOJ's two-day policy meeting begins Thursday with inflation running above its 2% target, raising the prospect of a rate increase from the current 0.75–1.0% range — a decision that could sharply move the yen.",
-      "marketImpact": "USD/JPY watch; Japanese financials ↑ if hike; exporters ↓ on yen strength; 9984.T, 8035.T sensitive",
-      "tickers": ["9984.T", "8035.T"],
-      "url": "https://www.financecalendar.com/bank-of-japan-rate-decisions/",
+      "headline": "Kioxia Considers Raising $10 Billion Through US ADR Listing",
+      "source": "Bloomberg",
+      "summary": "Japanese memory chipmaker Kioxia Holdings, whose shares have surged ~400% on AI-driven NAND demand, is in early talks with BofA, Goldman, and JPMorgan about listing American depositary receipts on a US exchange.",
+      "marketImpact": "285A.T ↑ 2.5%; US NAND peers (Micron) watch; ADR listing could enable semiconductor index inclusion ↑",
+      "tickers": ["285A.T", "MU"],
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/09/14/kioxia-considers-raising-10-billion-in-us-listing-bloomberg-news-reports",
       "region": "Japan"
+    },
+    {
+      "headline": "10-Year Treasury Yield Briefly Tops 5% for First Time Since 2023",
+      "source": "Bloomberg",
+      "summary": "The US 10-year Treasury note yield touched 5.01% intraday Monday, its highest level since 2023, as surging energy prices and FOMC expectations compounded bond market weakness.",
+      "marketImpact": "Bonds ↓ across the curve; equities under pressure; mortgage rates ↑; TLT ↓",
+      "tickers": ["TLT", "SPY", "QQQ"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap",
+      "region": "US"
     }
   ],
   "companiesToWatch": [
@@ -78,65 +86,65 @@
       "name": "Nvidia",
       "ticker": "NVDA",
       "exchange": "NASDAQ",
-      "reason": "Central target of AI slowdown concerns after leading executives call for pausing AI development; data center spending outlook clouded.",
+      "reason": "Fell 3.4% Monday as Anthropic and OpenAI CEOs called for a global AI slowdown, rattling AI infrastructure investment sentiment.",
       "direction": "↓"
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "exchange": "NASDAQ",
+      "reason": "Dropped 5.6% Monday on AI development slowdown fears; already under structural pressure from AMD and Nvidia competition.",
+      "direction": "↓"
+    },
+    {
+      "name": "Kioxia Holdings",
+      "ticker": "285A.T",
+      "exchange": "TSE",
+      "reason": "Rose 2.5% after Bloomberg reported it is considering a $10B US ADR listing following a 400% share price surge on AI-driven NAND demand.",
+      "direction": "↑"
     },
     {
       "name": "SoftBank Group",
       "ticker": "9984.T",
       "exchange": "TSE",
-      "reason": "Largest Nikkei decliner at -12% as AI and tech sell-off hits its heavy AI and semiconductor investment portfolio.",
-      "direction": "↓"
-    },
-    {
-      "name": "Tencent Holdings",
-      "ticker": "0700.HK",
-      "exchange": "HKEX",
-      "reason": "Leading the Hang Seng tech retreat at -3.7%, facing dual pressure from global AI sentiment shift and lingering regulatory uncertainty.",
-      "direction": "↓"
+      "reason": "Gained 6.3% Tuesday as select tech stocks recovered; BOJ rate hike on Friday is a key risk for its leveraged investment portfolio.",
+      "direction": "↑"
     },
     {
       "name": "ExxonMobil",
       "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "Major beneficiary of surging oil prices as Brent approaches $108 following Saudi pipeline shutdown amid the ongoing US-Iran conflict.",
+      "reason": "Brent crude surging above $108 on Saudi pipeline shutdown and Hormuz disruptions benefits integrated oil majors directly.",
       "direction": "↑"
-    },
-    {
-      "name": "AMD",
-      "ticker": "AMD",
-      "exchange": "NASDAQ",
-      "reason": "Under pressure from AI slowdown narrative despite a strong 123% YTD gain; near-term capex uncertainty clouds the outlook.",
-      "direction": "↓"
     }
   ],
   "bondYields": {
-    "us10y": 4.98,
+    "us10y": 4.96,
     "us30y": 5.36,
-    "asOf": "2026-09-11"
+    "asOf": "2026-09-14"
   },
   "tickerDescriptions": {
-    "NVDA": "Nvidia Corp., the world's dominant AI chip designer and GPU supplier for data centers",
-    "AMD": "Advanced Micro Devices Inc., semiconductor company competing in AI chips, CPUs and data centers",
-    "MU": "Micron Technology Inc., memory and storage semiconductor manufacturer with DRAM and NAND products",
-    "INTC": "Intel Corp., global semiconductor company producing CPUs and expanding into AI accelerators",
-    "XOM": "ExxonMobil Corp., the largest US integrated oil and gas company",
-    "CVX": "Chevron Corp., major US integrated energy company with global upstream and downstream operations",
-    "OXY": "Occidental Petroleum Corp., US oil and gas exploration, production and chemical company",
-    "TLT": "iShares 20+ Year Treasury Bond ETF tracking long-duration US government bonds",
-    "SPY": "SPDR S&P 500 ETF Trust, benchmark ETF tracking 500 large US companies",
-    "9984.T": "SoftBank Group Corp., Japanese technology conglomerate and one of the world's largest AI and tech investors",
-    "285A.T": "Kioxia Holdings Corp., Japanese flash memory chipmaker and one of the world's largest NAND producers",
-    "8035.T": "Tokyo Electron Ltd., leading Japanese semiconductor equipment manufacturer",
-    "0700.HK": "Tencent Holdings Ltd., China's largest internet conglomerate operating WeChat, gaming and cloud services",
-    "0981.HK": "Semiconductor Manufacturing International Corp. (SMIC), China's largest foundry chipmaker",
-    "1810.HK": "Xiaomi Corp., Chinese consumer electronics and smartphone manufacturer expanding into EVs",
-    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce, cloud computing and AI platform company"
+    "TLT": "iShares 20+ Year Treasury Bond ETF, tracks long-duration US government bonds",
+    "SPY": "SPDR S&P 500 ETF Trust, tracks the 500 largest US publicly traded companies",
+    "QQQ": "Invesco QQQ Trust, tracks the Nasdaq-100 Index of the largest non-financial technology companies",
+    "XOM": "ExxonMobil Corporation, integrated multinational oil and gas company",
+    "CVX": "Chevron Corporation, multinational integrated energy and chemicals company",
+    "USO": "United States Oil Fund, tracks WTI crude oil futures prices",
+    "NVDA": "Nvidia Corporation, leading designer of AI and machine learning GPUs and data center chips",
+    "INTC": "Intel Corporation, semiconductor manufacturer of CPUs, data center processors, and networking chips",
+    "MSFT": "Microsoft Corporation, global cloud computing, software, and AI services leader",
+    "GOOGL": "Alphabet Inc., parent company of Google and a major AI research and cloud services provider",
+    "FXI": "iShares China Large-Cap ETF, tracks 50 largest Chinese companies listed on the Hong Kong exchange",
+    "9988.HK": "Alibaba Group Holding Ltd., China's largest e-commerce platform and cloud computing provider",
+    "0700.HK": "Tencent Holdings Ltd., Chinese internet, gaming, and social media conglomerate",
+    "9984.T": "SoftBank Group Corp., Japanese investment conglomerate focused on technology and AI ventures",
+    "285A.T": "Kioxia Holdings Corporation, Japanese NAND flash memory and SSD manufacturer with AI-driven demand tailwinds",
+    "MU": "Micron Technology Inc., US manufacturer of DRAM and NAND flash memory chips"
   },
   "quickHits": [
-    "South Korea's KOSPI falls 1.3% as Samsung Electronics and SK Hynix slide alongside global chip sell-off (Reuters)",
-    "European natural gas surges up to 3.8% on fears that Saudi pipeline disruption could deepen the region's energy crunch (Bloomberg)",
-    "Bitcoin dips toward $77,000 as risk-off sentiment driven by AI concerns and Middle East escalation weighs on crypto (Yahoo Finance)",
-    "Gold holds above $4,400 per ounce as safe-haven demand builds ahead of pivotal FOMC and BOJ decisions this week (FXStreet)"
+    "Ukraine drone strikes on Russian refineries have 'near-halted' Russian fuel exports, adding a second front to the global energy crunch (IEA Oil Market Report)",
+    "Fed Governor Waller the lone dovish voice ahead of September meeting — may dissent if 25bps hike proceeds (CNBC)",
+    "93% of BOJ watchers expect a follow-up rate hike by January 2027, with one-third predicting a December move (Bloomberg)",
+    "China's MSCI China Index remains -8.5% YTD and 30%+ below its February 2021 peak despite today's August data beat (South China Morning Post)"
   ]
 }
