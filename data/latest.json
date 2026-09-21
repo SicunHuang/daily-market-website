@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-18",
-  "marketMood": "Higher-for-longer rates meet a dual central-bank tightening day — the Fed's first hike since 2023 collides with a near-certain BOJ move, while Brent above $100 on Saudi pipeline closure keeps energy and risk sentiment in tension.",
+  "date": "2026-09-21",
+  "marketMood": "Cautious optimism: Trump-Xi summit hope lifts futures and Chinese assets, but the Fed's first rate hike since 2023 and oil above $100 on the Iran war keep inflation and stagflation risks front of mind.",
   "upcomingEvents": [
-    { "date": "2026-09-18", "event": "Bank of Japan rate decision (expected +25bps to 1.25%)", "significance": "high" },
-    { "date": "2026-09-18", "event": "US August Industrial Production & Capacity Utilization", "significance": "medium" },
-    { "date": "2026-09-18", "event": "US August Leading Economic Indicators", "significance": "medium" },
-    { "date": "2026-09-22", "event": "US August Existing Home Sales", "significance": "medium" },
-    { "date": "2026-09-24", "event": "US September Preliminary PMI (S&P Global)", "significance": "medium" }
+    { "date": "2026-09-22", "event": "Richmond Fed Manufacturing Index (September)", "significance": "medium" },
+    { "date": "2026-09-22", "event": "US 2-Year Treasury Note Auction ($78B)", "significance": "medium" },
+    { "date": "2026-09-23", "event": "S&P Global US PMI Flash — Manufacturing & Services (September)", "significance": "high" },
+    { "date": "2026-09-24", "event": "Trump-Xi State Visit and Trade Summit at the White House", "significance": "high" },
+    { "date": "2026-09-25", "event": "US Durable Goods Orders (August)", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Fed Hikes 25bps to 3.75%–4%, First Rate Increase Since 2023; More Tightening Signalled",
+      "headline": "US-China Trade Talks Begin in New York Ahead of Trump-Xi Summit",
+      "source": "Bloomberg",
+      "summary": "Treasury Secretary Bessent and Vice Premier He Lifeng opened negotiations in New York covering tariffs, agriculture, energy, and AI ahead of President Xi's state visit to Washington on September 24.",
+      "marketImpact": "Risk-on tone — SPY ↑, QQQ ↑; potential tariff cuts on ~$30B in goods; new punitive tariffs delayed until after summit",
+      "tickers": ["SPY", "QQQ", "BABA", "0700.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-20/us-china-begin-trade-talks-in-new-york-ahead-of-trump-xi-summit",
+      "region": "US"
+    },
+    {
+      "headline": "Fed Raises Rates to 3.75%–4.00%, First Hike Since 2023; More Expected This Year",
       "source": "CNBC",
-      "summary": "The FOMC voted 12-0 on September 16 to raise the fed funds target to 3.75%–4%, the first increase in more than three years, with Chairman Kevin Warsh citing persistent oil-driven inflation and projecting at least one more hike this year.",
-      "marketImpact": "S&P 500 sold off 0.45% on Wednesday then recovered 1.14% Thursday; 10Y yield spiked to 5.04% ↑ before settling at 4.93% ↓; 'higher for longer' narrative pressures rate-sensitive equities",
-      "tickers": ["SPY", "QQQ", "GS", "TLT"],
+      "summary": "The FOMC voted unanimously to raise the federal funds rate 25bps, citing persistent inflation above target driven by surging oil prices; 16 of 18 members project at least one more hike in 2026.",
+      "marketImpact": "TLT ↓; Dow and S&P under pressure ↓; financial sector watch; Nasdaq tech showed relative resilience",
+      "tickers": ["SPY", "TLT", "QQQ"],
       "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
       "region": "US"
     },
     {
-      "headline": "Saudi Arabia's Critical East-West Oil Pipeline Shut After Houthi Drone Attacks",
+      "headline": "Consumer Sentiment Plunges to Near-Record Low 47.8; Year-Ahead Inflation Expectations Hit 4.6%",
       "source": "CNBC",
-      "summary": "Saudi Arabia closed its 7 million barrel-per-day East-West Petroline after multiple drone strikes launched from Iraq; Houthis also seized Yemen's Perim Island, tightening their grip on the Bab el-Mandeb Strait.",
-      "marketImpact": "Brent briefly topped $105 before easing to ~$103.83 today ↓ on Saudi restoration hopes; WTI ~$101 ↓; energy stocks ↑; supply disruption risk 'watch'",
-      "tickers": ["XOM", "CVX", "COP", "OXY"],
-      "url": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html",
-      "region": "Global"
+      "summary": "The University of Michigan's preliminary September sentiment index dropped 7.5% month-on-month to 47.8 — the second-lowest reading on record — as surging fuel prices and the Iran war weighed on household confidence.",
+      "marketImpact": "Consumer discretionary ↓; XRT watch; stagflation concerns complicate Fed's rate path",
+      "tickers": ["XRT", "SPY"],
+      "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
+      "region": "US"
     },
     {
-      "headline": "Bank of Japan Concludes Two-Day Meeting Today; Rate Hike to 1.25% Near-Certain",
-      "source": "Nikkei Asia",
-      "summary": "All 52 surveyed economists expect the BOJ to raise its benchmark rate by 25bps to 1.25% — the highest since 1995 — as Japan's inflation persists near 2% and yen weakness remains elevated; Governor Ueda stated hikes are on the table at every meeting.",
-      "marketImpact": "Yen ↑ (USD/JPY ~155); Japan 10-year JGB yield nudged above 3% for first time since 1996; Nikkei and rate-sensitive Japanese financials 'watch'",
-      "tickers": ["7203.T", "8306.T", "6758.T"],
-      "url": "https://asia.nikkei.com/economy/bank-of-japan/bank-of-japan-set-to-raise-policy-rate-to-1.25-next-week",
+      "headline": "Bank of Japan Raises Policy Rate to 31-Year High of 1.25%; Yen Falls on Dovish Tone",
+      "source": "CNBC",
+      "summary": "The BOJ hiked 25bps to 1.25% in a 7-2 vote on September 18, but the yen weakened as Governor Ueda signalled no commitment to immediate further increases, pushing USD/JPY back above 157.",
+      "marketImpact": "USD/JPY ↑ above 157 (yen ↓); JGB 10Y yield slipped; Nikkei 225 ↑ 1.38% to 65,019; EWJ watch",
+      "tickers": ["EWJ", "7203.T", "6857.T"],
+      "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html",
       "region": "Japan"
     },
     {
-      "headline": "Hang Seng Falls 0.8% After Fed Hike; Hong Kong Faces Multiple Market Headwinds",
-      "source": "South China Morning Post",
-      "summary": "The Hang Seng Index fell to 24,537.30 on Thursday as the Fed rate hike and forward guidance rattled Hong Kong markets, with the Hang Seng Tech Index losing 0.5% amid ongoing concerns over AI trade momentum and share lock-up expirations.",
-      "marketImpact": "0700.HK (Tencent) ↓; 9988.HK (Alibaba) ↓; foreign capital repositioning weighs; state buying supports mainland CSI 300 but HK less insulated",
-      "tickers": ["0700.HK", "9988.HK", "9618.HK"],
-      "url": "https://www.scmp.com/business/china-business/article/3367790/hong-kong-stocks-decline-after-fed-raises-interest-rates-and-signals-more-come",
+      "headline": "HKMA Tracks Fed With First Rate Hike in Three Years; Property Sub-Index Drops 2.4%",
+      "source": "Bloomberg",
+      "summary": "The Hong Kong Monetary Authority raised its base rate to 4.25% under its Linked Exchange Rate System, immediately dragging the Hang Seng property sub-gauge down 2.4% and threatening Hong Kong's nascent property recovery.",
+      "marketImpact": "0016.HK ↓, 0823.HK ↓; Hang Seng -0.4% to 24,604; property sector under pressure",
+      "tickers": ["0016.HK", "0823.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-follows-fed-with-first-rate-hike-in-over-three-years",
       "region": "Hong Kong"
     },
     {
-      "headline": "Beijing $1B Land Auction Collapses With Single Bidder; Property Sector Stress Deepens",
+      "headline": "Iran War Keeps Oil Above $100 as Strait of Hormuz Traffic Collapses 95%",
+      "source": "CNBC",
+      "summary": "US-Iran military strikes have effectively frozen Strait of Hormuz tanker traffic to just 5-12 ships per day from over 100, with combined disruptions affecting roughly 39% of global trade and keeping WTI above $100 per barrel.",
+      "marketImpact": "WTI ~$102/bbl, Brent ~$107/bbl ↑; XOM ↑, CVX ↑; airlines DAL ↓; global inflation pressure",
+      "tickers": ["XOM", "CVX", "USO", "DAL"],
+      "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
+      "region": "Global"
+    },
+    {
+      "headline": "US Delays New China Tariffs Until After Xi Summit; Agriculture and Energy Tariff Cuts Under Discussion",
       "source": "Bloomberg",
-      "summary": "A Beijing land auction valued at over $1 billion attracted only one bidder and was subsequently cancelled, underscoring the continued weakness in developer appetite even as authorities attempt to stabilise China's five-year property downturn.",
-      "marketImpact": "China property developer stocks ↓; local government fiscal strain grows; stimulus expectations building — watch for PBOC or fiscal policy response",
-      "tickers": ["BEKE", "1109.HK", "2007.HK"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/china-s-property-overhaul-puts-strain-on-local-government-income",
+      "summary": "Washington will hold off announcing new excess-capacity tariffs on China until after the September 24 summit, while both sides are discussing cuts on roughly $30 billion in goods including US agricultural and energy exports.",
+      "marketImpact": "BABA ↑, 0700.HK ↑, 9988.HK ↑; Chinese ADRs and HK tech names rally on summit optimism",
+      "tickers": ["BABA", "0700.HK", "9988.HK"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/us-said-to-delay-excess-capacity-tariffs-until-after-xi-summit",
       "region": "China"
     },
     {
-      "headline": "US 10-Year Treasury Yield Touches 5% — Highest Since 2007 — Before Post-Fed Relief",
-      "source": "CNBC",
-      "summary": "The US 10-year Treasury yield rose as high as 5.04% on Tuesday, its first time above that threshold since October 2007, driven by Fed rate hike expectations and elevated oil prices; it eased to 4.93% Thursday after the Fed delivered its move.",
-      "marketImpact": "Rate-sensitive sectors (real estate, utilities, long-duration growth) ↓; 30-year yield at 5.28% ↑; bond market pricing one more Fed hike before year-end",
-      "tickers": ["TLT", "IEF", "SPY"],
-      "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html",
-      "region": "US"
-    },
-    {
-      "headline": "Tech Leads Post-Fed Recovery; Nasdaq Rebounds 1.69% as AI Infrastructure Bets Return",
-      "source": "CNBC",
-      "summary": "US equities staged a broad recovery Thursday as bond yields and oil retreated, with Nasdaq leading; AI safety concerns lifted cybersecurity names (Palo Alto Networks +4%, CrowdStrike +5.4%) while Nvidia recovered from a mid-week 3% decline.",
-      "marketImpact": "Nasdaq +1.69% ↑; NVDA ↑; PANW ↑; CRWD ↑; semiconductor infrastructure spending narrative intact despite AI safety debate",
-      "tickers": ["NVDA", "PANW", "CRWD", "AMD", "AVGO"],
-      "url": "https://www.cnbc.com/2026/09/17/stocks-are-rallying-after-fed-sell-off-why-now-may-not-be-the-time-to-buy-the-dip.html",
-      "region": "US"
-    },
-    {
-      "headline": "Japan's Foreign Reserves Drop at Fastest Pace on Record as Yen Intervention Costs Mount",
-      "source": "CNBC",
-      "summary": "Japan's foreign reserves fell 6.18% in August to $1.207 trillion — the steepest monthly decline since records began in 2000 — after Tokyo spent a record ¥15.4 trillion ($98bn) defending the yen in a coordinated effort with the US.",
-      "marketImpact": "Yen intervention capacity 'watch'; USD/JPY ~155 ahead of BOJ decision; today's expected BOJ hike adds further yen support ↑; JGB market volatile",
-      "tickers": ["7203.T", "8306.T"],
-      "url": "https://www.cnbc.com/2026/09/03/yen-japan-intervention-boj.html",
+      "headline": "Japan Q2 GDP Growth Slows to 0.3%, Missing 0.5% Forecast",
+      "source": "Al Jazeera",
+      "summary": "Japan's economy expanded just 0.3% in the April-June quarter, down from 0.5% in Q1 and below consensus, as weak consumer spending and global trade headwinds weighed on the third-straight quarter of expansion.",
+      "marketImpact": "7203.T cautious ↓; EWJ watch; weak growth complicates BOJ's rate-hike path ahead of Oct 29 meeting",
+      "tickers": ["EWJ", "7203.T"],
+      "url": "https://www.aljazeera.com/economy/2026/8/17/japans-economy-slows-missing-growth-forecasts",
       "region": "Japan"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "Nvidia",
-      "ticker": "NVDA",
-      "exchange": "NASDAQ",
-      "reason": "AI infrastructure demand narrative intact after mid-week sell-off; recovering as Anthropic's $13.7B computing deal confirms continued GPU appetite.",
-      "direction": "↑"
-    },
-    {
-      "name": "Exxon Mobil",
+      "name": "ExxonMobil",
       "ticker": "XOM",
       "exchange": "NYSE",
-      "reason": "Brent above $100 with Saudi East-West pipeline closure and Houthi advances in Yemen keeping energy supply tight.",
+      "reason": "Iran war oil supply squeeze with WTI holding above $100/bbl keeps upstream earnings elevated, benefiting integrated oil majors.",
       "direction": "↑"
     },
     {
-      "name": "Goldman Sachs",
-      "ticker": "GS",
-      "exchange": "NYSE",
-      "reason": "Led Dow losses on Fed hike day; rate-sensitive bank faces ongoing yield curve and credit spread repricing in a higher-for-longer environment.",
+      "name": "Sun Hung Kai Properties",
+      "ticker": "0016.HK",
+      "exchange": "HKEX",
+      "reason": "HKMA's first rate hike in three years directly pressures Hong Kong mortgage demand and developer refinancing costs, threatening the property market recovery.",
       "direction": "↓"
     },
     {
-      "name": "Tencent",
+      "name": "Tencent Holdings",
       "ticker": "0700.HK",
       "exchange": "HKEX",
-      "reason": "Primary gauge of Hong Kong tech sentiment; foreign capital repositioning post-Fed weighs on HK-listed names, with Hang Seng Tech Index under pressure.",
+      "reason": "Trump-Xi summit on September 24 could ease US technology restrictions and signal a trade truce extension, lifting Chinese internet names.",
+      "direction": "↑"
+    },
+    {
+      "name": "Advantest",
+      "ticker": "6857.T",
+      "exchange": "TSE",
+      "reason": "Led the Nikkei's 1.38% Friday surge as AI semiconductor equipment demand sentiment improved; watch for continuation.",
+      "direction": "↑"
+    },
+    {
+      "name": "Delta Air Lines",
+      "ticker": "DAL",
+      "exchange": "NYSE",
+      "reason": "Sustained crude above $100/bbl materially raises jet fuel costs and compresses airline operating margins.",
       "direction": "↓"
     },
     {
-      "name": "Palo Alto Networks",
-      "ticker": "PANW",
-      "exchange": "NASDAQ",
-      "reason": "Cybersecurity names rallied on AI safety concerns driving demand for defensive IT spending; PANW rose 4% Thursday with CrowdStrike up 5.4%.",
+      "name": "Alibaba Group",
+      "ticker": "BABA",
+      "exchange": "NYSE",
+      "reason": "US tariff delay and summit optimism boost investor sentiment for Chinese ADRs heading into the Trump-Xi meeting on September 24.",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.93,
-    "us30y": 5.28,
-    "asOf": "2026-09-17"
+    "us10y": 5.00,
+    "us30y": 5.37,
+    "asOf": "2026-09-21"
   },
   "tickerDescriptions": {
     "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US companies by market cap",
-    "QQQ": "Invesco QQQ ETF tracking the Nasdaq-100, heavy in mega-cap technology stocks",
-    "GS": "Goldman Sachs Group, global investment banking and financial services firm",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, inversely sensitive to long-duration US interest rates",
-    "IEF": "iShares 7-10 Year Treasury Bond ETF, tracking intermediate-term US government bonds",
-    "XOM": "Exxon Mobil Corporation, one of the world's largest publicly traded oil and gas companies",
-    "CVX": "Chevron Corporation, integrated energy company with major upstream and downstream operations",
-    "COP": "ConocoPhillips, independent oil and gas exploration and production company",
-    "OXY": "Occidental Petroleum Corporation, oil and gas exploration, production, and chemicals company",
-    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and global leader in hybrid vehicles",
-    "8306.T": "Mitsubishi UFJ Financial Group, Japan's largest bank by total assets",
-    "6758.T": "Sony Group Corporation, Japanese multinational conglomerate in electronics, gaming, and entertainment",
-    "0700.HK": "Tencent Holdings, China's largest internet and technology company; WeChat, gaming, cloud",
-    "9988.HK": "Alibaba Group Holding, China's largest e-commerce and cloud computing conglomerate",
-    "9618.HK": "JD.com, China's second-largest e-commerce platform with extensive logistics network",
-    "BEKE": "KE Holdings (Beike), China's leading integrated online and offline real estate platform",
-    "1109.HK": "China Resources Land, one of mainland China's largest state-owned property developers",
-    "2007.HK": "Country Garden Holdings, major Chinese residential property developer undergoing debt restructuring",
-    "NVDA": "Nvidia Corporation, dominant designer of AI accelerator chips and GPU computing platforms",
-    "PANW": "Palo Alto Networks, cybersecurity company offering next-generation firewalls and cloud security",
-    "CRWD": "CrowdStrike Holdings, cloud-native cybersecurity platform specializing in endpoint protection",
-    "AMD": "Advanced Micro Devices, semiconductor company making CPUs and GPUs competing with Nvidia and Intel",
-    "AVGO": "Broadcom Inc., semiconductor and infrastructure software company with major AI networking products"
+    "QQQ": "Invesco QQQ ETF tracking the 100 largest non-financial companies listed on the Nasdaq",
+    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
+    "XRT": "SPDR S&P Retail ETF tracking US retail sector equities across sub-industries",
+    "EWJ": "iShares MSCI Japan ETF, tracking large- and mid-cap Japanese equities",
+    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and one of the world's top three car manufacturers",
+    "6857.T": "Advantest Corporation, Japanese maker of semiconductor test equipment critical for AI and high-bandwidth memory chips",
+    "0016.HK": "Sun Hung Kai Properties Limited, one of Hong Kong's largest property developers by floor area",
+    "0823.HK": "Link Real Estate Investment Trust, the largest REIT in Hong Kong by asset value",
+    "XOM": "ExxonMobil Corporation, the largest US-based integrated oil and gas company",
+    "CVX": "Chevron Corporation, US-based multinational energy company and major crude oil producer",
+    "USO": "United States Oil Fund ETF, designed to track near-month WTI crude oil futures prices",
+    "DAL": "Delta Air Lines Inc., one of the largest US commercial airlines by revenue and passenger volume",
+    "BABA": "Alibaba Group Holding (US-listed ADR), China's dominant e-commerce, cloud computing, and digital media company",
+    "0700.HK": "Tencent Holdings Limited, China's largest internet conglomerate spanning gaming, social media, fintech, and cloud",
+    "9988.HK": "Alibaba Group Holding (Hong Kong-listed), China's leading e-commerce and cloud platform"
   },
   "quickHits": [
-    "Japan's 10-year JGB yield nudged above 3% for the first time since 1996 ahead of today's BOJ meeting, amplifying pressure on Japanese banks and life insurers (Nikkei Asia)",
-    "OPEC+ completed its rollback of voluntary output cuts in September, adding barrels to a market already strained by Houthi strikes on Saudi infrastructure (CNBC)",
-    "South Korea's Kospi surged ~4.6% earlier this week, led by Samsung Electronics (+5.7%) and SK Hynix (+8.3%) on revived AI chip demand optimism (CNBC)",
-    "US August Leading Indicators, Industrial Production and Capacity Utilization all release today — the first major domestic data post-Fed decision (CNBC)"
+    "S&P Global Flash PMI for September due Wednesday Sept 23 — key read on US economic momentum post-Fed hike (CNBC/Kiplinger)",
+    "US Treasury to auction $78B in 2-year notes Tuesday with the 10Y yield testing 5% (Kiplinger)",
+    "Fed officials scheduled for 10+ public appearances this week; any hawkish signals could reprice the December rate path (Kiplinger)",
+    "Triple witching on September 18 drove above-average volume and volatility; markets now repositioning for summit week (Charles Schwab)"
   ]
 }
