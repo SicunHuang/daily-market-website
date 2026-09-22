@@ -1,158 +1,158 @@
 {
-  "date": "2026-09-21",
-  "marketMood": "Cautious optimism: Trump-Xi summit hope lifts futures and Chinese assets, but the Fed's first rate hike since 2023 and oil above $100 on the Iran war keep inflation and stagflation risks front of mind.",
+  "date": "2026-09-22",
+  "marketMood": "Risk-on: Meta's Muse AI agent sparks a chip-stock frenzy and Nasdaq record, while oil retreats on Iran diplomacy hopes at UNGA and markets brace for the Trump-Xi Washington summit.",
   "upcomingEvents": [
-    { "date": "2026-09-22", "event": "Richmond Fed Manufacturing Index (September)", "significance": "medium" },
-    { "date": "2026-09-22", "event": "US 2-Year Treasury Note Auction ($78B)", "significance": "medium" },
-    { "date": "2026-09-23", "event": "S&P Global US PMI Flash — Manufacturing & Services (September)", "significance": "high" },
-    { "date": "2026-09-24", "event": "Trump-Xi State Visit and Trade Summit at the White House", "significance": "high" },
-    { "date": "2026-09-25", "event": "US Durable Goods Orders (August)", "significance": "medium" }
+    { "date": "2026-09-23", "event": "Trump-Xi Washington Summit begins (Day 1)", "significance": "high" },
+    { "date": "2026-09-24", "event": "Trump-Xi Summit — White House bilateral + State Dinner", "significance": "high" },
+    { "date": "2026-09-24", "event": "Tokyo Stock Exchange reopens after Silver Week holiday", "significance": "medium" },
+    { "date": "2026-09-22", "event": "UNGA General Debate opens — Iran diplomacy, AI, climate", "significance": "high" },
+    { "date": "2026-09-25", "event": "Trump-Xi Summit concludes; joint communiqué expected", "significance": "high" }
   ],
   "topStories": [
     {
-      "headline": "US-China Trade Talks Begin in New York Ahead of Trump-Xi Summit",
+      "headline": "Meta's 'Muse' AI Agent Becomes #1 iPhone App, Triggers Massive Chip Stock Rally",
       "source": "Bloomberg",
-      "summary": "Treasury Secretary Bessent and Vice Premier He Lifeng opened negotiations in New York covering tariffs, agriculture, energy, and AI ahead of President Xi's state visit to Washington on September 24.",
-      "marketImpact": "Risk-on tone — SPY ↑, QQQ ↑; potential tariff cuts on ~$30B in goods; new punitive tariffs delayed until after summit",
-      "tickers": ["SPY", "QQQ", "BABA", "0700.HK"],
+      "summary": "Meta Platforms' new AI agent 'Muse' became the most-downloaded free iPhone app in the US, sparking a wave of investor enthusiasm about agentic AI's voracious demand for semiconductors.",
+      "marketImpact": "META ↑ 11%; AMD ↑ 10% (cracks $1T market cap); INTC ↑ 12%; ARM ↑ 17%; QCOM ↑ 9%. S&P 500 ↑ 1.49% to 7,764.70; Nasdaq ↑ 2.26% to 27,122.09 (record close).",
+      "tickers": ["META", "AMD", "INTC", "ARM", "QCOM"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
+      "region": "US"
+    },
+    {
+      "headline": "Trump and Xi Begin Historic Washington Summit; Trade Truce Extension and Rare Earths in Focus",
+      "source": "Bloomberg",
+      "summary": "Chinese President Xi Jinping arrived in Washington for a Sept 23–25 state visit — his first US trip in nearly three years — with pre-summit trade talks led by Treasury Secretary Bessent and Vice Premier He Lifeng covering trade, AI, Taiwan, critical minerals, and the Iran war.",
+      "marketImpact": "Risk assets globally ↑ on summit optimism; CNY watch for appreciation pressure; rare-earth stocks volatile ahead of Nov 10 export-control expiry. Watch for tariff truce extension communiqué.",
+      "tickers": ["SPY", "FXI", "REMX"],
       "url": "https://www.bloomberg.com/news/articles/2026-09-20/us-china-begin-trade-talks-in-new-york-ahead-of-trump-xi-summit",
-      "region": "US"
+      "region": "Global"
     },
     {
-      "headline": "Fed Raises Rates to 3.75%–4.00%, First Hike Since 2023; More Expected This Year",
-      "source": "CNBC",
-      "summary": "The FOMC voted unanimously to raise the federal funds rate 25bps, citing persistent inflation above target driven by surging oil prices; 16 of 18 members project at least one more hike in 2026.",
-      "marketImpact": "TLT ↓; Dow and S&P under pressure ↓; financial sector watch; Nasdaq tech showed relative resilience",
-      "tickers": ["SPY", "TLT", "QQQ"],
-      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "region": "US"
+      "headline": "Oil Drops to 11-Day Low as Iran War Diplomacy Gains Momentum at UNGA",
+      "source": "The National",
+      "summary": "Oil fell for a fourth consecutive session as the UN General Assembly General Debate (beginning Sept 22) raised hopes for diplomatic de-escalation of the US-Iran war; Trump stated he was weighing three options — military destruction, economic strangulation, or a negotiated deal.",
+      "marketImpact": "Brent ↓ ~2% to ~$101.67/bbl; WTI ↓ to ~$96–98/bbl, down 9%+ over four sessions. Energy stocks ↓ watch; airline/transport ↑ on lower fuel costs.",
+      "tickers": ["XOM", "CVX", "USO"],
+      "url": "https://www.thenationalnews.com/business/energy/2026/09/21/oil-prices-slide-on-hopes-diplomacy-at-un-will-help-end-iran-conflict/",
+      "region": "Global"
     },
     {
-      "headline": "Consumer Sentiment Plunges to Near-Record Low 47.8; Year-Ahead Inflation Expectations Hit 4.6%",
+      "headline": "Bank of Japan Raises Rates to 31-Year High of 1.25%; Yen Paradoxically Weakens",
       "source": "CNBC",
-      "summary": "The University of Michigan's preliminary September sentiment index dropped 7.5% month-on-month to 47.8 — the second-lowest reading on record — as surging fuel prices and the Iran war weighed on household confidence.",
-      "marketImpact": "Consumer discretionary ↓; XRT watch; stagflation concerns complicate Fed's rate path",
-      "tickers": ["XRT", "SPY"],
-      "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
-      "region": "US"
-    },
-    {
-      "headline": "Bank of Japan Raises Policy Rate to 31-Year High of 1.25%; Yen Falls on Dovish Tone",
-      "source": "CNBC",
-      "summary": "The BOJ hiked 25bps to 1.25% in a 7-2 vote on September 18, but the yen weakened as Governor Ueda signalled no commitment to immediate further increases, pushing USD/JPY back above 157.",
-      "marketImpact": "USD/JPY ↑ above 157 (yen ↓); JGB 10Y yield slipped; Nikkei 225 ↑ 1.38% to 65,019; EWJ watch",
-      "tickers": ["EWJ", "7203.T", "6857.T"],
+      "summary": "The BOJ raised its policy rate from 1.00% to 1.25% on September 18 in a 7-2 vote — the highest since 1995 — but the yen fell as Governor Ueda offered no forward guidance on further hikes and the 2.75pp gap with the US Fed keeps the carry trade attractive.",
+      "marketImpact": "USD/JPY ↑ toward ¥156–158 (yen weakens); Nikkei closed for Silver Week (65,018.95 reference); JGB yields ↑ watch; Japanese exporters mixed. Markets reopen Sept 24.",
+      "tickers": ["7203.T", "6758.T", "EWJ"],
       "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html",
       "region": "Japan"
     },
     {
-      "headline": "HKMA Tracks Fed With First Rate Hike in Three Years; Property Sub-Index Drops 2.4%",
-      "source": "Bloomberg",
-      "summary": "The Hong Kong Monetary Authority raised its base rate to 4.25% under its Linked Exchange Rate System, immediately dragging the Hang Seng property sub-gauge down 2.4% and threatening Hong Kong's nascent property recovery.",
-      "marketImpact": "0016.HK ↓, 0823.HK ↓; Hang Seng -0.4% to 24,604; property sector under pressure",
-      "tickers": ["0016.HK", "0823.HK"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-follows-fed-with-first-rate-hike-in-over-three-years",
-      "region": "Hong Kong"
-    },
-    {
-      "headline": "Iran War Keeps Oil Above $100 as Strait of Hormuz Traffic Collapses 95%",
+      "headline": "Trump Announces US-Denmark Greenland Security Deal; Mining Stocks Surge 100–245%",
       "source": "CNBC",
-      "summary": "US-Iran military strikes have effectively frozen Strait of Hormuz tanker traffic to just 5-12 ships per day from over 100, with combined disruptions affecting roughly 39% of global trade and keeping WTI above $100 per barrel.",
-      "marketImpact": "WTI ~$102/bbl, Brent ~$107/bbl ↑; XOM ↑, CVX ↑; airlines DAL ↓; global inflation pressure",
-      "tickers": ["XOM", "CVX", "USO", "DAL"],
-      "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
-      "region": "Global"
+      "summary": "The US, Denmark, and Greenland reached an agreement granting the US an expanded military footprint in Greenland without a sovereignty transfer, triggering a frenzy in US-listed Arctic resource stocks.",
+      "marketImpact": "GRML ↑ 245%; GLND ↑ 159%; CRML ↑ 37%. Critical metals and Arctic resource names broadly ↑ on strategic backing.",
+      "tickers": ["GRML", "GLND", "CRML"],
+      "url": "https://www.cnbc.com/2026/09/21/greenland-trump-denmark-deal-stocks-mining.html",
+      "region": "US"
     },
     {
-      "headline": "US Delays New China Tariffs Until After Xi Summit; Agriculture and Energy Tariff Cuts Under Discussion",
+      "headline": "China Annual Trade Surplus Nears $806B Record Driven by AI Export Boom",
       "source": "Bloomberg",
-      "summary": "Washington will hold off announcing new excess-capacity tariffs on China until after the September 24 summit, while both sides are discussing cuts on roughly $30 billion in goods including US agricultural and energy exports.",
-      "marketImpact": "BABA ↑, 0700.HK ↑, 9988.HK ↑; Chinese ADRs and HK tech names rally on summit optimism",
-      "tickers": ["BABA", "0700.HK", "9988.HK"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/us-said-to-delay-excess-capacity-tariffs-until-after-xi-summit",
+      "summary": "China's August exports jumped 25% year-on-year to $401.44B with semiconductor exports nearly doubling and high-tech products up 40.7%, fueled by the global AI infrastructure buildout; the surplus with the US hit $29B for the month, its widest since Trump returned to office.",
+      "marketImpact": "CNY watch for US appreciation pressure; Chinese tech/semis ↑ on export strength. US tariff escalation risk if summit produces no truce deal.",
+      "tickers": ["BABA", "9988.HK", "0700.HK", "KWEB"],
+      "url": "https://www.bloomberg.com/news/articles/2026-09-08/china-export-growth-rebounds-as-ai-boom-offsets-extreme-weather",
       "region": "China"
     },
     {
-      "headline": "Japan Q2 GDP Growth Slows to 0.3%, Missing 0.5% Forecast",
-      "source": "Al Jazeera",
-      "summary": "Japan's economy expanded just 0.3% in the April-June quarter, down from 0.5% in Q1 and below consensus, as weak consumer spending and global trade headwinds weighed on the third-straight quarter of expansion.",
-      "marketImpact": "7203.T cautious ↓; EWJ watch; weak growth complicates BOJ's rate-hike path ahead of Oct 29 meeting",
-      "tickers": ["EWJ", "7203.T"],
-      "url": "https://www.aljazeera.com/economy/2026/8/17/japans-economy-slows-missing-growth-forecasts",
-      "region": "Japan"
+      "headline": "Hang Seng Gains 0.5% as Tech and Health-Tech Shares Rally Ahead of Trump-Xi Summit",
+      "source": "South China Morning Post",
+      "summary": "Hong Kong's Hang Seng Index climbed 121 points to ~24,872 on Monday, led by technology and health-tech stocks, as investors positioned ahead of the Trump-Xi Washington summit and AI sector momentum spread from the US rally.",
+      "marketImpact": "0700.HK, 9988.HK broadly ↑; Shanghai Composite ↑ 0.55% to 3,933.37. Watch for summit outcome as key near-term catalyst.",
+      "tickers": ["0700.HK", "9988.HK", "EWH"],
+      "url": "https://www.scmp.com/topics/hong-kong-stock-market",
+      "region": "Hong Kong"
+    },
+    {
+      "headline": "UNGA General Debate Opens in New York with Iran, AI, and Climate on the Agenda",
+      "source": "CNN",
+      "summary": "The UN General Assembly's 81st-session General Debate kicks off today with ~130 world leaders speaking; the US-Iran war, artificial intelligence governance, and climate change top the agenda as global multilateralism faces growing strain.",
+      "marketImpact": "Oil prices watch for Iran diplomacy signals ↓; watch for any joint statement or ceasefire framework impacting energy markets.",
+      "tickers": ["USO", "BNO"],
+      "url": "https://www.cnn.com/2026/09/21/world/unga-2026-what-to-expect-latam-intl",
+      "region": "Global"
     }
   ],
   "companiesToWatch": [
     {
-      "name": "ExxonMobil",
-      "ticker": "XOM",
-      "exchange": "NYSE",
-      "reason": "Iran war oil supply squeeze with WTI holding above $100/bbl keeps upstream earnings elevated, benefiting integrated oil majors.",
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "reason": "Muse AI agent becoming the #1 downloaded free iPhone app signals mainstream agentic AI adoption and cements Meta as the near-term catalyst for the AI supercycle narrative.",
       "direction": "↑"
     },
     {
-      "name": "Sun Hung Kai Properties",
-      "ticker": "0016.HK",
-      "exchange": "HKEX",
-      "reason": "HKMA's first rate hike in three years directly pressures Hong Kong mortgage demand and developer refinancing costs, threatening the property market recovery.",
-      "direction": "↓"
-    },
-    {
-      "name": "Tencent Holdings",
-      "ticker": "0700.HK",
-      "exchange": "HKEX",
-      "reason": "Trump-Xi summit on September 24 could ease US technology restrictions and signal a trade truce extension, lifting Chinese internet names.",
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "exchange": "NASDAQ",
+      "reason": "Crossed $1 trillion market cap for the first time on Monday as agentic AI inference demand drives bullish expectations for AMD's CPU and GPU roadmap.",
       "direction": "↑"
     },
     {
-      "name": "Advantest",
-      "ticker": "6857.T",
-      "exchange": "TSE",
-      "reason": "Led the Nikkei's 1.38% Friday surge as AI semiconductor equipment demand sentiment improved; watch for continuation.",
+      "name": "Intel",
+      "ticker": "INTC",
+      "exchange": "NASDAQ",
+      "reason": "Surged 12% on a combination of Meta Muse CPU demand and new AI chip packaging news with AUO; sentiment reversing sharply after prolonged underperformance.",
       "direction": "↑"
     },
     {
-      "name": "Delta Air Lines",
-      "ticker": "DAL",
-      "exchange": "NYSE",
-      "reason": "Sustained crude above $100/bbl materially raises jet fuel costs and compresses airline operating margins.",
-      "direction": "↓"
+      "name": "Arm Holdings",
+      "ticker": "ARM",
+      "exchange": "NASDAQ",
+      "reason": "Rallied 17% as AI agents require significant CPU inference capacity, boosting demand for Arm-architecture chips that power most mobile and edge devices.",
+      "direction": "↑"
     },
     {
-      "name": "Alibaba Group",
-      "ticker": "BABA",
-      "exchange": "NYSE",
-      "reason": "US tariff delay and summit optimism boost investor sentiment for Chinese ADRs heading into the Trump-Xi meeting on September 24.",
+      "name": "Greenland Mines",
+      "ticker": "GRML",
+      "exchange": "NASDAQ",
+      "reason": "Surged 245% on the US-Denmark Greenland security agreement, which gives US-aligned resource companies strategic backing for Arctic mineral development.",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 5.00,
-    "us30y": 5.37,
+    "us10y": 4.95,
+    "us30y": 5.33,
     "asOf": "2026-09-21"
   },
   "tickerDescriptions": {
-    "SPY": "SPDR S&P 500 ETF Trust, tracking the 500 largest US companies by market cap",
-    "QQQ": "Invesco QQQ ETF tracking the 100 largest non-financial companies listed on the Nasdaq",
-    "TLT": "iShares 20+ Year Treasury Bond ETF, tracking long-duration US government bonds",
-    "XRT": "SPDR S&P Retail ETF tracking US retail sector equities across sub-industries",
-    "EWJ": "iShares MSCI Japan ETF, tracking large- and mid-cap Japanese equities",
-    "7203.T": "Toyota Motor Corporation, Japan's largest automaker and one of the world's top three car manufacturers",
-    "6857.T": "Advantest Corporation, Japanese maker of semiconductor test equipment critical for AI and high-bandwidth memory chips",
-    "0016.HK": "Sun Hung Kai Properties Limited, one of Hong Kong's largest property developers by floor area",
-    "0823.HK": "Link Real Estate Investment Trust, the largest REIT in Hong Kong by asset value",
-    "XOM": "ExxonMobil Corporation, the largest US-based integrated oil and gas company",
-    "CVX": "Chevron Corporation, US-based multinational energy company and major crude oil producer",
-    "USO": "United States Oil Fund ETF, designed to track near-month WTI crude oil futures prices",
-    "DAL": "Delta Air Lines Inc., one of the largest US commercial airlines by revenue and passenger volume",
-    "BABA": "Alibaba Group Holding (US-listed ADR), China's dominant e-commerce, cloud computing, and digital media company",
-    "0700.HK": "Tencent Holdings Limited, China's largest internet conglomerate spanning gaming, social media, fintech, and cloud",
-    "9988.HK": "Alibaba Group Holding (Hong Kong-listed), China's leading e-commerce and cloud platform"
+    "META": "Meta Platforms Inc., social media and AI company behind Facebook, Instagram, WhatsApp, and the Muse AI agent",
+    "AMD": "Advanced Micro Devices Inc., semiconductor company making CPUs and GPUs for AI, data center, and consumer markets",
+    "INTC": "Intel Corporation, leading US semiconductor maker of CPUs, AI accelerators, and data center chips",
+    "ARM": "Arm Holdings plc, British semiconductor IP company whose chip designs power most mobile devices and are expanding into AI servers",
+    "QCOM": "Qualcomm Inc., semiconductor and wireless technology company known for mobile chips and expanding into AI edge computing",
+    "SPY": "SPDR S&P 500 ETF, tracks the 500 largest US publicly traded companies",
+    "FXI": "iShares China Large-Cap ETF, tracks large-cap Chinese equities listed in Hong Kong",
+    "REMX": "VanEck Rare Earth/Strategic Metals ETF, tracks companies involved in rare earth and strategic metal mining",
+    "XOM": "Exxon Mobil Corporation, one of the world's largest publicly traded oil and gas companies",
+    "CVX": "Chevron Corporation, major US integrated oil and gas company with global upstream and downstream operations",
+    "USO": "United States Oil Fund, ETF tracking near-month WTI crude oil futures",
+    "7203.T": "Toyota Motor Corporation (TSE), Japan's largest automaker and a global leader in hybrid and hydrogen vehicles",
+    "6758.T": "Sony Group Corporation (TSE), Japanese multinational conglomerate in electronics, gaming, film, and music",
+    "EWJ": "iShares MSCI Japan ETF, tracks large and mid-cap Japanese equities",
+    "BABA": "Alibaba Group Holding, Chinese e-commerce and cloud computing giant listed in the US",
+    "9988.HK": "Alibaba Group Holding Ltd. (HKEX), Chinese e-commerce and cloud computing giant",
+    "0700.HK": "Tencent Holdings Ltd. (HKEX), Chinese internet conglomerate in social media, gaming, fintech, and AI",
+    "KWEB": "KraneShares CSI China Internet ETF, tracks Chinese internet sector companies",
+    "EWH": "iShares MSCI Hong Kong ETF, tracks Hong Kong equities",
+    "BNO": "United States Brent Oil Fund, ETF tracking front-month Brent crude oil futures",
+    "GRML": "Greenland Mines Ltd., US-listed mining company with mineral exploration and development projects in Greenland",
+    "GLND": "Greenland Energy Inc., US-listed resource company focused on energy and mineral projects in Greenland",
+    "CRML": "Critical Metals Corp., critical mineral exploration and development company active in Greenland and other Arctic regions"
   },
   "quickHits": [
-    "S&P Global Flash PMI for September due Wednesday Sept 23 — key read on US economic momentum post-Fed hike (CNBC/Kiplinger)",
-    "US Treasury to auction $78B in 2-year notes Tuesday with the 10Y yield testing 5% (Kiplinger)",
-    "Fed officials scheduled for 10+ public appearances this week; any hawkish signals could reprice the December rate path (Kiplinger)",
-    "Triple witching on September 18 drove above-average volume and volatility; markets now repositioning for summit week (Charles Schwab)"
+    "Qualcomm surges ~9% as agentic AI demand broadens semiconductor rally beyond GPU-only plays (Bloomberg)",
+    "China's rare-earth export control suspension expires November 10, giving Beijing key leverage in ongoing US-China trade truce negotiations (Bloomberg)",
+    "Saudi Aramco boosting crude exports via Strait of Hormuz after Houthi attacks disrupted Yanbu pipeline; partial supply recovery underway (Reuters)",
+    "Tokyo Stock Exchange closed September 21–23 for Silver Week holiday; Nikkei 225 resumes trading Thursday at 65,018.95 reference close (Nikkei Asia)"
   ]
 }
