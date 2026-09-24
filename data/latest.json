@@ -1,85 +1,85 @@
 {
-  "date": "2026-09-22",
-  "marketMood": "Risk-on: Meta's Muse AI agent sparks a chip-stock frenzy and Nasdaq record, while oil retreats on Iran diplomacy hopes at UNGA and markets brace for the Trump-Xi Washington summit.",
+  "date": "2026-09-24",
+  "marketMood": "Risk-off: Treasury yields hit a 19-year high of 5.11% on hawkish Fed signals, while markets brace for the Trump-Xi summit outcome and track Iran oil diplomacy for potential Strait of Hormuz relief.",
   "upcomingEvents": [
-    { "date": "2026-09-23", "event": "Trump-Xi Washington Summit begins (Day 1)", "significance": "high" },
-    { "date": "2026-09-24", "event": "Trump-Xi Summit — White House bilateral + State Dinner", "significance": "high" },
-    { "date": "2026-09-24", "event": "Tokyo Stock Exchange reopens after Silver Week holiday", "significance": "medium" },
-    { "date": "2026-09-22", "event": "UNGA General Debate opens — Iran diplomacy, AI, climate", "significance": "high" },
-    { "date": "2026-09-25", "event": "Trump-Xi Summit concludes; joint communiqué expected", "significance": "high" }
+    { "date": "2026-09-24", "event": "Trump-Xi Washington Summit (Day 2)", "significance": "high" },
+    { "date": "2026-09-24", "event": "US New Home Sales (August)", "significance": "medium" },
+    { "date": "2026-09-25", "event": "US Final Q2 GDP & Weekly Jobless Claims", "significance": "high" },
+    { "date": "2026-09-26", "event": "US PCE Inflation (August)", "significance": "high" },
+    { "date": "2026-09-26", "event": "University of Michigan Consumer Sentiment (Final)", "significance": "medium" }
   ],
   "topStories": [
     {
-      "headline": "Meta's 'Muse' AI Agent Becomes #1 iPhone App, Triggers Massive Chip Stock Rally",
-      "source": "Bloomberg",
-      "summary": "Meta Platforms' new AI agent 'Muse' became the most-downloaded free iPhone app in the US, sparking a wave of investor enthusiasm about agentic AI's voracious demand for semiconductors.",
-      "marketImpact": "META ↑ 11%; AMD ↑ 10% (cracks $1T market cap); INTC ↑ 12%; ARM ↑ 17%; QCOM ↑ 9%. S&P 500 ↑ 1.49% to 7,764.70; Nasdaq ↑ 2.26% to 27,122.09 (record close).",
-      "tickers": ["META", "AMD", "INTC", "ARM", "QCOM"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
+      "headline": "10-Year Treasury Yield Rockets to 5.1%, Highest Since 2007",
+      "source": "CNBC",
+      "summary": "The 10-year yield surged 13 basis points to 5.10% on September 23 — the biggest single-day move in 18 months — driven by stronger-than-expected PMI data, hawkish comments from Fed Governor Michael Barr, and a poorly received 5-year Treasury auction.",
+      "marketImpact": "Stocks ↓ (S&P 500 flat, Nasdaq fell); October Fed rate hike odds jump to ~70% ↑; rate-sensitive sectors under pressure ↓",
+      "tickers": ["MSFT", "MU"],
+      "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
       "region": "US"
     },
     {
-      "headline": "Trump and Xi Begin Historic Washington Summit; Trade Truce Extension and Rare Earths in Focus",
-      "source": "Bloomberg",
-      "summary": "Chinese President Xi Jinping arrived in Washington for a Sept 23–25 state visit — his first US trip in nearly three years — with pre-summit trade talks led by Treasury Secretary Bessent and Vice Premier He Lifeng covering trade, AI, Taiwan, critical minerals, and the Iran war.",
-      "marketImpact": "Risk assets globally ↑ on summit optimism; CNY watch for appreciation pressure; rare-earth stocks volatile ahead of Nov 10 export-control expiry. Watch for tariff truce extension communiqué.",
-      "tickers": ["SPY", "FXI", "REMX"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-20/us-china-begin-trade-talks-in-new-york-ahead-of-trump-xi-summit",
-      "region": "Global"
-    },
-    {
-      "headline": "Oil Drops to 11-Day Low as Iran War Diplomacy Gains Momentum at UNGA",
-      "source": "The National",
-      "summary": "Oil fell for a fourth consecutive session as the UN General Assembly General Debate (beginning Sept 22) raised hopes for diplomatic de-escalation of the US-Iran war; Trump stated he was weighing three options — military destruction, economic strangulation, or a negotiated deal.",
-      "marketImpact": "Brent ↓ ~2% to ~$101.67/bbl; WTI ↓ to ~$96–98/bbl, down 9%+ over four sessions. Energy stocks ↓ watch; airline/transport ↑ on lower fuel costs.",
-      "tickers": ["XOM", "CVX", "USO"],
-      "url": "https://www.thenationalnews.com/business/energy/2026/09/21/oil-prices-slide-on-hopes-diplomacy-at-un-will-help-end-iran-conflict/",
-      "region": "Global"
-    },
-    {
-      "headline": "Bank of Japan Raises Rates to 31-Year High of 1.25%; Yen Paradoxically Weakens",
+      "headline": "Trump Welcomes Xi to Washington — US-China Trade Truce Extended Through January",
       "source": "CNBC",
-      "summary": "The BOJ raised its policy rate from 1.00% to 1.25% on September 18 in a 7-2 vote — the highest since 1995 — but the yen fell as Governor Ueda offered no forward guidance on further hikes and the 2.75pp gap with the US Fed keeps the carry trade attractive.",
-      "marketImpact": "USD/JPY ↑ toward ¥156–158 (yen weakens); Nikkei closed for Silver Week (65,018.95 reference); JGB yields ↑ watch; Japanese exporters mixed. Markets reopen Sept 24.",
-      "tickers": ["7203.T", "6758.T", "EWJ"],
+      "summary": "Chinese President Xi Jinping arrived at Joint Base Andrews on September 23 for a three-day state visit; Treasury Secretary Bessent confirmed extension of the trade truce through January 10 and progress on Boeing aircraft and agricultural goods purchases.",
+      "marketImpact": "BA ↑; US agricultural stocks ↑; uncertainty remains on AI chip exports, rare-earth controls, and Taiwan ↓ watch",
+      "tickers": ["BA"],
+      "url": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
+      "region": "Global"
+    },
+    {
+      "headline": "Meta's Muse AI Agent Hits #1 on App Stores with 560K Daily Users in 11 Days",
+      "source": "CNN Business",
+      "summary": "Meta's personal AI agent Muse topped both the Apple App Store and Google Play Store, reaching 560,000 daily active users within 11 days of launch — driving META stock up 11% Monday.",
+      "marketImpact": "META ↑; AI infrastructure and competing agent platforms watch; broader AI agent adoption theme accelerating",
+      "tickers": ["META"],
+      "url": "https://www.cnn.com/2026/09/23/tech/meta-muse-ai-agent",
+      "region": "US"
+    },
+    {
+      "headline": "Oil Extends 6-Day Decline as Trump Cites Productive Iran Meeting, Hormuz Reopening Possible",
+      "source": "Charles Schwab",
+      "summary": "Crude oil fell for the sixth consecutive session after President Trump said US officials had a 'very good' meeting with Iranian envoys, and Tehran indicated the Strait of Hormuz could reopen within 7 days if the US eases military pressure.",
+      "marketImpact": "WTI crude ↓ (~$92.71/bbl); energy stocks ↓ on potential supply return; broader inflation relief ↑ if Hormuz reopens",
+      "tickers": ["BA"],
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "region": "Global"
+    },
+    {
+      "headline": "Bank of Japan's Rate Hike to 1.25% Puts Yen Under Pressure Near 158 Per Dollar",
+      "source": "CNBC",
+      "summary": "Following the BoJ's September 18 rate hike to 1.25% — the highest level since 1995 — the yen paradoxically weakened to 158.28 per dollar as traders focused on the 7-2 split decision and two dovish dissents from newly appointed board members.",
+      "marketImpact": "USD/JPY ↑ (yen weakens); Nikkei 225 opened +0.72% Sept 24 as weaker yen supports exporters ↑; BOJ intervention watch in thin holiday liquidity",
+      "tickers": ["7203.T"],
       "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html",
       "region": "Japan"
     },
     {
-      "headline": "Trump Announces US-Denmark Greenland Security Deal; Mining Stocks Surge 100–245%",
-      "source": "CNBC",
-      "summary": "The US, Denmark, and Greenland reached an agreement granting the US an expanded military footprint in Greenland without a sovereignty transfer, triggering a frenzy in US-listed Arctic resource stocks.",
-      "marketImpact": "GRML ↑ 245%; GLND ↑ 159%; CRML ↑ 37%. Critical metals and Arctic resource names broadly ↑ on strategic backing.",
-      "tickers": ["GRML", "GLND", "CRML"],
-      "url": "https://www.cnbc.com/2026/09/21/greenland-trump-denmark-deal-stocks-mining.html",
-      "region": "US"
-    },
-    {
-      "headline": "China Annual Trade Surplus Nears $806B Record Driven by AI Export Boom",
-      "source": "Bloomberg",
-      "summary": "China's August exports jumped 25% year-on-year to $401.44B with semiconductor exports nearly doubling and high-tech products up 40.7%, fueled by the global AI infrastructure buildout; the surplus with the US hit $29B for the month, its widest since Trump returned to office.",
-      "marketImpact": "CNY watch for US appreciation pressure; Chinese tech/semis ↑ on export strength. US tariff escalation risk if summit produces no truce deal.",
-      "tickers": ["BABA", "9988.HK", "0700.HK", "KWEB"],
-      "url": "https://www.bloomberg.com/news/articles/2026-09-08/china-export-growth-rebounds-as-ai-boom-offsets-extreme-weather",
-      "region": "China"
-    },
-    {
-      "headline": "Hang Seng Gains 0.5% as Tech and Health-Tech Shares Rally Ahead of Trump-Xi Summit",
-      "source": "South China Morning Post",
-      "summary": "Hong Kong's Hang Seng Index climbed 121 points to ~24,872 on Monday, led by technology and health-tech stocks, as investors positioned ahead of the Trump-Xi Washington summit and AI sector momentum spread from the US rally.",
-      "marketImpact": "0700.HK, 9988.HK broadly ↑; Shanghai Composite ↑ 0.55% to 3,933.37. Watch for summit outcome as key near-term catalyst.",
-      "tickers": ["0700.HK", "9988.HK", "EWH"],
-      "url": "https://www.scmp.com/topics/hong-kong-stock-market",
+      "headline": "Hang Seng Falls 0.9% as Tencent and Xiaomi Lead Tech Profit-Taking",
+      "source": "Sunday Guardian Live",
+      "summary": "The Hang Seng Index fell 215 points to 24,873 on September 23 as investors took profits in technology names ahead of the Washington summit outcome, with Tencent down 2.3% and Xiaomi down 2.5%.",
+      "marketImpact": "0700.HK ↓, 1810.HK ↓; positive summit trade signals could spark sharp reversal ↑; property sector also under pressure ↓",
+      "tickers": ["0700.HK", "1810.HK"],
+      "url": "https://sundayguardianlive.com/business/hang-seng-index-today-september-23-hong-kong-stocks-down-215-points-as-investors-take-profit-in-tech-shares-check-why-the-market-dropped-top-component-stocks-and-key-triggers-behind-the-move-290797/",
       "region": "Hong Kong"
     },
     {
-      "headline": "UNGA General Debate Opens in New York with Iran, AI, and Climate on the Agenda",
-      "source": "CNN",
-      "summary": "The UN General Assembly's 81st-session General Debate kicks off today with ~130 world leaders speaking; the US-Iran war, artificial intelligence governance, and climate change top the agenda as global multilateralism faces growing strain.",
-      "marketImpact": "Oil prices watch for Iran diplomacy signals ↓; watch for any joint statement or ceasefire framework impacting energy markets.",
-      "tickers": ["USO", "BNO"],
-      "url": "https://www.cnn.com/2026/09/21/world/unga-2026-what-to-expect-latam-intl",
-      "region": "Global"
+      "headline": "China Holds LPR Steady as Q3 Data Shows Widening Export-vs-Domestic Demand Gap",
+      "source": "Caixin",
+      "summary": "China's 1-year LPR held at 3.0% and 5-year at 3.5% in September; Q3 data showed retail sales, fixed-asset investment, and industrial production all missed expectations despite resilient export growth.",
+      "marketImpact": "CSI 300 watch ↓ on weak domestic demand; stimulus hopes intact — positive summit headline could boost Chinese equities ↑",
+      "tickers": ["0700.HK"],
+      "url": "https://www.caixinglobal.com/economy/",
+      "region": "China"
+    },
+    {
+      "headline": "Nasdaq Surges to Record 27,244 on AI Chip Rally; Microsoft Upgraded at Stifel",
+      "source": "Yahoo Finance",
+      "summary": "Monday's AI chip-led rally pushed the Nasdaq 2% to a new record at 27,244; Microsoft was upgraded to Buy at Stifel with a $575 price target, and Citi raised its Micron price target to $1,300 ahead of earnings.",
+      "marketImpact": "MSFT ↑, MU ↑; broad AI infrastructure theme intact despite elevated yield headwinds; Dow lagged ↓ 185 points",
+      "tickers": ["MSFT", "MU", "META"],
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+      "region": "US"
     }
   ],
   "companiesToWatch": [
@@ -87,72 +87,59 @@
       "name": "Meta Platforms",
       "ticker": "META",
       "exchange": "NASDAQ",
-      "reason": "Muse AI agent becoming the #1 downloaded free iPhone app signals mainstream agentic AI adoption and cements Meta as the near-term catalyst for the AI supercycle narrative.",
+      "reason": "Muse AI agent tops App Store and Google Play with 560K daily users — ongoing adoption data will shape the AI agent narrative for the sector.",
       "direction": "↑"
     },
     {
-      "name": "Advanced Micro Devices",
-      "ticker": "AMD",
+      "name": "Microsoft",
+      "ticker": "MSFT",
       "exchange": "NASDAQ",
-      "reason": "Crossed $1 trillion market cap for the first time on Monday as agentic AI inference demand drives bullish expectations for AMD's CPU and GPU roadmap.",
+      "reason": "Stifel upgraded to Buy with $575 price target on AI-driven mid-teens revenue growth and operating expense discipline.",
       "direction": "↑"
     },
     {
-      "name": "Intel",
-      "ticker": "INTC",
+      "name": "Micron Technology",
+      "ticker": "MU",
       "exchange": "NASDAQ",
-      "reason": "Surged 12% on a combination of Meta Muse CPU demand and new AI chip packaging news with AUO; sentiment reversing sharply after prolonged underperformance.",
+      "reason": "Earnings due next week with diverging analyst views: Citi raised PT to $1,300 while Wells Fargo trimmed to $1,400.",
       "direction": "↑"
     },
     {
-      "name": "Arm Holdings",
-      "ticker": "ARM",
-      "exchange": "NASDAQ",
-      "reason": "Rallied 17% as AI agents require significant CPU inference capacity, boosting demand for Arm-architecture chips that power most mobile and edge devices.",
+      "name": "Boeing",
+      "ticker": "BA",
+      "exchange": "NYSE",
+      "reason": "Named in US-China trade talks as Beijing considers commercial aircraft purchases as part of a tariff-reduction package.",
       "direction": "↑"
     },
     {
-      "name": "Greenland Mines",
-      "ticker": "GRML",
-      "exchange": "NASDAQ",
-      "reason": "Surged 245% on the US-Denmark Greenland security agreement, which gives US-aligned resource companies strategic backing for Arctic mineral development.",
+      "name": "Tencent Holdings",
+      "ticker": "0700.HK",
+      "exchange": "HKEX",
+      "reason": "Fell 2.3% on profit-taking Tuesday; direction will hinge on any tech-sector or data-sharing concessions in the Trump-Xi summit communiqué.",
       "direction": "↑"
     }
   ],
   "bondYields": {
-    "us10y": 4.95,
-    "us30y": 5.33,
-    "asOf": "2026-09-21"
+    "us10y": 5.11,
+    "us30y": 5.29,
+    "asOf": "2026-09-23"
   },
   "tickerDescriptions": {
-    "META": "Meta Platforms Inc., social media and AI company behind Facebook, Instagram, WhatsApp, and the Muse AI agent",
-    "AMD": "Advanced Micro Devices Inc., semiconductor company making CPUs and GPUs for AI, data center, and consumer markets",
-    "INTC": "Intel Corporation, leading US semiconductor maker of CPUs, AI accelerators, and data center chips",
-    "ARM": "Arm Holdings plc, British semiconductor IP company whose chip designs power most mobile devices and are expanding into AI servers",
-    "QCOM": "Qualcomm Inc., semiconductor and wireless technology company known for mobile chips and expanding into AI edge computing",
-    "SPY": "SPDR S&P 500 ETF, tracks the 500 largest US publicly traded companies",
-    "FXI": "iShares China Large-Cap ETF, tracks large-cap Chinese equities listed in Hong Kong",
-    "REMX": "VanEck Rare Earth/Strategic Metals ETF, tracks companies involved in rare earth and strategic metal mining",
-    "XOM": "Exxon Mobil Corporation, one of the world's largest publicly traded oil and gas companies",
-    "CVX": "Chevron Corporation, major US integrated oil and gas company with global upstream and downstream operations",
-    "USO": "United States Oil Fund, ETF tracking near-month WTI crude oil futures",
-    "7203.T": "Toyota Motor Corporation (TSE), Japan's largest automaker and a global leader in hybrid and hydrogen vehicles",
-    "6758.T": "Sony Group Corporation (TSE), Japanese multinational conglomerate in electronics, gaming, film, and music",
-    "EWJ": "iShares MSCI Japan ETF, tracks large and mid-cap Japanese equities",
-    "BABA": "Alibaba Group Holding, Chinese e-commerce and cloud computing giant listed in the US",
-    "9988.HK": "Alibaba Group Holding Ltd. (HKEX), Chinese e-commerce and cloud computing giant",
-    "0700.HK": "Tencent Holdings Ltd. (HKEX), Chinese internet conglomerate in social media, gaming, fintech, and AI",
-    "KWEB": "KraneShares CSI China Internet ETF, tracks Chinese internet sector companies",
-    "EWH": "iShares MSCI Hong Kong ETF, tracks Hong Kong equities",
-    "BNO": "United States Brent Oil Fund, ETF tracking front-month Brent crude oil futures",
-    "GRML": "Greenland Mines Ltd., US-listed mining company with mineral exploration and development projects in Greenland",
-    "GLND": "Greenland Energy Inc., US-listed resource company focused on energy and mineral projects in Greenland",
-    "CRML": "Critical Metals Corp., critical mineral exploration and development company active in Greenland and other Arctic regions"
+    "META": "Meta Platforms Inc., parent of Facebook, Instagram, and WhatsApp, and developer of the Muse AI agent",
+    "MSFT": "Microsoft Corp., global software, cloud computing, and AI services giant",
+    "MU": "Micron Technology Inc., US semiconductor manufacturer specializing in DRAM and NAND memory chips",
+    "BA": "Boeing Co., US aerospace and defense manufacturer of commercial jets and military aircraft",
+    "0700.HK": "Tencent Holdings Ltd., Chinese internet and technology conglomerate behind WeChat, gaming, and cloud services",
+    "1810.HK": "Xiaomi Corp., Chinese consumer electronics, smartphone, and smart home products maker",
+    "7203.T": "Toyota Motor Corp., Japan's largest automaker and global leader in hybrid and hydrogen fuel-cell vehicles",
+    "APP": "AppLovin Corp., mobile app advertising and monetization technology platform serving game developers",
+    "CBRL": "Cracker Barrel Old Country Store Inc., US restaurant chain and retail company known for American home-style cooking",
+    "CART": "Maplebear Inc. (Instacart), online grocery delivery and pickup marketplace connecting consumers with retailers"
   },
   "quickHits": [
-    "Qualcomm surges ~9% as agentic AI demand broadens semiconductor rally beyond GPU-only plays (Bloomberg)",
-    "China's rare-earth export control suspension expires November 10, giving Beijing key leverage in ongoing US-China trade truce negotiations (Bloomberg)",
-    "Saudi Aramco boosting crude exports via Strait of Hormuz after Houthi attacks disrupted Yanbu pipeline; partial supply recovery underway (Reuters)",
-    "Tokyo Stock Exchange closed September 21–23 for Silver Week holiday; Nikkei 225 resumes trading Thursday at 65,018.95 reference close (Nikkei Asia)"
+    "AppLovin (APP) slips 3.8% after analyst warns mobile-ad market share expansion has effectively stalled (CNBC)",
+    "Cracker Barrel (CBRL) jumps 7.9% after beating Q4 earnings expectations on strong restaurant comparable sales",
+    "India SEBI holds key September 24 board meeting to overhaul Portfolio Management Services regulations",
+    "Southeast Asia outpacing India in attracting China+1 manufacturing investment — Vietnam and Malaysia key beneficiaries (Business Standard)"
   ]
 }
